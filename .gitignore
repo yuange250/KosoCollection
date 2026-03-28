@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.local-data/
+local-data/
+.env
+.env.local
+*.log
+.DS_Store
+prd_text.txt

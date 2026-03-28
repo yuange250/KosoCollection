@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "source": "bgm-cn",
+  "generatedAt": "2026-03-28T15:35:08.417Z",
+  "totalGames": 4800,
+  "requestCount": 120,
+  "chunkSize": 4000,
+  "limit": 30,
+  "startPage": 1,
+  "startOffset": 0,
+  "maxPages": 120,
+  "sort": "rank",
+  "parts": [
+    "bulk/nodes-bgm-0000.json",
+    "bulk/nodes-cn-0000.json"
+  ],
+  "cnBulkGames": 1200,
+  "bgmGames": 3600
+}

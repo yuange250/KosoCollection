@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-label="DOOM 1993 themed illustration">
+  <defs>
+    <linearGradient id="doomBg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="55%" stop-color="#1f2937" />
+      <stop offset="100%" stop-color="#3f1d1d" />
+    </linearGradient>
+    <linearGradient id="lava" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="100%" stop-color="#b91c1c" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#doomBg)" />
+  <rect x="0" y="278" width="640" height="82" fill="url(#lava)" opacity="0.9" />
+  <rect x="58" y="140" width="36" height="138" fill="#374151" />
+  <rect x="546" y="154" width="34" height="124" fill="#374151" />
+  <rect x="280" y="160" width="80" height="18" fill="#94a3b8" />
+  <rect x="266" y="178" width="108" height="62" fill="#0f172a" stroke="#64748b" stroke-width="3" />
+  <text x="320" y="102" text-anchor="middle" font-family="monospace" font-size="54" fill="#fbbf24" letter-spacing="3">DOOM</text>
+  <text x="320" y="132" text-anchor="middle" font-family="monospace" font-size="16" fill="#fde68a" letter-spacing="2">1993 FPS MILESTONE</text>
+</svg>

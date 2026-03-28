@@ -1,0 +1,38 @@
+{
+  "name": "game-history-timeline",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently -k \"vite\" \"node server/dev-api.mjs\"",
+    "dev:client": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "ingest": "node scripts/ingest.mjs",
+    "gen:bulk": "node scripts/gen-bulk-games.mjs",
+    "fetch:bgm:cn": "node scripts/fetch-bgm-games-cn.mjs",
+    "enrich:images": "node scripts/fetch-images-rawg.mjs",
+    "cache:images": "node scripts/cache-node-images.mjs",
+    "pack:ecs": "bash deploy/pack-ecs-bundle.sh",
+    "gen:cn-bulk": "node scripts/gen-cn-games-bulk.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "d3": "^7.9.0",
+    "framer-motion": "^11.18.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vercel/node": "^3.2.29",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
+  }
+}
