@@ -176,8 +176,24 @@ if ! sudo nginx -t; then
   exit 1
 fi
 sudo systemctl enable nginx
-if ! sudo systemctl restart nginx; then
-  echo "错误：nginx 启动失败。常见原因：私钥权限、SELinux、443 被占用。最近日志：" >&2
+
+# 直接 restart 时，若已有 nginx 未正确退出，会出现 bind() 80/443 Address already in use
+echo "==> 停止已有 nginx，释放 80/443 …"
+sudo systemctl stop nginx 2>/dev/null || true
+sleep 2
+if [[ -f /run/nginx.pid ]]; then
+  OLD_PID="$(sudo cat /run/nginx.pid 2>/dev/null || true)"
+  if [[ -n "$OLD_PID" ]] && sudo kill -0 "$OLD_PID" 2>/dev/null; then
+    echo "==> 仍有残留 master PID $OLD_PID，发送 QUIT …"
+    sudo kill -QUIT "$OLD_PID" 2>/dev/null || true
+    sleep 2
+  fi
+fi
+sudo rm -f /run/nginx.pid 2>/dev/null || true
+
+if ! sudo systemctl start nginx; then
+  echo "错误：nginx 启动失败。若日志为 bind() Address already in use，说明 80/443 仍被占用（其它 nginx、httpd、Docker 等）。" >&2
+  echo "排查：sudo ss -tlnp | grep -E ':80 |:443 ' 或 sudo lsof -iTCP:80 -sTCP:LISTEN -iTCP:443 -sTCP:LISTEN" >&2
   sudo systemctl status nginx.service --no-pager -l 2>/dev/null || true
   sudo journalctl -u nginx.service -n 30 --no-pager 2>/dev/null || true
   exit 1

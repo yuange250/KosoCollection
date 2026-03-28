@@ -56,7 +56,7 @@ npm run preview
 - `WEBROOT=/var/www/gamehistory` — 静态根目录
 - `REMOVE_NGINX_DEFAULT=0` — 保留 nginx 默认站点（默认会删，避免单机部署冲突）
 
-若 `nginx -t` 通过但 `systemctl restart nginx` 失败：多为 **TLS 私钥不可读**（已用脚本根据 `nginx.conf` 的 `user` 修正组权限）或 **SELinux**（脚本会尝试 `chcon`）。仍失败时执行 `sudo journalctl -u nginx -n 40 --no-pager`。出现 `conflicting server name "_"` 时说明还有其它默认站点占用 80，脚本会尝试删除 `default.conf` / `welcome.conf`；可设 `DOMAIN=你的域名` 减少与默认 `_` 的告警。
+若 `nginx -t` 通过但启动失败：`bind() ... Address already in use` 表示 **80/443 已被占用**（常见为未退出的旧 nginx、Apache、或 Docker 映射）。脚本会先 `systemctl stop` 并清理残留 PID 再 `start`。仍失败时在服务器执行 `sudo ss -tlnp | grep -E ':80|:443'` 看占用进程并结束或改端口。其它原因：**TLS 私钥不可读**（脚本已按 `nginx.conf` 的 `user` 修正组）、**SELinux**（脚本会尝试 `chcon`）。`conflicting server name "_"` 为告警，脚本会尝试删除 `default.conf` / `welcome.conf`；可设 `DOMAIN=你的域名` 减轻重复 `_`。
 
 ### 方式 B：Docker
 
