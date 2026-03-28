@@ -64,7 +64,7 @@ npm run preview
 docker compose -f deploy/docker-compose.yml up -d --build
 ```
 
-默认映射本机 **8080** → 容器 80。修改端口可编辑 `deploy/docker-compose.yml`。
+默认映射本机 **80** → 容器 80、**443** → 容器 443（容器内为自签名证书，浏览器会提示不安全，生产请挂载真实证书或前置反代）。修改端口可编辑 `deploy/docker-compose.yml`。
 
 > 说明：Vercel 上的 `/api/*` 在纯静态 ECS 上不可用；无 Supabase 时前端仍读静态 JSON。若要在 ECS 上提供 API，需自行部署 Node 服务或接 Supabase。
 

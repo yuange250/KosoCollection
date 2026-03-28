@@ -55,13 +55,13 @@ echo "==> 系统: ${PRETTY_NAME:-$ID $VERSION_ID}"
 if is_apt; then
   echo "==> 安装系统依赖（apt：nginx、rsync、curl）…"
   sudo apt-get update -y
-  sudo apt-get install -y nginx rsync curl ca-certificates
+  sudo apt-get install -y nginx rsync curl ca-certificates openssl
 elif is_dnf_yum; then
   echo "==> 安装系统依赖（dnf/yum：nginx、rsync、curl）…"
   if command -v dnf >/dev/null 2>&1; then
-    sudo dnf install -y nginx rsync curl ca-certificates || sudo yum install -y nginx rsync curl ca-certificates
+    sudo dnf install -y nginx rsync curl ca-certificates openssl || sudo yum install -y nginx rsync curl ca-certificates openssl
   else
-    sudo yum install -y nginx rsync curl ca-certificates
+    sudo yum install -y nginx rsync curl ca-certificates openssl
   fi
   sudo systemctl enable nginx
 else
@@ -98,6 +98,19 @@ echo "==> 发布到 $WEBROOT …"
 sudo mkdir -p "$WEBROOT"
 sudo rsync -a --delete "$ROOT/dist/" "$WEBROOT/"
 
+SSL_DIR="/etc/nginx/ssl"
+SSL_CN="$DOMAIN"
+[[ "$SSL_CN" == "_" ]] && SSL_CN="localhost"
+if [[ ! -f "$SSL_DIR/gamehistory.crt" ]]; then
+  echo "==> 生成 TLS 自签名证书 $SSL_DIR（日后可用 certbot 替换为正式证书）…"
+  sudo mkdir -p "$SSL_DIR"
+  sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
+    -keyout "$SSL_DIR/gamehistory.key" -out "$SSL_DIR/gamehistory.crt" \
+    -subj "/CN=$SSL_CN/O=gamehistory"
+  sudo chmod 640 "$SSL_DIR/gamehistory.key"
+  sudo chmod 644 "$SSL_DIR/gamehistory.crt"
+fi
+
 CONF_SRC="$SCRIPT_DIR/nginx-gamehistory.conf"
 render_conf() {
   sed -e "s|__SERVER_NAME__|$DOMAIN|g" -e "s|__WEB_ROOT__|$WEBROOT|g" "$CONF_SRC"
@@ -133,6 +146,6 @@ sudo systemctl restart nginx
 
 echo ""
 echo "完成。静态文件：$WEBROOT"
-echo "本机自测：curl -I http://127.0.0.1"
-echo "请在阿里云安全组放行 TCP 80（及 443 若上 HTTPS）。域名解析到本机公网 IP 后可使用 certbot 等配置 HTTPS。"
+echo "本机自测：curl -I http://127.0.0.1  与  curl -k -I https://127.0.0.1"
+echo "请在阿里云安全组放行 TCP 80、443。域名解析到本机公网 IP 后可用 certbot 将 /etc/nginx/ssl/ 替换为 Let's Encrypt。"
 echo "Docker 备选：在项目根目录执行 docker compose -f deploy/docker-compose.yml up -d --build"

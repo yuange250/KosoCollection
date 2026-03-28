@@ -475,7 +475,8 @@
         "街机",
         "日本",
         "game",
-        "休闲"
+        "休闲",
+        "Capcom"
       ]
     },
     "relatedNodes": [
@@ -1606,7 +1607,8 @@
         "主机",
         "日本",
         "game",
-        "休闲"
+        "休闲",
+        "Capcom"
       ]
     },
     "relatedNodes": [
@@ -1798,7 +1800,8 @@
         "主机",
         "日本",
         "game",
-        "FPS"
+        "FPS",
+        "Capcom"
       ]
     },
     "relatedNodes": [
@@ -2073,7 +2076,8 @@
         "主机",
         "日本",
         "game",
-        "休闲"
+        "休闲",
+        "Capcom"
       ]
     },
     "relatedNodes": [
@@ -2211,7 +2215,8 @@
         "主机",
         "日本",
         "game",
-        "FPS"
+        "FPS",
+        "Capcom"
       ]
     },
     "relatedNodes": [
@@ -2803,6 +2808,34 @@
     "relatedNodes": [
       "pubg",
       "minecraft"
+    ]
+  },
+  {
+    "id": "monster-hunter-world",
+    "time": "2018-01-26",
+    "type": "game",
+    "title": "《怪物猎人 世界》",
+    "content": {
+      "intro": "无缝地图与联机共斗把系列推向全球主机与 PC 主流，长线更新与资料片拉长商业周期。",
+      "details": {
+        "developer": "Capcom",
+        "publisher": "Capcom",
+        "sales": "逾 2500 万份（含 Iceborne，公司口径区间）",
+        "easterEgg": "料理猫与投射器地形梗"
+      },
+      "imageUrl": "/placeholders/game.svg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Monster_Hunter:_World",
+      "tags": [
+        "主机",
+        "日本",
+        "game",
+        "RPG",
+        "Capcom"
+      ]
+    },
+    "relatedNodes": [
+      "resident-evil-4",
+      "elden-ring"
     ]
   },
   {
