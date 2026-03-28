@@ -107,8 +107,35 @@ if [[ ! -f "$SSL_DIR/gamehistory.crt" ]]; then
   sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
     -keyout "$SSL_DIR/gamehistory.key" -out "$SSL_DIR/gamehistory.crt" \
     -subj "/CN=$SSL_CN/O=gamehistory"
-  sudo chmod 640 "$SSL_DIR/gamehistory.key"
   sudo chmod 644 "$SSL_DIR/gamehistory.crt"
+  sudo chmod 640 "$SSL_DIR/gamehistory.key"
+fi
+
+# nginx worker 需能读取私钥：root:root + chmod 640 会导致启动失败（Alinux 多为 nginx，Debian/Ubuntu 多为 www-data）
+fix_ssl_key_owner() {
+  local key="$SSL_DIR/gamehistory.key"
+  [[ -f "$key" ]] || return 0
+  local run_user=""
+  if [[ -f /etc/nginx/nginx.conf ]]; then
+    run_user=$(awk '/^[[:space:]]*user[[:space:]]+/ {gsub(/;/,"",$2); print $2; exit}' /etc/nginx/nginx.conf)
+  fi
+  if [[ -n "$run_user" ]] && getent group "$run_user" &>/dev/null; then
+    sudo chown root:"$run_user" "$key"
+  elif id -u nginx &>/dev/null && getent group nginx &>/dev/null; then
+    sudo chown root:nginx "$key"
+  elif getent group www-data &>/dev/null; then
+    sudo chown root:www-data "$key"
+  else
+    sudo chmod 644 "$key"
+    echo "警告：未识别 nginx 运行用户组，已将私钥 chmod 644（仅测试环境建议）" >&2
+  fi
+  sudo chmod 640 "$key"
+}
+fix_ssl_key_owner
+
+if command -v getenforce &>/dev/null && [[ "$(getenforce 2>/dev/null)" == "Enforcing" ]]; then
+  echo "==> SELinux Enforcing：为 $SSL_DIR 设置 nginx 可读标签…"
+  sudo chcon -R -t cert_t "$SSL_DIR" 2>/dev/null || sudo chcon -R -t httpd_sys_content_t "$SSL_DIR" 2>/dev/null || true
 fi
 
 CONF_SRC="$SCRIPT_DIR/nginx-gamehistory.conf"
@@ -133,16 +160,28 @@ if is_apt; then
 elif is_dnf_yum; then
   sudo mkdir -p /etc/nginx/conf.d
   render_conf | sudo tee /etc/nginx/conf.d/gamehistory.conf >/dev/null
-  if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]] && [[ -f /etc/nginx/conf.d/default.conf ]]; then
-    echo "==> 移除 /etc/nginx/conf.d/default.conf（避免与站点抢 80；设 REMOVE_NGINX_DEFAULT=0 可保留）"
-    sudo rm -f /etc/nginx/conf.d/default.conf
+  if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]]; then
+    for f in /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/welcome.conf /etc/nginx/default.d/default.conf; do
+      if [[ -f "$f" ]]; then
+        echo "==> 移除 $f（避免与 server_name _ 抢 80/443；设 REMOVE_NGINX_DEFAULT=0 可保留）"
+        sudo rm -f "$f"
+      fi
+    done
   fi
 fi
 
 echo "==> 检测并重载 nginx …"
-sudo nginx -t
+if ! sudo nginx -t; then
+  echo "错误：nginx -t 未通过" >&2
+  exit 1
+fi
 sudo systemctl enable nginx
-sudo systemctl restart nginx
+if ! sudo systemctl restart nginx; then
+  echo "错误：nginx 启动失败。常见原因：私钥权限、SELinux、443 被占用。最近日志：" >&2
+  sudo systemctl status nginx.service --no-pager -l 2>/dev/null || true
+  sudo journalctl -u nginx.service -n 30 --no-pager 2>/dev/null || true
+  exit 1
+fi
 
 echo ""
 echo "完成。静态文件：$WEBROOT"

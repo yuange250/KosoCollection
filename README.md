@@ -56,6 +56,8 @@ npm run preview
 - `WEBROOT=/var/www/gamehistory` — 静态根目录
 - `REMOVE_NGINX_DEFAULT=0` — 保留 nginx 默认站点（默认会删，避免单机部署冲突）
 
+若 `nginx -t` 通过但 `systemctl restart nginx` 失败：多为 **TLS 私钥不可读**（已用脚本根据 `nginx.conf` 的 `user` 修正组权限）或 **SELinux**（脚本会尝试 `chcon`）。仍失败时执行 `sudo journalctl -u nginx -n 40 --no-pager`。出现 `conflicting server name "_"` 时说明还有其它默认站点占用 80，脚本会尝试删除 `default.conf` / `welcome.conf`；可设 `DOMAIN=你的域名` 减少与默认 `_` 的告警。
+
 ### 方式 B：Docker
 
 在仓库根目录：
