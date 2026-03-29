@@ -158,7 +158,7 @@ export function Home() {
       </motion.main>
 
       <footer className="footer">
-        <p>游戏史时间轴 · 公开数据仅供学习与交流 · 来源见各节点引用链接</p>
+        <p>科索造物集 · 和 AI 一起探索并创造有意思的事 · 节点来源见引用链接</p>
       </footer>
 
       <DetailCard

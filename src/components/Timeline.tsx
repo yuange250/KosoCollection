@@ -371,9 +371,17 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
       const t = timeToYearFraction(n.time) + hashJitter(n.id);
       return t >= domain[0] && t <= domain[1];
     });
+    const spotlightIds = new Set([...spotlight.above, ...spotlight.below].map((n) => n.id));
     const maxDots = currentLayer === 'decade' ? 220 : currentLayer === 'year' ? 400 : 520;
     const step = Math.max(1, Math.ceil(visible.length / maxDots));
-    const thinned = visible.filter((_, i) => i % step === 0);
+    const sampled = visible.filter((_, i) => i % step === 0);
+    const sampledIds = new Set(sampled.map((n) => n.id));
+    const forcedSpotlight = visible.filter((n) => spotlightIds.has(n.id) && !sampledIds.has(n.id));
+    const thinned = [...sampled, ...forcedSpotlight].sort((a, b) => {
+      const ta = timeToYearFraction(a.time) + hashJitter(a.id);
+      const tb = timeToYearFraction(b.time) + hashJitter(b.id);
+      return ta - tb;
+    });
     const rScale = currentLayer === 'decade' ? 5 : currentLayer === 'year' ? 7 : 9;
 
     root
@@ -393,7 +401,7 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
       .on('click', (_, d) => onSelect(d))
       .on('mouseenter', (_, d) => setHint(d))
       .on('mouseleave', () => setHint(null));
-  }, [axisY, heatY0, heatY1, nodeY, nodes, onSelect, projectYearLocal, size.w, span]);
+  }, [axisY, heatY0, heatY1, nodeY, nodes, onSelect, projectYearLocal, size.w, span, spotlight]);
 
   useEffect(() => {
     redraw();

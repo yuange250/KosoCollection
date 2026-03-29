@@ -82,9 +82,9 @@ export function NavBar({
       <div className="nav-inner">
         <Link to="/" className="nav-logo">
           <span className="nav-logo-mark">
-            <span className="nav-logo-mark__inner">GH</span>
+            <span className="nav-logo-mark__inner">KS</span>
           </span>
-          <span className="nav-logo-text">游戏史时间轴</span>
+          <span className="nav-logo-text">科索造物集</span>
         </Link>
         <div className="nav-search">
           <input
