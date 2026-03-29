@@ -98,6 +98,43 @@ echo "==> 发布到 $WEBROOT …"
 sudo mkdir -p "$WEBROOT"
 sudo rsync -a --delete "$ROOT/dist/" "$WEBROOT/"
 
+# 确保 nginx 可“穿透”到 WEBROOT（父目录缺少 x 会导致 stat() Permission denied）
+fix_webroot_path_perms() {
+  local p="$WEBROOT"
+  local chain=()
+  while [[ -n "$p" && "$p" != "/" ]]; do
+    chain+=("$p")
+    p="$(dirname "$p")"
+  done
+
+  # 从上层到下层逐级放开目录可遍历权限，不改文件权限
+  for ((i=${#chain[@]}-1; i>=0; i--)); do
+    sudo chmod a+rx "${chain[$i]}" 2>/dev/null || true
+  done
+}
+fix_webroot_path_perms
+
+# 站点目录默认由 root 写入，需确保 nginx worker 可读（否则会 500: Permission denied）
+fix_webroot_perms() {
+  local run_user=""
+  if [[ -f /etc/nginx/nginx.conf ]]; then
+    run_user=$(awk '/^[[:space:]]*user[[:space:]]+/ {gsub(/;/,"",$2); print $2; exit}' /etc/nginx/nginx.conf)
+  fi
+
+  if [[ -n "$run_user" ]] && getent group "$run_user" &>/dev/null; then
+    sudo chown -R root:"$run_user" "$WEBROOT"
+  elif getent group nginx &>/dev/null; then
+    sudo chown -R root:nginx "$WEBROOT"
+  elif getent group www-data &>/dev/null; then
+    sudo chown -R root:www-data "$WEBROOT"
+  fi
+
+  # 目录可遍历、文件可读取：适配静态站点
+  sudo find "$WEBROOT" -type d -exec chmod 755 {} \;
+  sudo find "$WEBROOT" -type f -exec chmod 644 {} \;
+}
+fix_webroot_perms
+
 SSL_DIR="/etc/nginx/ssl"
 SSL_CN="$DOMAIN"
 [[ "$SSL_CN" == "_" ]] && SSL_CN="localhost"

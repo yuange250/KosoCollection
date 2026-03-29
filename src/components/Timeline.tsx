@@ -28,6 +28,7 @@ import { SpotlightOverlay } from '@/components/SpotlightOverlay';
 
 const YEAR_MIN = 1958;
 const YEAR_MAX = new Date().getFullYear() + 0.5;
+const MOBILE_BREAKPOINT = 900;
 
 const COLOR: Record<string, string> = {
   game: '#fb923c',
@@ -147,6 +148,9 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
   const [domain, setDomain] = useState<[number, number]>(() => [YEAR_MIN, YEAR_MAX]);
   const [hint, setHint] = useState<TimelineNode | null>(null);
   const [dragging, setDragging] = useState(false);
+  const [isMobile, setIsMobile] = useState(() =>
+    typeof window !== 'undefined' ? window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`).matches : false,
+  );
   const dragRef = useRef<{ startX: number; d0: number; d1: number } | null>(null);
 
   domainRef.current = domain;
@@ -199,6 +203,15 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
     (n: TimelineNode) => MARGIN.left + projectYearLocal(timeToYearFraction(n.time) + hashJitter(n.id)),
     [projectYearLocal],
   );
+  const mobileNodes = useMemo(() => {
+    const sorted = [...nodes].sort((a, b) => {
+      const ta = timeToYearFraction(a.time);
+      const tb = timeToYearFraction(b.time);
+      if (ta === tb) return a.title.localeCompare(b.title, 'zh-CN');
+      return ta - tb;
+    });
+    return sorted;
+  }, [nodes]);
 
   const nodeY = MARGIN.top + NODE_BAND_TOP + NODE_BAND_H * 0.48;
   const heatY0 = MARGIN.top + NODE_BAND_TOP + NODE_BAND_H + HEAT_GAP;
@@ -208,6 +221,10 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
   const redraw = useCallback(() => {
     const svg = svgRef.current;
     if (!svg || !nodes.length) return;
+    if (isMobile) {
+      d3.select(svg).select<SVGGElement>('g.root').selectAll('*').remove();
+      return;
+    }
     const { w } = size;
     const iw = w - MARGIN.left - MARGIN.right;
     const currentLayer = spanToLayer(span);
@@ -401,15 +418,23 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
       .on('click', (_, d) => onSelect(d))
       .on('mouseenter', (_, d) => setHint(d))
       .on('mouseleave', () => setHint(null));
-  }, [axisY, heatY0, heatY1, nodeY, nodes, onSelect, projectYearLocal, size.w, span, spotlight]);
+  }, [axisY, heatY0, heatY1, isMobile, nodeY, nodes, onSelect, projectYearLocal, size.w, span, spotlight]);
 
   useEffect(() => {
     redraw();
   }, [redraw]);
 
   useEffect(() => {
+    const mq = window.matchMedia(`(max-width: ${MOBILE_BREAKPOINT}px)`);
+    const update = () => setIsMobile(mq.matches);
+    update();
+    mq.addEventListener('change', update);
+    return () => mq.removeEventListener('change', update);
+  }, []);
+
+  useEffect(() => {
     const root = wrapRef.current;
-    if (!root) return;
+    if (!root || isMobile) return;
 
     const onWheel = (ev: WheelEvent) => {
       ev.preventDefault();
@@ -429,15 +454,17 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
     /* 捕获阶段 + 绑定在外层：覆盖 spotlight 卡片等区域，避免滚轮穿透导致整页上下滚动 */
     root.addEventListener('wheel', onWheel, { passive: false, capture: true });
     return () => root.removeEventListener('wheel', onWheel, true);
-  }, [size.w]);
+  }, [isMobile, size.w]);
 
   const onPointerDown = (e: React.PointerEvent) => {
+    if (isMobile) return;
     (e.currentTarget as SVGSVGElement).setPointerCapture(e.pointerId);
     dragRef.current = { startX: e.clientX, d0: domain[0], d1: domain[1] };
     setDragging(true);
   };
 
   const onPointerMove = (e: React.PointerEvent) => {
+    if (isMobile) return;
     const d = dragRef.current;
     if (!d) return;
     const dx = e.clientX - d.startX;
@@ -449,6 +476,7 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
   };
 
   const onPointerUp = (e: React.PointerEvent) => {
+    if (isMobile) return;
     try {
       (e.currentTarget as SVGSVGElement).releasePointerCapture(e.pointerId);
     } catch {
@@ -460,37 +488,62 @@ export function Timeline({ nodes, onSelect, focusId, onFocusConsumed }: Props) {
 
   return (
     <div ref={wrapRef} className="timeline-wrap">
-      <div className="timeline-chart-stack">
-        <svg
-          ref={svgRef}
-          width="100%"
-          height={size.h}
-          className="timeline-svg"
-          onPointerDown={onPointerDown}
-          onPointerMove={onPointerMove}
-          onPointerUp={onPointerUp}
-          onPointerCancel={onPointerUp}
-          style={{ touchAction: 'none', cursor: dragging ? 'grabbing' : 'grab' }}
-        />
-        <SpotlightOverlay
-          aboveNodes={spotlight.above}
-          belowNodes={spotlight.below}
-          projectNodeX={projectNodeX}
-          leftBound={MARGIN.left}
-          rightBound={MARGIN.left + innerW}
-          nodeY={nodeY}
-          nodeRadius={nodeRadius}
-          heatTop={heatY0}
-          chartHeight={size.h}
-          onSelect={onSelect}
-          motionKey={spotlightMotionKey}
-        />
-      </div>
-      {hint && (
-        <div className="timeline-hint timeline-hint--center">
-          <strong>{hint.title}</strong>
-          <span className="timeline-hint-time">{hint.time}</span>
+      {isMobile ? (
+        <div className="timeline-mobile">
+          <div className="timeline-mobile__head">
+            <strong>游戏史时间轴</strong>
+            <span>移动端纵向浏览 · 点击节点查看详情</span>
+          </div>
+          <ol className="timeline-mobile__list">
+            {mobileNodes.map((n) => (
+              <li key={`mobile-timeline-${n.id}`} className="timeline-mobile__item">
+                <button type="button" className="timeline-mobile__btn" onClick={() => onSelect(n)}>
+                  <span className={`timeline-mobile__dot timeline-mobile__dot--${n.type}`} aria-hidden="true" />
+                  <span className="timeline-mobile__content">
+                    <span className="timeline-mobile__time font-mono">{n.time}</span>
+                    <span className="timeline-mobile__title">{n.title}</span>
+                    <span className="timeline-mobile__intro">{n.content.intro}</span>
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ol>
         </div>
+      ) : (
+        <>
+          <div className="timeline-chart-stack">
+            <svg
+              ref={svgRef}
+              width="100%"
+              height={size.h}
+              className="timeline-svg"
+              onPointerDown={onPointerDown}
+              onPointerMove={onPointerMove}
+              onPointerUp={onPointerUp}
+              onPointerCancel={onPointerUp}
+              style={{ touchAction: 'none', cursor: dragging ? 'grabbing' : 'grab' }}
+            />
+            <SpotlightOverlay
+              aboveNodes={spotlight.above}
+              belowNodes={spotlight.below}
+              projectNodeX={projectNodeX}
+              leftBound={MARGIN.left}
+              rightBound={MARGIN.left + innerW}
+              nodeY={nodeY}
+              nodeRadius={nodeRadius}
+              heatTop={heatY0}
+              chartHeight={size.h}
+              onSelect={onSelect}
+              motionKey={spotlightMotionKey}
+            />
+          </div>
+          {hint && (
+            <div className="timeline-hint timeline-hint--center">
+              <strong>{hint.title}</strong>
+              <span className="timeline-hint-time">{hint.time}</span>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

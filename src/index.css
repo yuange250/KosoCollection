@@ -474,38 +474,7 @@ a:hover {
   }
 
   .milestone-rail {
-    order: -1;
-    position: relative;
-    top: auto;
-    display: block;
-    width: auto;
-    max-width: none;
-    min-width: 0;
-    overflow: visible;
-    grid-template-columns: none;
-  }
-
-  .milestone-rail__drawer {
-    overflow: visible;
-  }
-
-  .milestone-rail__spine {
     display: none;
-  }
-
-  .milestone-rail__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 10px;
-    overflow-x: auto;
-    padding-bottom: 6px;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .milestone-rail__list li {
-    flex: 0 0 auto;
-    min-width: min(200px, 72vw);
   }
 }
 
@@ -531,6 +500,10 @@ a:hover {
   border: 1px solid rgba(56, 189, 248, 0.14);
   background: linear-gradient(165deg, rgba(12, 18, 38, 0.92) 0%, rgba(8, 12, 28, 0.88) 100%);
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.milestone-rail-mobile {
+  display: none;
 }
 
 /* 宽屏：默认收成左侧竖条，悬停 / 键盘聚焦展开；与时间轴 SVG 同高（--timeline-svg-height 由 Home 注入） */
@@ -760,6 +733,54 @@ a:hover {
   opacity: 0.85;
 }
 
+@media (max-width: 1099px) {
+  .milestone-rail-mobile {
+    display: block;
+    order: -1;
+    border-radius: var(--radius-lg);
+    border: 1px solid rgba(56, 189, 248, 0.18);
+    background: linear-gradient(165deg, rgba(12, 18, 38, 0.9) 0%, rgba(8, 12, 28, 0.86) 100%);
+    box-shadow: 0 8px 26px rgba(0, 0, 0, 0.28);
+    overflow: hidden;
+  }
+
+  .milestone-rail-mobile__summary {
+    list-style: none;
+    cursor: pointer;
+    padding: 12px 14px;
+    font-family: Orbitron, 'Noto Sans SC', sans-serif;
+    font-size: 0.84rem;
+    font-weight: 700;
+    color: #e2e8f0;
+    letter-spacing: 0.03em;
+  }
+
+  .milestone-rail-mobile__summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .milestone-rail-mobile__body {
+    padding: 0 12px 12px;
+    border-top: 1px solid rgba(148, 163, 184, 0.16);
+  }
+
+  .milestone-rail-mobile .milestone-rail__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    overflow-x: auto;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .milestone-rail-mobile .milestone-rail__list li {
+    flex: 0 0 auto;
+    min-width: min(210px, 74vw);
+  }
+}
+
 .timeline-wrap {
   position: relative;
   background: var(--surface);
@@ -905,6 +926,108 @@ a:hover {
 .timeline-svg {
   display: block;
   user-select: none;
+}
+
+.timeline-mobile {
+  padding: 12px 12px 14px;
+}
+
+.timeline-mobile__head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0 0 10px;
+}
+
+.timeline-mobile__head strong {
+  font-size: 0.95rem;
+  color: #e2e8f0;
+  font-weight: 700;
+}
+
+.timeline-mobile__head span {
+  font-size: 0.7rem;
+  color: var(--text-dim);
+}
+
+.timeline-mobile__list {
+  list-style: none;
+  margin: 0;
+  padding: 2px 0 2px 16px;
+  border-left: 2px dashed rgba(56, 189, 248, 0.28);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.timeline-mobile__item {
+  margin-left: -2px;
+}
+
+.timeline-mobile__btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  border: 1px solid rgba(148, 163, 184, 0.16);
+  border-radius: var(--radius);
+  background: rgba(15, 23, 42, 0.62);
+  padding: 10px 10px 9px;
+  color: inherit;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+
+.timeline-mobile__dot {
+  flex: 0 0 auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  margin-top: 4px;
+  box-shadow: 0 0 0 3px rgba(15, 23, 42, 0.92);
+}
+
+.timeline-mobile__dot--game {
+  background: #fb923c;
+}
+
+.timeline-mobile__dot--host {
+  background: #38bdf8;
+}
+
+.timeline-mobile__dot--event {
+  background: #4ade80;
+}
+
+.timeline-mobile__content {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.timeline-mobile__time {
+  font-size: 0.64rem;
+  color: var(--neon-cyan);
+  opacity: 0.9;
+}
+
+.timeline-mobile__title {
+  font-size: 0.82rem;
+  line-height: 1.28;
+  font-weight: 650;
+  color: #f8fafc;
+}
+
+.timeline-mobile__intro {
+  font-size: 0.7rem;
+  line-height: 1.35;
+  color: #cbd5e1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .timeline-hint {
