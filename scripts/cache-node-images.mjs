@@ -26,7 +26,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 
-const UA = 'GameHistoryTimeline/1.0 (cache-images; local mirror) Node.js';
+const UA = 'KosoWorld/1.0 (cache-images; local mirror) Node.js';
 
 const DRY = process.env.DRY_RUN === '1' || process.env.DRY_RUN === 'true';
 const SKIP_EXISTING = process.env.SKIP_EXISTING === '1' || process.env.SKIP_EXISTING === 'true';

@@ -11,7 +11,7 @@ import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const UA = 'GameHistoryTimeline/1.0 (enrich-images-cn)';
+const UA = 'KosoWorld/1.0 (enrich-images-cn)';
 
 function loadEnvFile(path) {
   if (!existsSync(path)) return;

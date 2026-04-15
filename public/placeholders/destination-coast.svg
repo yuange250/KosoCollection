@@ -1,0 +1,24 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#07111F"/>
+  <circle cx="980" cy="120" r="220" fill="#22D3EE" fill-opacity="0.15"/>
+  <circle cx="210" cy="600" r="280" fill="#FB923C" fill-opacity="0.12"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="url(#bg)" stroke="#7DD3FC" stroke-opacity="0.12"/>
+  <path d="M112 492C222 470 338 452 470 452C646 452 814 484 1088 564V620H112V492Z" fill="url(#sea)"/>
+  <path d="M720 302C770 272 828 258 888 270C944 280 1008 318 1042 360C1006 382 958 398 904 398C844 398 780 366 720 302Z" fill="#E2E8F0" fill-opacity="0.9"/>
+  <path d="M660 520C710 442 758 392 818 362C870 336 930 334 984 362L1042 520H660Z" fill="#082F49"/>
+  <path d="M282 542C324 492 366 458 420 430C476 402 540 396 600 412L650 542H282Z" fill="#0B3A57"/>
+  <text x="108" y="148" fill="#7DD3FC" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="24" letter-spacing="2">COASTAL ESCAPE</text>
+  <text x="108" y="206" fill="#F8FAFC" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="56" font-weight="700">w��G�0</text>
+  <text x="108" y="252" fill="#94A3B8" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="24">w�����G�=�o�`M�</text>
+  <defs>
+    <linearGradient id="bg" x1="52" y1="52" x2="1148" y2="668" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#091626"/>
+      <stop offset="1" stop-color="#09111A"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="130" y1="470" x2="978" y2="602" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.45" stop-color="#0EA5E9"/>
+      <stop offset="1" stop-color="#082F49"/>
+    </linearGradient>
+  </defs>
+</svg>

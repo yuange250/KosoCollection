@@ -7,6 +7,29 @@ export default defineConfig({
   resolve: {
     alias: { '@': path.resolve(__dirname, 'src') },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('@react-three/fiber')) {
+            return 'vendor-r3f';
+          }
+          if (id.includes('@react-three/drei') || id.includes('three-stdlib')) {
+            return 'vendor-drei';
+          }
+          if (id.includes('node_modules/three')) {
+            return 'vendor-three';
+          }
+          if (id.includes('node_modules/react') || id.includes('react-dom') || id.includes('react-router-dom')) {
+            return 'vendor-react';
+          }
+          if (id.includes('node_modules/framer-motion')) {
+            return 'vendor-motion';
+          }
+        },
+      },
+    },
+  },
   server: {
     port: 5173,
     proxy: {

@@ -1,6 +1,6 @@
 import type { ZoomLayer } from '@/types/timeline';
 
-const KEY = 'gamehistory-timeline-v1';
+const KEY = 'kosoworld-timeline-v1';
 
 export interface PersistedTimeline {
   domain: [number, number];

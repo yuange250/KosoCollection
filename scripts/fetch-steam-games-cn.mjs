@@ -22,7 +22,7 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
 const BULK_DIR = join(root, 'public', 'data', 'bulk');
-const UA = 'GameHistoryTimeline/1.0 (steam-cn-bulk)';
+const UA = 'KosoWorld/1.0 (steam-cn-bulk)';
 
 function loadEnvFile(path) {
   if (!existsSync(path)) return;

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c1226"/>
+      <stop offset="100%" stop-color="#1a1040"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#bg)" rx="12"/>
+  <!-- timeline axis -->
+  <line x1="40" y1="140" x2="360" y2="140" stroke="#38bdf8" stroke-width="2" opacity="0.5"/>
+  <!-- dots -->
+  <circle cx="70"  cy="140" r="6" fill="#fb923c" opacity="0.85"/>
+  <circle cx="120" cy="140" r="5" fill="#38bdf8" opacity="0.85"/>
+  <circle cx="170" cy="140" r="7" fill="#4ade80" opacity="0.85"/>
+  <circle cx="220" cy="140" r="5" fill="#fb923c" opacity="0.85"/>
+  <circle cx="270" cy="140" r="6" fill="#38bdf8" opacity="0.85"/>
+  <circle cx="330" cy="140" r="5" fill="#4ade80" opacity="0.85"/>
+  <!-- heat area -->
+  <path d="M40,130 Q100,100 170,105 Q240,110 300,90 Q340,85 360,95 L360,140 L40,140 Z"
+        fill="#fb923c" opacity="0.15"/>
+  <!-- title -->
+  <text x="200" y="60" text-anchor="middle" fill="#e2e8f0" font-family="sans-serif" font-size="22" font-weight="700">8���t</text>
+  <text x="200" y="85" text-anchor="middle" fill="#94a3b8" font-family="sans-serif" font-size="12">1958  �� � �)></text>
+  <!-- ticks -->
+  <text x="70"  y="162" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">1960s</text>
+  <text x="170" y="162" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">1980s</text>
+  <text x="270" y="162" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">2000s</text>
+  <text x="330" y="162" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">2020s</text>
+</svg>

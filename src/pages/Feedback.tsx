@@ -21,11 +21,13 @@ export function Feedback() {
       });
       if (!res.ok) throw new Error(String(res.status));
       setStatus('ok');
-      setMsg('感谢提交，我们已保存您的反馈。');
+      setMsg('感谢反馈！我们已收到并会尽快查看。');
+      setName('');
+      setEmail('');
       setBody('');
     } catch {
       setStatus('err');
-      setMsg('提交失败，请稍后重试或检查是否已启动本地 API 服务。');
+      setMsg('提交失败，请稍后重试。');
     }
   };
 
@@ -33,7 +35,9 @@ export function Feedback() {
     <div className="page">
       <div className="page-inner prose">
         <h1>反馈建议</h1>
-        <p>欢迎留下数据纠错、功能建议或合作意向。提交后写入数据库（若已配置 Supabase），本地开发时由简易 API 接收。</p>
+        <p>
+          欢迎留下数据纠错、功能建议或合作意向。提交后我们会收到邮件通知并尽快回复你。
+        </p>
 
         <form className="feedback-form" onSubmit={submit}>
           <label>
@@ -41,13 +45,14 @@ export function Feedback() {
             <input value={name} onChange={(e) => setName(e.target.value)} autoComplete="name" />
           </label>
           <label>
-            <span>邮箱</span>
+            <span>你的邮箱</span>
             <input
               type="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               autoComplete="email"
+              placeholder="方便我们回复你"
             />
           </label>
           <label>
@@ -62,7 +67,7 @@ export function Feedback() {
           </label>
           <div className="feedback-actions">
             <button type="submit" className="btn btn--primary" disabled={status === 'loading'}>
-              {status === 'loading' ? '提交中…' : '提交'}
+              {status === 'loading' ? '提交中…' : '提交反馈'}
             </button>
           </div>
           {msg && (

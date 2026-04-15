@@ -1,0 +1,20 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#08101F"/>
+  <circle cx="980" cy="120" r="220" fill="#A78BFA" fill-opacity="0.16"/>
+  <circle cx="180" cy="620" r="260" fill="#22D3EE" fill-opacity="0.12"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="url(#bg)" stroke="#7DD3FC" stroke-opacity="0.12"/>
+  <path d="M218 512H982" stroke="#F8FAFC" stroke-opacity="0.12" stroke-width="20" stroke-linecap="round"/>
+  <path d="M300 510V332L442 242L600 178L758 242L900 332V510" stroke="#F8FAFC" stroke-opacity="0.9" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M360 510V356H478V510" stroke="#67E8F9" stroke-opacity="0.8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M522 510V300H678V510" stroke="#67E8F9" stroke-opacity="0.8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M722 510V356H840V510" stroke="#67E8F9" stroke-opacity="0.8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108" y="148" fill="#67E8F9" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="24" letter-spacing="2">WORLD HERITAGE</text>
+  <text x="108" y="206" fill="#F8FAFC" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="56" font-weight="700">�����0</text>
+  <text x="108" y="252" fill="#94A3B8" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="24">(���an�)e��{�`M�</text>
+  <defs>
+    <linearGradient id="bg" x1="82" y1="70" x2="1106" y2="654" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1226"/>
+      <stop offset="1" stop-color="#08101A"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,72 @@
+<svg width="1200" height="660" viewBox="0 0 1200 660" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="660" rx="32" fill="#060814"/>
+  <g opacity="0.85">
+    <circle cx="246" cy="130" r="240" fill="url(#glowA)"/>
+    <circle cx="972" cy="560" r="280" fill="url(#glowB)"/>
+  </g>
+  <rect x="40" y="40" width="1120" height="580" rx="28" fill="url(#panel)" stroke="rgba(125,211,252,0.18)"/>
+  <g opacity="0.18" stroke="#7DD3FC">
+    <path d="M92 184H1108"/>
+    <path d="M92 256H1108"/>
+    <path d="M92 328H1108"/>
+    <path d="M92 400H1108"/>
+    <path d="M92 472H1108"/>
+    <path d="M204 112V548"/>
+    <path d="M344 112V548"/>
+    <path d="M484 112V548"/>
+    <path d="M624 112V548"/>
+    <path d="M764 112V548"/>
+    <path d="M904 112V548"/>
+  </g>
+  <circle cx="734" cy="330" r="178" fill="url(#earthFill)" stroke="#67E8F9" stroke-opacity="0.36" stroke-width="2"/>
+  <ellipse cx="734" cy="330" rx="178" ry="66" stroke="#93C5FD" stroke-opacity="0.28"/>
+  <ellipse cx="734" cy="330" rx="178" ry="118" stroke="#93C5FD" stroke-opacity="0.2"/>
+  <ellipse cx="734" cy="330" rx="92" ry="178" stroke="#93C5FD" stroke-opacity="0.25"/>
+  <ellipse cx="734" cy="330" rx="136" ry="178" stroke="#93C5FD" stroke-opacity="0.18"/>
+  <path d="M558 330Q734 248 910 330" stroke="#A78BFA" stroke-opacity="0.3"/>
+  <path d="M558 330Q734 412 910 330" stroke="#A78BFA" stroke-opacity="0.3"/>
+  <g>
+    <circle cx="826" cy="258" r="8" fill="#FBBF24"/>
+    <circle cx="826" cy="258" r="18" stroke="#FBBF24" stroke-opacity="0.28"/>
+    <circle cx="698" cy="214" r="8" fill="#22D3EE"/>
+    <circle cx="698" cy="214" r="18" stroke="#22D3EE" stroke-opacity="0.28"/>
+    <circle cx="628" cy="314" r="8" fill="#4ADE80"/>
+    <circle cx="628" cy="314" r="18" stroke="#4ADE80" stroke-opacity="0.28"/>
+    <circle cx="784" cy="372" r="8" fill="#E879F9"/>
+    <circle cx="784" cy="372" r="18" stroke="#E879F9" stroke-opacity="0.28"/>
+    <circle cx="676" cy="404" r="8" fill="#FB923C"/>
+    <circle cx="676" cy="404" r="18" stroke="#FB923C" stroke-opacity="0.28"/>
+  </g>
+  <g>
+    <rect x="104" y="118" width="304" height="172" rx="24" fill="#0A1022" fill-opacity="0.8" stroke="#67E8F9" stroke-opacity="0.16"/>
+    <text x="136" y="166" fill="#67E8F9" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="22" letter-spacing="2">WORK 02</text>
+    <text x="136" y="214" fill="#F8FAFC" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="42" font-weight="700">ho�pW0</text>
+    <text x="136" y="258" fill="#94A3B8" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="22">Global destinations in a neon-styled digital globe.</text>
+  </g>
+  <g>
+    <rect x="104" y="328" width="240" height="166" rx="22" fill="#0A1022" fill-opacity="0.74" stroke="#A78BFA" stroke-opacity="0.18"/>
+    <text x="136" y="380" fill="#C4B5FD" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="18" letter-spacing="2">MODULES</text>
+    <text x="136" y="420" fill="#E2E8F0" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="28" font-weight="700">h��</text>
+    <text x="136" y="456" fill="#E2E8F0" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="28" font-weight="700">��O�</text>
+    <text x="136" y="492" fill="#E2E8F0" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="28" font-weight="700">�oaG</text>
+  </g>
+  <defs>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(246 130) rotate(90) scale(240)">
+      <stop stop-color="#22D3EE" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(972 560) rotate(90) scale(280)">
+      <stop stop-color="#E879F9" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#E879F9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="80" y1="76" x2="1108" y2="604" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081123"/>
+      <stop offset="1" stop-color="#090E1C"/>
+    </linearGradient>
+    <radialGradient id="earthFill" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(676 244) rotate(50.2255) scale(326.279)">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="0.44" stop-color="#2563EB" stop-opacity="0.84"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+</svg>

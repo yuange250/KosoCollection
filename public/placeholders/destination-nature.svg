@@ -1,0 +1,23 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#06111B"/>
+  <circle cx="986" cy="126" r="210" fill="#4ADE80" fill-opacity="0.16"/>
+  <circle cx="184" cy="612" r="260" fill="#22D3EE" fill-opacity="0.12"/>
+  <rect x="52" y="52" width="1096" height="616" rx="28" fill="url(#bg)" stroke="#86EFAC" stroke-opacity="0.12"/>
+  <path d="M168 520C236 432 304 344 390 270C438 228 496 224 542 260L652 348L752 246C792 206 844 204 888 242L1032 366V520H168Z" fill="url(#mountain)"/>
+  <path d="M128 542C244 520 386 506 522 506C714 506 878 524 1072 562V620H128V542Z" fill="#0C3654" fill-opacity="0.78"/>
+  <path d="M528 240L572 184L624 248" stroke="#E2E8F0" stroke-opacity="0.82" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="108" y="148" fill="#86EFAC" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="24" letter-spacing="2">NATURE LANDSCAPE</text>
+  <text x="108" y="206" fill="#F8FAFC" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="56" font-weight="700">�6o��0</text>
+  <text x="108" y="252" fill="#94A3B8" font-family="Arial, 'Noto Sans SC', sans-serif" font-size="24">�qV��7��l�{o�`M�</text>
+  <defs>
+    <linearGradient id="bg" x1="52" y1="52" x2="1148" y2="668" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081524"/>
+      <stop offset="1" stop-color="#09111B"/>
+    </linearGradient>
+    <linearGradient id="mountain" x1="168" y1="226" x2="898" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#1D4ED8"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+</svg>

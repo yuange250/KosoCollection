@@ -1,0 +1,209 @@
+{
+  "generatedAt": "2026-04-12T15:43:48.493Z",
+  "summary": {
+    "totalDestinations": 138,
+    "manifestCovered": 124,
+    "diskCovered": 127,
+    "manifestImages": 618,
+    "diskImages": 634,
+    "pendingManifestSync": 3
+  },
+  "missingOnDisk": [
+    "beijing",
+    "shanghai",
+    "guangzhou",
+    "hongkong",
+    "paris",
+    "newyork",
+    "sydney",
+    "drive",
+    "bus",
+    "walk",
+    "bike"
+  ],
+  "missingInManifest": [
+    "temple-of-heaven-beijing",
+    "summer-palace-beijing",
+    "potala-palace-lhasa",
+    "beijing",
+    "shanghai",
+    "guangzhou",
+    "hongkong",
+    "paris",
+    "newyork",
+    "sydney",
+    "drive",
+    "bus",
+    "walk",
+    "bike"
+  ],
+  "pendingManifestSync": [
+    "temple-of-heaven-beijing",
+    "summer-palace-beijing",
+    "potala-palace-lhasa"
+  ],
+  "topDiskCoverage": [
+    {
+      "id": "alhambra-granada",
+      "count": 6
+    },
+    {
+      "id": "angkor-wat",
+      "count": 6
+    },
+    {
+      "id": "banff",
+      "count": 6
+    },
+    {
+      "id": "big-ben-westminster",
+      "count": 6
+    },
+    {
+      "id": "boracay-white-beach",
+      "count": 6
+    },
+    {
+      "id": "cappadocia",
+      "count": 6
+    },
+    {
+      "id": "christ-redeemer",
+      "count": 6
+    },
+    {
+      "id": "cinque-terre",
+      "count": 6
+    },
+    {
+      "id": "colosseum",
+      "count": 6
+    },
+    {
+      "id": "cusco",
+      "count": 6
+    },
+    {
+      "id": "dazu-rock-carvings",
+      "count": 6
+    },
+    {
+      "id": "dubai-burj-khalifa",
+      "count": 6
+    },
+    {
+      "id": "eiffel-tower",
+      "count": 6
+    },
+    {
+      "id": "fitz-roy-el-chalten",
+      "count": 6
+    },
+    {
+      "id": "geirangerfjord",
+      "count": 6
+    },
+    {
+      "id": "golden-gate-bridge",
+      "count": 6
+    },
+    {
+      "id": "gulangyu-island",
+      "count": 6
+    },
+    {
+      "id": "ha-long-bay",
+      "count": 6
+    },
+    {
+      "id": "hobbiton",
+      "count": 6
+    },
+    {
+      "id": "huangshan-yellow-mountain",
+      "count": 6
+    }
+  ],
+  "topManifestCoverage": [
+    {
+      "id": "alhambra-granada",
+      "count": 6
+    },
+    {
+      "id": "angkor-wat",
+      "count": 6
+    },
+    {
+      "id": "banff",
+      "count": 6
+    },
+    {
+      "id": "big-ben-westminster",
+      "count": 6
+    },
+    {
+      "id": "boracay-white-beach",
+      "count": 6
+    },
+    {
+      "id": "cappadocia",
+      "count": 6
+    },
+    {
+      "id": "christ-redeemer",
+      "count": 6
+    },
+    {
+      "id": "cinque-terre",
+      "count": 6
+    },
+    {
+      "id": "colosseum",
+      "count": 6
+    },
+    {
+      "id": "cusco",
+      "count": 6
+    },
+    {
+      "id": "dazu-rock-carvings",
+      "count": 6
+    },
+    {
+      "id": "dubai-burj-khalifa",
+      "count": 6
+    },
+    {
+      "id": "eiffel-tower",
+      "count": 6
+    },
+    {
+      "id": "fitz-roy-el-chalten",
+      "count": 6
+    },
+    {
+      "id": "geirangerfjord",
+      "count": 6
+    },
+    {
+      "id": "golden-gate-bridge",
+      "count": 6
+    },
+    {
+      "id": "gulangyu-island",
+      "count": 6
+    },
+    {
+      "id": "ha-long-bay",
+      "count": 6
+    },
+    {
+      "id": "hobbiton",
+      "count": 6
+    },
+    {
+      "id": "huangshan-yellow-mountain",
+      "count": 6
+    }
+  ]
+}

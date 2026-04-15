@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
-# 阿里云 ECS：一键安装依赖、构建静态站、配置 nginx
+# 阿里云 ECS：一键安装依赖、构建、配置 nginx 反代 + Node 后端
 # 支持：Ubuntu / Debian、Alibaba Cloud Linux / RHEL 系（含 dnf/yum）
 # 用法（在仓库根目录）：
 #   chmod +x deploy/install-ecs.sh
 #   ./deploy/install-ecs.sh
 # 可选环境变量：
 #   DOMAIN=your.domain.com          默认 _
-#   WEBROOT=/var/www/gamehistory    默认 /var/www/gamehistory
-#   REMOVE_NGINX_DEFAULT=1          默认 1；单机部署时移除 nginx 自带 default，避免与 80 端口冲突
+#   NODE_PORT=3001                  后端端口，默认 3001
+#   SMTP_USER=xxx@163.com           邮件发送账号
+#   SMTP_PASS=xxx                   邮件授权码
+#   NOTIFY_EMAIL=xxx@163.com        通知收件人，默认 chen_the_best@163.com
+#   REMOVE_NGINX_DEFAULT=1          默认 1
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -15,7 +18,7 @@ ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$ROOT"
 
 DOMAIN="${DOMAIN:-_}"
-WEBROOT="${WEBROOT:-/var/www/gamehistory}"
+NODE_PORT="${NODE_PORT:-3001}"
 REMOVE_NGINX_DEFAULT="${REMOVE_NGINX_DEFAULT:-1}"
 
 if [[ ! -f "$ROOT/package.json" ]]; then
@@ -53,19 +56,20 @@ is_dnf_yum() {
 echo "==> 系统: ${PRETTY_NAME:-$ID $VERSION_ID}"
 
 if is_apt; then
-  echo "==> 安装系统依赖（apt：nginx、rsync、curl）…"
+  echo "==> 安装系统依赖（apt：nginx、rsync、curl、better-sqlite3 编译链）…"
   sudo apt-get update -y
-  sudo apt-get install -y nginx rsync curl ca-certificates openssl
+  sudo apt-get install -y nginx rsync curl ca-certificates openssl build-essential python3
 elif is_dnf_yum; then
-  echo "==> 安装系统依赖（dnf/yum：nginx、rsync、curl）…"
+  echo "==> 安装系统依赖（dnf/yum：nginx、rsync、curl、better-sqlite3 编译链）…"
   if command -v dnf >/dev/null 2>&1; then
-    sudo dnf install -y nginx rsync curl ca-certificates openssl || sudo yum install -y nginx rsync curl ca-certificates openssl
+    sudo dnf install -y nginx rsync curl ca-certificates openssl gcc-c++ make python3 ||
+      sudo yum install -y nginx rsync curl ca-certificates openssl gcc-c++ make python3
   else
-    sudo yum install -y nginx rsync curl ca-certificates openssl
+    sudo yum install -y nginx rsync curl ca-certificates openssl gcc-c++ make python3
   fi
   sudo systemctl enable nginx
 else
-  echo "错误：未识别的发行版（ID=$ID_L）。请使用 Ubuntu / Debian / Alibaba Cloud Linux，或改用 Docker：docker compose -f deploy/docker-compose.yml up -d --build" >&2
+  echo "错误：未识别的发行版（ID=$ID_L）。请使用 Ubuntu / Debian / Alibaba Cloud Linux，或改用 Docker" >&2
   exit 1
 fi
 
@@ -90,67 +94,72 @@ install_node_20() {
 
 install_node_20
 
-echo "==> 构建前端…"
+echo "==> 安装依赖并构建前端…"
 npm ci
 npm run build
 
-echo "==> 发布到 $WEBROOT …"
-sudo mkdir -p "$WEBROOT"
-sudo rsync -a --delete "$ROOT/dist/" "$WEBROOT/"
+# ========== systemd 服务 ==========
 
-# 确保 nginx 可“穿透”到 WEBROOT（父目录缺少 x 会导致 stat() Permission denied）
-fix_webroot_path_perms() {
-  local p="$WEBROOT"
-  local chain=()
-  while [[ -n "$p" && "$p" != "/" ]]; do
-    chain+=("$p")
-    p="$(dirname "$p")"
-  done
+APP_DIR="$ROOT"
+SERVICE_FILE="/etc/systemd/system/kosoworld.service"
 
-  # 从上层到下层逐级放开目录可遍历权限，不改文件权限
-  for ((i=${#chain[@]}-1; i>=0; i--)); do
-    sudo chmod a+rx "${chain[$i]}" 2>/dev/null || true
-  done
-}
-fix_webroot_path_perms
+echo "==> 配置 systemd 服务 kosoworld …"
+sudo tee "$SERVICE_FILE" >/dev/null <<UNIT
+[Unit]
+Description=KosoWorld Node.js Backend
+After=network.target
 
-# 站点目录默认由 root 写入，需确保 nginx worker 可读（否则会 500: Permission denied）
-fix_webroot_perms() {
-  local run_user=""
-  if [[ -f /etc/nginx/nginx.conf ]]; then
-    run_user=$(awk '/^[[:space:]]*user[[:space:]]+/ {gsub(/;/,"",$2); print $2; exit}' /etc/nginx/nginx.conf)
-  fi
+[Service]
+Type=simple
+WorkingDirectory=${APP_DIR}
+ExecStart=$(command -v node) ${APP_DIR}/server/index.mjs
+Restart=always
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=${NODE_PORT}
+Environment=SMTP_HOST=${SMTP_HOST:-smtp.163.com}
+Environment=SMTP_PORT=${SMTP_PORT:-465}
+Environment=SMTP_USER=${SMTP_USER:-}
+Environment=SMTP_PASS=${SMTP_PASS:-}
+Environment=NOTIFY_EMAIL=${NOTIFY_EMAIL:-chen_the_best@163.com}
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=kosoworld
 
-  if [[ -n "$run_user" ]] && getent group "$run_user" &>/dev/null; then
-    sudo chown -R root:"$run_user" "$WEBROOT"
-  elif getent group nginx &>/dev/null; then
-    sudo chown -R root:nginx "$WEBROOT"
-  elif getent group www-data &>/dev/null; then
-    sudo chown -R root:www-data "$WEBROOT"
-  fi
+[Install]
+WantedBy=multi-user.target
+UNIT
 
-  # 目录可遍历、文件可读取：适配静态站点
-  sudo find "$WEBROOT" -type d -exec chmod 755 {} \;
-  sudo find "$WEBROOT" -type f -exec chmod 644 {} \;
-}
-fix_webroot_perms
+sudo systemctl daemon-reload
+sudo systemctl enable kosoworld
+echo "==> 重启 kosoworld 后端服务…"
+sudo systemctl restart kosoworld
+sleep 2
+if sudo systemctl is-active --quiet kosoworld; then
+  echo "==> kosoworld 服务已启动 (port ${NODE_PORT})"
+else
+  echo "警告：kosoworld 服务启动异常，请检查 journalctl -u kosoworld" >&2
+  sudo journalctl -u kosoworld -n 20 --no-pager 2>/dev/null || true
+fi
+
+# ========== nginx 反向代理 ==========
 
 SSL_DIR="/etc/nginx/ssl"
 SSL_CN="$DOMAIN"
 [[ "$SSL_CN" == "_" ]] && SSL_CN="localhost"
-if [[ ! -f "$SSL_DIR/gamehistory.crt" ]]; then
-  echo "==> 生成 TLS 自签名证书 $SSL_DIR（日后可用 certbot 替换为正式证书）…"
+if [[ ! -f "$SSL_DIR/kosoworld.crt" ]]; then
+  echo "==> 生成 TLS 自签名证书 $SSL_DIR …"
   sudo mkdir -p "$SSL_DIR"
   sudo openssl req -x509 -nodes -days 3650 -newkey rsa:2048 \
-    -keyout "$SSL_DIR/gamehistory.key" -out "$SSL_DIR/gamehistory.crt" \
-    -subj "/CN=$SSL_CN/O=gamehistory"
-  sudo chmod 644 "$SSL_DIR/gamehistory.crt"
-  sudo chmod 640 "$SSL_DIR/gamehistory.key"
+    -keyout "$SSL_DIR/kosoworld.key" -out "$SSL_DIR/kosoworld.crt" \
+    -subj "/CN=$SSL_CN/O=kosoworld"
+  sudo chmod 644 "$SSL_DIR/kosoworld.crt"
+  sudo chmod 640 "$SSL_DIR/kosoworld.key"
 fi
 
-# nginx worker 需能读取私钥：root:root + chmod 640 会导致启动失败（Alinux 多为 nginx，Debian/Ubuntu 多为 www-data）
 fix_ssl_key_owner() {
-  local key="$SSL_DIR/gamehistory.key"
+  local key="$SSL_DIR/kosoworld.key"
   [[ -f "$key" ]] || return 0
   local run_user=""
   if [[ -f /etc/nginx/nginx.conf ]]; then
@@ -164,20 +173,18 @@ fix_ssl_key_owner() {
     sudo chown root:www-data "$key"
   else
     sudo chmod 644 "$key"
-    echo "警告：未识别 nginx 运行用户组，已将私钥 chmod 644（仅测试环境建议）" >&2
   fi
   sudo chmod 640 "$key"
 }
 fix_ssl_key_owner
 
 if command -v getenforce &>/dev/null && [[ "$(getenforce 2>/dev/null)" == "Enforcing" ]]; then
-  echo "==> SELinux Enforcing：为 $SSL_DIR 设置 nginx 可读标签…"
   sudo chcon -R -t cert_t "$SSL_DIR" 2>/dev/null || sudo chcon -R -t httpd_sys_content_t "$SSL_DIR" 2>/dev/null || true
 fi
 
-CONF_SRC="$SCRIPT_DIR/nginx-gamehistory.conf"
+CONF_SRC="$SCRIPT_DIR/nginx-kosoworld.conf"
 render_conf() {
-  sed -e "s|__SERVER_NAME__|$DOMAIN|g" -e "s|__WEB_ROOT__|$WEBROOT|g" "$CONF_SRC"
+  sed -e "s|__SERVER_NAME__|$DOMAIN|g" -e "s|__NODE_PORT__|$NODE_PORT|g" "$CONF_SRC"
 }
 
 if [[ ! -f "$CONF_SRC" ]]; then
@@ -186,23 +193,20 @@ if [[ ! -f "$CONF_SRC" ]]; then
 fi
 
 if is_apt; then
-  CONF_DST="/etc/nginx/sites-available/gamehistory"
+  CONF_DST="/etc/nginx/sites-available/kosoworld"
   render_conf | sudo tee "$CONF_DST" >/dev/null
   sudo mkdir -p /etc/nginx/sites-enabled
-  sudo ln -sf "$CONF_DST" /etc/nginx/sites-enabled/gamehistory
+  sudo ln -sf "$CONF_DST" /etc/nginx/sites-enabled/kosoworld
   if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]] && [[ -e /etc/nginx/sites-enabled/default ]]; then
-    echo "==> 移除 /etc/nginx/sites-enabled/default（避免与站点抢 80；设 REMOVE_NGINX_DEFAULT=0 可保留）"
+    echo "==> 移除 /etc/nginx/sites-enabled/default"
     sudo rm -f /etc/nginx/sites-enabled/default
   fi
 elif is_dnf_yum; then
   sudo mkdir -p /etc/nginx/conf.d
-  render_conf | sudo tee /etc/nginx/conf.d/gamehistory.conf >/dev/null
+  render_conf | sudo tee /etc/nginx/conf.d/kosoworld.conf >/dev/null
   if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]]; then
     for f in /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/welcome.conf /etc/nginx/default.d/default.conf; do
-      if [[ -f "$f" ]]; then
-        echo "==> 移除 $f（避免与 server_name _ 抢 80/443；设 REMOVE_NGINX_DEFAULT=0 可保留）"
-        sudo rm -f "$f"
-      fi
+      [[ -f "$f" ]] && sudo rm -f "$f"
     done
   fi
 fi
@@ -214,30 +218,34 @@ if ! sudo nginx -t; then
 fi
 sudo systemctl enable nginx
 
-# 直接 restart 时，若已有 nginx 未正确退出，会出现 bind() 80/443 Address already in use
-echo "==> 停止已有 nginx，释放 80/443 …"
+echo "==> 重启 nginx …"
 sudo systemctl stop nginx 2>/dev/null || true
-sleep 2
-if [[ -f /run/nginx.pid ]]; then
-  OLD_PID="$(sudo cat /run/nginx.pid 2>/dev/null || true)"
-  if [[ -n "$OLD_PID" ]] && sudo kill -0 "$OLD_PID" 2>/dev/null; then
-    echo "==> 仍有残留 master PID $OLD_PID，发送 QUIT …"
-    sudo kill -QUIT "$OLD_PID" 2>/dev/null || true
-    sleep 2
-  fi
-fi
+sleep 1
 sudo rm -f /run/nginx.pid 2>/dev/null || true
 
 if ! sudo systemctl start nginx; then
-  echo "错误：nginx 启动失败。若日志为 bind() Address already in use，说明 80/443 仍被占用（其它 nginx、httpd、Docker 等）。" >&2
-  echo "排查：sudo ss -tlnp | grep -E ':80 |:443 ' 或 sudo lsof -iTCP:80 -sTCP:LISTEN -iTCP:443 -sTCP:LISTEN" >&2
-  sudo systemctl status nginx.service --no-pager -l 2>/dev/null || true
-  sudo journalctl -u nginx.service -n 30 --no-pager 2>/dev/null || true
+  echo "错误：nginx 启动失败" >&2
+  sudo journalctl -u nginx.service -n 20 --no-pager 2>/dev/null || true
   exit 1
 fi
 
 echo ""
-echo "完成。静态文件：$WEBROOT"
-echo "本机自测：curl -I http://127.0.0.1  与  curl -k -I https://127.0.0.1"
-echo "请在阿里云安全组放行 TCP 80、443。域名解析到本机公网 IP 后可用 certbot 将 /etc/nginx/ssl/ 替换为 Let's Encrypt。"
-echo "Docker 备选：在项目根目录执行 docker compose -f deploy/docker-compose.yml up -d --build"
+echo "=========================================="
+echo "  部署完成！"
+echo "=========================================="
+echo "  后端服务：kosoworld (systemd, port ${NODE_PORT})"
+echo "  nginx 反代：80 → ${NODE_PORT}, 443 → ${NODE_PORT}"
+echo "  自测：curl -I http://127.0.0.1"
+echo ""
+echo "  管理后端："
+echo "    sudo systemctl status kosoworld"
+echo "    sudo journalctl -u kosoworld -f"
+echo "    sudo systemctl restart kosoworld"
+echo ""
+if [[ -z "${SMTP_USER:-}" ]]; then
+  echo "  ⚠ SMTP 未配置，邮件功能不可用。重新部署时传入："
+  echo "    SMTP_USER=xxx@163.com SMTP_PASS=授权码 ./deploy/install-ecs.sh"
+fi
+echo ""
+echo "  阿里云安全组需放行 TCP 80、443"
+echo "=========================================="
