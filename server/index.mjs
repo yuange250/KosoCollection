@@ -104,11 +104,23 @@ app.post('/api/visit', (req, res) => {
 if (isProduction) {
   const distDir = path.join(root, 'dist');
   const indexHtml = path.join(distDir, 'index.html');
-  app.use(express.static(distDir, { maxAge: '7d' }));
+  // 带 hash 的 /assets/* 可长缓存；index.html 必须可更新，否则部署后浏览器一直用旧壳子
+  app.use(
+    express.static(distDir, {
+      maxAge: '7d',
+      setHeaders(res, filePath) {
+        const p = filePath.replace(/\\/g, '/');
+        if (p.endsWith('/index.html') || p.endsWith('index.html')) {
+          res.setHeader('Cache-Control', 'no-cache');
+        }
+      },
+    }),
+  );
   // Express 5：path-to-regexp v8 不接受字面量 '*' 路径
   app.use((req, res, next) => {
     if (req.path.startsWith('/api')) return next();
     if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+    res.setHeader('Cache-Control', 'no-cache');
     res.sendFile(indexHtml, (err) => (err ? next(err) : undefined));
   });
 }

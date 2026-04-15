@@ -10,7 +10,7 @@
 #   SMTP_USER=xxx@163.com           邮件发送账号
 #   SMTP_PASS=xxx                   邮件授权码
 #   NOTIFY_EMAIL=xxx@163.com        通知收件人，默认 chen_the_best@163.com
-#   REMOVE_NGINX_DEFAULT=1          默认 1
+#   REMOVE_NGINX_DEFAULT=1          默认 1；为 1 时将系统默认静态站改名 *.bak.kosoworld，避免抢 80/443
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -194,24 +194,50 @@ if [[ ! -f "$CONF_SRC" ]]; then
   exit 1
 fi
 
+# 停用「只 root 静态页」的默认站点，避免先于反代配置被 include，导致外网永远旧页面。
+# 采用改名 *.bak.kosoworld（可手工改回）；不直接删文件。
+nginx_disable_stock_static() {
+  [[ "${REMOVE_NGINX_DEFAULT:-1}" == "1" ]] || return 0
+  local f dest
+  for f in \
+    /etc/nginx/conf.d/default.conf \
+    /etc/nginx/conf.d/welcome.conf \
+    /etc/nginx/default.d/default.conf; do
+    if [[ -f "$f" ]]; then
+      dest="${f}.bak.kosoworld"
+      echo "==> 停用 nginx 默认静态配置（改名备份）: $f -> $(basename "$dest")"
+      sudo test ! -e "$dest" || sudo rm -f "$dest"
+      sudo mv "$f" "$dest"
+    fi
+  done
+}
+
 if is_apt; then
   CONF_DST="/etc/nginx/sites-available/kosoworld"
   render_conf | sudo tee "$CONF_DST" >/dev/null
   sudo mkdir -p /etc/nginx/sites-enabled
-  sudo ln -sf "$CONF_DST" /etc/nginx/sites-enabled/kosoworld
-  if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]] && [[ -e /etc/nginx/sites-enabled/default ]]; then
-    echo "==> 移除 /etc/nginx/sites-enabled/default"
-    sudo rm -f /etc/nginx/sites-enabled/default
+  # 字母序靠前，避免被 default 等站点抢先处理 80（否则永远打到旧 root）
+  sudo ln -sf "$CONF_DST" /etc/nginx/sites-enabled/00-kosoworld
+  sudo rm -f /etc/nginx/sites-enabled/kosoworld
+  if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]]; then
+    if [[ -e /etc/nginx/sites-enabled/default ]]; then
+      echo "==> 移除启用链接 /etc/nginx/sites-enabled/default（不删 sites-available 内文件）"
+      sudo rm -f /etc/nginx/sites-enabled/default
+    fi
+    if [[ -f /etc/nginx/sites-available/default ]]; then
+      echo "==> 停用 /etc/nginx/sites-available/default（改名备份，防止再次 enable）"
+      sudo test ! -e /etc/nginx/sites-available/default.bak.kosoworld || sudo rm -f /etc/nginx/sites-available/default.bak.kosoworld
+      sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak.kosoworld
+    fi
   fi
 elif is_dnf_yum; then
-  sudo mkdir -p /etc/nginx/conf.d
-  render_conf | sudo tee /etc/nginx/conf.d/kosoworld.conf >/dev/null
-  if [[ "$REMOVE_NGINX_DEFAULT" == "1" ]]; then
-    for f in /etc/nginx/conf.d/default.conf /etc/nginx/conf.d/welcome.conf /etc/nginx/default.d/default.conf; do
-      [[ -f "$f" ]] && sudo rm -f "$f"
-    done
-  fi
+  sudo mkdir -p /etc/nginx/conf.d /etc/nginx/default.d
+  # conf.d 按文件名排序 include；default.conf 常排在 kosoworld.conf 前 → 旧站 root 一直生效
+  sudo rm -f /etc/nginx/conf.d/kosoworld.conf
+  render_conf | sudo tee /etc/nginx/conf.d/00-kosoworld.conf >/dev/null
 fi
+# RHEL 系 conf.d；部分 Debian 云镜像也有 conf.d 默认页，一并停用
+nginx_disable_stock_static
 
 echo "==> 检测并重载 nginx …"
 if ! sudo nginx -t; then
@@ -237,7 +263,13 @@ echo "  部署完成！"
 echo "=========================================="
 echo "  后端服务：kosoworld (systemd, port ${NODE_PORT})"
 echo "  nginx 反代：80 → ${NODE_PORT}, 443 → ${NODE_PORT}"
-echo "  自测：curl -I http://127.0.0.1"
+if is_dnf_yum; then
+  echo "  nginx 站点：/etc/nginx/conf.d/00-kosoworld.conf（优先于 default.conf）"
+else
+  echo "  nginx 站点：sites-enabled/00-kosoworld → sites-available/kosoworld"
+fi
+echo "  若 REMOVE_NGINX_DEFAULT=1：原默认静态配置已改名为 *.bak.kosoworld"
+echo "  自测：curl -I http://127.0.0.1  （关 kosoworld 后应 502，说明 80 已走反代）"
 echo ""
 echo "  管理后端："
 echo "    sudo systemctl status kosoworld"
