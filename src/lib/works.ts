@@ -30,7 +30,7 @@ export const WORKS: readonly WorkEntry[] = [
     subtitle: '作品二',
     description:
       '在 3D 地球上搜索全球名胜、查看详情、规划基础路线并估算旅途预算的交互式可视化作品。',
-    cover: '/placeholders/work-global-atlas.svg',
+    cover: '/placeholders/world_scene_banner.jpg',
     path: '/works/worldscene',
     tags: ['蓝星', '3D 地球', '路线规划'],
     ready: true,

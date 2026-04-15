@@ -1,4 +1,4 @@
-﻿import { PROJECT2_FEATURES, PROJECT2_METRICS, PROJECT2_PHASE2_NOTES } from '@/lib/worldsceneData';
+import { PROJECT2_FEATURES, PROJECT2_METRICS, PROJECT2_PHASE2_NOTES } from '@/lib/worldsceneData';
 
 interface Props {
   visibleCount: number;

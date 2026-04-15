@@ -1,4 +1,4 @@
-﻿import { SEARCH_EXAMPLES } from '@/lib/worldsceneData';
+import { SEARCH_EXAMPLES } from '@/lib/worldsceneData';
 
 interface SearchResult {
   point: {
