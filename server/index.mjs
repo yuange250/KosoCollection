@@ -103,9 +103,13 @@ app.post('/api/visit', (req, res) => {
 
 if (isProduction) {
   const distDir = path.join(root, 'dist');
+  const indexHtml = path.join(distDir, 'index.html');
   app.use(express.static(distDir, { maxAge: '7d' }));
-  app.get('*', (_req, res) => {
-    res.sendFile(path.join(distDir, 'index.html'));
+  // Express 5：path-to-regexp v8 不接受字面量 '*' 路径
+  app.use((req, res, next) => {
+    if (req.path.startsWith('/api')) return next();
+    if (req.method !== 'GET' && req.method !== 'HEAD') return next();
+    res.sendFile(indexHtml, (err) => (err ? next(err) : undefined));
   });
 }
 
