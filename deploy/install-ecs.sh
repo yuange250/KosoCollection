@@ -96,6 +96,8 @@ install_node_20
 
 echo "==> 安装依赖并构建前端…"
 npm ci
+# 小内存 ECS（如 1G）在 Vite「rendering chunks」阶段易因内存/交换极慢；建议 ≥2G 内存或加 swap。
+# 可选：在运行本脚本前 export NODE_OPTIONS="--max-old-space-size=3072"（按机器内存酌调）。
 npm run build
 
 # ========== systemd 服务 ==========

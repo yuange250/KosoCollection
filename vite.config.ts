@@ -8,7 +8,11 @@ export default defineConfig({
     alias: { '@': path.resolve(__dirname, 'src') },
   },
   build: {
+    /** 跳 gzip 体积统计，省内存与时间；小 ECS 上更明显 */
+    reportCompressedSize: false,
+    /** three 等大包写出时降低并行 I/O，减轻 1～2G 内存机器上长时间卡在 rendering chunks */
     rollupOptions: {
+      maxParallelFileOps: 2,
       output: {
         manualChunks(id) {
           if (id.includes('@react-three/fiber')) {
