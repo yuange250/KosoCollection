@@ -25,12 +25,6 @@ export function WorldSceneLightbox({ image, onClose }: Props) {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.96 }}
             onClick={(event) => event.stopPropagation()}
-            onError={(event) => {
-              const el = event.currentTarget;
-              if (el.getAttribute('data-lightbox-fallback') === '1') return;
-              el.setAttribute('data-lightbox-fallback', '1');
-              el.src = '/placeholders/work-global-atlas.svg';
-            }}
           />
         </motion.div>
       )}

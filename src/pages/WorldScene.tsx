@@ -121,14 +121,22 @@ export function WorldScene() {
                 onEstimatePrice={estimatePrice}
                 onNextImage={() =>
                   setImageIndex((value) =>
-                    selectedPoint ? (value === selectedPoint.images.length - 1 ? 0 : value + 1) : 0,
+                    selectedPoint && selectedPoint.images.length > 0
+                      ? value === selectedPoint.images.length - 1
+                        ? 0
+                        : value + 1
+                      : 0,
                   )
                 }
                 onOpenLightbox={setLightboxImage}
                 onPlanRoute={planRoute}
                 onPrevImage={() =>
                   setImageIndex((value) =>
-                    selectedPoint ? (value === 0 ? selectedPoint.images.length - 1 : value - 1) : 0,
+                    selectedPoint && selectedPoint.images.length > 0
+                      ? value === 0
+                        ? selectedPoint.images.length - 1
+                        : value - 1
+                      : 0,
                   )
                 }
                 onResetCategory={setActiveCategory}

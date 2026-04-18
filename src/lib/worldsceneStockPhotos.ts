@@ -1,10 +1,10 @@
 /**
  * 旅行类展示用图（Unsplash CDN，Unsplash License 允许免费使用含商业场景）。
  * 非具体 POI 官方图，用于替代不可用的 Wikimedia 外链；风格接近 OTA/攻略站配图。
- * 本地缓存：`npm run cache:project2-unsplash` 写入 `worldsceneStockCached.gen.ts` 与 `public/images/project2/stock-*`。
+ * 本地缓存：`npm run cache:worldscene-unsplash` 写入 `worldsceneStockCached.gen.ts` 与 `public/images/worldscene/stock-*`。
  * @see https://unsplash.com/license
  */
-import { PROJECT2_STOCK_LOCAL } from './worldsceneStockCached.gen';
+import { WORLDSCENE_STOCK_LOCAL } from './worldsceneStockCached.gen';
 
 /** 需带 ixlib，否则 images.unsplash.com 常返回 404（imgix）。 */
 const q = 'ixlib=rb-4.1.0&auto=format&fit=crop&w=1400&q=82';
@@ -53,7 +53,7 @@ function hashId(pointId: string): number {
 
 /** 为同一景点稳定选取若干张旅行风配图（同 id 同结果）。若已跑缓存脚本则优先用本地路径。 */
 export function pickStockGalleryUrls(pointId: string, kind: StockKind, count: number): string[] {
-  const cached = PROJECT2_STOCK_LOCAL[pointId];
+  const cached = WORLDSCENE_STOCK_LOCAL[pointId];
   if (cached?.length) {
     const n = Math.min(count, cached.length);
     return [...cached].slice(0, n);

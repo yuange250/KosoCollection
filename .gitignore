@@ -11,4 +11,5 @@ server-data/
 # 作品二图库二进制（npm run cache:worldscene-images 生成；manifest.json 可提交）
 /public/images/worldscene/p2-*
 /public/images/worldscene/stock-*
+/public/images/worldscene/candidates/*
 prd_text.txt

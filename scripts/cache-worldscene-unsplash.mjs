@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 1) 校验 worldsceneData：中文「分类 category」与 wmCard(kind) 是否一致（图文口径一致）。
  * 2) 按与 pickStockGalleryUrls 相同算法拉取各景点用到的 Unsplash 图到 public/images/worldscene/stock-*.jpg
  * 3) 生成 src/lib/worldsceneStockCached.gen.ts，运行时空走 CDN。
@@ -161,7 +161,7 @@ function formatGenTs(mapPointToPaths) {
     const inner = arr.map((p) => `'${p.replace(/'/g, "\\'")}'`).join(', ');
     return `  '${k.replace(/'/g, "\\'")}': [${inner}],`;
   });
-  return `/**\n * 由 scripts/cache-worldscene-unsplash.mjs 生成 — 勿手改。重新生成：npm run cache:worldscene-unsplash\n */\nexport const PROJECT2_STOCK_LOCAL: Record<string, readonly string[]> = {\n${lines.join('\n')}\n};\n`;
+  return `/**\n * 由 scripts/cache-worldscene-unsplash.mjs 生成 — 勿手改。重新生成：npm run cache:worldscene-unsplash\n */\nexport const WORLDSCENE_STOCK_LOCAL: Record<string, readonly string[]> = {\n${lines.join('\n')}\n};\n`;
 }
 
 async function main() {

@@ -1,4 +1,8 @@
-import { PROJECT2_FEATURES, PROJECT2_METRICS, PROJECT2_PHASE2_NOTES } from '@/lib/worldsceneData';
+import {
+  WORLDSCENE_FEATURES,
+  WORLDSCENE_METRICS,
+  WORLDSCENE_PHASE2_NOTES,
+} from '@/lib/worldsceneData';
 
 interface Props {
   visibleCount: number;
@@ -28,7 +32,7 @@ export function WorldSceneIntroSections({ visibleCount, totalCount }: Props) {
           </p>
 
           <div className="worldscene-metrics">
-            {PROJECT2_METRICS.map((metric) => (
+            {WORLDSCENE_METRICS.map((metric) => (
               <div key={metric.label} className="worldscene-metric">
                 <span className="worldscene-metric__value">{metric.value}</span>
                 <span className="worldscene-metric__label">{metric.label}</span>
@@ -54,7 +58,7 @@ export function WorldSceneIntroSections({ visibleCount, totalCount }: Props) {
           <h2 className="worldscene-section__title">把 3D 浏览、搜索、路线规划和预算工具放进同一个工作台</h2>
         </div>
         <div className="worldscene-feature-grid">
-          {PROJECT2_FEATURES.map((feature) => (
+          {WORLDSCENE_FEATURES.map((feature) => (
             <article key={feature.title} className="worldscene-feature-card">
               <h3>{feature.title}</h3>
               <p>{feature.description}</p>
@@ -69,7 +73,7 @@ export function WorldSceneIntroSections({ visibleCount, totalCount }: Props) {
           <h2 className="worldscene-section__title">这一版已经适合轻量部署，后面还可以继续接入更丰富的实时数据能力</h2>
         </div>
         <div className="worldscene-roadmap">
-          {PROJECT2_PHASE2_NOTES.map((note) => (
+          {WORLDSCENE_PHASE2_NOTES.map((note) => (
             <article key={note} className="worldscene-roadmap__item">
               <span className="worldscene-roadmap__index">Next</span>
               <p>{note}</p>

@@ -1,9 +1,9 @@
 {
   "summary": {
     "total": 127,
-    "low": 28,
-    "medium": 62,
-    "high": 37
+    "low": 42,
+    "medium": 60,
+    "high": 25
   },
   "report": [
     {
@@ -12,41 +12,29 @@
       "englishName": "The Forbidden City",
       "imageCount": 5,
       "matched": 3,
-      "seasonTagged": 2,
+      "seasonTagged": 0,
       "qualityGood": 3,
-      "risk": "low",
+      "risk": "medium",
       "top": [
         {
           "url": "/images/worldscene/poi-forbidden-city-1.jpg",
           "title": "故宫 photo",
           "relevanceScore": 84,
-          "seasonalScore": 38,
+          "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 445,
-          "monthHints": [
-            12,
-            1,
-            2
-          ],
-          "seasonHints": [
-            "winter"
-          ]
+          "confidence": 407,
+          "monthHints": [],
+          "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-forbidden-city-2.jpg",
           "title": "故宫 photo",
           "relevanceScore": 84,
-          "seasonalScore": 38,
+          "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 445,
-          "monthHints": [
-            12,
-            1,
-            2
-          ],
-          "seasonHints": [
-            "winter"
-          ]
+          "confidence": 407,
+          "monthHints": [],
+          "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-forbidden-city-3.jpg",
@@ -65,39 +53,66 @@
       "name": "长城",
       "englishName": "The Great Wall",
       "imageCount": 5,
-      "matched": 0,
-      "seasonTagged": 0,
+      "matched": 3,
+      "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-great-wall-1.jpg",
-          "title": "长城 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-great-wall-4.jpg",
+          "title": "File:慕田峪长城航拍 2018-09-16 144710.jpg",
+          "relevanceScore": 59,
+          "seasonalScore": 82,
           "visualPenalty": 0,
-          "confidence": 279,
-          "monthHints": [],
+          "confidence": 378,
+          "monthHints": [
+            1,
+            2,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            3
+          ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-great-wall-2.jpg",
-          "title": "长城 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-great-wall-6.jpg",
+          "title": "File:慕田峪长城航拍 2018-09-16 151644.jpg",
+          "relevanceScore": 59,
+          "seasonalScore": 74,
           "visualPenalty": 0,
-          "confidence": 239,
-          "monthHints": [],
+          "confidence": 370,
+          "monthHints": [
+            1,
+            2,
+            4,
+            5,
+            6,
+            8,
+            9,
+            3
+          ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-great-wall-3.jpg",
-          "title": "长城 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
+          "title": "File:慕田峪长城航拍 2018-09-16 152005.jpg",
+          "relevanceScore": 59,
+          "seasonalScore": 66,
           "visualPenalty": 0,
-          "confidence": 219,
-          "monthHints": [],
+          "confidence": 362,
+          "monthHints": [
+            1,
+            2,
+            5,
+            6,
+            8,
+            9,
+            3
+          ],
           "seasonHints": []
         }
       ]
@@ -155,42 +170,47 @@
       "id": "mount-fuji",
       "name": "富士山",
       "englishName": "Mount Fuji",
-      "imageCount": 4,
+      "imageCount": 6,
       "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
       "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-mount-fuji-1.jpg",
-          "title": "富士山 photo",
-          "relevanceScore": 56,
-          "seasonalScore": 48,
+          "url": "/images/worldscene/poi-mount-fuji-2.jpg",
+          "title": "File:富士山登山2010 (Mt. Fuji Climb) (4916003756).jpg",
+          "relevanceScore": 87,
+          "seasonalScore": 98,
           "visualPenalty": 0,
-          "confidence": 371,
+          "confidence": 506,
           "monthHints": [
-            11,
-            12,
             1,
             2,
             3,
-            4
+            4,
+            5,
+            6,
+            7,
+            9,
+            10,
+            12,
+            11
           ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-mount-fuji-2.jpg",
-          "title": "富士山 photo",
-          "relevanceScore": 56,
-          "seasonalScore": 48,
+          "url": "/images/worldscene/poi-mount-fuji-1.jpg",
+          "title": "File:Outer shrine of Fujisan Hongu SengenTaisha (富士山本宮浅間大社) - panoramio.jpg",
+          "relevanceScore": 118,
+          "seasonalScore": 58,
           "visualPenalty": 0,
-          "confidence": 351,
+          "confidence": 497,
           "monthHints": [
+            3,
             11,
             12,
             1,
             2,
-            3,
             4
           ],
           "seasonHints": []
@@ -201,7 +221,7 @@
           "relevanceScore": 56,
           "seasonalScore": 48,
           "visualPenalty": 0,
-          "confidence": 351,
+          "confidence": 371,
           "monthHints": [
             11,
             12,
@@ -218,12 +238,36 @@
       "id": "kyoto",
       "name": "京都",
       "englishName": "Kyoto",
-      "imageCount": 5,
+      "imageCount": 6,
       "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
       "risk": "low",
       "top": [
+        {
+          "url": "/images/worldscene/poi-kyoto-6.jpg",
+          "title": "File:Kyoto street electric at night.jpeg",
+          "relevanceScore": 87,
+          "seasonalScore": 112,
+          "visualPenalty": 0,
+          "confidence": 383,
+          "monthHints": [
+            2,
+            3,
+            5,
+            6,
+            7,
+            12,
+            1,
+            8,
+            4,
+            10,
+            11
+          ],
+          "seasonHints": [
+            "winter"
+          ]
+        },
         {
           "url": "/images/worldscene/poi-kyoto-1.jpg",
           "title": "京都 photo",
@@ -255,22 +299,6 @@
             11
           ],
           "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-kyoto-3.jpg",
-          "title": "京都 photo",
-          "relevanceScore": 56,
-          "seasonalScore": 40,
-          "visualPenalty": 0,
-          "confidence": 307,
-          "monthHints": [
-            3,
-            4,
-            5,
-            10,
-            11
-          ],
-          "seasonHints": []
         }
       ]
     },
@@ -278,7 +306,7 @@
       "id": "angkor-wat",
       "name": "吴哥窟",
       "englishName": "Angkor Wat",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 2,
       "qualityGood": 3,
@@ -286,6 +314,25 @@
       "top": [
         {
           "url": "/images/worldscene/poi-angkor-wat-1.jpg",
+          "title": "File:Angkor Wat W-Seite.jpg",
+          "relevanceScore": 93,
+          "seasonalScore": 72,
+          "visualPenalty": 0,
+          "confidence": 425,
+          "monthHints": [
+            1,
+            2,
+            3,
+            5,
+            8,
+            12
+          ],
+          "seasonHints": [
+            "winter"
+          ]
+        },
+        {
+          "url": "/images/worldscene/poi-angkor-wat-2.jpg",
           "title": "吴哥窟 photo",
           "relevanceScore": 56,
           "seasonalScore": 0,
@@ -295,7 +342,7 @@
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-angkor-wat-5.jpg",
+          "url": "/images/worldscene/poi-angkor-wat-6.jpg",
           "title": "File:Angkor-Wat-from-the-air.JPG",
           "relevanceScore": 65,
           "seasonalScore": 18,
@@ -305,18 +352,6 @@
             6
           ],
           "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-angkor-wat-6.jpg",
-          "title": "File:Angkor Wat 005.jpg",
-          "relevanceScore": 65,
-          "seasonalScore": 18,
-          "visualPenalty": 0,
-          "confidence": 278,
-          "monthHints": [
-            11
-          ],
-          "seasonHints": []
         }
       ]
     },
@@ -324,7 +359,7 @@
       "id": "taj-mahal",
       "name": "泰姬陵",
       "englishName": "Taj Mahal",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -366,7 +401,7 @@
       "id": "petra",
       "name": "佩特拉",
       "englishName": "Petra",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
@@ -436,6 +471,20 @@
       "risk": "high",
       "top": [
         {
+          "url": "/images/worldscene/poi-cappadocia-2.jpg",
+          "title": "File:Orophernes of Cappadocia.jpg",
+          "relevanceScore": 31,
+          "seasonalScore": 34,
+          "visualPenalty": 0,
+          "confidence": 189,
+          "monthHints": [
+            1,
+            10,
+            3
+          ],
+          "seasonHints": []
+        },
+        {
           "url": "/images/worldscene/poi-cappadocia-1.jpg",
           "title": "卡帕多奇亚 photo",
           "relevanceScore": 31,
@@ -443,18 +492,6 @@
           "visualPenalty": 0,
           "confidence": 173,
           "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-cappadocia-2.jpg",
-          "title": "File:Orophernes of Cappadocia.jpg",
-          "relevanceScore": 31,
-          "seasonalScore": 18,
-          "visualPenalty": 0,
-          "confidence": 173,
-          "monthHints": [
-            3
-          ],
           "seasonHints": []
         },
         {
@@ -522,20 +559,61 @@
       "id": "marina-bay",
       "name": "滨海湾",
       "englishName": "Marina Bay",
-      "imageCount": 1,
-      "matched": 1,
-      "seasonTagged": 0,
-      "qualityGood": 1,
-      "risk": "high",
+      "imageCount": 4,
+      "matched": 3,
+      "seasonTagged": 3,
+      "qualityGood": 3,
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-marina-bay-1.jpg",
-          "title": "Marina Bay 1",
-          "relevanceScore": 43,
-          "seasonalScore": 0,
+          "title": "File:Marina Bay Sands under construction - 20090805.jpg",
+          "relevanceScore": 74,
+          "seasonalScore": 88,
           "visualPenalty": 0,
-          "confidence": 139,
-          "monthHints": [],
+          "confidence": 493,
+          "monthHints": [
+            2,
+            3,
+            4,
+            5,
+            8,
+            9,
+            12,
+            1
+          ],
+          "seasonHints": [
+            "winter"
+          ]
+        },
+        {
+          "url": "/images/worldscene/poi-marina-bay-2.jpg",
+          "title": "File:The Shoppes at Marina Bay Sands, Singapore.jpg",
+          "relevanceScore": 74,
+          "seasonalScore": 26,
+          "visualPenalty": 0,
+          "confidence": 396,
+          "monthHints": [
+            3,
+            4
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-marina-bay-6.jpg",
+          "title": "File:Marina Bay Sands Hotel Lobby view 201012.jpg",
+          "relevanceScore": 74,
+          "seasonalScore": 58,
+          "visualPenalty": 0,
+          "confidence": 354,
+          "monthHints": [
+            1,
+            2,
+            3,
+            10,
+            12,
+            7
+          ],
           "seasonHints": []
         }
       ]
@@ -544,7 +622,7 @@
       "id": "bali-ubud",
       "name": "巴厘岛乌布",
       "englishName": "Ubud Bali",
-      "imageCount": 5,
+      "imageCount": 4,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -552,31 +630,31 @@
       "top": [
         {
           "url": "/images/worldscene/poi-bali-ubud-1.jpg",
-          "title": "Ubud Bali 1",
+          "title": "巴厘岛 photo",
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 155,
+          "confidence": 327,
           "monthHints": [],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-bali-ubud-3.jpg",
-          "title": "Ubud Bali 3",
+          "title": "巴厘岛 photo",
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 147,
+          "confidence": 287,
           "monthHints": [],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-bali-ubud-4.jpg",
-          "title": "Ubud Bali 4",
+          "url": "/images/worldscene/poi-bali-ubud-5.jpg",
+          "title": "巴厘岛 photo",
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 143,
+          "confidence": 232,
           "monthHints": [],
           "seasonHints": []
         }
@@ -719,6 +797,37 @@
       "risk": "low",
       "top": [
         {
+          "url": "/images/worldscene/poi-eiffel-tower-4.jpg",
+          "title": "埃菲尔铁塔 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 40,
+          "visualPenalty": 0,
+          "confidence": 317,
+          "monthHints": [
+            1,
+            2,
+            7,
+            8,
+            12
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-eiffel-tower-5.jpg",
+          "title": "埃菲尔铁塔 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 32,
+          "visualPenalty": 0,
+          "confidence": 309,
+          "monthHints": [
+            1,
+            2,
+            3,
+            8
+          ],
+          "seasonHints": []
+        },
+        {
           "url": "/images/worldscene/poi-eiffel-tower-1.jpg",
           "title": "埃菲尔铁塔 photo",
           "relevanceScore": 59,
@@ -727,31 +836,6 @@
           "confidence": 302,
           "monthHints": [],
           "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-eiffel-tower-4.jpg",
-          "title": "埃菲尔铁塔 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 16,
-          "visualPenalty": 0,
-          "confidence": 293,
-          "monthHints": [
-            2,
-            12
-          ],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-eiffel-tower-3.jpg",
-          "title": "埃菲尔铁塔 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 8,
-          "visualPenalty": 0,
-          "confidence": 285,
-          "monthHints": [
-            7
-          ],
-          "seasonHints": []
         }
       ]
     },
@@ -759,7 +843,7 @@
       "id": "santorini",
       "name": "圣托里尼",
       "englishName": "Santorini",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 0,
       "seasonTagged": 3,
       "qualityGood": 3,
@@ -955,61 +1039,59 @@
           "url": "/images/worldscene/poi-reykjavik-1.jpg",
           "title": "雷克雅未克 photo",
           "relevanceScore": 90,
-          "seasonalScore": 70,
+          "seasonalScore": 72,
           "visualPenalty": 0,
-          "confidence": 413,
+          "confidence": 415,
           "monthHints": [
-            12,
             1,
-            2,
+            6,
+            8,
             9,
             10,
             11,
+            12,
+            2,
             3
           ],
-          "seasonHints": [
-            "winter"
-          ]
+          "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-reykjavik-2.jpg",
           "title": "雷克雅未克 photo",
           "relevanceScore": 90,
-          "seasonalScore": 70,
+          "seasonalScore": 56,
           "visualPenalty": 0,
-          "confidence": 413,
+          "confidence": 399,
           "monthHints": [
-            12,
-            1,
-            2,
             9,
             10,
             11,
+            12,
+            1,
+            2,
             3
           ],
-          "seasonHints": [
-            "winter"
-          ]
+          "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-reykjavik-5.jpg",
+          "url": "/images/worldscene/poi-reykjavik-4.jpg",
           "title": "雷克雅未克 photo",
           "relevanceScore": 90,
-          "seasonalScore": 70,
-          "visualPenalty": 0,
-          "confidence": 378,
+          "seasonalScore": 72,
+          "visualPenalty": 20,
+          "confidence": 365,
           "monthHints": [
-            12,
             1,
-            2,
+            3,
+            5,
+            8,
             9,
             10,
             11,
-            3
+            12,
+            2
           ],
-          "seasonHints": [
-            "winter"
-          ]
+          "seasonHints": []
         }
       ]
     },
@@ -1059,7 +1141,7 @@
       "id": "neuschwanstein",
       "name": "新天鹅堡",
       "englishName": "Neuschwanstein Castle",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -1215,11 +1297,11 @@
       "id": "amalfi-coast",
       "name": "阿马尔菲海岸",
       "englishName": "Amalfi Coast",
-      "imageCount": 1,
-      "matched": 1,
-      "seasonTagged": 0,
-      "qualityGood": 1,
-      "risk": "high",
+      "imageCount": 5,
+      "matched": 3,
+      "seasonTagged": 2,
+      "qualityGood": 3,
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-amalfi-coast-1.jpg",
@@ -1229,6 +1311,30 @@
           "visualPenalty": 0,
           "confidence": 257,
           "monthHints": [],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-amalfi-coast-5.png",
+          "title": "阿马尔菲海岸 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 8,
+          "visualPenalty": 0,
+          "confidence": 185,
+          "monthHints": [
+            2
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-amalfi-coast-6.png",
+          "title": "阿马尔菲海岸 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 8,
+          "visualPenalty": 0,
+          "confidence": 185,
+          "monthHints": [
+            2
+          ],
           "seasonHints": []
         }
       ]
@@ -1363,32 +1469,109 @@
       "id": "marrakech",
       "name": "马拉喀什老城",
       "englishName": "Marrakech Medina",
-      "imageCount": 0,
-      "matched": 0,
-      "seasonTagged": 0,
-      "qualityGood": 0,
-      "risk": "high",
-      "top": []
+      "imageCount": 2,
+      "matched": 2,
+      "seasonTagged": 2,
+      "qualityGood": 2,
+      "risk": "medium",
+      "top": [
+        {
+          "url": "/images/worldscene/poi-marrakech-4.png",
+          "title": "马拉喀什老城 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 8,
+          "visualPenalty": 0,
+          "confidence": 185,
+          "monthHints": [
+            2
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-marrakech-5.png",
+          "title": "马拉喀什老城 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 8,
+          "visualPenalty": 0,
+          "confidence": 185,
+          "monthHints": [
+            2
+          ],
+          "seasonHints": []
+        }
+      ]
     },
     {
       "id": "victoria-falls",
       "name": "维多利亚瀑布",
       "englishName": "Victoria Falls",
-      "imageCount": 1,
-      "matched": 0,
-      "seasonTagged": 0,
-      "qualityGood": 1,
-      "risk": "high",
+      "imageCount": 5,
+      "matched": 1,
+      "seasonTagged": 3,
+      "qualityGood": 3,
+      "risk": "medium",
       "top": [
         {
-          "url": "/images/worldscene/poi-victoria-falls-1.jpg",
-          "title": "维多利亚瀑布 photo",
-          "relevanceScore": 31,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-victoria-falls-2.jpg",
+          "title": "File:Victoria Falls gorge1.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 110,
           "visualPenalty": 0,
-          "confidence": 183,
-          "monthHints": [],
-          "seasonHints": []
+          "confidence": 326,
+          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            9,
+            6,
+            7,
+            8
+          ],
+          "seasonHints": [
+            "autumn",
+            "winter"
+          ]
+        },
+        {
+          "url": "/images/worldscene/poi-victoria-falls-4.jpg",
+          "title": "File:Satellite view of Victoria Falls.jpg",
+          "relevanceScore": 37,
+          "seasonalScore": 88,
+          "visualPenalty": 0,
+          "confidence": 273,
+          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            9,
+            5
+          ],
+          "seasonHints": [
+            "autumn"
+          ]
+        },
+        {
+          "url": "/images/worldscene/poi-victoria-falls-3.jpg",
+          "title": "File:Victoria Falls aerial view September 2003.jpg",
+          "relevanceScore": 37,
+          "seasonalScore": 64,
+          "visualPenalty": 0,
+          "confidence": 249,
+          "monthHints": [
+            2,
+            3,
+            9,
+            4,
+            5
+          ],
+          "seasonHints": [
+            "autumn"
+          ]
         }
       ]
     },
@@ -1396,12 +1579,31 @@
       "id": "chefchaouen",
       "name": "舍夫沙万",
       "englishName": "Chefchaouen",
-      "imageCount": 4,
-      "matched": 3,
-      "seasonTagged": 0,
+      "imageCount": 6,
+      "matched": 2,
+      "seasonTagged": 1,
       "qualityGood": 3,
-      "risk": "medium",
+      "risk": "low",
       "top": [
+        {
+          "url": "/images/worldscene/poi-chefchaouen-6.jpg",
+          "title": "File:Chefchaouen, Morocco - panoramio (17).jpg",
+          "relevanceScore": 31,
+          "seasonalScore": 74,
+          "visualPenalty": 0,
+          "confidence": 229,
+          "monthHints": [
+            1,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            5
+          ],
+          "seasonHints": []
+        },
         {
           "url": "/images/worldscene/poi-chefchaouen-1.jpg",
           "title": "舍夫沙万 photo",
@@ -1421,16 +1623,6 @@
           "confidence": 222,
           "monthHints": [],
           "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-chefchaouen-3.jpg",
-          "title": "舍夫沙万 photo",
-          "relevanceScore": 56,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 222,
-          "monthHints": [],
-          "seasonHints": []
         }
       ]
     },
@@ -1440,7 +1632,7 @@
       "englishName": "Zanzibar",
       "imageCount": 5,
       "matched": 0,
-      "seasonTagged": 0,
+      "seasonTagged": 1,
       "qualityGood": 3,
       "risk": "high",
       "top": [
@@ -1455,22 +1647,30 @@
           "seasonHints": []
         },
         {
+          "url": "/images/worldscene/poi-zanzibar-4.jpg",
+          "title": "File:12 Jan. 2004, festivities at 40th anniversary of the Zanzibar Revolution. President Karume enters Amani Stadium in ceremonial Hummer.JPG",
+          "relevanceScore": 31,
+          "seasonalScore": 66,
+          "visualPenalty": 0,
+          "confidence": 221,
+          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            9,
+            12
+          ],
+          "seasonHints": []
+        },
+        {
           "url": "/images/worldscene/poi-zanzibar-2.jpg",
           "title": "桑给巴尔 photo",
           "relevanceScore": 28,
           "seasonalScore": 0,
           "visualPenalty": 0,
           "confidence": 194,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-zanzibar-4.jpg",
-          "title": "桑给巴尔 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 139,
           "monthHints": [],
           "seasonHints": []
         }
@@ -1576,7 +1776,7 @@
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 287,
+          "confidence": 332,
           "monthHints": [],
           "seasonHints": []
         },
@@ -1586,7 +1786,7 @@
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 287,
+          "confidence": 332,
           "monthHints": [],
           "seasonHints": []
         },
@@ -1596,7 +1796,7 @@
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 257,
+          "confidence": 302,
           "monthHints": [],
           "seasonHints": []
         }
@@ -2502,11 +2702,32 @@
           "url": "/images/worldscene/poi-las-vegas-strip-1.jpg",
           "title": "File:Las Vegas Strip panorama.jpg",
           "relevanceScore": 71,
-          "seasonalScore": 18,
+          "seasonalScore": 42,
           "visualPenalty": 20,
-          "confidence": 353,
+          "confidence": 377,
           "monthHints": [
+            2,
+            5,
+            7,
             3
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-las-vegas-strip-2.jpg",
+          "title": "File:Las Vegas Strip south, Tropicana ave.jpg",
+          "relevanceScore": 71,
+          "seasonalScore": 66,
+          "visualPenalty": 0,
+          "confidence": 350,
+          "monthHints": [
+            1,
+            2,
+            4,
+            6,
+            8,
+            9,
+            11
           ],
           "seasonHints": []
         },
@@ -2514,30 +2735,18 @@
           "url": "/images/worldscene/poi-las-vegas-strip-4.jpg",
           "title": "File:Nevada National Guard patrols Las Vegas Strip on New Years (2017).jpg",
           "relevanceScore": 71,
-          "seasonalScore": 48,
+          "seasonalScore": 56,
           "visualPenalty": 0,
-          "confidence": 332,
+          "confidence": 340,
           "monthHints": [
-            12,
             1,
-            2
+            2,
+            7,
+            12
           ],
           "seasonHints": [
             "winter"
           ]
-        },
-        {
-          "url": "/images/worldscene/poi-las-vegas-strip-2.jpg",
-          "title": "File:Las Vegas Strip south, Tropicana ave.jpg",
-          "relevanceScore": 71,
-          "seasonalScore": 26,
-          "visualPenalty": 0,
-          "confidence": 310,
-          "monthHints": [
-            6,
-            8
-          ],
-          "seasonHints": []
         }
       ]
     },
@@ -2546,44 +2755,44 @@
       "name": "华盛顿国家广场",
       "englishName": "National Mall",
       "imageCount": 5,
-      "matched": 0,
-      "seasonTagged": 3,
+      "matched": 2,
+      "seasonTagged": 1,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-washington-national-mall-1.jpg",
-          "title": "File:National Mall (50897571958).jpg",
-          "relevanceScore": 34,
-          "seasonalScore": 18,
+          "title": "华盛顿纪念碑 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 249,
-          "monthHints": [
-            1
-          ],
+          "confidence": 327,
+          "monthHints": [],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-washington-national-mall-2.jpg",
-          "title": "File:National Mall - walking path.JPG",
-          "relevanceScore": 34,
-          "seasonalScore": 18,
+          "title": "华盛顿纪念碑 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 214,
-          "monthHints": [
-            4
-          ],
+          "confidence": 287,
+          "monthHints": [],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-washington-national-mall-4.jpg",
-          "title": "File:Dc national mall 15.07.2012 12-19-14.jpg",
+          "title": "File:National Mall (50897571958).jpg",
           "relevanceScore": 34,
-          "seasonalScore": 18,
+          "seasonalScore": 50,
           "visualPenalty": 0,
-          "confidence": 214,
+          "confidence": 281,
           "monthHints": [
-            12
+            1,
+            5,
+            7,
+            8,
+            9
           ],
           "seasonHints": []
         }
@@ -2593,14 +2802,36 @@
       "id": "tokyo-shibuya-scramble",
       "name": "涩谷十字路口",
       "englishName": "Shibuya Scramble Crossing",
-      "imageCount": 1,
-      "matched": 1,
-      "seasonTagged": 0,
+      "imageCount": 2,
+      "matched": 2,
+      "seasonTagged": 1,
       "qualityGood": 1,
-      "risk": "high",
+      "risk": "medium",
       "top": [
         {
           "url": "/images/worldscene/poi-tokyo-shibuya-scramble-1.jpg",
+          "title": "File:Early summer night Shibuya.jpg",
+          "relevanceScore": 49,
+          "seasonalScore": 102,
+          "visualPenalty": 40,
+          "confidence": 256,
+          "monthHints": [
+            2,
+            3,
+            6,
+            7,
+            8,
+            12,
+            1,
+            4
+          ],
+          "seasonHints": [
+            "summer",
+            "winter"
+          ]
+        },
+        {
+          "url": "/images/worldscene/poi-tokyo-shibuya-scramble-2.jpg",
           "title": "Shibuya Crossing original",
           "relevanceScore": 49,
           "seasonalScore": 0,
@@ -2894,7 +3125,7 @@
       "id": "meteora-monasteries",
       "name": "迈泰奥拉修道院群",
       "englishName": "Meteora",
-      "imageCount": 4,
+      "imageCount": 6,
       "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
@@ -2984,19 +3215,31 @@
       "id": "budapest-parliament",
       "name": "匈牙利国会大厦",
       "englishName": "Hungarian Parliament Building",
-      "imageCount": 5,
+      "imageCount": 6,
       "matched": 3,
-      "seasonTagged": 0,
+      "seasonTagged": 1,
       "qualityGood": 3,
-      "risk": "medium",
+      "risk": "low",
       "top": [
+        {
+          "url": "/images/worldscene/poi-budapest-parliament-3.jpg",
+          "title": "File:East façade of the Hungarian Parliament Building (Országház) at night.jpg",
+          "relevanceScore": 74,
+          "seasonalScore": 18,
+          "visualPenalty": 0,
+          "confidence": 374,
+          "monthHints": [
+            5
+          ],
+          "seasonHints": []
+        },
         {
           "url": "/images/worldscene/poi-budapest-parliament-1.jpg",
           "title": "匈牙利国会大厦 photo",
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 327,
+          "confidence": 372,
           "monthHints": [],
           "seasonHints": []
         },
@@ -3006,17 +3249,7 @@
           "relevanceScore": 59,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 307,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-budapest-parliament-3.jpg",
-          "title": "匈牙利国会大厦 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 267,
+          "confidence": 352,
           "monthHints": [],
           "seasonHints": []
         }
@@ -3026,34 +3259,57 @@
       "id": "dubrovnik-old-town",
       "name": "杜布罗夫尼克老城",
       "englishName": "Dubrovnik Old Town",
-      "imageCount": 2,
+      "imageCount": 4,
       "matched": 0,
-      "seasonTagged": 2,
-      "qualityGood": 2,
+      "seasonTagged": 3,
+      "qualityGood": 3,
       "risk": "high",
       "top": [
         {
           "url": "/images/worldscene/poi-dubrovnik-old-town-1.jpg",
-          "title": "File:Dubrovnik 1667.jpg",
-          "relevanceScore": 37,
-          "seasonalScore": 26,
+          "title": "杜布罗夫尼克古城 photo",
+          "relevanceScore": 31,
+          "seasonalScore": 40,
           "visualPenalty": 0,
-          "confidence": 214,
+          "confidence": 308,
           "monthHints": [
-            3,
-            11
+            4,
+            5,
+            6,
+            9,
+            10
           ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-dubrovnik-old-town-2.jpg",
-          "title": "File:Dubrovnik-F.Tudjman-Bridge.jpg",
-          "relevanceScore": 37,
-          "seasonalScore": 18,
+          "url": "/images/worldscene/poi-dubrovnik-old-town-4.jpg",
+          "title": "杜布罗夫尼克古城 photo",
+          "relevanceScore": 31,
+          "seasonalScore": 40,
           "visualPenalty": 0,
-          "confidence": 203,
+          "confidence": 268,
           "monthHints": [
-            8
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-dubrovnik-old-town-5.jpg",
+          "title": "杜布罗夫尼克古城 photo",
+          "relevanceScore": 31,
+          "seasonalScore": 40,
+          "visualPenalty": 0,
+          "confidence": 258,
+          "monthHints": [
+            4,
+            5,
+            6,
+            9,
+            10
           ],
           "seasonHints": []
         }
@@ -3133,10 +3389,10 @@
       "id": "amsterdam-canal-ring",
       "name": "阿姆斯特丹运河带",
       "englishName": "Amsterdam Canal Ring",
-      "imageCount": 2,
+      "imageCount": 6,
       "matched": 2,
       "seasonTagged": 0,
-      "qualityGood": 2,
+      "qualityGood": 3,
       "risk": "medium",
       "top": [
         {
@@ -3145,7 +3401,7 @@
           "relevanceScore": 62,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 296,
+          "confidence": 341,
           "monthHints": [],
           "seasonHints": []
         },
@@ -3155,7 +3411,17 @@
           "relevanceScore": 62,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 266,
+          "confidence": 311,
+          "monthHints": [],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-amsterdam-canal-ring-3.jpg",
+          "title": "阿姆斯特丹运河 photo",
+          "relevanceScore": 31,
+          "seasonalScore": 0,
+          "visualPenalty": 0,
+          "confidence": 248,
           "monthHints": [],
           "seasonHints": []
         }
@@ -3165,10 +3431,10 @@
       "id": "iceland-blue-lagoon",
       "name": "蓝湖温泉",
       "englishName": "Blue Lagoon",
-      "imageCount": 1,
+      "imageCount": 3,
       "matched": 0,
-      "seasonTagged": 0,
-      "qualityGood": 1,
+      "seasonTagged": 2,
+      "qualityGood": 3,
       "risk": "high",
       "top": [
         {
@@ -3180,6 +3446,30 @@
           "confidence": 139,
           "monthHints": [],
           "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-iceland-blue-lagoon-4.png",
+          "title": "蓝湖温泉 photo",
+          "relevanceScore": 28,
+          "seasonalScore": 8,
+          "visualPenalty": 0,
+          "confidence": 92,
+          "monthHints": [
+            2
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-iceland-blue-lagoon-5.png",
+          "title": "蓝湖温泉 photo",
+          "relevanceScore": 28,
+          "seasonalScore": 8,
+          "visualPenalty": 0,
+          "confidence": 92,
+          "monthHints": [
+            2
+          ],
+          "seasonHints": []
         }
       ]
     },
@@ -3187,8 +3477,8 @@
       "id": "perito-moreno-glacier",
       "name": "佩里托莫雷诺冰川",
       "englishName": "Perito Moreno Glacier",
-      "imageCount": 3,
-      "matched": 2,
+      "imageCount": 6,
+      "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
       "risk": "low",
@@ -3197,10 +3487,12 @@
           "url": "/images/worldscene/poi-perito-moreno-glacier-1.jpg",
           "title": "File:Perito Moreno Glacier ice fall.jpg",
           "relevanceScore": 43,
-          "seasonalScore": 94,
+          "seasonalScore": 110,
           "visualPenalty": 0,
-          "confidence": 343,
+          "confidence": 359,
           "monthHints": [
+            1,
+            2,
             3,
             4,
             5,
@@ -3215,25 +3507,18 @@
           ]
         },
         {
-          "url": "/images/worldscene/poi-perito-moreno-glacier-2.jpg",
-          "title": "File:Los Glaciares - Glaciar Perito Moreno 008.jpg",
-          "relevanceScore": 77,
-          "seasonalScore": 18,
+          "url": "/images/worldscene/poi-perito-moreno-glacier-6.jpg",
+          "title": "File:SantaCruz-PeritoMoreno-P2140146b.jpg",
+          "relevanceScore": 43,
+          "seasonalScore": 88,
           "visualPenalty": 0,
-          "confidence": 264,
+          "confidence": 275,
           "monthHints": [
-            3
-          ],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-perito-moreno-glacier-4.jpg",
-          "title": "莫雷诺冰川 photo",
-          "relevanceScore": 31,
-          "seasonalScore": 38,
-          "visualPenalty": 0,
-          "confidence": 221,
-          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            5,
             6,
             7,
             8
@@ -3241,6 +3526,19 @@
           "seasonHints": [
             "winter"
           ]
+        },
+        {
+          "url": "/images/worldscene/poi-perito-moreno-glacier-2.jpg",
+          "title": "File:Los Glaciares - Glaciar Perito Moreno 008.jpg",
+          "relevanceScore": 77,
+          "seasonalScore": 26,
+          "visualPenalty": 0,
+          "confidence": 272,
+          "monthHints": [
+            8,
+            3
+          ],
+          "seasonHints": []
         }
       ]
     },
@@ -3290,23 +3588,12 @@
       "id": "cartagena-old-town",
       "name": "卡塔赫纳老城",
       "englishName": "Cartagena Old Town",
-      "imageCount": 1,
-      "matched": 1,
+      "imageCount": 0,
+      "matched": 0,
       "seasonTagged": 0,
-      "qualityGood": 1,
+      "qualityGood": 0,
       "risk": "high",
-      "top": [
-        {
-          "url": "/images/worldscene/poi-cartagena-old-town-6.png",
-          "title": "卡塔赫纳老城 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 183,
-          "monthHints": [],
-          "seasonHints": []
-        }
-      ]
+      "top": []
     },
     {
       "id": "louvre-paris",
@@ -3314,9 +3601,9 @@
       "englishName": "Louvre Museum",
       "imageCount": 4,
       "matched": 3,
-      "seasonTagged": 0,
+      "seasonTagged": 2,
       "qualityGood": 3,
-      "risk": "medium",
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-louvre-paris-1.jpg",
@@ -3324,7 +3611,7 @@
           "relevanceScore": 90,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 354,
+          "confidence": 399,
           "monthHints": [],
           "seasonHints": []
         },
@@ -3332,20 +3619,26 @@
           "url": "/images/worldscene/poi-louvre-paris-4.jpg",
           "title": "卢浮宫博物馆 photo",
           "relevanceScore": 90,
-          "seasonalScore": 0,
+          "seasonalScore": 8,
           "visualPenalty": 0,
-          "confidence": 319,
-          "monthHints": [],
+          "confidence": 372,
+          "monthHints": [
+            2
+          ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-louvre-paris-5.jpg",
-          "title": "卢浮宫博物馆 photo",
-          "relevanceScore": 90,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-louvre-paris-6.jpg",
+          "title": "File:Cour Carrée, Louvre Museum, 2 April 2009.jpg",
+          "relevanceScore": 74,
+          "seasonalScore": 34,
           "visualPenalty": 0,
-          "confidence": 319,
-          "monthHints": [],
+          "confidence": 300,
+          "monthHints": [
+            2,
+            4,
+            9
+          ],
           "seasonHints": []
         }
       ]
@@ -3446,38 +3739,64 @@
       "id": "sydney-harbour-bridge",
       "name": "悉尼海港大桥",
       "englishName": "Sydney Harbour Bridge",
-      "imageCount": 2,
-      "matched": 2,
-      "seasonTagged": 1,
-      "qualityGood": 2,
-      "risk": "medium",
+      "imageCount": 6,
+      "matched": 3,
+      "seasonTagged": 3,
+      "qualityGood": 3,
+      "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-sydney-harbour-bridge-1.jpg",
-          "title": "File:BridgeClimb participants on Sydney Harbour Bridge.jpg",
+          "url": "/images/worldscene/poi-sydney-harbour-bridge-3.jpg",
+          "title": "File:Aerial view of Sydney and Circular Quay on the day of the official opening of the Sydney Harbour Bridge, 19 March, 1932 (6174053762).jpg",
           "relevanceScore": 80,
-          "seasonalScore": 64,
+          "seasonalScore": 82,
           "visualPenalty": 0,
-          "confidence": 464,
+          "confidence": 462,
           "monthHints": [
-            11,
+            1,
+            2,
+            3,
+            4,
+            5,
             6,
             7,
-            8,
-            3
+            9,
+            10
           ],
-          "seasonHints": [
-            "winter"
-          ]
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-sydney-harbour-bridge-4.jpg",
+          "title": "File:Cat , South-East pylon, Sydney Harbour Bridge, 1951.jpg",
+          "relevanceScore": 80,
+          "seasonalScore": 66,
+          "visualPenalty": 0,
+          "confidence": 446,
+          "monthHints": [
+            1,
+            3,
+            5,
+            6,
+            8,
+            9,
+            7
+          ],
+          "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-sydney-harbour-bridge-2.jpg",
-          "title": "悉尼海港大桥 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 0,
+          "title": "File:JJC Bradfield Sydney Harbour Bridge 1932.jpg",
+          "relevanceScore": 80,
+          "seasonalScore": 50,
           "visualPenalty": 0,
-          "confidence": 323,
-          "monthHints": [],
+          "confidence": 430,
+          "monthHints": [
+            1,
+            2,
+            3,
+            9,
+            8
+          ],
           "seasonHints": []
         }
       ]
@@ -3528,7 +3847,7 @@
       "id": "big-ben-westminster",
       "name": "威斯敏斯特宫与大本钟",
       "englishName": "Palace of Westminster",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 0,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -3570,29 +3889,18 @@
       "id": "pamukkale-travertines",
       "name": "棉花堡钙华梯田",
       "englishName": "Pamukkale",
-      "imageCount": 1,
+      "imageCount": 0,
       "matched": 0,
       "seasonTagged": 0,
-      "qualityGood": 1,
+      "qualityGood": 0,
       "risk": "high",
-      "top": [
-        {
-          "url": "/images/worldscene/poi-pamukkale-travertines-2.jpg",
-          "title": "希拉波利斯 photo",
-          "relevanceScore": 31,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 203,
-          "monthHints": [],
-          "seasonHints": []
-        }
-      ]
+      "top": []
     },
     {
       "id": "alhambra-granada",
       "name": "阿尔罕布拉宫",
       "englishName": "Alhambra",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
@@ -3631,15 +3939,15 @@
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-alhambra-granada-4.jpg",
-          "title": "File:Escudo de la dinastía nazarí (Palacio de la Alhambra, Spain).JPG",
-          "relevanceScore": 71,
-          "seasonalScore": 50,
+          "url": "/images/worldscene/poi-alhambra-granada-3.jpg",
+          "title": "西班牙阿尔罕布拉宫 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 40,
           "visualPenalty": 0,
-          "confidence": 347,
+          "confidence": 342,
           "monthHints": [
-            5,
             4,
+            5,
             6,
             9,
             10
@@ -3662,15 +3970,20 @@
           "url": "/images/worldscene/poi-boracay-white-beach-1.jpg",
           "title": "File:Boracay, 1985 (8758953461).jpg",
           "relevanceScore": 37,
-          "seasonalScore": 58,
+          "seasonalScore": 98,
           "visualPenalty": 0,
-          "confidence": 309,
+          "confidence": 349,
           "monthHints": [
-            11,
             1,
             2,
             3,
             4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
             12
           ],
           "seasonHints": []
@@ -3679,14 +3992,15 @@
           "url": "/images/worldscene/poi-boracay-white-beach-2.jpg",
           "title": "File:Ati community in Boracay.jpg",
           "relevanceScore": 37,
-          "seasonalScore": 74,
+          "seasonalScore": 82,
           "visualPenalty": 0,
-          "confidence": 282,
+          "confidence": 290,
           "monthHints": [
-            6,
-            7,
             1,
             2,
+            6,
+            7,
+            8,
             3,
             4,
             11,
@@ -3698,14 +4012,15 @@
           "url": "/images/worldscene/poi-boracay-white-beach-4.jpg",
           "title": "File:Boracay view from Mount Luho 2012-10-27.jpg",
           "relevanceScore": 37,
-          "seasonalScore": 66,
+          "seasonalScore": 74,
           "visualPenalty": 0,
-          "confidence": 274,
+          "confidence": 282,
           "monthHints": [
-            10,
-            12,
             1,
             2,
+            7,
+            10,
+            12,
             3,
             4,
             11
@@ -3718,40 +4033,53 @@
       "id": "palawan-el-nido",
       "name": "爱妮岛与巴奎特湾",
       "englishName": "El Nido",
-      "imageCount": 3,
-      "matched": 0,
-      "seasonTagged": 0,
+      "imageCount": 6,
+      "matched": 3,
+      "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
+          "url": "/images/worldscene/poi-palawan-el-nido-1.jpg",
+          "title": "File:El Nido Palawan Big Lagoon.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 26,
+          "visualPenalty": 0,
+          "confidence": 393,
+          "monthHints": [
+            2,
+            5
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-palawan-el-nido-2.jpg",
+          "title": "File:Corong Corong Beach, Coconut palm trees, El Nido, Palawan Island, Philippines.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 18,
+          "visualPenalty": 0,
+          "confidence": 350,
+          "monthHints": [
+            5
+          ],
+          "seasonHints": []
+        },
+        {
           "url": "/images/worldscene/poi-palawan-el-nido-3.jpg",
-          "title": "巴拉望 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
+          "title": "File:Aerial view of Bucana, 2005-03-31 010659.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 66,
           "visualPenalty": 0,
-          "confidence": 194,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-palawan-el-nido-4.jpg",
-          "title": "巴拉望 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 194,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-palawan-el-nido-5.jpg",
-          "title": "巴拉望 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 194,
-          "monthHints": [],
+          "confidence": 305,
+          "monthHints": [
+            1,
+            2,
+            3,
+            5,
+            6,
+            9,
+            10
+          ],
           "seasonHints": []
         }
       ]
@@ -3932,39 +4260,41 @@
       "id": "huanglong-scenic",
       "name": "黄龙风景名胜区",
       "englishName": "Huanglong Scenic Area",
-      "imageCount": 3,
-      "matched": 0,
-      "seasonTagged": 0,
+      "imageCount": 6,
+      "matched": 3,
+      "seasonTagged": 1,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
+          "url": "/images/worldscene/poi-huanglong-scenic-1.png",
+          "title": "File:Huanglong scenic areas.png",
+          "relevanceScore": 102,
+          "seasonalScore": 18,
+          "visualPenalty": 0,
+          "confidence": 393,
+          "monthHints": [
+            11
+          ],
+          "seasonHints": []
+        },
+        {
           "url": "/images/worldscene/poi-huanglong-scenic-2.jpg",
-          "title": "黄龙风景名胜区 photo",
-          "relevanceScore": 31,
+          "title": "黄龙 五彩池 photo",
+          "relevanceScore": 56,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 183,
+          "confidence": 323,
           "monthHints": [],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-huanglong-scenic-3.jpg",
-          "title": "黄龙风景名胜区 photo",
-          "relevanceScore": 31,
+          "title": "黄龙 五彩池 photo",
+          "relevanceScore": 56,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 183,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-huanglong-scenic-4.jpg",
-          "title": "黄龙风景名胜区 photo",
-          "relevanceScore": 31,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 183,
+          "confidence": 303,
           "monthHints": [],
           "seasonHints": []
         }
@@ -4101,39 +4431,61 @@
       "name": "颐和园",
       "englishName": "Summer Palace",
       "imageCount": 5,
-      "matched": 0,
-      "seasonTagged": 0,
+      "matched": 3,
+      "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-summer-palace-beijing-1.jpg",
-          "title": "Summer Palace 1",
-          "relevanceScore": 37,
-          "seasonalScore": 0,
+          "title": "颐和园 photo",
+          "relevanceScore": 56,
+          "seasonalScore": 48,
           "visualPenalty": 0,
-          "confidence": 133,
-          "monthHints": [],
+          "confidence": 463,
+          "monthHints": [
+            1,
+            9,
+            4,
+            5,
+            6,
+            10
+          ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-summer-palace-beijing-2.jpg",
-          "title": "Summer Palace 2",
-          "relevanceScore": 37,
-          "seasonalScore": 0,
+          "title": "颐和园 photo",
+          "relevanceScore": 56,
+          "seasonalScore": 40,
           "visualPenalty": 0,
-          "confidence": 129,
-          "monthHints": [],
+          "confidence": 403,
+          "monthHints": [
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-summer-palace-beijing-3.jpg",
-          "title": "Summer Palace 3",
-          "relevanceScore": 37,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-summer-palace-beijing-4.jpg",
+          "title": "颐和园 photo",
+          "relevanceScore": 56,
+          "seasonalScore": 64,
           "visualPenalty": 0,
-          "confidence": 125,
-          "monthHints": [],
+          "confidence": 387,
+          "monthHints": [
+            1,
+            7,
+            8,
+            4,
+            5,
+            6,
+            9,
+            10
+          ],
           "seasonHints": []
         }
       ]
@@ -4144,38 +4496,60 @@
       "englishName": "Potala Palace",
       "imageCount": 6,
       "matched": 3,
-      "seasonTagged": 0,
+      "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "medium",
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-potala-palace-lhasa-1.jpg",
-          "title": "Potala Palace 1",
-          "relevanceScore": 68,
-          "seasonalScore": 0,
+          "title": "File:Potala Palace Lhasa Tibet Autonomous Region China 西藏 拉萨 布达拉宫 - panoramio (3).jpg",
+          "relevanceScore": 152,
+          "seasonalScore": 66,
           "visualPenalty": 0,
-          "confidence": 164,
-          "monthHints": [],
+          "confidence": 734,
+          "monthHints": [
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-potala-palace-lhasa-2.jpg",
-          "title": "Potala Palace 2",
-          "relevanceScore": 68,
-          "seasonalScore": 0,
+          "title": "布达拉宫 photo",
+          "relevanceScore": 112,
+          "seasonalScore": 48,
           "visualPenalty": 0,
-          "confidence": 160,
-          "monthHints": [],
+          "confidence": 579,
+          "monthHints": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-potala-palace-lhasa-3.jpg",
-          "title": "Potala Palace 3",
-          "relevanceScore": 68,
-          "seasonalScore": 0,
+          "title": "布达拉宫 photo",
+          "relevanceScore": 112,
+          "seasonalScore": 48,
           "visualPenalty": 0,
-          "confidence": 156,
-          "monthHints": [],
+          "confidence": 579,
+          "monthHints": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
           "seasonHints": []
         }
       ]
@@ -4226,7 +4600,7 @@
       "id": "mount-wutai",
       "name": "五台山",
       "englishName": "Mount Wutai",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -4312,38 +4686,44 @@
       "englishName": "Longmen Grottoes",
       "imageCount": 5,
       "matched": 3,
-      "seasonTagged": 0,
+      "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "medium",
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-longmen-grottoes-luoyang-1.jpg",
           "title": "龙门石窟 photo",
           "relevanceScore": 84,
-          "seasonalScore": 0,
+          "seasonalScore": 8,
           "visualPenalty": 0,
-          "confidence": 382,
-          "monthHints": [],
+          "confidence": 390,
+          "monthHints": [
+            5
+          ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-longmen-grottoes-luoyang-2.jpg",
           "title": "龙门石窟 photo",
           "relevanceScore": 84,
-          "seasonalScore": 0,
+          "seasonalScore": 8,
           "visualPenalty": 0,
-          "confidence": 382,
-          "monthHints": [],
+          "confidence": 390,
+          "monthHints": [
+            5
+          ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-longmen-grottoes-luoyang-3.jpg",
           "title": "龙门石窟 photo",
           "relevanceScore": 84,
-          "seasonalScore": 0,
+          "seasonalScore": 8,
           "visualPenalty": 0,
-          "confidence": 382,
-          "monthHints": [],
+          "confidence": 390,
+          "monthHints": [
+            5
+          ],
           "seasonHints": []
         }
       ]
@@ -4646,7 +5026,7 @@
       "id": "stone-forest-kunming",
       "name": "石林风景区",
       "englishName": "Stone Forest",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -4688,46 +5068,48 @@
       "id": "mount-emei-scenic",
       "name": "峨眉山",
       "englishName": "Mount Emei",
-      "imageCount": 4,
-      "matched": 0,
+      "imageCount": 5,
+      "matched": 3,
       "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
           "url": "/images/worldscene/poi-mount-emei-scenic-1.jpg",
-          "title": "峨眉山 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 16,
+          "title": "File:在峨秀湖远望峨眉山 Mount Emei 2.jpg",
+          "relevanceScore": 65,
+          "seasonalScore": 26,
           "visualPenalty": 0,
-          "confidence": 190,
+          "confidence": 258,
+          "monthHints": [
+            2,
+            12
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-mount-emei-scenic-2.jpg",
+          "title": "File:在峨秀湖远望峨眉山 Mount Emei 1.jpg",
+          "relevanceScore": 65,
+          "seasonalScore": 26,
+          "visualPenalty": 0,
+          "confidence": 258,
           "monthHints": [
             1,
-            11
+            12
           ],
           "seasonHints": []
         },
         {
           "url": "/images/worldscene/poi-mount-emei-scenic-5.jpg",
-          "title": "File:Guangfu pavilion at Mount Emei.JPG",
-          "relevanceScore": 37,
-          "seasonalScore": 18,
+          "title": "File:峨眉山风景区 Mount Emei Scenic Area 06.jpg",
+          "relevanceScore": 65,
+          "seasonalScore": 26,
           "visualPenalty": 0,
-          "confidence": 166,
+          "confidence": 221,
           "monthHints": [
-            6
-          ],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-mount-emei-scenic-6.jpg",
-          "title": "File:Mount Emei pic 3.jpg",
-          "relevanceScore": 37,
-          "seasonalScore": 18,
-          "visualPenalty": 0,
-          "confidence": 166,
-          "monthHints": [
-            7
+            6,
+            3
           ],
           "seasonHints": []
         }
@@ -4791,7 +5173,7 @@
           "relevanceScore": 56,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 318,
+          "confidence": 363,
           "monthHints": [],
           "seasonHints": []
         },
@@ -4801,7 +5183,7 @@
           "relevanceScore": 56,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 318,
+          "confidence": 363,
           "monthHints": [],
           "seasonHints": []
         },
@@ -4811,7 +5193,7 @@
           "relevanceScore": 56,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 318,
+          "confidence": 363,
           "monthHints": [],
           "seasonHints": []
         }
@@ -5075,42 +5457,55 @@
       "englishName": "Gulangyu Island",
       "imageCount": 6,
       "matched": 3,
-      "seasonTagged": 2,
+      "seasonTagged": 3,
       "qualityGood": 3,
       "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-gulangyu-island-2.jpg",
+          "url": "/images/worldscene/poi-gulangyu-island-1.jpg",
           "title": "File:Xiamen China Gulangyu Island 1 by D Ramey Logan.jpg",
           "relevanceScore": 68,
-          "seasonalScore": 26,
+          "seasonalScore": 50,
           "visualPenalty": 0,
-          "confidence": 335,
+          "confidence": 419,
           "monthHints": [
+            1,
             2,
+            3,
+            7,
             9
           ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-gulangyu-island-1.jpg",
-          "title": "鼓浪屿 photo",
-          "relevanceScore": 84,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 332,
-          "monthHints": [],
-          "seasonHints": []
+          "url": "/images/worldscene/poi-gulangyu-island-6.jpg",
+          "title": "File:Beach on Gulangyu Island XiamenChina Photo D Ramey Logan.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 80,
+          "visualPenalty": 20,
+          "confidence": 392,
+          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            12
+          ],
+          "seasonHints": [
+            "winter"
+          ]
         },
         {
-          "url": "/images/worldscene/poi-gulangyu-island-3.jpg",
-          "title": "File:Xiamen China Gulangyu Island 2 by D Ramey Logan.jpg",
-          "relevanceScore": 68,
-          "seasonalScore": 18,
+          "url": "/images/worldscene/poi-gulangyu-island-2.jpg",
+          "title": "鼓浪屿 photo",
+          "relevanceScore": 84,
+          "seasonalScore": 8,
           "visualPenalty": 0,
-          "confidence": 327,
+          "confidence": 385,
           "monthHints": [
-            9
+            5
           ],
           "seasonHints": []
         }
@@ -5261,40 +5656,52 @@
       "englishName": "Chengde Mountain Resort",
       "imageCount": 5,
       "matched": 3,
-      "seasonTagged": 1,
+      "seasonTagged": 3,
       "qualityGood": 3,
       "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-chengde-mountain-resort-1.jpg",
-          "title": "File:Chengde Mountain Resort 11.jpg",
-          "relevanceScore": 74,
-          "seasonalScore": 18,
+          "url": "/images/worldscene/poi-chengde-mountain-resort-4.jpg",
+          "title": "File:Chengde Mountain Resort 3.jpg",
+          "relevanceScore": 130,
+          "seasonalScore": 26,
           "visualPenalty": 0,
-          "confidence": 363,
+          "confidence": 413,
           "monthHints": [
+            3,
             6
           ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-chengde-mountain-resort-3.jpg",
-          "title": "承德外八庙 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-chengde-mountain-resort-5.jpg",
+          "title": "File:Chengde Mountain Resort 5.jpg",
+          "relevanceScore": 130,
+          "seasonalScore": 26,
           "visualPenalty": 0,
-          "confidence": 287,
-          "monthHints": [],
+          "confidence": 413,
+          "monthHints": [
+            5,
+            6
+          ],
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-chengde-mountain-resort-4.jpg",
-          "title": "承德外八庙 photo",
-          "relevanceScore": 59,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-chengde-mountain-resort-6.jpg",
+          "title": "File:Chengde Mountain Resort 22731-Chengde (43552735720).jpg",
+          "relevanceScore": 74,
+          "seasonalScore": 66,
           "visualPenalty": 0,
-          "confidence": 287,
-          "monthHints": [],
+          "confidence": 385,
+          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            10
+          ],
           "seasonHints": []
         }
       ]
@@ -5345,7 +5752,7 @@
       "id": "shaolin-temple-scenic",
       "name": "嵩山少林寺",
       "englishName": "Shaolin Monastery",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -5362,22 +5769,22 @@
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-shaolin-temple-scenic-2.jpg",
-          "title": "嵩山少林寺 photo",
-          "relevanceScore": 143,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 519,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
           "url": "/images/worldscene/poi-shaolin-temple-scenic-3.jpg",
           "title": "嵩山少林寺 photo",
           "relevanceScore": 143,
           "seasonalScore": 0,
           "visualPenalty": 0,
           "confidence": 509,
+          "monthHints": [],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-shaolin-temple-scenic-4.jpg",
+          "title": "嵩山少林寺 photo",
+          "relevanceScore": 143,
+          "seasonalScore": 0,
+          "visualPenalty": 0,
+          "confidence": 484,
           "monthHints": [],
           "seasonHints": []
         }
@@ -5387,7 +5794,7 @@
       "id": "qufu-confucius-temple",
       "name": "曲阜三孔",
       "englishName": "Temple of Confucius in Qufu",
-      "imageCount": 6,
+      "imageCount": 5,
       "matched": 3,
       "seasonTagged": 0,
       "qualityGood": 3,
@@ -5414,12 +5821,12 @@
           "seasonHints": []
         },
         {
-          "url": "/images/worldscene/poi-qufu-confucius-temple-3.jpg",
+          "url": "/images/worldscene/poi-qufu-confucius-temple-4.jpg",
           "title": "曲阜三孔 photo",
           "relevanceScore": 84,
           "seasonalScore": 0,
           "visualPenalty": 0,
-          "confidence": 276,
+          "confidence": 251,
           "monthHints": [],
           "seasonHints": []
         }
@@ -5429,20 +5836,35 @@
       "id": "wuzhen-water-town",
       "name": "乌镇",
       "englishName": "Wuzhen",
-      "imageCount": 5,
-      "matched": 2,
-      "seasonTagged": 2,
+      "imageCount": 6,
+      "matched": 3,
+      "seasonTagged": 3,
       "qualityGood": 3,
       "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-wuzhen-water-town-4.jpg",
+          "url": "/images/worldscene/poi-wuzhen-water-town-2.jpg",
+          "title": "File:Aerial panorama of Wuzhen 乌镇 Water Town. December 2023.jpg",
+          "relevanceScore": 90,
+          "seasonalScore": 34,
+          "visualPenalty": 20,
+          "confidence": 281,
+          "monthHints": [
+            2,
+            3,
+            12
+          ],
+          "seasonHints": []
+        },
+        {
+          "url": "/images/worldscene/poi-wuzhen-water-town-6.jpg",
           "title": "File:Canal in Wuzhen.JPG",
           "relevanceScore": 62,
-          "seasonalScore": 56,
+          "seasonalScore": 64,
           "visualPenalty": 0,
-          "confidence": 242,
+          "confidence": 250,
           "monthHints": [
+            3,
             12,
             1,
             2,
@@ -5453,24 +5875,15 @@
           ]
         },
         {
-          "url": "/images/worldscene/poi-wuzhen-water-town-1.jpg",
-          "title": "乌镇 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 234,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-wuzhen-water-town-5.jpg",
-          "title": "File:WuzhenTown.jpg",
+          "url": "/images/worldscene/poi-wuzhen-water-town-3.jpg",
+          "title": "File:Fish in Wuzhen.JPG",
           "relevanceScore": 62,
-          "seasonalScore": 18,
+          "seasonalScore": 26,
           "visualPenalty": 0,
-          "confidence": 204,
+          "confidence": 237,
           "monthHints": [
-            5
+            3,
+            6
           ],
           "seasonHints": []
         }
@@ -5480,40 +5893,74 @@
       "id": "hukou-waterfall-yellow-river",
       "name": "黄河壶口瀑布",
       "englishName": "Hukou Waterfall",
-      "imageCount": 4,
-      "matched": 0,
-      "seasonTagged": 0,
+      "imageCount": 6,
+      "matched": 3,
+      "seasonTagged": 3,
       "qualityGood": 3,
-      "risk": "high",
+      "risk": "low",
       "top": [
         {
-          "url": "/images/worldscene/poi-hukou-waterfall-yellow-river-2.jpg",
-          "title": "壶口瀑布 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
+          "url": "/images/worldscene/poi-hukou-waterfall-yellow-river-1.jpg",
+          "title": "File:HukouWaterfall4.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 110,
           "visualPenalty": 0,
-          "confidence": 194,
-          "monthHints": [],
-          "seasonHints": []
+          "confidence": 400,
+          "monthHints": [
+            2,
+            3,
+            4,
+            5,
+            9,
+            10,
+            11,
+            12,
+            1
+          ],
+          "seasonHints": [
+            "autumn",
+            "winter"
+          ]
+        },
+        {
+          "url": "/images/worldscene/poi-hukou-waterfall-yellow-river-2.jpg",
+          "title": "File:J83295-304 PanoChutesDeHukou 20140712-092426.84 36.11378,110.45326.jpg",
+          "relevanceScore": 68,
+          "seasonalScore": 134,
+          "visualPenalty": 20,
+          "confidence": 392,
+          "monthHints": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "seasonHints": [
+            "autumn",
+            "winter"
+          ]
         },
         {
           "url": "/images/worldscene/poi-hukou-waterfall-yellow-river-3.jpg",
-          "title": "壶口瀑布 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
+          "title": "黄河壶口瀑布 photo",
+          "relevanceScore": 59,
+          "seasonalScore": 32,
           "visualPenalty": 0,
-          "confidence": 194,
-          "monthHints": [],
-          "seasonHints": []
-        },
-        {
-          "url": "/images/worldscene/poi-hukou-waterfall-yellow-river-4.jpg",
-          "title": "壶口瀑布 photo",
-          "relevanceScore": 28,
-          "seasonalScore": 0,
-          "visualPenalty": 0,
-          "confidence": 194,
-          "monthHints": [],
+          "confidence": 289,
+          "monthHints": [
+            1,
+            2,
+            8,
+            11
+          ],
           "seasonHints": []
         }
       ]

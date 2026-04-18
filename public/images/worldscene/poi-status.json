@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-12T15:43:48.493Z",
+  "generatedAt": "2026-04-18T13:48:07.657Z",
   "summary": {
     "totalDestinations": 138,
-    "manifestCovered": 124,
+    "manifestCovered": 127,
     "diskCovered": 127,
-    "manifestImages": 618,
-    "diskImages": 634,
-    "pendingManifestSync": 3
+    "manifestImages": 680,
+    "diskImages": 703,
+    "pendingManifestSync": 0
   },
   "missingOnDisk": [
     "beijing",
@@ -22,9 +22,6 @@
     "bike"
   ],
   "missingInManifest": [
-    "temple-of-heaven-beijing",
-    "summer-palace-beijing",
-    "potala-palace-lhasa",
     "beijing",
     "shanghai",
     "guangzhou",
@@ -37,18 +34,34 @@
     "walk",
     "bike"
   ],
-  "pendingManifestSync": [
-    "temple-of-heaven-beijing",
-    "summer-palace-beijing",
-    "potala-palace-lhasa"
-  ],
+  "pendingManifestSync": [],
   "topDiskCoverage": [
     {
-      "id": "alhambra-granada",
-      "count": 6
+      "id": "boracay-white-beach",
+      "count": 10
     },
     {
-      "id": "angkor-wat",
+      "id": "pamukkale-travertines",
+      "count": 10
+    },
+    {
+      "id": "iceland-blue-lagoon",
+      "count": 9
+    },
+    {
+      "id": "marrakech",
+      "count": 9
+    },
+    {
+      "id": "nara-todaiji",
+      "count": 9
+    },
+    {
+      "id": "amalfi-coast",
+      "count": 7
+    },
+    {
+      "id": "amsterdam-canal-ring",
       "count": 6
     },
     {
@@ -56,15 +69,15 @@
       "count": 6
     },
     {
-      "id": "big-ben-westminster",
-      "count": 6
-    },
-    {
-      "id": "boracay-white-beach",
+      "id": "budapest-parliament",
       "count": 6
     },
     {
       "id": "cappadocia",
+      "count": 6
+    },
+    {
+      "id": "chefchaouen",
       "count": 6
     },
     {
@@ -101,36 +114,12 @@
     },
     {
       "id": "geirangerfjord",
-      "count": 6
-    },
-    {
-      "id": "golden-gate-bridge",
-      "count": 6
-    },
-    {
-      "id": "gulangyu-island",
-      "count": 6
-    },
-    {
-      "id": "ha-long-bay",
-      "count": 6
-    },
-    {
-      "id": "hobbiton",
-      "count": 6
-    },
-    {
-      "id": "huangshan-yellow-mountain",
       "count": 6
     }
   ],
   "topManifestCoverage": [
     {
-      "id": "alhambra-granada",
-      "count": 6
-    },
-    {
-      "id": "angkor-wat",
+      "id": "amsterdam-canal-ring",
       "count": 6
     },
     {
@@ -138,15 +127,19 @@
       "count": 6
     },
     {
-      "id": "big-ben-westminster",
-      "count": 6
-    },
-    {
       "id": "boracay-white-beach",
       "count": 6
     },
     {
+      "id": "budapest-parliament",
+      "count": 6
+    },
+    {
       "id": "cappadocia",
+      "count": 6
+    },
+    {
+      "id": "chefchaouen",
       "count": 6
     },
     {
@@ -202,7 +195,7 @@
       "count": 6
     },
     {
-      "id": "huangshan-yellow-mountain",
+      "id": "huanglong-scenic",
       "count": 6
     }
   ]

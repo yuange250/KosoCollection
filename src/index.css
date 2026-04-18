@@ -1292,6 +1292,62 @@ a:hover {
   gap: 24px;
 }
 
+.portal-info {
+  margin-top: 40px;
+}
+
+.portal-info__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.portal-info__card {
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(56, 189, 248, 0.14);
+  background: linear-gradient(165deg, rgba(12, 18, 38, 0.92) 0%, rgba(8, 12, 28, 0.88) 100%);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  padding: 22px 22px 20px;
+}
+
+.portal-info__eyebrow {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: var(--neon-cyan);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.portal-info__card h2 {
+  margin: 0 0 12px;
+  color: #f8fafc;
+  font-size: 1.05rem;
+  line-height: 1.45;
+}
+
+.portal-info__card p,
+.portal-info__card li {
+  color: var(--text-dim);
+  font-size: 0.94rem;
+  line-height: 1.72;
+}
+
+.portal-info__list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.portal-info__link {
+  margin-top: 14px;
+}
+
+.portal-info__link a {
+  color: #c4b5fd;
+  font-weight: 600;
+}
+
 .work-card-link {
   text-decoration: none;
   color: inherit;
@@ -1462,16 +1518,6 @@ a:hover {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px 72px;
-}
-
-/* Project2 页面与 layout 同高拉伸，顶栏沿用作品一 .nav */
-.project2 {
-  flex: 1;
-  width: 100%;
-  max-width: min(1680px, 100vw - 12px);
-  margin: 0 auto;
-  padding: 0 max(10px, env(safe-area-inset-right)) 56px max(10px, env(safe-area-inset-left));
-  padding-bottom: max(56px, calc(env(safe-area-inset-bottom) + 40px));
 }
 
 .worldscene-headline {

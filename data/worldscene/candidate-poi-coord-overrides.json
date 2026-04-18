@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "note": "剩余 Photon/Wikidata 无法唯一定位的候补景点：人工概略坐标供地球标点；上架前应再核对。",
+  "overrides": {
+    "ancient-theatre-of-taormina": { "lat": 37.8522, "lng": 15.2925, "ref": "Taormina Teatro Greco 一带" },
+    "antarctic-peninsula-cruise": { "lat": -64.3, "lng": -61.0, "ref": "南极半岛巡游代表性区域（概略）" },
+    "belfry-of-ghent": { "lat": 51.0545, "lng": 3.7214, "ref": "Ghent Belfry" },
+    "chinchorro-mummies": { "lat": -18.478, "lng": -70.312, "ref": "阿里卡一带（钦乔罗文化相关展示常设区域）" },
+    "complex-of-hue-monuments-hue": { "lat": 16.4698, "lng": 107.5953, "ref": "顺化皇城/遗产核心区概略" },
+    "deadvlei": { "lat": -24.7592, "lng": 15.292, "ref": "纳米布-诺克卢夫特 Sossusvlei 区域" },
+    "edni-041-senior-employees-residential-building-machali": { "lat": -34.18, "lng": -70.67, "ref": "Machali 市镇附近（条目为具体建筑，概略）" },
+    "ephesus": { "lat": 37.9397, "lng": 27.3406, "ref": "以弗所考古遗址（塞尔丘克）" },
+    "funerary-and-memory-sites-of-the-first-world-war-western-front-france": { "lat": 50.379, "lng": 2.774, "ref": "西线系列遗产—维米岭纪念馆一带作代表点" },
+    "hallstatt": { "lat": 47.5622, "lng": 13.6493, "ref": "哈尔施塔特湖滨聚落" },
+    "hallstatt-salt-mine": { "lat": 47.56, "lng": 13.64, "ref": "哈尔施塔特盐矿参观区概略" },
+    "khiem-cung-ky-stele-vietnam": { "lat": 16.4567, "lng": 107.5783, "ref": "顺化皇城/嗣德陵区域（碑刻所在遗产地概略）" },
+    "kirkjufell": { "lat": 64.9419, "lng": -23.307, "ref": "Grundarfjörður Kirkjufell" },
+    "konigssee": { "lat": 47.593, "lng": 12.988, "ref": "Königssee 湖滨（Berchtesgaden）" },
+    "melaka-and-george-town-historic-cities-of-the-straits-of-malacca-penang": { "lat": 5.4141, "lng": 100.3296, "ref": "乔治市遗产核心区作代表点（跨市系列遗产）" },
+    "memorial-sites-of-the-genocide-nyamata-murambi-gisozi-and-bisesero-southern-province": { "lat": -2.234, "lng": 30.18, "ref": "Nyamata 纪念地一带作代表点" },
+    "merzouga-erg-chebbi": { "lat": 31.1153, "lng": -4.01, "ref": "梅尔祖卡 Erg Chebbi 沙丘区概略" },
+    "mwana-arafa-jambeni-building-lamu-county": { "lat": -2.2717, "lng": 40.902, "ref": "拉穆岛城镇区域概略" },
+    "oaxaca-historic-centre": { "lat": 17.0612, "lng": -96.7256, "ref": "瓦哈卡历史中心" },
+    "preikestolen": { "lat": 58.9869, "lng": 6.1889, "ref": "布道石观景台附近" },
+    "root-carving-park-kaihua": { "lat": 29.1375, "lng": 118.415, "ref": "开化根宫佛国文化旅游区概略" },
+    "sigiriya": { "lat": 7.957, "lng": 80.7603, "ref": "锡吉里耶岩宫" },
+    "sognefjord": { "lat": 61.1667, "lng": 7.104, "ref": "松恩峡湾代表段（Flåm 附近）" },
+    "villages-with-fortified-churches-in-transylvania-bunesti": { "lat": 46.133, "lng": 24.75, "ref": "Biertan/Bunești 设防教堂村落一带概略" },
+    "whale-sanctuary-of-el-vizcaino-mexico": { "lat": 27.792, "lng": -114.243, "ref": "El Vizcaíno 保护区中部概略" },
+    "zhengzhou-section-of-tongji-canal-huiji-district": { "lat": 34.887, "lng": 113.548, "ref": "郑州惠济区通济渠段概略" }
+  }
+}

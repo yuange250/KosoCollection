@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 为项目 2 按景点抓取更贴近 POI 的真实图片，并缓存到本地：
  * 1. 解析 src/lib/worldsceneData.ts 中的景点元数据
  * 2. 在 zh/en Wikipedia 搜索页面
@@ -377,7 +377,7 @@ function formatGenTs(pointToPaths) {
     return `  '${key}': [${list}],`;
   });
 
-  return `/**\n * 由 scripts/cache-worldscene-poi-images.mjs 生成 — 勿手改。\n */\nexport const PROJECT2_POI_LOCAL: Record<string, readonly string[]> = {\n${rows.join('\n')}\n};\n`;
+  return `/**\n * 由 scripts/cache-worldscene-poi-images.mjs 生成 — 勿手改。\n */\nexport const WORLDSCENE_POI_LOCAL: Record<string, readonly string[]> = {\n${rows.join('\n')}\n};\n`;
 }
 
 async function main() {

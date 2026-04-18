@@ -1,21 +1,16 @@
 # WorldScene POI Image Audit
 
 - Total: 127
-- Low risk: 28
-- Medium risk: 62
-- High risk: 37
+- Low risk: 42
+- Medium risk: 60
+- High risk: 25
 
 ## High Risk
-- great-wall | 长城 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
 - cappadocia | 卡帕多奇亚 | images=6 | matched=0 | seasonTagged=1 | qualityGood=3
-- marina-bay | 滨海湾 | images=1 | matched=1 | seasonTagged=0 | qualityGood=1
 - dubai-burj-khalifa | 哈利法塔 | images=6 | matched=0 | seasonTagged=0 | qualityGood=3
-- santorini | 圣托里尼 | images=6 | matched=0 | seasonTagged=3 | qualityGood=3
+- santorini | 圣托里尼 | images=5 | matched=0 | seasonTagged=3 | qualityGood=3
 - sagrada-familia | 圣家堂 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
-- amalfi-coast | 阿马尔菲海岸 | images=1 | matched=1 | seasonTagged=0 | qualityGood=1
-- marrakech | 马拉喀什老城 | images=0 | matched=0 | seasonTagged=0 | qualityGood=0
-- victoria-falls | 维多利亚瀑布 | images=1 | matched=0 | seasonTagged=0 | qualityGood=1
-- zanzibar | 桑给巴尔 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
+- zanzibar | 桑给巴尔 | images=5 | matched=0 | seasonTagged=1 | qualityGood=3
 - statue-of-liberty | 自由女神像 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
 - chichen-itza | 奇琴伊察 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
 - antelope-canyon | 羚羊峡谷 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
@@ -25,41 +20,36 @@
 - milford-sound | 米尔福德峡湾 | images=5 | matched=0 | seasonTagged=1 | qualityGood=3
 - hobbiton | 霍比屯 | images=6 | matched=0 | seasonTagged=0 | qualityGood=3
 - cloud-gate-chicago | 云门（千禧公园） | images=0 | matched=0 | seasonTagged=0 | qualityGood=0
-- washington-national-mall | 华盛顿国家广场 | images=5 | matched=0 | seasonTagged=3 | qualityGood=3
-- tokyo-shibuya-scramble | 涩谷十字路口 | images=1 | matched=1 | seasonTagged=0 | qualityGood=1
 - zhangjiajie-avatar | 张家界国家森林公园 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
 - guilin-li-river | 漓江山水 | images=5 | matched=0 | seasonTagged=1 | qualityGood=3
-- dubrovnik-old-town | 杜布罗夫尼克老城 | images=2 | matched=0 | seasonTagged=2 | qualityGood=2
-- iceland-blue-lagoon | 蓝湖温泉 | images=1 | matched=0 | seasonTagged=0 | qualityGood=1
+- dubrovnik-old-town | 杜布罗夫尼克老城 | images=4 | matched=0 | seasonTagged=3 | qualityGood=3
+- iceland-blue-lagoon | 蓝湖温泉 | images=3 | matched=0 | seasonTagged=2 | qualityGood=3
 - atacama-desert | 阿塔卡马沙漠 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
-- cartagena-old-town | 卡塔赫纳老城 | images=1 | matched=1 | seasonTagged=0 | qualityGood=1
-- big-ben-westminster | 威斯敏斯特宫与大本钟 | images=6 | matched=0 | seasonTagged=0 | qualityGood=3
-- pamukkale-travertines | 棉花堡钙华梯田 | images=1 | matched=0 | seasonTagged=0 | qualityGood=1
+- cartagena-old-town | 卡塔赫纳老城 | images=0 | matched=0 | seasonTagged=0 | qualityGood=0
+- big-ben-westminster | 威斯敏斯特宫与大本钟 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
+- pamukkale-travertines | 棉花堡钙华梯田 | images=0 | matched=0 | seasonTagged=0 | qualityGood=0
 - boracay-white-beach | 长滩岛白沙滩 | images=6 | matched=0 | seasonTagged=3 | qualityGood=3
-- palawan-el-nido | 爱妮岛与巴奎特湾 | images=3 | matched=0 | seasonTagged=0 | qualityGood=3
-- huanglong-scenic | 黄龙风景名胜区 | images=3 | matched=0 | seasonTagged=0 | qualityGood=3
-- summer-palace-beijing | 颐和园 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
 - mount-wuyi | 武夷山 | images=5 | matched=0 | seasonTagged=0 | qualityGood=3
 - suzhou-lingering-garden | 苏州园林（留园） | images=6 | matched=0 | seasonTagged=0 | qualityGood=3
-- mount-emei-scenic | 峨眉山 | images=4 | matched=0 | seasonTagged=3 | qualityGood=3
-- hukou-waterfall-yellow-river | 黄河壶口瀑布 | images=4 | matched=0 | seasonTagged=0 | qualityGood=3
 
 ## Medium Risk
+- forbidden-city | 故宫 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - terracotta-army | 秦始皇兵马俑 | images=6 | matched=1 | seasonTagged=1 | qualityGood=3
-- taj-mahal | 泰姬陵 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
+- taj-mahal | 泰姬陵 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - ha-long-bay | 下龙湾 | images=6 | matched=1 | seasonTagged=1 | qualityGood=3
-- bali-ubud | 巴厘岛乌布 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
+- bali-ubud | 巴厘岛乌布 | images=4 | matched=3 | seasonTagged=0 | qualityGood=3
 - jeju-island | 济州岛 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - bagan | 蒲甘 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - colosseum | 罗马斗兽场 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
 - zermatt | 采尔马特 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - venice | 威尼斯 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- neuschwanstein | 新天鹅堡 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
+- neuschwanstein | 新天鹅堡 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - prague-castle | 布拉格城堡 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
 - giza | 吉萨金字塔 | images=4 | matched=3 | seasonTagged=0 | qualityGood=3
 - serengeti | 塞伦盖蒂 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - table-mountain | 桌山 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- chefchaouen | 舍夫沙万 | images=4 | matched=3 | seasonTagged=0 | qualityGood=3
+- marrakech | 马拉喀什老城 | images=2 | matched=2 | seasonTagged=2 | qualityGood=2
+- victoria-falls | 维多利亚瀑布 | images=5 | matched=1 | seasonTagged=3 | qualityGood=3
 - grand-canyon | 大峡谷 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - banff | 班夫国家公园 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
 - yellowstone | 黄石国家公园 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
@@ -74,36 +64,32 @@
 - sydney-opera-house | 悉尼歌剧院 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - queenstown | 皇后镇 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - great-barrier-reef | 大堡礁 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
+- tokyo-shibuya-scramble | 涩谷十字路口 | images=2 | matched=2 | seasonTagged=1 | qualityGood=1
 - nara-todaiji | 东大寺（奈良） | images=3 | matched=2 | seasonTagged=0 | qualityGood=3
 - hoi-an-ancient-town | 会安古城 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - cinque-terre | 五渔村 | images=6 | matched=1 | seasonTagged=1 | qualityGood=3
 - lake-bled | 布莱德湖 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- budapest-parliament | 匈牙利国会大厦 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- amsterdam-canal-ring | 阿姆斯特丹运河带 | images=2 | matched=2 | seasonTagged=0 | qualityGood=2
-- louvre-paris | 卢浮宫博物馆 | images=4 | matched=3 | seasonTagged=0 | qualityGood=3
+- amsterdam-canal-ring | 阿姆斯特丹运河带 | images=6 | matched=2 | seasonTagged=0 | qualityGood=3
 - acropolis-athens | 雅典卫城 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- sydney-harbour-bridge | 悉尼海港大桥 | images=2 | matched=2 | seasonTagged=1 | qualityGood=2
 - tower-bridge-london | 伦敦塔桥 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - mount-tai-taishan | 泰山 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
 - mount-hua-huashan | 华山 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - temple-of-heaven-beijing | 天坛公园 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- potala-palace-lhasa | 布达拉宫 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
 - wudang-mountains | 武当山 | images=4 | matched=3 | seasonTagged=0 | qualityGood=3
-- mount-wutai | 五台山 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
+- mount-wutai | 五台山 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - leshan-giant-buddha | 乐山大佛 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
-- longmen-grottoes-luoyang | 龙门石窟 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - yungang-grottoes-datong | 云冈石窟 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - mogao-caves-dunhuang | 莫高窟 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - lijiang-old-town-china | 丽江古城 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - zhouzhuang-water-town | 周庄古镇 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - huangguoshu-waterfall | 黄果树瀑布 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- stone-forest-kunming | 石林风景区 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
+- stone-forest-kunming | 石林风景区 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - mount-putuo | 普陀山 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - qinghai-lake-scenic | 青海湖 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - mount-lushan | 庐山 | images=6 | matched=1 | seasonTagged=1 | qualityGood=3
 - yandang-mountain | 雁荡山 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - pingyao-ancient-city | 平遥古城 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
 - shennongjia-scenic | 神农架 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
-- shaolin-temple-scenic | 嵩山少林寺 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
-- qufu-confucius-temple | 曲阜三孔 | images=6 | matched=3 | seasonTagged=0 | qualityGood=3
+- shaolin-temple-scenic | 嵩山少林寺 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
+- qufu-confucius-temple | 曲阜三孔 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3
 - kaifeng-qingming-river-park | 清明上河园 | images=5 | matched=3 | seasonTagged=0 | qualityGood=3

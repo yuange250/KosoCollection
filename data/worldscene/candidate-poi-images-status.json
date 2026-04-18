@@ -1,0 +1,9 @@
+{
+  "updatedAt": "2026-04-18T10:59:31.921Z",
+  "note": "候补配图缓存状态；不修改已上架 poi-manifest",
+  "minImagesTarget": 5,
+  "processedThisRun": 0,
+  "skippedAlreadyComplete": 0,
+  "misses": 1,
+  "manifestEntryCount": 1
+}

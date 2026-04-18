@@ -18,7 +18,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-alhambra-granada-1.jpg', source: 'baike.baidu.com', title: '西班牙阿尔罕布拉宫 photo', pageTitle: '阿尔汗布拉宫_百度百科', score: 259, width: 1120, height: 800, monthHints: [4, 5, 6, 9, 10], },
     { url: '/images/worldscene/poi-alhambra-granada-2.jpg', source: 'baike.baidu.com', title: '西班牙阿尔罕布拉宫 photo', pageTitle: '阿尔汗布拉宫_百度百科', score: 253, width: 1120, height: 800, monthHints: [4, 5, 6, 9, 10], },
     { url: '/images/worldscene/poi-alhambra-granada-3.jpg', source: 'baike.baidu.com', title: '西班牙阿尔罕布拉宫 photo', pageTitle: '阿尔汗布拉宫_百度百科', score: 243, monthHints: [4, 5, 6, 9, 10], },
-    { url: '/images/worldscene/poi-alhambra-granada-4.jpg', source: 'zh.wikipedia.org:阿尔罕布拉宫', title: 'File:Escudo de la dinastía nazarí (Palacio de la Alhambra, Spain).JPG', pageTitle: '阿尔罕布拉宫', capturedAt: '2008-05-21T11:43:30Z', score: 226, width: 2592, height: 1944, monthHints: [5, 4, 6, 9, 10], },
     { url: '/images/worldscene/poi-alhambra-granada-5.jpg', source: 'baike.baidu.com', title: '西班牙阿尔罕布拉宫 photo', pageTitle: '阿尔汗布拉宫_百度百科', score: 218, width: 800, height: 1000, monthHints: [4, 5, 6, 9, 10], },
     { url: '/images/worldscene/poi-alhambra-granada-6.jpg', source: 'baike.baidu.com', title: '西班牙阿尔罕布拉宫 photo', pageTitle: '阿尔汗布拉宫_百度百科', score: 218, width: 800, height: 1000, monthHints: [4, 5, 6, 9, 10], },
     ],
@@ -26,22 +25,29 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   'amalfi-coast': {
     images: [
     { url: '/images/worldscene/poi-amalfi-coast-1.jpg', source: 'baike.baidu.com', title: '阿马尔菲海岸 photo', pageTitle: '阿马尔菲海岸_百度百科', score: 198, },
+    { url: '/images/worldscene/poi-amalfi-coast-2.jpg', source: 'zh.wikipedia.org:阿马尔菲海岸', title: '阿马尔菲海岸 original', pageTitle: '阿马尔菲海岸', score: 120, },
+    { url: '/images/worldscene/poi-amalfi-coast-3.jpg', source: 'en.wikipedia.org:Amalfi Coast', title: 'Amalfi Coast original', pageTitle: 'Amalfi Coast', score: 120, },
+    { url: '/images/worldscene/poi-amalfi-coast-4.jpg', source: 'local-rebuild', title: 'Amalfi Coast 4', pageTitle: 'Amalfi Coast', score: 84, },
+    { url: '/images/worldscene/poi-amalfi-coast-5.jpg', source: 'local-rebuild', title: 'Amalfi Coast 5', pageTitle: 'Amalfi Coast', score: 80, },
     ],
   },
   'amsterdam-canal-ring': {
     images: [
-    { url: '/images/worldscene/poi-amsterdam-canal-ring-1.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河带 photo', pageTitle: '阿姆斯特丹运河带_百度百科', score: 234, width: 1547, height: 1023, },
-    { url: '/images/worldscene/poi-amsterdam-canal-ring-2.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河带 photo', pageTitle: '阿姆斯特丹运河带_百度百科', score: 204, },
+    { url: '/images/worldscene/poi-amsterdam-canal-ring-1.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河带 photo', pageTitle: '阿姆斯特丹运河带_百度百科', score: 279, width: 1547, height: 1023, },
+    { url: '/images/worldscene/poi-amsterdam-canal-ring-2.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河带 photo', pageTitle: '阿姆斯特丹运河带_百度百科', score: 249, },
+    { url: '/images/worldscene/poi-amsterdam-canal-ring-3.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河 photo', pageTitle: '阿姆斯特丹运河_百度百科', score: 217, width: 1600, height: 1066, },
+    { url: '/images/worldscene/poi-amsterdam-canal-ring-4.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河 photo', pageTitle: '阿姆斯特丹运河_百度百科', score: 217, width: 1600, height: 1200, },
+    { url: '/images/worldscene/poi-amsterdam-canal-ring-5.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河 photo', pageTitle: '阿姆斯特丹运河_百度百科', score: 217, width: 1314, height: 828, },
+    { url: '/images/worldscene/poi-amsterdam-canal-ring-6.jpg', source: 'baike.baidu.com', title: '阿姆斯特丹运河 photo', pageTitle: '阿姆斯特丹运河_百度百科', score: 187, },
     ],
   },
   'angkor-wat': {
     images: [
-    { url: '/images/worldscene/poi-angkor-wat-1.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 222, width: 1421, height: 800, },
-    { url: '/images/worldscene/poi-angkor-wat-2.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 202, width: 947, height: 714, },
-    { url: '/images/worldscene/poi-angkor-wat-3.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 202, width: 1057, height: 746, },
-    { url: '/images/worldscene/poi-angkor-wat-4.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 202, width: 1130, height: 734, },
-    { url: '/images/worldscene/poi-angkor-wat-5.jpg', source: 'en.wikipedia.org:Angkor Wat', title: 'File:Angkor-Wat-from-the-air.JPG', pageTitle: 'Angkor Wat', capturedAt: '2011-06-28T10:18:53Z', score: 195, width: 2272, height: 1704, monthHints: [6], },
-    { url: '/images/worldscene/poi-angkor-wat-6.jpg', source: 'en.wikipedia.org:Angkor Wat', title: 'File:Angkor Wat 005.jpg', pageTitle: 'Angkor Wat', capturedAt: '2012-11-13T21:41:55Z', score: 195, width: 700, height: 468, monthHints: [11], },
+    { url: '/images/worldscene/poi-angkor-wat-1.jpg', source: 'zh.wikipedia.org:吴哥窟', title: 'File:Angkor Wat W-Seite.jpg', pageTitle: '吴哥窟', capturedAt: '2014-01-16T21:38:31Z', score: 260, width: 900, height: 627, monthHints: [1, 2, 3, 5, 8, 12], seasonHints: ['winter'], keywords: ['january', 'february', 'march', 'may', 'august', 'winter'], },
+    { url: '/images/worldscene/poi-angkor-wat-2.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 222, width: 1421, height: 800, },
+    { url: '/images/worldscene/poi-angkor-wat-4.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 202, width: 1057, height: 746, },
+    { url: '/images/worldscene/poi-angkor-wat-5.jpg', source: 'baike.baidu.com', title: '吴哥窟 photo', pageTitle: '吴哥窟（柬埔寨吴哥王朝时期庙宇、世界文化遗产）_百度百科', score: 202, width: 1130, height: 734, },
+    { url: '/images/worldscene/poi-angkor-wat-6.jpg', source: 'en.wikipedia.org:Angkor Wat', title: 'File:Angkor-Wat-from-the-air.JPG', pageTitle: 'Angkor Wat', capturedAt: '2011-06-28T10:18:53Z', score: 195, width: 2272, height: 1704, monthHints: [6], },
     ],
   },
   'antelope-canyon': {
@@ -73,11 +79,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'bali-ubud': {
     images: [
-    { url: '/images/worldscene/poi-bali-ubud-1.jpg', source: 'local-rebuild', title: 'Ubud Bali 1', pageTitle: 'Ubud Bali', score: 96, },
-    { url: '/images/worldscene/poi-bali-ubud-3.jpg', source: 'local-rebuild', title: 'Ubud Bali 3', pageTitle: 'Ubud Bali', score: 88, },
-    { url: '/images/worldscene/poi-bali-ubud-4.jpg', source: 'local-rebuild', title: 'Ubud Bali 4', pageTitle: 'Ubud Bali', score: 84, },
-    { url: '/images/worldscene/poi-bali-ubud-5.jpg', source: 'local-rebuild', title: 'Ubud Bali 5', pageTitle: 'Ubud Bali', score: 80, },
-    { url: '/images/worldscene/poi-bali-ubud-6.jpg', source: 'local-rebuild', title: 'Ubud Bali 6', pageTitle: 'Ubud Bali', score: 76, },
+    { url: '/images/worldscene/poi-bali-ubud-1.jpg', source: 'baike.baidu.com', title: '巴厘岛 photo', pageTitle: '巴厘岛（印度尼西亚岛屿）_百度百科', score: 268, width: 2667, height: 2000, },
+    { url: '/images/worldscene/poi-bali-ubud-3.jpg', source: 'baike.baidu.com', title: '巴厘岛 photo', pageTitle: '巴厘岛（印度尼西亚岛屿）_百度百科', score: 228, width: 1600, height: 1200, },
+    { url: '/images/worldscene/poi-bali-ubud-6.jpg', source: 'baike.baidu.com', title: '巴厘岛 photo', pageTitle: '巴厘岛（印度尼西亚岛屿）_百度百科', score: 173, width: 800, height: 1199, },
+    { url: '/images/worldscene/poi-bali-ubud-7.jpg', source: 'local-rebuild', title: 'Ubud Bali 7', pageTitle: 'Ubud Bali', score: 72, },
+    { url: '/images/worldscene/poi-bali-ubud-8.jpg', source: 'local-rebuild', title: 'Ubud Bali 8', pageTitle: 'Ubud Bali', score: 68, },
     ],
   },
   'banff': {
@@ -97,32 +103,32 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-big-ben-westminster-3.jpg', source: 'baike.baidu.com', title: '大本钟 photo', pageTitle: '伊丽莎白塔_百度百科', score: 318, width: 6000, height: 4000, },
     { url: '/images/worldscene/poi-big-ben-westminster-4.jpg', source: 'baike.baidu.com', title: '大本钟 photo', pageTitle: '伊丽莎白塔_百度百科', score: 318, width: 5184, height: 3456, },
     { url: '/images/worldscene/poi-big-ben-westminster-5.jpg', source: 'baike.baidu.com', title: '大本钟 photo', pageTitle: '伊丽莎白塔_百度百科', score: 298, width: 1999, height: 1376, },
-    { url: '/images/worldscene/poi-big-ben-westminster-6.jpg', source: 'en.wikipedia.org:Big Ben', title: 'File:Cleaning Big Ben.jpg', pageTitle: 'Big Ben', capturedAt: '2017-11-14T14:49:43Z', score: 170, width: 1000, height: 1500, monthHints: [8, 12, 1, 2, 11], seasonHints: ['winter'], keywords: ['august', 'winter'], },
     ],
   },
   'boracay-white-beach': {
     images: [
-    { url: '/images/worldscene/poi-boracay-white-beach-1.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay, 1985 (8758953461).jpg', pageTitle: 'Boracay', capturedAt: '2013-11-22T02:31:56Z', score: 214, width: 1485, height: 908, monthHints: [11, 1, 2, 3, 4, 12], },
-    { url: '/images/worldscene/poi-boracay-white-beach-2.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Ati community in Boracay.jpg', pageTitle: 'Boracay', capturedAt: '2018-07-04T09:27:15Z', score: 171, width: 3600, height: 2400, monthHints: [6, 7, 1, 2, 3, 4, 11, 12], keywords: ['june'], },
-    { url: '/images/worldscene/poi-boracay-white-beach-3.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay S2-2020.jpg', pageTitle: 'Boracay', capturedAt: '2021-03-27T07:25:15Z', score: 171, width: 834, height: 809, monthHints: [3, 1, 2, 4, 11, 12], },
-    { url: '/images/worldscene/poi-boracay-white-beach-4.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay view from Mount Luho 2012-10-27.jpg', pageTitle: 'Boracay', capturedAt: '2022-12-27T09:47:18Z', score: 171, width: 2048, height: 1536, monthHints: [10, 12, 1, 2, 3, 4, 11], keywords: ['october'], },
-    { url: '/images/worldscene/poi-boracay-white-beach-5.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay Main Road (Malay, Aklan; 04-06-2024).jpg', pageTitle: 'Boracay', capturedAt: '2024-05-10T16:59:47Z', score: 171, width: 3552, height: 2664, monthHints: [5, 1, 2, 3, 4, 11, 12], },
-    { url: '/images/worldscene/poi-boracay-white-beach-6.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Marine world being explored by a local tourist family in Boracay, June 2024.jpg', pageTitle: 'Boracay', capturedAt: '2024-12-23T04:20:22Z', score: 171, width: 2000, height: 1500, monthHints: [3, 6, 12, 1, 2, 4, 11], keywords: ['march', 'june'], },
+    { url: '/images/worldscene/poi-boracay-white-beach-1.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay, 1985 (8758953461).jpg', pageTitle: 'Boracay', capturedAt: '2013-11-22T02:31:56Z', score: 214, width: 1485, height: 908, monthHints: [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12], keywords: ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september'], },
+    { url: '/images/worldscene/poi-boracay-white-beach-2.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Ati community in Boracay.jpg', pageTitle: 'Boracay', capturedAt: '2018-07-04T09:27:15Z', score: 171, width: 3600, height: 2400, monthHints: [1, 2, 6, 7, 8, 3, 4, 11, 12], keywords: ['january', 'february', 'june', 'july', 'august'], },
+    { url: '/images/worldscene/poi-boracay-white-beach-3.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay S2-2020.jpg', pageTitle: 'Boracay', capturedAt: '2021-03-27T07:25:15Z', score: 171, width: 834, height: 809, monthHints: [2, 3, 1, 4, 11, 12], keywords: ['february'], },
+    { url: '/images/worldscene/poi-boracay-white-beach-4.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay view from Mount Luho 2012-10-27.jpg', pageTitle: 'Boracay', capturedAt: '2022-12-27T09:47:18Z', score: 171, width: 2048, height: 1536, monthHints: [1, 2, 7, 10, 12, 3, 4, 11], keywords: ['january', 'february', 'july', 'october', 'december'], },
+    { url: '/images/worldscene/poi-boracay-white-beach-5.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Boracay Main Road (Malay, Aklan; 04-06-2024).jpg', pageTitle: 'Boracay', capturedAt: '2024-05-10T16:59:47Z', score: 171, width: 3552, height: 2664, monthHints: [2, 4, 6, 5, 1, 3, 11, 12], keywords: ['february', 'april', 'june'], },
+    { url: '/images/worldscene/poi-boracay-white-beach-6.jpg', source: 'en.wikipedia.org:Boracay', title: 'File:Marine world being explored by a local tourist family in Boracay, June 2024.jpg', pageTitle: 'Boracay', capturedAt: '2024-12-23T04:20:22Z', score: 171, width: 2000, height: 1500, monthHints: [2, 3, 4, 6, 12, 1, 11], keywords: ['february', 'march', 'april', 'june'], },
     ],
   },
   'budapest-parliament': {
     images: [
-    { url: '/images/worldscene/poi-budapest-parliament-1.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 268, width: 3200, height: 4000, },
-    { url: '/images/worldscene/poi-budapest-parliament-2.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 248, width: 2048, height: 1365, },
-    { url: '/images/worldscene/poi-budapest-parliament-3.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 208, width: 910, height: 604, },
-    { url: '/images/worldscene/poi-budapest-parliament-4.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 208, width: 910, height: 604, },
-    { url: '/images/worldscene/poi-budapest-parliament-5.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 208, width: 910, height: 604, },
+    { url: '/images/worldscene/poi-budapest-parliament-1.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 313, width: 3200, height: 4000, },
+    { url: '/images/worldscene/poi-budapest-parliament-2.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 293, width: 2048, height: 1365, },
+    { url: '/images/worldscene/poi-budapest-parliament-3.jpg', source: 'en.wikipedia.org:Hungarian Parliament Building', title: 'File:East façade of the Hungarian Parliament Building (Országház) at night.jpg', pageTitle: 'Hungarian Parliament Building', capturedAt: '2025-05-03T21:58:45Z', score: 282, width: 4799, height: 3199, monthHints: [5], },
+    { url: '/images/worldscene/poi-budapest-parliament-4.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 253, width: 910, height: 604, },
+    { url: '/images/worldscene/poi-budapest-parliament-5.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 253, width: 910, height: 604, },
+    { url: '/images/worldscene/poi-budapest-parliament-6.jpg', source: 'baike.baidu.com', title: '匈牙利国会大厦 photo', pageTitle: '匈牙利国会大厦_百度百科', score: 253, width: 910, height: 604, },
     ],
   },
   'cappadocia': {
     images: [
     { url: '/images/worldscene/poi-cappadocia-1.jpg', source: 'baike.baidu.com', title: '卡帕多奇亚 photo', pageTitle: '卡帕多西亚（地区名）_百度百科', score: 142, },
-    { url: '/images/worldscene/poi-cappadocia-2.jpg', source: 'en.wikipedia.org:Cappadocia', title: 'File:Orophernes of Cappadocia.jpg', pageTitle: 'Cappadocia', capturedAt: '2009-03-01T06:06:01Z', score: 124, width: 1625, height: 1622, monthHints: [3], },
+    { url: '/images/worldscene/poi-cappadocia-2.jpg', source: 'en.wikipedia.org:Cappadocia', title: 'File:Orophernes of Cappadocia.jpg', pageTitle: 'Cappadocia', capturedAt: '2009-03-01T06:06:01Z', score: 124, width: 1625, height: 1622, monthHints: [1, 10, 3], keywords: ['january', 'october'], },
     { url: '/images/worldscene/poi-cappadocia-3.jpg', source: 'en.wikipedia.org:Cappadocia', title: 'Cappadocia original', pageTitle: 'Cappadocia', score: 120, },
     { url: '/images/worldscene/poi-cappadocia-4.jpg', source: 'baike.baidu.com', title: '卡帕多奇亚 photo', pageTitle: '卡帕多西亚（地区名）_百度百科', score: 117, width: 814, height: 543, },
     { url: '/images/worldscene/poi-cappadocia-5.jpg', source: 'baike.baidu.com', title: '卡帕多奇亚 photo', pageTitle: '卡帕多西亚（地区名）_百度百科', score: 117, width: 800, height: 533, },
@@ -131,7 +137,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'cartagena-old-town': {
     images: [
-    { url: '/images/worldscene/poi-cartagena-old-town-6.png', source: 'you.ctrip.com', title: '卡塔赫纳老城 photo', pageTitle: '携程旅行网', score: 124, },
+    { url: '/images/worldscene/poi-cartagena-old-town-1.jpg', source: 'local-rebuild', title: 'Cartagena Old Town 1', pageTitle: 'Cartagena Old Town', score: 96, },
+    { url: '/images/worldscene/poi-cartagena-old-town-2.jpg', source: 'local-rebuild', title: 'Cartagena Old Town 2', pageTitle: 'Cartagena Old Town', score: 92, },
+    { url: '/images/worldscene/poi-cartagena-old-town-3.jpg', source: 'local-rebuild', title: 'Cartagena Old Town 3', pageTitle: 'Cartagena Old Town', score: 88, },
+    { url: '/images/worldscene/poi-cartagena-old-town-4.jpg', source: 'local-rebuild', title: 'Cartagena Old Town 4', pageTitle: 'Cartagena Old Town', score: 84, },
+    { url: '/images/worldscene/poi-cartagena-old-town-5.jpg', source: 'local-rebuild', title: 'Cartagena Old Town 5', pageTitle: 'Cartagena Old Town', score: 80, },
     ],
   },
   'chefchaouen': {
@@ -140,15 +150,17 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-chefchaouen-2.jpg', source: 'baike.baidu.com', title: '舍夫沙万 photo', pageTitle: '舍夫沙万_百度百科', score: 166, width: 1600, height: 1066, },
     { url: '/images/worldscene/poi-chefchaouen-3.jpg', source: 'baike.baidu.com', title: '舍夫沙万 photo', pageTitle: '舍夫沙万_百度百科', score: 166, width: 1600, height: 1066, },
     { url: '/images/worldscene/poi-chefchaouen-4.jpg', source: 'baike.baidu.com', title: '舍夫沙万 photo', pageTitle: '舍夫沙万_百度百科', score: 136, },
+    { url: '/images/worldscene/poi-chefchaouen-5.jpg', source: 'en.wikipedia.org:Chefchaouen', title: 'File:Chefchaouen, Morocco (5410195002) (4).jpg', pageTitle: 'Chefchaouen', capturedAt: '2013-09-21T15:24:36Z', score: 124, width: 1920, height: 2560, monthHints: [1, 2, 4, 5, 9, 10], keywords: ['january', 'february', 'april', 'may', 'september', 'october'], },
+    { url: '/images/worldscene/poi-chefchaouen-6.jpg', source: 'en.wikipedia.org:Chefchaouen', title: 'File:Chefchaouen, Morocco - panoramio (17).jpg', pageTitle: 'Chefchaouen', capturedAt: '2017-05-10T20:29:53Z', score: 124, width: 2048, height: 1375, monthHints: [1, 3, 4, 6, 7, 8, 9, 5], keywords: ['january', 'march', 'april', 'june', 'july', 'august', 'september'], },
     ],
   },
   'chengde-mountain-resort': {
     images: [
-    { url: '/images/worldscene/poi-chengde-mountain-resort-1.jpg', source: 'en.wikipedia.org:Chengde Mountain Resort', title: 'File:Chengde Mountain Resort 11.jpg', pageTitle: 'Chengde Mountain Resort', capturedAt: '2011-06-29T08:31:36Z', score: 271, width: 2592, height: 1944, monthHints: [6], },
-    { url: '/images/worldscene/poi-chengde-mountain-resort-3.jpg', source: 'baike.baidu.com', title: '承德外八庙 photo', pageTitle: '外八庙（河北省承德市的藏传佛教寺庙群）_百度百科', score: 228, width: 994, height: 1024, },
-    { url: '/images/worldscene/poi-chengde-mountain-resort-4.jpg', source: 'baike.baidu.com', title: '承德外八庙 photo', pageTitle: '外八庙（河北省承德市的藏传佛教寺庙群）_百度百科', score: 228, width: 1280, height: 960, },
-    { url: '/images/worldscene/poi-chengde-mountain-resort-5.jpg', source: 'baike.baidu.com', title: '承德外八庙 photo', pageTitle: '外八庙（河北省承德市的藏传佛教寺庙群）_百度百科', score: 228, width: 1024, height: 1024, },
-    { url: '/images/worldscene/poi-chengde-mountain-resort-6.jpg', source: 'baike.baidu.com', title: '承德外八庙 photo', pageTitle: '外八庙（河北省承德市的藏传佛教寺庙群）_百度百科', score: 208, width: 1000, height: 750, },
+    { url: '/images/worldscene/poi-chengde-mountain-resort-1.jpg', source: 'en.wikipedia.org:Chengde Mountain Resort', title: 'File:Chengdemountainresortpic2.jpg', pageTitle: 'Chengde Mountain Resort', capturedAt: '2008-09-16T01:50:31Z', score: 306, width: 480, height: 375, monthHints: [2, 9], keywords: ['february'], },
+    { url: '/images/worldscene/poi-chengde-mountain-resort-2.jpg', source: 'en.wikipedia.org:Chengde Mountain Resort', title: 'File:Chengde Mountain Resort 11.jpg', pageTitle: 'Chengde Mountain Resort', capturedAt: '2011-06-29T08:31:36Z', score: 257, width: 2592, height: 1944, monthHints: [1, 11, 6], keywords: ['january', 'november'], },
+    { url: '/images/worldscene/poi-chengde-mountain-resort-4.jpg', source: 'zh.wikipedia.org:承德避暑山庄及其周围寺庙', title: 'File:Chengde Mountain Resort 3.jpg', pageTitle: '承德避暑山庄及其周围寺庙', capturedAt: '2011-06-29T07:58:02Z', score: 257, width: 2592, height: 1944, monthHints: [3, 6], keywords: ['march'], },
+    { url: '/images/worldscene/poi-chengde-mountain-resort-5.jpg', source: 'zh.wikipedia.org:承德避暑山庄及其周围寺庙', title: 'File:Chengde Mountain Resort 5.jpg', pageTitle: '承德避暑山庄及其周围寺庙', capturedAt: '2011-06-29T08:05:08Z', score: 257, width: 2592, height: 1944, monthHints: [5, 6], keywords: ['may'], },
+    { url: '/images/worldscene/poi-chengde-mountain-resort-6.jpg', source: 'en.wikipedia.org:Chengde Mountain Resort', title: 'File:Chengde Mountain Resort 22731-Chengde (43552735720).jpg', pageTitle: 'Chengde Mountain Resort', capturedAt: '2023-10-21T10:44:00Z', score: 245, width: 3000, height: 2000, monthHints: [1, 2, 3, 4, 5, 7, 10], keywords: ['january', 'february', 'march', 'april', 'may', 'july'], },
     ],
   },
   'chichen-itza': {
@@ -178,6 +190,13 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-cinque-terre-4.jpg', source: 'baike.baidu.com', title: '五渔村 photo', pageTitle: '五渔村_百度百科', score: 166, width: 1600, height: 1064, },
     { url: '/images/worldscene/poi-cinque-terre-5.jpg', source: 'en.wikipedia.org:Cinque Terre', title: 'File:Monterosso CinqueTerre.JPG', pageTitle: 'Cinque Terre', capturedAt: '2008-03-26T19:08:35Z', score: 148, width: 2816, height: 2112, monthHints: [3, 12, 1, 2], seasonHints: ['winter'], keywords: ['march', 'winter'], },
     { url: '/images/worldscene/poi-cinque-terre-6.jpg', source: 'baike.baidu.com', title: '五渔村 photo', pageTitle: '五渔村_百度百科', score: 136, },
+    ],
+  },
+  'cloud-gate-chicago': {
+    images: [
+    { url: '/images/worldscene/poi-cloud-gate-chicago-1.jpg', source: 'local-rebuild', title: 'Cloud Gate 1', pageTitle: 'Cloud Gate', score: 96, },
+    { url: '/images/worldscene/poi-cloud-gate-chicago-2.jpg', source: 'local-rebuild', title: 'Cloud Gate 2', pageTitle: 'Cloud Gate', score: 92, },
+    { url: '/images/worldscene/poi-cloud-gate-chicago-3.jpg', source: 'local-rebuild', title: 'Cloud Gate 3', pageTitle: 'Cloud Gate', score: 88, },
     ],
   },
   'colosseum': {
@@ -222,8 +241,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'dubrovnik-old-town': {
     images: [
-    { url: '/images/worldscene/poi-dubrovnik-old-town-1.jpg', source: 'en.wikipedia.org:Dubrovnik', title: 'File:Dubrovnik 1667.jpg', pageTitle: 'Dubrovnik', capturedAt: '2013-11-24T11:20:24Z', score: 151, width: 2108, height: 1462, monthHints: [3, 11], keywords: ['march'], },
-    { url: '/images/worldscene/poi-dubrovnik-old-town-2.jpg', source: 'en.wikipedia.org:Dubrovnik', title: 'File:Dubrovnik-F.Tudjman-Bridge.jpg', pageTitle: 'Dubrovnik', capturedAt: '2006-08-04T19:44:41Z', score: 148, width: 1534, height: 1105, monthHints: [8], },
+    { url: '/images/worldscene/poi-dubrovnik-old-town-1.jpg', source: 'baike.baidu.com', title: '杜布罗夫尼克古城 photo', pageTitle: '杜布罗夫尼克古城_百度百科', score: 237, width: 2000, height: 1500, monthHints: [4, 5, 6, 9, 10], },
+    { url: '/images/worldscene/poi-dubrovnik-old-town-4.jpg', source: 'baike.baidu.com', title: '杜布罗夫尼克古城 photo', pageTitle: '杜布罗夫尼克古城_百度百科', score: 197, width: 998, height: 748, monthHints: [4, 5, 6, 9, 10], },
+    { url: '/images/worldscene/poi-dubrovnik-old-town-5.jpg', source: 'baike.baidu.com', title: '杜布罗夫尼克古城 photo', pageTitle: '杜布罗夫尼克古城_百度百科', score: 187, monthHints: [4, 5, 6, 9, 10], },
+    { url: '/images/worldscene/poi-dubrovnik-old-town-6.jpg', source: 'baike.baidu.com', title: '杜布罗夫尼克古城 photo', pageTitle: '杜布罗夫尼克古城_百度百科', score: 182, width: 800, height: 1200, monthHints: [4, 5, 6, 9, 10], },
+    { url: '/images/worldscene/poi-dubrovnik-old-town-7.jpg', source: 'local-rebuild', title: 'Dubrovnik Old Town 7', pageTitle: 'Dubrovnik Old Town', score: 72, },
     ],
   },
   'easter-island': {
@@ -239,10 +261,10 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     images: [
     { url: '/images/worldscene/poi-eiffel-tower-1.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 243, },
     { url: '/images/worldscene/poi-eiffel-tower-2.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 690, height: 1227, },
-    { url: '/images/worldscene/poi-eiffel-tower-3.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 665, height: 538, monthHints: [7], keywords: ['july'], },
-    { url: '/images/worldscene/poi-eiffel-tower-4.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 659, height: 528, monthHints: [2, 12], keywords: ['february', 'december'], },
-    { url: '/images/worldscene/poi-eiffel-tower-5.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 652, height: 522, monthHints: [3], keywords: ['march'], },
-    { url: '/images/worldscene/poi-eiffel-tower-6.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 658, height: 526, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-eiffel-tower-3.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 665, height: 538, monthHints: [1, 7, 8], keywords: ['january', 'july', 'august'], },
+    { url: '/images/worldscene/poi-eiffel-tower-4.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 659, height: 528, monthHints: [1, 2, 7, 8, 12], keywords: ['january', 'february', 'july', 'august', 'december'], },
+    { url: '/images/worldscene/poi-eiffel-tower-5.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 652, height: 522, monthHints: [1, 2, 3, 8], keywords: ['january', 'february', 'march', 'august'], },
+    { url: '/images/worldscene/poi-eiffel-tower-6.jpg', source: 'baike.baidu.com', title: '埃菲尔铁塔 photo', pageTitle: '埃菲尔铁塔（巴黎城市地标之一）_百度百科', score: 218, width: 658, height: 526, monthHints: [1, 5, 8], keywords: ['january', 'may', 'august'], },
     ],
   },
   'fitz-roy-el-chalten': {
@@ -257,11 +279,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'forbidden-city': {
     images: [
-    { url: '/images/worldscene/poi-forbidden-city-1.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 323, width: 1080, height: 1920, monthHints: [12, 1, 2], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-forbidden-city-2.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 323, width: 1080, height: 1920, monthHints: [12, 1, 2], seasonHints: ['winter'], keywords: ['winter'], },
+    { url: '/images/worldscene/poi-forbidden-city-1.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 323, width: 1080, height: 1920, },
+    { url: '/images/worldscene/poi-forbidden-city-2.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 323, width: 1080, height: 1920, },
     { url: '/images/worldscene/poi-forbidden-city-3.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 303, width: 1030, height: 687, },
-    { url: '/images/worldscene/poi-forbidden-city-4.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 293, },
     { url: '/images/worldscene/poi-forbidden-city-5.jpg', source: 'baike.baidu.com', title: '故宫 photo', pageTitle: '北京故宫_百度百科', score: 268, width: 720, height: 477, },
+    { url: '/images/worldscene/poi-forbidden-city-6.jpg', source: 'zh.wikipedia.org:故宫', title: 'File:The eaves of imperial hall at the Forbidden City, Beijing, China - panoramio.jpg', pageTitle: '故宫', capturedAt: '2017-07-06T17:58:14Z', score: 171, width: 5312, height: 2988, monthHints: [7], },
     ],
   },
   'galapagos': {
@@ -289,6 +311,7 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-giza-4.jpg', source: 'baike.baidu.com', title: '吉萨金字塔 photo', pageTitle: '吉萨金字塔群_百度百科', score: 173, width: 640, height: 480, },
     { url: '/images/worldscene/poi-giza-5.jpg', source: 'baike.baidu.com', title: '吉萨金字塔 photo', pageTitle: '吉萨金字塔群_百度百科', score: 173, width: 640, height: 495, },
     { url: '/images/worldscene/poi-giza-6.jpg', source: 'baike.baidu.com', title: '埃及金字塔 photo', pageTitle: '金字塔（世界七大奇迹之一）_百度百科', score: 173, width: 800, height: 600, },
+    { url: '/images/worldscene/poi-giza-7.jpg', source: 'local-rebuild', title: 'Pyramids of Giza 7', pageTitle: 'Pyramids of Giza', score: 72, },
     ],
   },
   'golden-gate-bridge': {
@@ -322,10 +345,10 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   'great-wall': {
     images: [
     { url: '/images/worldscene/poi-great-wall-1.jpg', source: 'baike.baidu.com', title: '长城 photo', pageTitle: '长城（第五批全国重点文物保护单位、世界文化遗产）_百度百科', score: 251, width: 2268, height: 2268, },
-    { url: '/images/worldscene/poi-great-wall-2.jpg', source: 'baike.baidu.com', title: '长城 photo', pageTitle: '长城（第五批全国重点文物保护单位、世界文化遗产）_百度百科', score: 211, width: 1500, height: 1082, },
-    { url: '/images/worldscene/poi-great-wall-3.jpg', source: 'baike.baidu.com', title: '长城 photo', pageTitle: '长城（第五批全国重点文物保护单位、世界文化遗产）_百度百科', score: 191, width: 1018, height: 676, },
-    { url: '/images/worldscene/poi-great-wall-4.jpg', source: 'baike.baidu.com', title: '长城 photo', pageTitle: '长城（第五批全国重点文物保护单位、世界文化遗产）_百度百科', score: 191, width: 1024, height: 683, },
-    { url: '/images/worldscene/poi-great-wall-6.jpg', source: 'baike.baidu.com', title: '长城 photo', pageTitle: '长城（第五批全国重点文物保护单位、世界文化遗产）_百度百科', score: 156, width: 799, height: 578, },
+    { url: '/images/worldscene/poi-great-wall-3.jpg', source: 'zh.wikipedia.org:慕田峪长城', title: 'File:慕田峪长城航拍 2018-09-16 152005.jpg', pageTitle: '慕田峪长城', capturedAt: '2019-03-12T16:39:42Z', score: 237, width: 4000, height: 3000, monthHints: [1, 2, 5, 6, 8, 9, 3], keywords: ['january', 'february', 'may', 'june', 'august', 'september'], },
+    { url: '/images/worldscene/poi-great-wall-4.jpg', source: 'zh.wikipedia.org:慕田峪长城', title: 'File:慕田峪长城航拍 2018-09-16 144710.jpg', pageTitle: '慕田峪长城', capturedAt: '2019-03-12T16:39:48Z', score: 237, width: 4000, height: 3000, monthHints: [1, 2, 4, 6, 7, 8, 9, 10, 3], keywords: ['january', 'february', 'april', 'june', 'july', 'august', 'september', 'october'], },
+    { url: '/images/worldscene/poi-great-wall-5.jpg', source: 'zh.wikipedia.org:慕田峪长城', title: 'File:慕田峪长城航拍 2018-09-16 151631.jpg', pageTitle: '慕田峪长城', capturedAt: '2019-03-12T16:39:52Z', score: 237, width: 4000, height: 3000, monthHints: [1, 2, 3, 5, 6, 8, 9], keywords: ['january', 'february', 'march', 'may', 'june', 'august', 'september'], },
+    { url: '/images/worldscene/poi-great-wall-6.jpg', source: 'zh.wikipedia.org:慕田峪长城', title: 'File:慕田峪长城航拍 2018-09-16 151644.jpg', pageTitle: '慕田峪长城', capturedAt: '2019-03-12T16:39:53Z', score: 237, width: 4000, height: 3000, monthHints: [1, 2, 4, 5, 6, 8, 9, 3], keywords: ['january', 'february', 'april', 'may', 'june', 'august', 'september'], },
     ],
   },
   'guilin-li-river': {
@@ -339,12 +362,12 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'gulangyu-island': {
     images: [
-    { url: '/images/worldscene/poi-gulangyu-island-1.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 248, },
-    { url: '/images/worldscene/poi-gulangyu-island-2.jpg', source: 'en.wikipedia.org:Gulangyu', title: 'File:Xiamen China Gulangyu Island 1 by D Ramey Logan.jpg', pageTitle: 'Gulangyu', capturedAt: '2023-09-26T20:07:44Z', score: 241, width: 2858, height: 2000, monthHints: [2, 9], keywords: ['february'], },
-    { url: '/images/worldscene/poi-gulangyu-island-3.jpg', source: 'en.wikipedia.org:Gulangyu', title: 'File:Xiamen China Gulangyu Island 2 by D Ramey Logan.jpg', pageTitle: 'Gulangyu', capturedAt: '2023-09-28T16:33:53Z', score: 241, width: 2858, height: 2000, monthHints: [9], },
-    { url: '/images/worldscene/poi-gulangyu-island-4.jpg', source: 'en.wikipedia.org:Gulangyu', title: 'File:Xiamen China Gulangyu Island 3 by D Ramey Logan.jpg', pageTitle: 'Gulangyu', capturedAt: '2009-11-23T18:18:26Z', score: 241, width: 2000, height: 3008, monthHints: [11], },
-    { url: '/images/worldscene/poi-gulangyu-island-5.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 223, width: 680, height: 510, },
-    { url: '/images/worldscene/poi-gulangyu-island-6.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 223, width: 650, height: 434, },
+    { url: '/images/worldscene/poi-gulangyu-island-1.jpg', source: 'en.wikipedia.org:Gulangyu', title: 'File:Xiamen China Gulangyu Island 1 by D Ramey Logan.jpg', pageTitle: 'Gulangyu', capturedAt: '2023-09-26T20:07:44Z', score: 301, width: 2858, height: 2000, monthHints: [1, 2, 3, 7, 9], keywords: ['january', 'february', 'march', 'july'], },
+    { url: '/images/worldscene/poi-gulangyu-island-2.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 293, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-gulangyu-island-3.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 268, width: 680, height: 510, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-gulangyu-island-4.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 268, width: 650, height: 434, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-gulangyu-island-5.jpg', source: 'baike.baidu.com', title: '鼓浪屿 photo', pageTitle: '鼓浪屿（中国福建省厦门市国家5A级景区）_百度百科', score: 268, width: 750, height: 563, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-gulangyu-island-6.jpg', source: 'en.wikipedia.org:Gulangyu', title: 'File:Beach on Gulangyu Island XiamenChina Photo D Ramey Logan.jpg', pageTitle: 'Gulangyu', capturedAt: '2010-05-31T03:58:39Z', score: 264, width: 3008, height: 1141, monthHints: [1, 2, 3, 4, 5, 7, 12], seasonHints: ['winter'], keywords: ['january', 'february', 'march', 'april', 'may', 'july', 'winter'], },
     ],
   },
   'ha-long-bay': {
@@ -396,9 +419,12 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'huanglong-scenic': {
     images: [
-    { url: '/images/worldscene/poi-huanglong-scenic-2.jpg', source: 'baike.baidu.com', title: '黄龙风景名胜区 photo', pageTitle: '黄龙风景名胜区（四川省阿坝藏族羌族自治州的国家5A级旅游景区、世界自然遗产）_百度百科', score: 152, width: 1024, height: 761, },
-    { url: '/images/worldscene/poi-huanglong-scenic-3.jpg', source: 'baike.baidu.com', title: '黄龙风景名胜区 photo', pageTitle: '黄龙风景名胜区（四川省阿坝藏族羌族自治州的国家5A级旅游景区、世界自然遗产）_百度百科', score: 152, width: 1017, height: 757, },
-    { url: '/images/worldscene/poi-huanglong-scenic-4.jpg', source: 'baike.baidu.com', title: '黄龙风景名胜区 photo', pageTitle: '黄龙风景名胜区（四川省阿坝藏族羌族自治州的国家5A级旅游景区、世界自然遗产）_百度百科', score: 152, width: 1027, height: 776, },
+    { url: '/images/worldscene/poi-huanglong-scenic-1.png', source: 'zh.wikipedia.org:黄龙风景名胜区', title: 'File:Huanglong scenic areas.png', pageTitle: '黄龙风景名胜区', capturedAt: '2013-11-06T09:30:50Z', score: 273, width: 2157, height: 1518, monthHints: [11], },
+    { url: '/images/worldscene/poi-huanglong-scenic-2.jpg', source: 'baike.baidu.com', title: '黄龙 五彩池 photo', pageTitle: '五彩池（中国四川省松潘县黄龙景区钙华彩池群）_百度百科', score: 267, width: 1280, height: 960, },
+    { url: '/images/worldscene/poi-huanglong-scenic-3.jpg', source: 'baike.baidu.com', title: '黄龙 五彩池 photo', pageTitle: '五彩池（中国四川省松潘县黄龙景区钙华彩池群）_百度百科', score: 247, width: 1024, height: 676, },
+    { url: '/images/worldscene/poi-huanglong-scenic-4.jpg', source: 'baike.baidu.com', title: '黄龙 五彩池 photo', pageTitle: '五彩池（中国四川省松潘县黄龙景区钙华彩池群）_百度百科', score: 237, },
+    { url: '/images/worldscene/poi-huanglong-scenic-5.jpg', source: 'baike.baidu.com', title: '黄龙 五彩池 photo', pageTitle: '五彩池（中国四川省松潘县黄龙景区钙华彩池群）_百度百科', score: 212, width: 640, height: 437, },
+    { url: '/images/worldscene/poi-huanglong-scenic-6.jpg', source: 'baike.baidu.com', title: '黄龙 五彩池 photo', pageTitle: '五彩池（中国四川省松潘县黄龙景区钙华彩池群）_百度百科', score: 212, width: 660, height: 980, },
     ],
   },
   'huangshan-yellow-mountain': {
@@ -413,15 +439,21 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'hukou-waterfall-yellow-river': {
     images: [
-    { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-2.jpg', source: 'baike.baidu.com', title: '壶口瀑布 photo', pageTitle: '壶口瀑布（黄河干流瀑布）_百度百科', score: 166, width: 1600, height: 1200, },
-    { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-3.jpg', source: 'baike.baidu.com', title: '壶口瀑布 photo', pageTitle: '壶口瀑布（黄河干流瀑布）_百度百科', score: 166, width: 1600, height: 1200, },
+    { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-1.jpg', source: 'en.wikipedia.org:Hukou Waterfalls', title: 'File:HukouWaterfall4.jpg', pageTitle: 'Hukou Waterfalls', capturedAt: '2006-11-07T05:37:26Z', score: 222, width: 2576, height: 1615, monthHints: [2, 3, 4, 5, 9, 10, 11, 12, 1], seasonHints: ['autumn', 'winter'], keywords: ['february', 'march', 'april', 'may', 'autumn', 'winter'], },
+    { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-2.jpg', source: 'en.wikipedia.org:Hukou Waterfalls', title: 'File:J83295-304 PanoChutesDeHukou 20140712-092426.84 36.11378,110.45326.jpg', pageTitle: 'Hukou Waterfalls', capturedAt: '2014-07-12T23:45:34Z', score: 210, width: 3094, height: 795, monthHints: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], seasonHints: ['autumn', 'winter'], keywords: ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 'autumn', 'winter'], },
+    { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-3.jpg', source: 'baike.baidu.com', title: '黄河壶口瀑布 photo', pageTitle: '黄河壶口瀑布（国家邮政局于2002年11月8日发行的特种邮票金箔小型张）_百度百科', score: 198, monthHints: [1, 2, 8, 11], keywords: ['january', 'february', 'august', 'november'], },
     { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-4.jpg', source: 'baike.baidu.com', title: '壶口瀑布 photo', pageTitle: '壶口瀑布（黄河干流瀑布）_百度百科', score: 166, width: 1600, height: 1200, },
     { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-5.jpg', source: 'baike.baidu.com', title: '壶口瀑布 photo', pageTitle: '壶口瀑布（黄河干流瀑布）_百度百科', score: 166, width: 1600, height: 1200, },
+    { url: '/images/worldscene/poi-hukou-waterfall-yellow-river-6.jpg', source: 'baike.baidu.com', title: '壶口瀑布 photo', pageTitle: '壶口瀑布（黄河干流瀑布）_百度百科', score: 166, width: 1600, height: 1200, },
     ],
   },
   'iceland-blue-lagoon': {
     images: [
-    { url: '/images/worldscene/poi-iceland-blue-lagoon-2.jpg', source: 'baike.baidu.com', title: '蓝湖温泉 photo', pageTitle: '蓝湖温泉_百度百科', score: 111, width: 665, height: 440, },
+    { url: '/images/worldscene/poi-iceland-blue-lagoon-2.jpg', source: 'local-rebuild', title: 'Blue Lagoon 2', pageTitle: 'Blue Lagoon', score: 92, },
+    { url: '/images/worldscene/poi-iceland-blue-lagoon-4.jpg', source: 'local-rebuild', title: 'Blue Lagoon 4', pageTitle: 'Blue Lagoon', score: 84, },
+    { url: '/images/worldscene/poi-iceland-blue-lagoon-5.jpg', source: 'local-rebuild', title: 'Blue Lagoon 5', pageTitle: 'Blue Lagoon', score: 80, },
+    { url: '/images/worldscene/poi-iceland-blue-lagoon-6.jpg', source: 'baike.baidu.com', title: '蓝湖温泉 photo', pageTitle: '蓝湖温泉_百度百科', score: 111, width: 665, height: 440, monthHints: [10, 11, 12, 1, 2, 3, 4], },
+    { url: '/images/worldscene/poi-iceland-blue-lagoon-7.jpg', source: 'local-rebuild', title: 'Blue Lagoon 7', pageTitle: 'Blue Lagoon', score: 72, },
     ],
   },
   'iguazu': {
@@ -476,7 +508,8 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-kyoto-2.jpg', source: 'baike.baidu.com', title: '京都 photo', pageTitle: '京都市_百度百科', score: 231, width: 2048, height: 1365, monthHints: [3, 4, 5, 10, 11], },
     { url: '/images/worldscene/poi-kyoto-3.jpg', source: 'baike.baidu.com', title: '京都 photo', pageTitle: '京都市_百度百科', score: 211, width: 1452, height: 969, monthHints: [3, 4, 5, 10, 11], },
     { url: '/images/worldscene/poi-kyoto-4.jpg', source: 'baike.baidu.com', title: '京都 photo', pageTitle: '京都市_百度百科', score: 191, width: 1024, height: 744, monthHints: [3, 4, 5, 10, 11], },
-    { url: '/images/worldscene/poi-kyoto-5.jpg', source: 'en.wikipedia.org:Kyoto', title: 'File:KyotoBotanicalGarden.jpg', pageTitle: 'Kyoto', capturedAt: '2005-12-11T08:44:22Z', score: 184, width: 2304, height: 1728, monthHints: [12, 1, 2, 3, 4, 5, 10, 11], seasonHints: ['winter'], keywords: ['winter'], },
+    { url: '/images/worldscene/poi-kyoto-5.jpg', source: 'en.wikipedia.org:Kyoto', title: 'File:KyotoBotanicalGarden.jpg', pageTitle: 'Kyoto', capturedAt: '2005-12-11T08:44:22Z', score: 184, width: 2304, height: 1728, monthHints: [3, 12, 1, 2, 4, 5, 10, 11], seasonHints: ['winter'], keywords: ['march', 'winter'], },
+    { url: '/images/worldscene/poi-kyoto-6.jpg', source: 'zh.wikipedia.org:京都', title: 'File:Kyoto street electric at night.jpeg', pageTitle: '京都', capturedAt: '2006-08-27T06:47:54Z', score: 184, width: 3072, height: 2304, monthHints: [2, 3, 5, 6, 7, 12, 1, 8, 4, 10, 11], seasonHints: ['winter'], keywords: ['february', 'march', 'may', 'june', 'july', 'winter'], },
     ],
   },
   'lake-bled': {
@@ -490,12 +523,12 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'las-vegas-strip': {
     images: [
-    { url: '/images/worldscene/poi-las-vegas-strip-1.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas Strip panorama.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2007-03-04T18:26:20Z', score: 284, width: 6000, height: 1027, monthHints: [3], },
-    { url: '/images/worldscene/poi-las-vegas-strip-2.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas Strip south, Tropicana ave.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2009-08-20T04:58:39Z', score: 213, width: 1024, height: 576, monthHints: [6, 8], keywords: ['june', 'august'], },
-    { url: '/images/worldscene/poi-las-vegas-strip-3.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas Strip Aerial September 2013.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2015-07-29T21:14:04Z', score: 213, width: 2743, height: 1543, monthHints: [9, 7], keywords: ['september'], },
-    { url: '/images/worldscene/poi-las-vegas-strip-4.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Nevada National Guard patrols Las Vegas Strip on New Years (2017).jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2017-02-18T00:51:55Z', score: 213, width: 3324, height: 2195, monthHints: [12, 1, 2], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-las-vegas-strip-5.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas strip panorama 1.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2017-08-27T20:04:30Z', score: 213, width: 12301, height: 1330, monthHints: [8], },
-    { url: '/images/worldscene/poi-las-vegas-strip-6.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:11 The Venetian Las Vegas - luxury hotel and casino in Las Vegas Strip.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2025-08-21T12:00:03Z', score: 213, width: 3600, height: 2720, monthHints: [8], },
+    { url: '/images/worldscene/poi-las-vegas-strip-1.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas Strip panorama.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2007-03-04T18:26:20Z', score: 284, width: 6000, height: 1027, monthHints: [2, 5, 7, 3], keywords: ['february', 'may', 'july'], },
+    { url: '/images/worldscene/poi-las-vegas-strip-2.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas Strip south, Tropicana ave.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2009-08-20T04:58:39Z', score: 213, width: 1024, height: 576, monthHints: [1, 2, 4, 6, 8, 9, 11], keywords: ['january', 'february', 'april', 'june', 'august', 'september', 'november'], },
+    { url: '/images/worldscene/poi-las-vegas-strip-3.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas Strip Aerial September 2013.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2015-07-29T21:14:04Z', score: 213, width: 2743, height: 1543, monthHints: [1, 2, 3, 9, 7], keywords: ['january', 'february', 'march', 'september'], },
+    { url: '/images/worldscene/poi-las-vegas-strip-4.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Nevada National Guard patrols Las Vegas Strip on New Years (2017).jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2017-02-18T00:51:55Z', score: 213, width: 3324, height: 2195, monthHints: [1, 2, 7, 12], seasonHints: ['winter'], keywords: ['january', 'february', 'july', 'winter'], },
+    { url: '/images/worldscene/poi-las-vegas-strip-5.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:Las Vegas strip panorama 1.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2017-08-27T20:04:30Z', score: 213, width: 12301, height: 1330, monthHints: [1, 8], keywords: ['january'], },
+    { url: '/images/worldscene/poi-las-vegas-strip-6.jpg', source: 'en.wikipedia.org:Las Vegas Strip', title: 'File:11 The Venetian Las Vegas - luxury hotel and casino in Las Vegas Strip.jpg', pageTitle: 'Las Vegas Strip', capturedAt: '2025-08-21T12:00:03Z', score: 213, width: 3600, height: 2720, monthHints: [1, 11, 8], keywords: ['january', 'november'], },
     ],
   },
   'leshan-giant-buddha': {
@@ -519,19 +552,20 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'longmen-grottoes-luoyang': {
     images: [
-    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-1.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 1125, height: 2000, },
-    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-2.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 1125, height: 2000, },
-    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-3.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 2000, height: 1333, },
-    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-4.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 2000, height: 1271, },
-    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-6.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 223, width: 680, height: 1019, },
+    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-1.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 1125, height: 2000, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-2.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 1125, height: 2000, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-3.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 2000, height: 1333, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-4.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 298, width: 2000, height: 1271, monthHints: [5], keywords: ['may'], },
+    { url: '/images/worldscene/poi-longmen-grottoes-luoyang-6.jpg', source: 'baike.baidu.com', title: '龙门石窟 photo', pageTitle: '龙门石窟（中国河南省洛阳市世界文化遗产、国家5A级景区）_百度百科', score: 223, width: 680, height: 1019, monthHints: [5], keywords: ['may'], },
     ],
   },
   'louvre-paris': {
     images: [
-    { url: '/images/worldscene/poi-louvre-paris-1.jpg', source: 'baike.baidu.com', title: '卢浮宫博物馆 photo', pageTitle: '卢浮宫（法国巴黎境内的博物馆、世界四大博物馆之首）_百度百科', score: 264, width: 1051, height: 738, },
-    { url: '/images/worldscene/poi-louvre-paris-4.jpg', source: 'baike.baidu.com', title: '卢浮宫博物馆 photo', pageTitle: '卢浮宫（法国巴黎境内的博物馆、世界四大博物馆之首）_百度百科', score: 229, width: 990, height: 480, },
-    { url: '/images/worldscene/poi-louvre-paris-5.jpg', source: 'baike.baidu.com', title: '卢浮宫博物馆 photo', pageTitle: '卢浮宫（法国巴黎境内的博物馆、世界四大博物馆之首）_百度百科', score: 229, width: 990, height: 481, },
-    { url: '/images/worldscene/poi-louvre-paris-6.jpg', source: 'baike.baidu.com', title: '卢浮宫博物馆 photo', pageTitle: '卢浮宫（法国巴黎境内的博物馆、世界四大博物馆之首）_百度百科', score: 229, width: 990, height: 482, },
+    { url: '/images/worldscene/poi-louvre-paris-1.jpg', source: 'baike.baidu.com', title: '卢浮宫博物馆 photo', pageTitle: '卢浮宫（法国巴黎境内的博物馆、世界四大博物馆之首）_百度百科', score: 309, width: 1051, height: 738, },
+    { url: '/images/worldscene/poi-louvre-paris-4.jpg', source: 'baike.baidu.com', title: '卢浮宫博物馆 photo', pageTitle: '卢浮宫（法国巴黎境内的博物馆、世界四大博物馆之首）_百度百科', score: 274, width: 990, height: 482, monthHints: [2], keywords: ['february'], },
+    { url: '/images/worldscene/poi-louvre-paris-5.jpg', source: 'local-rebuild', title: 'Louvre Museum 5', pageTitle: 'Louvre Museum', score: 80, },
+    { url: '/images/worldscene/poi-louvre-paris-6.jpg', source: 'zh.wikipedia.org:卢浮宫博物馆', title: 'File:Cour Carrée, Louvre Museum, 2 April 2009.jpg', pageTitle: '卢浮宫博物馆', capturedAt: '2018-02-20T22:32:47Z', score: 192, width: 8000, height: 3551, monthHints: [2, 4, 9], keywords: ['february', 'april', 'september'], },
+    { url: '/images/worldscene/poi-louvre-paris-9.jpg', source: 'local-rebuild', title: 'Louvre Museum 9', pageTitle: 'Louvre Museum', score: 64, },
     ],
   },
   'machu-picchu': {
@@ -546,7 +580,20 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'marina-bay': {
     images: [
-    { url: '/images/worldscene/poi-marina-bay-1.jpg', source: 'local-rebuild', title: 'Marina Bay 1', pageTitle: 'Marina Bay', score: 96, },
+    { url: '/images/worldscene/poi-marina-bay-1.jpg', source: 'en.wikipedia.org:Marina Bay Sands', title: 'File:Marina Bay Sands under construction - 20090805.jpg', pageTitle: 'Marina Bay Sands', capturedAt: '2009-08-09T02:22:57Z', score: 331, width: 2000, height: 1333, monthHints: [2, 3, 4, 5, 8, 9, 12, 1], seasonHints: ['winter'], keywords: ['february', 'march', 'april', 'may', 'august', 'september', 'winter'], },
+    { url: '/images/worldscene/poi-marina-bay-2.jpg', source: 'en.wikipedia.org:Marina Bay Sands', title: 'File:The Shoppes at Marina Bay Sands, Singapore.jpg', pageTitle: 'Marina Bay Sands', capturedAt: '2011-04-11T06:18:25Z', score: 296, width: 2048, height: 1536, monthHints: [3, 4], keywords: ['march'], },
+    { url: '/images/worldscene/poi-marina-bay-5.jpg', source: 'en.wikipedia.org:Marina Bay Sands', title: 'File:Rear view of the Merlion statue at Merlion Park, Singapore, with Marina Bay Sands in the distance - 20140307.jpg', pageTitle: 'Marina Bay Sands', capturedAt: '2014-03-17T02:02:08Z', score: 222, width: 2048, height: 1356, monthHints: [1, 2, 3, 4, 7], keywords: ['january', 'february', 'march', 'april', 'july'], },
+    { url: '/images/worldscene/poi-marina-bay-6.jpg', source: 'en.wikipedia.org:Marina Bay Sands', title: 'File:Marina Bay Sands Hotel Lobby view 201012.jpg', pageTitle: 'Marina Bay Sands', capturedAt: '2015-07-30T03:02:00Z', score: 222, width: 2272, height: 1704, monthHints: [1, 2, 3, 10, 12, 7], keywords: ['january', 'february', 'march', 'october', 'december'], },
+    { url: '/images/worldscene/poi-marina-bay-7.jpg', source: 'local-rebuild', title: 'Marina Bay 7', pageTitle: 'Marina Bay', score: 72, },
+    ],
+  },
+  'marrakech': {
+    images: [
+    { url: '/images/worldscene/poi-marrakech-2.jpg', source: 'local-rebuild', title: 'Marrakech Medina 2', pageTitle: 'Marrakech Medina', score: 92, },
+    { url: '/images/worldscene/poi-marrakech-3.jpg', source: 'local-rebuild', title: 'Marrakech Medina 3', pageTitle: 'Marrakech Medina', score: 88, },
+    { url: '/images/worldscene/poi-marrakech-4.jpg', source: 'local-rebuild', title: 'Marrakech Medina 4', pageTitle: 'Marrakech Medina', score: 84, },
+    { url: '/images/worldscene/poi-marrakech-6.jpg', source: 'local-rebuild', title: 'Marrakech Medina 6', pageTitle: 'Marrakech Medina', score: 76, },
+    { url: '/images/worldscene/poi-marrakech-7.jpg', source: 'local-rebuild', title: 'Marrakech Medina 7', pageTitle: 'Marrakech Medina', score: 72, },
     ],
   },
   'meteora-monasteries': {
@@ -555,6 +602,8 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-meteora-monasteries-2.jpg', source: 'en.wikipedia.org:Meteora', title: 'File:Monastery Varlaam, Meteora, Greece.jpg', pageTitle: 'Meteora', capturedAt: '2009-12-18T23:16:55Z', score: 204, width: 2048, height: 604, monthHints: [12], },
     { url: '/images/worldscene/poi-meteora-monasteries-3.jpg', source: 'en.wikipedia.org:Meteora', title: 'File:Roussanou, Meteora, Greece.jpg', pageTitle: 'Meteora', capturedAt: '2009-12-18T23:20:01Z', score: 204, width: 2048, height: 598, monthHints: [12], },
     { url: '/images/worldscene/poi-meteora-monasteries-4.jpg', source: 'en.wikipedia.org:Meteora', title: 'File:Varlaam and Grand Metereon, Meteora, Greece.jpg', pageTitle: 'Meteora', capturedAt: '2009-12-18T23:20:55Z', score: 204, width: 2048, height: 438, monthHints: [12], },
+    { url: '/images/worldscene/poi-meteora-monasteries-5.jpg', source: 'en.wikipedia.org:Meteora', title: 'File:07Meteora12.jpg', pageTitle: 'Meteora', capturedAt: '2007-06-25T18:38:24Z', score: 154, width: 2448, height: 3264, monthHints: [1, 2, 3, 6, 7, 12], keywords: ['january', 'february', 'march', 'june', 'july', 'december'], },
+    { url: '/images/worldscene/poi-meteora-monasteries-6.jpg', source: 'en.wikipedia.org:Meteora', title: 'File:Monastery of the Holy Trinity, Meteora 01.jpg', pageTitle: 'Meteora', capturedAt: '2019-12-30T21:33:36Z', score: 142, width: 3409, height: 2273, monthHints: [1, 12], keywords: ['january'], },
     ],
   },
   'milford-sound': {
@@ -597,18 +646,21 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'mount-emei-scenic': {
     images: [
-    { url: '/images/worldscene/poi-mount-emei-scenic-1.jpg', source: 'baike.baidu.com', title: '峨眉山 photo', pageTitle: '峨眉山（四川邛崃山脉支脉）_百度百科', score: 146, width: 951, height: 625, monthHints: [1, 11], keywords: ['january', 'november'], },
-    { url: '/images/worldscene/poi-mount-emei-scenic-3.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'Mount Emei original', pageTitle: 'Mount Emei', score: 120, },
-    { url: '/images/worldscene/poi-mount-emei-scenic-5.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'File:Guangfu pavilion at Mount Emei.JPG', pageTitle: 'Mount Emei', capturedAt: '2011-06-20T19:01:28Z', score: 111, width: 2048, height: 1536, monthHints: [6], },
-    { url: '/images/worldscene/poi-mount-emei-scenic-6.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'File:Mount Emei pic 3.jpg', pageTitle: 'Mount Emei', capturedAt: '2011-07-10T09:26:02Z', score: 111, width: 864, height: 576, monthHints: [7], },
+    { url: '/images/worldscene/poi-mount-emei-scenic-1.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'File:在峨秀湖远望峨眉山 Mount Emei 2.jpg', pageTitle: 'Mount Emei', capturedAt: '2021-12-15T03:54:43Z', score: 167, width: 1463, height: 976, monthHints: [2, 12], keywords: ['february'], },
+    { url: '/images/worldscene/poi-mount-emei-scenic-2.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'File:在峨秀湖远望峨眉山 Mount Emei 1.jpg', pageTitle: 'Mount Emei', capturedAt: '2021-12-15T03:54:43Z', score: 167, width: 1459, height: 972, monthHints: [1, 12], keywords: ['january'], },
+    { url: '/images/worldscene/poi-mount-emei-scenic-3.jpg', source: 'baike.baidu.com', title: '峨眉山 photo', pageTitle: '峨眉山（四川邛崃山脉支脉）_百度百科', score: 146, width: 951, height: 625, monthHints: [1, 2, 11], keywords: ['january', 'february', 'november'], },
+    { url: '/images/worldscene/poi-mount-emei-scenic-5.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'File:峨眉山风景区 Mount Emei Scenic Area 06.jpg', pageTitle: 'Mount Emei', capturedAt: '2022-03-27T05:59:23Z', score: 130, width: 7952, height: 5304, monthHints: [6, 3], keywords: ['june'], },
+    { url: '/images/worldscene/poi-mount-emei-scenic-6.jpg', source: 'en.wikipedia.org:Mount Emei', title: 'Mount Emei original', pageTitle: 'Mount Emei', score: 120, },
     ],
   },
   'mount-fuji': {
     images: [
-    { url: '/images/worldscene/poi-mount-fuji-1.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 267, width: 1200, height: 800, monthHints: [11, 12, 1, 2, 3, 4], },
-    { url: '/images/worldscene/poi-mount-fuji-2.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 247, width: 1024, height: 768, monthHints: [11, 12, 1, 2, 3, 4], },
-    { url: '/images/worldscene/poi-mount-fuji-3.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 247, width: 1024, height: 602, monthHints: [11, 12, 1, 2, 3, 4], },
+    { url: '/images/worldscene/poi-mount-fuji-1.jpg', source: 'en.wikipedia.org:Mount Fuji', title: 'File:Outer shrine of Fujisan Hongu SengenTaisha (富士山本宮浅間大社) - panoramio.jpg', pageTitle: 'Mount Fuji', capturedAt: '2016-03-10T03:56:35Z', score: 321, width: 1222, height: 1836, monthHints: [3, 11, 12, 1, 2, 4], },
+    { url: '/images/worldscene/poi-mount-fuji-2.jpg', source: 'zh.wikipedia.org:富士山', title: 'File:富士山登山2010 (Mt. Fuji Climb) (4916003756).jpg', pageTitle: '富士山', capturedAt: '2014-12-20T04:20:49Z', score: 321, width: 2144, height: 1424, monthHints: [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 11], keywords: ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'september', 'october'], },
+    { url: '/images/worldscene/poi-mount-fuji-3.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 267, width: 1200, height: 800, monthHints: [11, 12, 1, 2, 3, 4], },
     { url: '/images/worldscene/poi-mount-fuji-4.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 247, width: 1024, height: 768, monthHints: [11, 12, 1, 2, 3, 4], },
+    { url: '/images/worldscene/poi-mount-fuji-5.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 247, width: 1024, height: 602, monthHints: [11, 12, 1, 2, 3, 4], },
+    { url: '/images/worldscene/poi-mount-fuji-6.jpg', source: 'baike.baidu.com', title: '富士山 photo', pageTitle: '富士山_百度百科', score: 247, width: 1024, height: 768, monthHints: [11, 12, 1, 2, 3, 4], },
     ],
   },
   'mount-hua-huashan': {
@@ -664,7 +716,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-mount-wutai-1.jpg', source: 'baike.baidu.com', title: '五台山 photo', pageTitle: '五台山（山西省忻州市五台山）_百度百科', score: 262, width: 5344, height: 3561, },
     { url: '/images/worldscene/poi-mount-wutai-2.jpg', source: 'baike.baidu.com', title: '五台山 photo', pageTitle: '五台山（山西省忻州市五台山）_百度百科', score: 262, width: 5355, height: 3570, },
     { url: '/images/worldscene/poi-mount-wutai-3.jpg', source: 'baike.baidu.com', title: '五台山 photo', pageTitle: '五台山（山西省忻州市五台山）_百度百科', score: 262, width: 5459, height: 3640, },
-    { url: '/images/worldscene/poi-mount-wutai-4.jpg', source: 'baike.baidu.com', title: '五台山 photo', pageTitle: '五台山（山西省忻州市五台山）_百度百科', score: 242, width: 1365, height: 2000, },
     { url: '/images/worldscene/poi-mount-wutai-5.jpg', source: 'baike.baidu.com', title: '五台山 photo', pageTitle: '五台山（山西省忻州市五台山）_百度百科', score: 242, width: 1126, height: 2000, },
     { url: '/images/worldscene/poi-mount-wutai-6.jpg', source: 'baike.baidu.com', title: '五台山 photo', pageTitle: '五台山（山西省忻州市五台山）_百度百科', score: 192, },
     ],
@@ -680,9 +731,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'nara-todaiji': {
     images: [
-    { url: '/images/worldscene/poi-nara-todaiji-1.jpg', source: 'baike.baidu.com', title: '奈良大佛 photo', pageTitle: '奈良大佛_百度百科', score: 228, width: 1201, height: 1000, },
-    { url: '/images/worldscene/poi-nara-todaiji-2.jpg', source: 'baike.baidu.com', title: '奈良大佛 photo', pageTitle: '奈良大佛_百度百科', score: 228, width: 1071, height: 1555, },
-    { url: '/images/worldscene/poi-nara-todaiji-5.jpg', source: 'en.wikipedia.org:Tōdai-ji', title: 'Tōdai-ji original', pageTitle: 'Tōdai-ji', score: 120, },
+    { url: '/images/worldscene/poi-nara-todaiji-1.jpg', source: 'local-rebuild', title: 'Tōdai-ji 1', pageTitle: 'Tōdai-ji', score: 96, },
+    { url: '/images/worldscene/poi-nara-todaiji-2.jpg', source: 'local-rebuild', title: 'Tōdai-ji 2', pageTitle: 'Tōdai-ji', score: 92, },
+    { url: '/images/worldscene/poi-nara-todaiji-4.jpg', source: 'local-rebuild', title: 'Tōdai-ji 4', pageTitle: 'Tōdai-ji', score: 84, },
+    { url: '/images/worldscene/poi-nara-todaiji-5.jpg', source: 'local-rebuild', title: 'Tōdai-ji 5', pageTitle: 'Tōdai-ji', score: 80, },
+    { url: '/images/worldscene/poi-nara-todaiji-6.jpg', source: 'local-rebuild', title: 'Tōdai-ji 6', pageTitle: 'Tōdai-ji', score: 76, },
     ],
   },
   'neuschwanstein': {
@@ -692,7 +745,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-neuschwanstein-3.jpg', source: 'baike.baidu.com', title: '新天鹅堡 photo', pageTitle: '新天鹅城堡_百度百科', score: 262, width: 3840, height: 2560, },
     { url: '/images/worldscene/poi-neuschwanstein-4.jpg', source: 'baike.baidu.com', title: '新天鹅堡 photo', pageTitle: '新天鹅城堡_百度百科', score: 222, width: 1200, height: 800, },
     { url: '/images/worldscene/poi-neuschwanstein-5.jpg', source: 'baike.baidu.com', title: '新天鹅堡 photo', pageTitle: '新天鹅城堡_百度百科', score: 192, },
-    { url: '/images/worldscene/poi-neuschwanstein-6.jpg', source: 'baike.baidu.com', title: '新天鹅堡 photo', pageTitle: '新天鹅城堡_百度百科', score: 167, width: 700, height: 373, },
     ],
   },
   'niagara-falls': {
@@ -707,21 +759,31 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'palawan-el-nido': {
     images: [
-    { url: '/images/worldscene/poi-palawan-el-nido-3.jpg', source: 'baike.baidu.com', title: '巴拉望 photo', pageTitle: '巴拉望岛_百度百科', score: 166, width: 1167, height: 1479, },
-    { url: '/images/worldscene/poi-palawan-el-nido-4.jpg', source: 'baike.baidu.com', title: '巴拉望 photo', pageTitle: '巴拉望岛_百度百科', score: 166, width: 1128, height: 1476, },
-    { url: '/images/worldscene/poi-palawan-el-nido-5.jpg', source: 'baike.baidu.com', title: '巴拉望 photo', pageTitle: '巴拉望岛_百度百科', score: 166, width: 1015, height: 1207, },
+    { url: '/images/worldscene/poi-palawan-el-nido-1.jpg', source: 'en.wikipedia.org:El Nido, Palawan', title: 'File:El Nido Palawan Big Lagoon.jpg', pageTitle: 'El Nido, Palawan', capturedAt: '2014-05-01T18:36:16Z', score: 299, width: 3888, height: 2592, monthHints: [2, 5], keywords: ['february'], },
+    { url: '/images/worldscene/poi-palawan-el-nido-2.jpg', source: 'en.wikipedia.org:El Nido, Palawan', title: 'File:Corong Corong Beach, Coconut palm trees, El Nido, Palawan Island, Philippines.jpg', pageTitle: 'El Nido, Palawan', capturedAt: '2022-05-22T12:54:59Z', score: 264, width: 4000, height: 3000, monthHints: [5], },
+    { url: '/images/worldscene/poi-palawan-el-nido-3.jpg', source: 'en.wikipedia.org:El Nido, Palawan', title: 'File:Aerial view of Bucana, 2005-03-31 010659.jpg', pageTitle: 'El Nido, Palawan', capturedAt: '2009-06-05T15:35:27Z', score: 171, width: 2048, height: 1536, monthHints: [1, 2, 3, 5, 6, 9, 10], keywords: ['january', 'february', 'march', 'may', 'june', 'september', 'october'], },
+    { url: '/images/worldscene/poi-palawan-el-nido-4.jpg', source: 'en.wikipedia.org:El Nido, Palawan', title: 'File:El Nido Municipal Hall.JPG', pageTitle: 'El Nido, Palawan', capturedAt: '2015-10-05T08:06:53Z', score: 171, width: 922, height: 691, monthHints: [10], },
+    { url: '/images/worldscene/poi-palawan-el-nido-5.jpg', source: 'en.wikipedia.org:El Nido, Palawan', title: 'File:El Nido Fishing Village - panoramio.jpg', pageTitle: 'El Nido, Palawan', capturedAt: '2016-11-05T07:40:56Z', score: 171, width: 1752, height: 1168, monthHints: [11], },
+    { url: '/images/worldscene/poi-palawan-el-nido-6.jpg', source: 'en.wikipedia.org:El Nido, Palawan', title: 'File:El Nido Calle Real - panoramio.jpg', pageTitle: 'El Nido, Palawan', capturedAt: '2016-11-05T07:46:07Z', score: 171, width: 1752, height: 1168, monthHints: [11], },
     ],
   },
   'pamukkale-travertines': {
     images: [
-    { url: '/images/worldscene/poi-pamukkale-travertines-2.jpg', source: 'baike.baidu.com', title: '希拉波利斯 photo', pageTitle: '希拉波利斯_百度百科', score: 172, width: 1366, height: 768, },
+    { url: '/images/worldscene/poi-pamukkale-travertines-1.jpg', source: 'local-rebuild', title: 'Pamukkale 1', pageTitle: 'Pamukkale', score: 96, },
+    { url: '/images/worldscene/poi-pamukkale-travertines-3.jpg', source: 'local-rebuild', title: 'Pamukkale 3', pageTitle: 'Pamukkale', score: 88, },
+    { url: '/images/worldscene/poi-pamukkale-travertines-5.jpg', source: 'local-rebuild', title: 'Pamukkale 5', pageTitle: 'Pamukkale', score: 80, },
+    { url: '/images/worldscene/poi-pamukkale-travertines-6.jpg', source: 'local-rebuild', title: 'Pamukkale 6', pageTitle: 'Pamukkale', score: 76, },
+    { url: '/images/worldscene/poi-pamukkale-travertines-7.jpg', source: 'local-rebuild', title: 'Pamukkale 7', pageTitle: 'Pamukkale', score: 72, },
     ],
   },
   'perito-moreno-glacier': {
     images: [
-    { url: '/images/worldscene/poi-perito-moreno-glacier-1.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:Perito Moreno Glacier ice fall.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2007-12-23T09:21:05Z', score: 206, width: 1280, height: 854, monthHints: [3, 4, 5, 6, 7, 8, 12], seasonHints: ['autumn', 'winter'], keywords: ['autumn', 'winter'], },
-    { url: '/images/worldscene/poi-perito-moreno-glacier-2.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:Los Glaciares - Glaciar Perito Moreno 008.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2026-03-02T16:04:43Z', score: 169, width: 5976, height: 3984, monthHints: [3], },
-    { url: '/images/worldscene/poi-perito-moreno-glacier-4.jpg', source: 'baike.baidu.com', title: '莫雷诺冰川 photo', pageTitle: '莫雷诺冰川_百度百科', score: 152, width: 1024, height: 683, monthHints: [6, 7, 8], seasonHints: ['winter'], keywords: ['winter'], },
+    { url: '/images/worldscene/poi-perito-moreno-glacier-1.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:Perito Moreno Glacier ice fall.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2007-12-23T09:21:05Z', score: 206, width: 1280, height: 854, monthHints: [1, 2, 3, 4, 5, 6, 7, 8, 12], seasonHints: ['autumn', 'winter'], keywords: ['january', 'february', 'march', 'april', 'may', 'autumn', 'winter'], },
+    { url: '/images/worldscene/poi-perito-moreno-glacier-2.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:Los Glaciares - Glaciar Perito Moreno 008.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2026-03-02T16:04:43Z', score: 169, width: 5976, height: 3984, monthHints: [8, 3], keywords: ['august'], },
+    { url: '/images/worldscene/poi-perito-moreno-glacier-3.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:Perito Moreno Glacier panorama.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2022-04-03T03:27:14Z', score: 163, width: 10320, height: 3863, monthHints: [1, 2, 3, 5, 11, 4], keywords: ['january', 'february', 'march', 'may', 'november'], },
+    { url: '/images/worldscene/poi-perito-moreno-glacier-4.jpg', source: 'baike.baidu.com', title: '莫雷诺冰川 photo', pageTitle: '莫雷诺冰川_百度百科', score: 152, width: 1024, height: 683, },
+    { url: '/images/worldscene/poi-perito-moreno-glacier-5.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:PeritoMoreno003.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2005-07-15T21:50:54Z', score: 144, width: 640, height: 967, monthHints: [3, 6, 7, 8], seasonHints: ['winter'], keywords: ['march', 'winter'], },
+    { url: '/images/worldscene/poi-perito-moreno-glacier-6.jpg', source: 'en.wikipedia.org:Perito Moreno Glacier', title: 'File:SantaCruz-PeritoMoreno-P2140146b.jpg', pageTitle: 'Perito Moreno Glacier', capturedAt: '2005-07-18T11:54:51Z', score: 144, width: 800, height: 600, monthHints: [1, 2, 3, 4, 5, 6, 7, 8], seasonHints: ['winter'], keywords: ['january', 'february', 'march', 'april', 'may', 'june', 'winter'], },
     ],
   },
   'petra': {
@@ -731,7 +793,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-petra-3.jpg', source: 'baike.baidu.com', title: '佩特拉古城 photo', pageTitle: '佩特拉（约旦安曼北部的古城、世界文化遗产）_百度百科', score: 267, width: 1440, height: 900, monthHints: [3, 4, 5, 9, 10, 11], },
     { url: '/images/worldscene/poi-petra-4.jpg', source: 'baike.baidu.com', title: '佩特拉古城 photo', pageTitle: '佩特拉（约旦安曼北部的古城、世界文化遗产）_百度百科', score: 247, width: 1200, height: 797, monthHints: [3, 4, 5, 9, 10, 11], },
     { url: '/images/worldscene/poi-petra-5.jpg', source: 'baike.baidu.com', title: '佩特拉古城 photo', pageTitle: '佩特拉（约旦安曼北部的古城、世界文化遗产）_百度百科', score: 247, width: 950, height: 758, monthHints: [3, 4, 5, 9, 10, 11], },
-    { url: '/images/worldscene/poi-petra-6.jpg', source: 'baike.baidu.com', title: '佩特拉古城 photo', pageTitle: '佩特拉（约旦安曼北部的古城、世界文化遗产）_百度百科', score: 237, monthHints: [3, 4, 5, 9, 10, 11], },
     ],
   },
   'pingyao-ancient-city': {
@@ -756,12 +817,12 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'potala-palace-lhasa': {
     images: [
-    { url: '/images/worldscene/poi-potala-palace-lhasa-1.jpg', source: 'local-rebuild', title: 'Potala Palace 1', pageTitle: 'Potala Palace', score: 96, },
-    { url: '/images/worldscene/poi-potala-palace-lhasa-2.jpg', source: 'local-rebuild', title: 'Potala Palace 2', pageTitle: 'Potala Palace', score: 92, },
-    { url: '/images/worldscene/poi-potala-palace-lhasa-3.jpg', source: 'local-rebuild', title: 'Potala Palace 3', pageTitle: 'Potala Palace', score: 88, },
-    { url: '/images/worldscene/poi-potala-palace-lhasa-4.jpg', source: 'local-rebuild', title: 'Potala Palace 4', pageTitle: 'Potala Palace', score: 84, },
-    { url: '/images/worldscene/poi-potala-palace-lhasa-5.jpg', source: 'local-rebuild', title: 'Potala Palace 5', pageTitle: 'Potala Palace', score: 80, },
-    { url: '/images/worldscene/poi-potala-palace-lhasa-6.jpg', source: 'local-rebuild', title: 'Potala Palace 6', pageTitle: 'Potala Palace', score: 76, },
+    { url: '/images/worldscene/poi-potala-palace-lhasa-1.jpg', source: 'zh.wikipedia.org:布达拉宫', title: 'File:Potala Palace Lhasa Tibet Autonomous Region China 西藏 拉萨 布达拉宫 - panoramio (3).jpg', pageTitle: '布达拉宫', capturedAt: '2017-05-07T13:47:38Z', score: 516, width: 2400, height: 1800, monthHints: [3, 5, 6, 7, 8, 9, 10], keywords: ['march'], },
+    { url: '/images/worldscene/poi-potala-palace-lhasa-2.jpg', source: 'baike.baidu.com', title: '布达拉宫 photo', pageTitle: '布达拉宫（中国西藏拉萨的宫堡式建筑、世界文化遗产、第一批全国重点文物保护单位）_百度百科', score: 419, width: 3238, height: 2160, monthHints: [5, 6, 7, 8, 9, 10], },
+    { url: '/images/worldscene/poi-potala-palace-lhasa-3.jpg', source: 'baike.baidu.com', title: '布达拉宫 photo', pageTitle: '布达拉宫（中国西藏拉萨的宫堡式建筑、世界文化遗产、第一批全国重点文物保护单位）_百度百科', score: 419, width: 3238, height: 2160, monthHints: [5, 6, 7, 8, 9, 10], },
+    { url: '/images/worldscene/poi-potala-palace-lhasa-4.jpg', source: 'baike.baidu.com', title: '布达拉宫 photo', pageTitle: '布达拉宫（中国西藏拉萨的宫堡式建筑、世界文化遗产、第一批全国重点文物保护单位）_百度百科', score: 419, width: 3238, height: 2160, monthHints: [5, 6, 7, 8, 9, 10], },
+    { url: '/images/worldscene/poi-potala-palace-lhasa-5.jpg', source: 'baike.baidu.com', title: '布达拉宫 photo', pageTitle: '布达拉宫（中国西藏拉萨的宫堡式建筑、世界文化遗产、第一批全国重点文物保护单位）_百度百科', score: 419, width: 3238, height: 2160, monthHints: [5, 6, 7, 8, 9, 10], },
+    { url: '/images/worldscene/poi-potala-palace-lhasa-6.jpg', source: 'baike.baidu.com', title: '布达拉宫 photo', pageTitle: '布达拉宫（中国西藏拉萨的宫堡式建筑、世界文化遗产、第一批全国重点文物保护单位）_百度百科', score: 349, monthHints: [5, 6, 7, 8, 9, 10], },
     ],
   },
   'prague-castle': {
@@ -776,11 +837,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'qinghai-lake-scenic': {
     images: [
-    { url: '/images/worldscene/poi-qinghai-lake-scenic-1.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 262, width: 5472, height: 3648, },
-    { url: '/images/worldscene/poi-qinghai-lake-scenic-2.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 262, width: 5438, height: 3156, },
-    { url: '/images/worldscene/poi-qinghai-lake-scenic-3.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 262, width: 5472, height: 3648, },
-    { url: '/images/worldscene/poi-qinghai-lake-scenic-4.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 202, width: 940, height: 600, },
-    { url: '/images/worldscene/poi-qinghai-lake-scenic-6.jpg', source: 'en.wikipedia.org:Qinghai Lake', title: 'File:Bird Island, Qinghai Lake.jpg', pageTitle: 'Qinghai Lake', capturedAt: '2006-10-22T13:12:12Z', score: 160, width: 800, height: 600, monthHints: [10], },
+    { url: '/images/worldscene/poi-qinghai-lake-scenic-1.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 307, width: 5472, height: 3648, },
+    { url: '/images/worldscene/poi-qinghai-lake-scenic-2.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 307, width: 5438, height: 3156, },
+    { url: '/images/worldscene/poi-qinghai-lake-scenic-3.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 307, width: 5472, height: 3648, },
+    { url: '/images/worldscene/poi-qinghai-lake-scenic-4.jpg', source: 'baike.baidu.com', title: '青海湖 photo', pageTitle: '青海湖（中国最大的内陆咸水湖）_百度百科', score: 247, width: 940, height: 600, },
+    { url: '/images/worldscene/poi-qinghai-lake-scenic-6.jpg', source: 'en.wikipedia.org:Qinghai Lake', title: 'File:Bird Island, Qinghai Lake.jpg', pageTitle: 'Qinghai Lake', capturedAt: '2006-10-22T13:12:12Z', score: 220, width: 800, height: 600, monthHints: [2, 3, 4, 6, 10], keywords: ['february', 'march', 'april', 'june'], },
     ],
   },
   'queenstown': {
@@ -796,7 +857,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     images: [
     { url: '/images/worldscene/poi-qufu-confucius-temple-1.jpg', source: 'baike.baidu.com', title: '曲阜三孔 photo', pageTitle: '曲阜孔庙、孔林和孔府_百度百科', score: 222, width: 1200, height: 896, },
     { url: '/images/worldscene/poi-qufu-confucius-temple-2.jpg', source: 'baike.baidu.com', title: '曲阜三孔 photo', pageTitle: '曲阜孔庙、孔林和孔府_百度百科', score: 202, width: 1000, height: 660, },
-    { url: '/images/worldscene/poi-qufu-confucius-temple-3.jpg', source: 'baike.baidu.com', title: '曲阜三孔 photo', pageTitle: '曲阜孔庙、孔林和孔府_百度百科', score: 192, },
     { url: '/images/worldscene/poi-qufu-confucius-temple-4.jpg', source: 'baike.baidu.com', title: '曲阜三孔 photo', pageTitle: '曲阜孔庙、孔林和孔府_百度百科', score: 167, width: 838, height: 545, },
     { url: '/images/worldscene/poi-qufu-confucius-temple-5.jpg', source: 'baike.baidu.com', title: '曲阜三孔 photo', pageTitle: '曲阜孔庙、孔林和孔府_百度百科', score: 167, width: 720, height: 480, },
     { url: '/images/worldscene/poi-qufu-confucius-temple-6.jpg', source: 'baike.baidu.com', title: '曲阜三孔 photo', pageTitle: '曲阜孔庙、孔林和孔府_百度百科', score: 167, width: 853, height: 640, },
@@ -804,11 +864,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'reykjavik': {
     images: [
-    { url: '/images/worldscene/poi-reykjavik-1.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 253, width: 914, height: 768, monthHints: [12, 1, 2, 9, 10, 11, 3], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-reykjavik-2.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 253, width: 934, height: 696, monthHints: [12, 1, 2, 9, 10, 11, 3], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-reykjavik-4.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 223, width: 3240, height: 1302, monthHints: [12, 1, 2, 9, 10, 11, 3], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-reykjavik-5.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 218, width: 850, height: 866, monthHints: [12, 1, 2, 9, 10, 11, 3], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-reykjavik-6.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 218, width: 640, height: 514, monthHints: [12, 1, 2, 9, 10, 11, 3], seasonHints: ['winter'], keywords: ['winter'], },
+    { url: '/images/worldscene/poi-reykjavik-1.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 253, width: 914, height: 768, monthHints: [1, 6, 8, 9, 10, 11, 12, 2, 3], keywords: ['january', 'june', 'august'], },
+    { url: '/images/worldscene/poi-reykjavik-2.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 253, width: 934, height: 696, monthHints: [9, 10, 11, 12, 1, 2, 3], },
+    { url: '/images/worldscene/poi-reykjavik-4.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 223, width: 3240, height: 1302, monthHints: [1, 3, 5, 8, 9, 10, 11, 12, 2], keywords: ['january', 'march', 'may', 'august'], },
+    { url: '/images/worldscene/poi-reykjavik-5.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 218, width: 850, height: 866, monthHints: [9, 10, 11, 12, 1, 2, 3], },
+    { url: '/images/worldscene/poi-reykjavik-6.jpg', source: 'baike.baidu.com', title: '雷克雅未克 photo', pageTitle: '雷克雅未克（冰岛共和国的首都及最大港口城市）_百度百科', score: 218, width: 640, height: 514, monthHints: [9, 10, 11, 12, 1, 2, 3], },
     ],
   },
   'sagrada-familia': {
@@ -825,7 +885,8 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-salar-de-uyuni-1.jpg', source: 'baike.baidu.com', title: '乌尤尼盐湖 photo', pageTitle: '乌尤尼盐沼_百度百科', score: 214, width: 971, height: 684, },
     { url: '/images/worldscene/poi-salar-de-uyuni-3.jpg', source: 'baike.baidu.com', title: '乌尤尼盐湖 photo', pageTitle: '乌尤尼盐沼_百度百科', score: 208, width: 1156, height: 756, },
     { url: '/images/worldscene/poi-salar-de-uyuni-4.jpg', source: 'baike.baidu.com', title: '乌尤尼盐湖 photo', pageTitle: '乌尤尼盐沼_百度百科', score: 208, width: 1156, height: 672, },
-    { url: '/images/worldscene/poi-salar-de-uyuni-5.jpg', source: 'baike.baidu.com', title: '乌尤尼盐湖 photo', pageTitle: '乌尤尼盐沼_百度百科', score: 208, width: 1033, height: 708, },
+    { url: '/images/worldscene/poi-salar-de-uyuni-5.jpg', source: 'local-rebuild', title: 'Salar de Uyuni 5', pageTitle: 'Salar de Uyuni', score: 80, },
+    { url: '/images/worldscene/poi-salar-de-uyuni-6.jpg', source: 'local-rebuild', title: 'Salar de Uyuni 6', pageTitle: 'Salar de Uyuni', score: 76, },
     ],
   },
   'santorini': {
@@ -835,7 +896,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-santorini-3.jpg', source: 'baike.baidu.com', title: '圣托里尼 photo', pageTitle: '圣托里尼岛（爱琴海上由一群火山组成的岛环）_百度百科', score: 251, width: 4096, height: 3072, monthHints: [5, 6, 7, 8, 9], },
     { url: '/images/worldscene/poi-santorini-4.jpg', source: 'baike.baidu.com', title: '圣托里尼 photo', pageTitle: '圣托里尼岛（爱琴海上由一群火山组成的岛环）_百度百科', score: 231, width: 1920, height: 1200, monthHints: [5, 6, 7, 8, 9], },
     { url: '/images/worldscene/poi-santorini-5.jpg', source: 'baike.baidu.com', title: '圣托里尼 photo', pageTitle: '圣托里尼岛（爱琴海上由一群火山组成的岛环）_百度百科', score: 181, monthHints: [5, 6, 7, 8, 9], },
-    { url: '/images/worldscene/poi-santorini-6.jpg', source: 'baike.baidu.com', title: '圣托里尼 photo', pageTitle: '圣托里尼岛（爱琴海上由一群火山组成的岛环）_百度百科', score: 156, width: 801, height: 533, monthHints: [5, 6, 7, 8, 9], },
     ],
   },
   'serengeti': {
@@ -850,7 +910,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   'shaolin-temple-scenic': {
     images: [
     { url: '/images/worldscene/poi-shaolin-temple-scenic-1.jpg', source: 'baike.baidu.com', title: '嵩山少林寺 photo', pageTitle: '少林寺（中国郑州市登封市境内第七批全国重点文物保护单位）_百度百科', score: 396, width: 1500, height: 1000, },
-    { url: '/images/worldscene/poi-shaolin-temple-scenic-2.jpg', source: 'baike.baidu.com', title: '嵩山少林寺 photo', pageTitle: '少林寺（中国郑州市登封市境内第七批全国重点文物保护单位）_百度百科', score: 376, width: 976, height: 680, },
     { url: '/images/worldscene/poi-shaolin-temple-scenic-3.jpg', source: 'baike.baidu.com', title: '嵩山少林寺 photo', pageTitle: '少林寺（中国郑州市登封市境内第七批全国重点文物保护单位）_百度百科', score: 366, },
     { url: '/images/worldscene/poi-shaolin-temple-scenic-4.jpg', source: 'baike.baidu.com', title: '嵩山少林寺 photo', pageTitle: '少林寺（中国郑州市登封市境内第七批全国重点文物保护单位）_百度百科', score: 341, width: 800, height: 575, },
     { url: '/images/worldscene/poi-shaolin-temple-scenic-5.jpg', source: 'baike.baidu.com', title: '嵩山少林寺 photo', pageTitle: '少林寺（中国郑州市登封市境内第七批全国重点文物保护单位）_百度百科', score: 341, width: 895, height: 716, },
@@ -880,18 +939,17 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-stone-forest-kunming-1.jpg', source: 'baike.baidu.com', title: '石林风景区 photo', pageTitle: '昆明市石林风景区（云南省昆明市的国家AAAAA级旅游景区）_百度百科', score: 268, width: 2710, height: 2160, },
     { url: '/images/worldscene/poi-stone-forest-kunming-2.jpg', source: 'baike.baidu.com', title: '石林风景区 photo', pageTitle: '昆明市石林风景区（云南省昆明市的国家AAAAA级旅游景区）_百度百科', score: 268, width: 2667, height: 2000, },
     { url: '/images/worldscene/poi-stone-forest-kunming-3.jpg', source: 'baike.baidu.com', title: '石林风景区 photo', pageTitle: '昆明市石林风景区（云南省昆明市的国家AAAAA级旅游景区）_百度百科', score: 248, width: 1440, height: 2410, },
-    { url: '/images/worldscene/poi-stone-forest-kunming-4.jpg', source: 'baike.baidu.com', title: '石林风景区 photo', pageTitle: '昆明市石林风景区（云南省昆明市的国家AAAAA级旅游景区）_百度百科', score: 228, width: 1242, height: 906, },
     { url: '/images/worldscene/poi-stone-forest-kunming-5.jpg', source: 'baike.baidu.com', title: '石林风景区 photo', pageTitle: '昆明市石林风景区（云南省昆明市的国家AAAAA级旅游景区）_百度百科', score: 228, width: 1080, height: 1359, },
     { url: '/images/worldscene/poi-stone-forest-kunming-6.jpg', source: 'baike.baidu.com', title: '石林风景区 photo', pageTitle: '昆明市石林风景区（云南省昆明市的国家AAAAA级旅游景区）_百度百科', score: 198, },
     ],
   },
   'summer-palace-beijing': {
     images: [
-    { url: '/images/worldscene/poi-summer-palace-beijing-1.jpg', source: 'local-rebuild', title: 'Summer Palace 1', pageTitle: 'Summer Palace', score: 96, },
-    { url: '/images/worldscene/poi-summer-palace-beijing-2.jpg', source: 'local-rebuild', title: 'Summer Palace 2', pageTitle: 'Summer Palace', score: 92, },
-    { url: '/images/worldscene/poi-summer-palace-beijing-3.jpg', source: 'local-rebuild', title: 'Summer Palace 3', pageTitle: 'Summer Palace', score: 88, },
-    { url: '/images/worldscene/poi-summer-palace-beijing-4.jpg', source: 'local-rebuild', title: 'Summer Palace 4', pageTitle: 'Summer Palace', score: 84, },
-    { url: '/images/worldscene/poi-summer-palace-beijing-5.jpg', source: 'local-rebuild', title: 'Summer Palace 5', pageTitle: 'Summer Palace', score: 80, },
+    { url: '/images/worldscene/poi-summer-palace-beijing-1.jpg', source: 'baike.baidu.com', title: '颐和园 photo', pageTitle: '颐和园（北京市海淀区境内第一批全国重点文物保护单位、世界文化遗产）_百度百科', score: 359, width: 1020, height: 629, monthHints: [1, 9, 4, 5, 6, 10], keywords: ['january', 'september'], },
+    { url: '/images/worldscene/poi-summer-palace-beijing-2.jpg', source: 'baike.baidu.com', title: '颐和园 photo', pageTitle: '颐和园（北京市海淀区境内第一批全国重点文物保护单位、世界文化遗产）_百度百科', score: 307, width: 4032, height: 3024, monthHints: [4, 5, 6, 9, 10], },
+    { url: '/images/worldscene/poi-summer-palace-beijing-3.jpg', source: 'baike.baidu.com', title: '颐和园 photo', pageTitle: '颐和园（北京市海淀区境内第一批全国重点文物保护单位、世界文化遗产）_百度百科', score: 268, width: 990, height: 586, monthHints: [1, 9, 4, 5, 6, 10], keywords: ['january', 'september'], },
+    { url: '/images/worldscene/poi-summer-palace-beijing-4.jpg', source: 'baike.baidu.com', title: '颐和园 photo', pageTitle: '颐和园（北京市海淀区境内第一批全国重点文物保护单位、世界文化遗产）_百度百科', score: 267, width: 1600, height: 1107, monthHints: [1, 7, 8, 4, 5, 6, 9, 10], keywords: ['january', 'july', 'august'], },
+    { url: '/images/worldscene/poi-summer-palace-beijing-5.jpg', source: 'baike.baidu.com', title: '颐和园 photo', pageTitle: '颐和园（北京市海淀区境内第一批全国重点文物保护单位、世界文化遗产）_百度百科', score: 247, width: 992, height: 648, monthHints: [1, 9, 4, 5, 6, 10], keywords: ['january', 'september'], },
     ],
   },
   'suzhou-lingering-garden': {
@@ -906,8 +964,12 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'sydney-harbour-bridge': {
     images: [
-    { url: '/images/worldscene/poi-sydney-harbour-bridge-1.jpg', source: 'en.wikipedia.org:Sydney Harbour Bridge', title: 'File:BridgeClimb participants on Sydney Harbour Bridge.jpg', pageTitle: 'Sydney Harbour Bridge', capturedAt: '2010-03-16T22:57:25Z', score: 320, width: 1462, height: 1117, monthHints: [11, 6, 7, 8, 3], seasonHints: ['winter'], keywords: ['november', 'winter'], },
-    { url: '/images/worldscene/poi-sydney-harbour-bridge-2.jpg', source: 'baike.baidu.com', title: '悉尼海港大桥 photo', pageTitle: '悉尼港湾大桥_百度百科', score: 264, width: 1024, height: 768, },
+    { url: '/images/worldscene/poi-sydney-harbour-bridge-1.jpg', source: 'baike.baidu.com', title: '悉尼海港大桥 photo', pageTitle: '悉尼港湾大桥_百度百科', score: 309, width: 1024, height: 768, },
+    { url: '/images/worldscene/poi-sydney-harbour-bridge-2.jpg', source: 'en.wikipedia.org:Sydney Harbour Bridge', title: 'File:JJC Bradfield Sydney Harbour Bridge 1932.jpg', pageTitle: 'Sydney Harbour Bridge', capturedAt: '2011-08-19T02:27:48Z', score: 300, width: 1000, height: 767, monthHints: [1, 2, 3, 9, 8], keywords: ['january', 'february', 'march', 'september'], },
+    { url: '/images/worldscene/poi-sydney-harbour-bridge-3.jpg', source: 'en.wikipedia.org:Sydney Harbour Bridge', title: 'File:Aerial view of Sydney and Circular Quay on the day of the official opening of the Sydney Harbour Bridge, 19 March, 1932 (6174053762).jpg', pageTitle: 'Sydney Harbour Bridge', capturedAt: '2015-10-03T17:19:53Z', score: 300, width: 1024, height: 770, monthHints: [1, 2, 3, 4, 5, 6, 7, 9, 10], keywords: ['january', 'february', 'march', 'april', 'may', 'june', 'july', 'september'], },
+    { url: '/images/worldscene/poi-sydney-harbour-bridge-4.jpg', source: 'en.wikipedia.org:Sydney Harbour Bridge', title: 'File:Cat , South-East pylon, Sydney Harbour Bridge, 1951.jpg', pageTitle: 'Sydney Harbour Bridge', capturedAt: '2021-07-25T04:30:27Z', score: 300, width: 1464, height: 1085, monthHints: [1, 3, 5, 6, 8, 9, 7], keywords: ['january', 'march', 'may', 'june', 'august', 'september'], },
+    { url: '/images/worldscene/poi-sydney-harbour-bridge-5.jpg', source: 'baike.baidu.com', title: '悉尼海港大桥 photo', pageTitle: '悉尼港湾大桥_百度百科', score: 273, width: 1760, height: 1168, },
+    { url: '/images/worldscene/poi-sydney-harbour-bridge-6.jpg', source: 'baike.baidu.com', title: '悉尼海港大桥 photo', pageTitle: '悉尼港湾大桥_百度百科', score: 273, width: 907, height: 1360, },
     ],
   },
   'sydney-opera-house': {
@@ -933,7 +995,6 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-taj-mahal-1.jpg', source: 'baike.baidu.com', title: '泰姬陵 photo', pageTitle: '泰姬陵（印度穆斯林文化象征、世界文化遗产）_百度百科', score: 222, width: 1920, height: 1080, },
     { url: '/images/worldscene/poi-taj-mahal-2.jpg', source: 'baike.baidu.com', title: '泰姬陵 photo', pageTitle: '泰姬陵（印度穆斯林文化象征、世界文化遗产）_百度百科', score: 222, width: 1600, height: 1067, },
     { url: '/images/worldscene/poi-taj-mahal-3.jpg', source: 'baike.baidu.com', title: '泰姬陵 photo', pageTitle: '泰姬陵（印度穆斯林文化象征、世界文化遗产）_百度百科', score: 202, width: 922, height: 691, },
-    { url: '/images/worldscene/poi-taj-mahal-4.jpg', source: 'baike.baidu.com', title: '泰姬陵 photo', pageTitle: '泰姬陵（印度穆斯林文化象征、世界文化遗产）_百度百科', score: 192, },
     { url: '/images/worldscene/poi-taj-mahal-5.jpg', source: 'baike.baidu.com', title: '泰姬陵 photo', pageTitle: '泰姬陵（印度穆斯林文化象征、世界文化遗产）_百度百科', score: 167, width: 900, height: 556, },
     { url: '/images/worldscene/poi-taj-mahal-6.jpg', source: 'baike.baidu.com', title: '泰姬陵 photo', pageTitle: '泰姬陵（印度穆斯林文化象征、世界文化遗产）_百度百科', score: 167, width: 900, height: 549, },
     ],
@@ -968,7 +1029,11 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'tokyo-shibuya-scramble': {
     images: [
-    { url: '/images/worldscene/poi-tokyo-shibuya-scramble-1.jpg', source: 'en.wikipedia.org:Shibuya Crossing', title: 'Shibuya Crossing original', pageTitle: 'Shibuya Crossing', score: 120, },
+    { url: '/images/worldscene/poi-tokyo-shibuya-scramble-1.jpg', source: 'en.wikipedia.org:Shibuya Crossing', title: 'File:Early summer night Shibuya.jpg', pageTitle: 'Shibuya Crossing', capturedAt: '2006-04-18T19:54:01Z', score: 145, width: 500, height: 500, monthHints: [2, 3, 6, 7, 8, 12, 1, 4], seasonHints: ['summer', 'winter'], keywords: ['february', 'march', 'summer', 'winter'], },
+    { url: '/images/worldscene/poi-tokyo-shibuya-scramble-2.jpg', source: 'en.wikipedia.org:Shibuya Crossing', title: 'Shibuya Crossing original', pageTitle: 'Shibuya Crossing', score: 120, },
+    { url: '/images/worldscene/poi-tokyo-shibuya-scramble-3.jpg', source: 'local-rebuild', title: 'Shibuya Scramble Crossing 3', pageTitle: 'Shibuya Scramble Crossing', score: 88, },
+    { url: '/images/worldscene/poi-tokyo-shibuya-scramble-4.jpg', source: 'local-rebuild', title: 'Shibuya Scramble Crossing 4', pageTitle: 'Shibuya Scramble Crossing', score: 84, },
+    { url: '/images/worldscene/poi-tokyo-shibuya-scramble-5.jpg', source: 'local-rebuild', title: 'Shibuya Scramble Crossing 5', pageTitle: 'Shibuya Scramble Crossing', score: 80, },
     ],
   },
   'torres-del-paine': {
@@ -994,6 +1059,8 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     images: [
     { url: '/images/worldscene/poi-uluru-1.jpg', source: 'baike.baidu.com', title: '艾尔斯岩 photo', pageTitle: '艾尔斯岩石_百度百科', score: 307, width: 3264, height: 2448, monthHints: [4, 5, 6, 7, 8, 9], },
     { url: '/images/worldscene/poi-uluru-2.jpg', source: 'baike.baidu.com', title: '艾尔斯岩 photo', pageTitle: '艾尔斯岩石_百度百科', score: 247, width: 1022, height: 766, monthHints: [4, 5, 6, 7, 8, 9], },
+    { url: '/images/worldscene/poi-uluru-4.jpg', source: 'local-rebuild', title: 'Uluru 4', pageTitle: 'Uluru', score: 84, },
+    { url: '/images/worldscene/poi-uluru-5.jpg', source: 'local-rebuild', title: 'Uluru 5', pageTitle: 'Uluru', score: 80, },
     { url: '/images/worldscene/poi-uluru-6.jpg', source: 'baike.baidu.com', title: '艾尔斯岩 photo', pageTitle: '艾尔斯岩石_百度百科', score: 181, monthHints: [4, 5, 6, 7, 8, 9], },
     ],
   },
@@ -1009,15 +1076,19 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   'victoria-falls': {
     images: [
     { url: '/images/worldscene/poi-victoria-falls-1.jpg', source: 'baike.baidu.com', title: '维多利亚瀑布 photo', pageTitle: '莫西奥图尼亚瀑布_百度百科', score: 152, width: 1024, height: 768, },
+    { url: '/images/worldscene/poi-victoria-falls-2.jpg', source: 'zh.wikipedia.org:维多利亚瀑布', title: 'File:Victoria Falls gorge1.jpg', pageTitle: '维多利亚瀑布', capturedAt: '2006-03-09T01:36:52Z', score: 148, width: 983, height: 683, monthHints: [1, 2, 3, 4, 5, 9, 6, 7, 8], seasonHints: ['autumn', 'winter'], keywords: ['january', 'february', 'march', 'april', 'may', 'september', 'autumn', 'winter'], },
+    { url: '/images/worldscene/poi-victoria-falls-3.jpg', source: 'en.wikipedia.org:Victoria Falls', title: 'File:Victoria Falls aerial view September 2003.jpg', pageTitle: 'Victoria Falls', capturedAt: '2012-04-21T13:44:46Z', score: 148, width: 640, height: 512, monthHints: [2, 3, 9, 4, 5], seasonHints: ['autumn'], keywords: ['february', 'march', 'september', 'autumn'], },
+    { url: '/images/worldscene/poi-victoria-falls-4.jpg', source: 'en.wikipedia.org:Victoria Falls', title: 'File:Satellite view of Victoria Falls.jpg', pageTitle: 'Victoria Falls', capturedAt: '2026-03-22T13:53:57Z', score: 148, width: 6144, height: 4068, monthHints: [1, 2, 3, 4, 6, 7, 9, 5], seasonHints: ['autumn'], keywords: ['january', 'february', 'march', 'april', 'june', 'july', 'september', 'autumn'], },
+    { url: '/images/worldscene/poi-victoria-falls-6.jpg', source: 'zh.wikipedia.org:维多利亚瀑布', title: '维多利亚瀑布 original', pageTitle: '维多利亚瀑布', score: 120, monthHints: [1, 5, 7, 8, 10, 3, 4], seasonHints: ['autumn'], keywords: ['january', 'may', 'july', 'august', 'october', 'autumn'], },
     ],
   },
   'washington-national-mall': {
     images: [
-    { url: '/images/worldscene/poi-washington-national-mall-1.jpg', source: 'en.wikipedia.org:National Mall', title: 'File:National Mall (50897571958).jpg', pageTitle: 'National Mall', capturedAt: '2022-01-27T08:22:08Z', score: 197, width: 5472, height: 3648, monthHints: [1], },
-    { url: '/images/worldscene/poi-washington-national-mall-2.jpg', source: 'en.wikipedia.org:National Mall', title: 'File:National Mall - walking path.JPG', pageTitle: 'National Mall', capturedAt: '2010-04-25T19:52:29Z', score: 162, width: 3573, height: 1933, monthHints: [4], },
-    { url: '/images/worldscene/poi-washington-national-mall-4.jpg', source: 'en.wikipedia.org:National Mall', title: 'File:Dc national mall 15.07.2012 12-19-14.jpg', pageTitle: 'National Mall', capturedAt: '2012-12-17T20:53:48Z', score: 162, width: 1398, height: 1398, monthHints: [12], },
-    { url: '/images/worldscene/poi-washington-national-mall-5.jpg', source: 'en.wikipedia.org:National Mall', title: 'File:Digging at the National Mall.jpg', pageTitle: 'National Mall', capturedAt: '2015-04-21T02:00:08Z', score: 162, width: 4782, height: 3188, monthHints: [4], },
-    { url: '/images/worldscene/poi-washington-national-mall-6.jpg', source: 'en.wikipedia.org:National Mall', title: 'File:National Mall in DC.jpg', pageTitle: 'National Mall', capturedAt: '2016-09-21T19:44:52Z', score: 162, width: 1280, height: 960, monthHints: [9], },
+    { url: '/images/worldscene/poi-washington-national-mall-1.jpg', source: 'baike.baidu.com', title: '华盛顿纪念碑 photo', pageTitle: '华盛顿纪念碑_百度百科', score: 268, width: 3872, height: 2592, },
+    { url: '/images/worldscene/poi-washington-national-mall-2.jpg', source: 'baike.baidu.com', title: '华盛顿纪念碑 photo', pageTitle: '华盛顿纪念碑_百度百科', score: 228, width: 1600, height: 1066, },
+    { url: '/images/worldscene/poi-washington-national-mall-4.jpg', source: 'en.wikipedia.org:National Mall', title: 'File:National Mall (50897571958).jpg', pageTitle: 'National Mall', capturedAt: '2022-01-27T08:22:08Z', score: 197, width: 5472, height: 3648, monthHints: [1, 5, 7, 8, 9], keywords: ['january', 'may', 'july', 'august', 'september'], },
+    { url: '/images/worldscene/poi-washington-national-mall-5.jpg', source: 'baike.baidu.com', title: '华盛顿纪念碑 photo', pageTitle: '华盛顿纪念碑_百度百科', score: 173, width: 685, height: 1024, },
+    { url: '/images/worldscene/poi-washington-national-mall-6.jpg', source: 'baike.baidu.com', title: '华盛顿纪念碑 photo', pageTitle: '华盛顿纪念碑_百度百科', score: 173, width: 800, height: 600, },
     ],
   },
   'west-lake-hangzhou': {
@@ -1035,15 +1106,17 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     { url: '/images/worldscene/poi-wudang-mountains-2.jpg', source: 'baike.baidu.com', title: '武当山风景区 photo', pageTitle: '十堰市武当山风景区_百度百科', score: 284, width: 1280, height: 853, },
     { url: '/images/worldscene/poi-wudang-mountains-5.jpg', source: 'baike.baidu.com', title: '武当山风景区 photo', pageTitle: '十堰市武当山风景区_百度百科', score: 229, width: 800, height: 556, },
     { url: '/images/worldscene/poi-wudang-mountains-6.jpg', source: 'baike.baidu.com', title: '武当山风景区 photo', pageTitle: '十堰市武当山风景区_百度百科', score: 229, width: 680, height: 455, },
+    { url: '/images/worldscene/poi-wudang-mountains-8.jpg', source: 'local-rebuild', title: 'Wudang Mountains 8', pageTitle: 'Wudang Mountains', score: 68, },
     ],
   },
   'wuzhen-water-town': {
     images: [
     { url: '/images/worldscene/poi-wuzhen-water-town-1.jpg', source: 'baike.baidu.com', title: '乌镇 photo', pageTitle: '乌镇镇_百度百科', score: 206, width: 3648, height: 2736, },
-    { url: '/images/worldscene/poi-wuzhen-water-town-2.jpg', source: 'baike.baidu.com', title: '乌镇 photo', pageTitle: '乌镇镇_百度百科', score: 146, width: 1080, height: 719, },
-    { url: '/images/worldscene/poi-wuzhen-water-town-4.jpg', source: 'en.wikipedia.org:Wuzhen', title: 'File:Canal in Wuzhen.JPG', pageTitle: 'Wuzhen', capturedAt: '2009-06-06T08:54:02Z', score: 124, width: 3072, height: 2304, monthHints: [12, 1, 2, 6], seasonHints: ['winter'], keywords: ['winter'], },
-    { url: '/images/worldscene/poi-wuzhen-water-town-5.jpg', source: 'en.wikipedia.org:Wuzhen', title: 'File:WuzhenTown.jpg', pageTitle: 'Wuzhen', capturedAt: '2010-05-25T03:20:35Z', score: 124, width: 3648, height: 2736, monthHints: [5], },
-    { url: '/images/worldscene/poi-wuzhen-water-town-6.jpg', source: 'en.wikipedia.org:Wuzhen', title: 'Wuzhen original', pageTitle: 'Wuzhen', score: 120, },
+    { url: '/images/worldscene/poi-wuzhen-water-town-2.jpg', source: 'en.wikipedia.org:Wuzhen', title: 'File:Aerial panorama of Wuzhen 乌镇 Water Town. December 2023.jpg', pageTitle: 'Wuzhen', capturedAt: '2023-12-21T22:30:57Z', score: 177, width: 8192, height: 3242, monthHints: [2, 3, 12], keywords: ['february', 'march', 'december'], },
+    { url: '/images/worldscene/poi-wuzhen-water-town-3.jpg', source: 'en.wikipedia.org:Wuzhen', title: 'File:Fish in Wuzhen.JPG', pageTitle: 'Wuzhen', capturedAt: '2009-06-06T05:01:29Z', score: 149, width: 2118, height: 3072, monthHints: [3, 6], keywords: ['march'], },
+    { url: '/images/worldscene/poi-wuzhen-water-town-4.jpg', source: 'baike.baidu.com', title: '乌镇 photo', pageTitle: '乌镇镇_百度百科', score: 146, width: 1080, height: 719, },
+    { url: '/images/worldscene/poi-wuzhen-water-town-5.jpg', source: 'baike.baidu.com', title: '乌镇 photo', pageTitle: '乌镇镇_百度百科', score: 136, },
+    { url: '/images/worldscene/poi-wuzhen-water-town-6.jpg', source: 'en.wikipedia.org:Wuzhen', title: 'File:Canal in Wuzhen.JPG', pageTitle: 'Wuzhen', capturedAt: '2009-06-06T08:54:02Z', score: 124, width: 3072, height: 2304, monthHints: [3, 12, 1, 2, 6], seasonHints: ['winter'], keywords: ['march', 'winter'], },
     ],
   },
   'yading-nature-reserve': {
@@ -1066,12 +1139,12 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
   },
   'yellowstone': {
     images: [
-    { url: '/images/worldscene/poi-yellowstone-1.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 228, width: 1600, height: 1066, },
-    { url: '/images/worldscene/poi-yellowstone-2.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 228, width: 1280, height: 893, },
-    { url: '/images/worldscene/poi-yellowstone-3.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 198, },
-    { url: '/images/worldscene/poi-yellowstone-4.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 173, width: 841, height: 555, },
-    { url: '/images/worldscene/poi-yellowstone-5.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 173, width: 732, height: 563, },
-    { url: '/images/worldscene/poi-yellowstone-6.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 173, width: 655, height: 500, },
+    { url: '/images/worldscene/poi-yellowstone-1.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 273, width: 1600, height: 1066, },
+    { url: '/images/worldscene/poi-yellowstone-2.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 273, width: 1280, height: 893, },
+    { url: '/images/worldscene/poi-yellowstone-3.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 243, },
+    { url: '/images/worldscene/poi-yellowstone-4.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 218, width: 841, height: 555, },
+    { url: '/images/worldscene/poi-yellowstone-5.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 218, width: 732, height: 563, },
+    { url: '/images/worldscene/poi-yellowstone-6.jpg', source: 'baike.baidu.com', title: '黄石国家公园 photo', pageTitle: '黄石国家公园（美国国家公园，世界自然遗产）_百度百科', score: 218, width: 655, height: 500, },
     ],
   },
   'yungang-grottoes-datong': {
@@ -1087,9 +1160,9 @@ export const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> =
     images: [
     { url: '/images/worldscene/poi-zanzibar-1.jpg', source: 'baike.baidu.com', title: '桑给巴尔 photo', pageTitle: '桑给巴尔（地区名称）_百度百科', score: 206, width: 3543, height: 2277, },
     { url: '/images/worldscene/poi-zanzibar-2.jpg', source: 'baike.baidu.com', title: '桑给巴尔 photo', pageTitle: '桑给巴尔（地区名称）_百度百科', score: 166, width: 1024, height: 1024, },
-    { url: '/images/worldscene/poi-zanzibar-4.jpg', source: 'baike.baidu.com', title: '桑给巴尔 photo', pageTitle: '桑给巴尔（地区名称）_百度百科', score: 111, width: 662, height: 438, },
-    { url: '/images/worldscene/poi-zanzibar-5.jpg', source: 'baike.baidu.com', title: '桑给巴尔 photo', pageTitle: '桑给巴尔（地区名称）_百度百科', score: 111, width: 672, height: 498, },
-    { url: '/images/worldscene/poi-zanzibar-6.jpg', source: 'baike.baidu.com', title: '桑给巴尔 photo', pageTitle: '桑给巴尔（地区名称）_百度百科', score: 111, width: 779, height: 495, },
+    { url: '/images/worldscene/poi-zanzibar-4.jpg', source: 'en.wikipedia.org:Zanzibar', title: 'File:12 Jan. 2004, festivities at 40th anniversary of the Zanzibar Revolution. President Karume enters Amani Stadium in ceremonial Hummer.JPG', pageTitle: 'Zanzibar', capturedAt: '2008-02-20T21:22:59Z', score: 124, width: 794, height: 1181, monthHints: [1, 2, 3, 4, 6, 9, 12], keywords: ['january', 'february', 'march', 'april', 'june', 'september', 'december'], },
+    { url: '/images/worldscene/poi-zanzibar-5.jpg', source: 'en.wikipedia.org:Zanzibar', title: 'Zanzibar original', pageTitle: 'Zanzibar', score: 120, },
+    { url: '/images/worldscene/poi-zanzibar-6.jpg', source: 'baike.baidu.com', title: '桑给巴尔 photo', pageTitle: '桑给巴尔（地区名称）_百度百科', score: 111, width: 662, height: 438, },
     ],
   },
   'zermatt': {

@@ -31,9 +31,7 @@ function WorkCard({ work, index }: { work: WorkEntry; index: number }) {
           ))}
         </div>
       </div>
-      <span className="work-card__action">
-        {work.ready ? '进入作品 →' : '敬请期待'}
-      </span>
+      <span className="work-card__action">{work.ready ? '进入作品 →' : '敬请期待'}</span>
     </motion.div>
   );
 
@@ -86,9 +84,7 @@ export function Portal() {
       >
         <section className="portal-hero">
           <h1 className="portal-hero__title">科索造物集</h1>
-          <p className="portal-hero__sub">
-            和 AI 一起探索并创造有意思的事
-          </p>
+          <p className="portal-hero__sub">和 AI 一起探索，并创造有意思的东西</p>
         </section>
 
         <section className="portal-works">
@@ -102,7 +98,7 @@ export function Portal() {
       </motion.main>
 
       <footer className="footer">
-        <p>科索造物集 · 和 AI 一起探索并创造有意思的事</p>
+        <p>科索造物集 · 和 AI 一起探索，并创造有意思的东西</p>
       </footer>
 
       <BackToTop />

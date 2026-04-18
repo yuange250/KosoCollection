@@ -1,10 +1,7 @@
 /**
- * 为 worldscene 按景点抓取更贴近 POI 的本地图片，并尽量提取季节/月份语义：
- * 1. 解析 src/lib/worldsceneData.ts 中的景点元数据
- * 2. 在 zh/en Wikipedia 搜索页面，并拉取 Commons 文件信息
- * 3. 从标题、描述、分类、上传时间中推断月份/季节标签
- * 4. 下载到 public/images/worldscene/poi-*，生成可按当前月份排序的图库元数据
- */
+ * 涓?worldscene 鎸夋櫙鐐规姄鍙栨洿璐磋繎 POI 鐨勬湰鍦板浘鐗囷紝骞跺敖閲忔彁鍙栧鑺?鏈堜唤璇箟锛? * 1. 瑙ｆ瀽 src/lib/worldsceneData.ts 涓殑鏅偣鍏冩暟鎹? * 2. 鍦?zh/en Wikipedia 鎼滅储椤甸潰锛屽苟鎷夊彇 Commons 鏂囦欢淇℃伅
+ * 3. 浠庢爣棰樸€佹弿杩般€佸垎绫汇€佷笂浼犳椂闂翠腑鎺ㄦ柇鏈堜唤/瀛ｈ妭鏍囩
+ * 4. 涓嬭浇鍒?public/images/worldscene/poi-*锛岀敓鎴愬彲鎸夊綋鍓嶆湀浠芥帓搴忕殑鍥惧簱鍏冩暟鎹? */
 import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
@@ -29,36 +26,36 @@ const MIN_VALID_WIDTH = 640;
 const MIN_VALID_HEIGHT = 360;
 
 const MONTH_TERMS = [
-  { terms: ['january', 'jan', '一月', '1月'], months: [1] },
-  { terms: ['february', 'feb', '二月', '2月'], months: [2] },
-  { terms: ['march', 'mar', '三月', '3月'], months: [3] },
-  { terms: ['april', 'apr', '四月', '4月'], months: [4] },
-  { terms: ['may', '五月', '5月'], months: [5] },
-  { terms: ['june', 'jun', '六月', '6月'], months: [6] },
-  { terms: ['july', 'jul', '七月', '7月'], months: [7] },
-  { terms: ['august', 'aug', '八月', '8月'], months: [8] },
-  { terms: ['september', 'sep', 'sept', '九月', '9月'], months: [9] },
-  { terms: ['october', 'oct', '十月', '10月'], months: [10] },
-  { terms: ['november', 'nov', '十一月', '11月'], months: [11] },
-  { terms: ['december', 'dec', '十二月', '12月'], months: [12] },
+  { terms: ['january', 'jan', '1'], months: [1] },
+  { terms: ['february', 'feb', '2'], months: [2] },
+  { terms: ['march', 'mar', '3'], months: [3] },
+  { terms: ['april', 'apr', '4'], months: [4] },
+  { terms: ['may', '5'], months: [5] },
+  { terms: ['june', 'jun', '6'], months: [6] },
+  { terms: ['july', 'jul', '7'], months: [7] },
+  { terms: ['august', 'aug', '8'], months: [8] },
+  { terms: ['september', 'sep', 'sept', '9'], months: [9] },
+  { terms: ['october', 'oct', '10'], months: [10] },
+  { terms: ['november', 'nov', '11'], months: [11] },
+  { terms: ['december', 'dec', '12'], months: [12] },
 ];
 
 const SEASON_TERMS = {
-  spring: ['spring', 'vernal', 'cherry blossom', 'sakura', 'blossom', '花季', '樱花', '春'],
-  summer: ['summer', 'green season', 'lush', '暑期', '夏'],
-  autumn: ['autumn', 'fall', 'foliage', 'maple', 'red leaves', '秋', '红叶', '金秋'],
-  winter: ['winter', 'snow', 'snowy', 'ice', 'frozen', '霜', '冰', '雪', '冬'],
-  all: ['all season', '全年', 'all-year', 'year-round'],
+  spring: ['spring', 'vernal', 'cherry blossom', 'sakura', 'blossom'],
+  summer: ['summer', 'green season', 'lush'],
+  autumn: ['autumn', 'fall', 'foliage', 'maple', 'red leaves'],
+  winter: ['winter', 'snow', 'snowy', 'ice', 'frozen'],
+  all: ['all season', 'all-year', 'year-round'],
 };
 
 const SPECIAL_MONTH_TERMS = [
-  { terms: ['aurora', 'northern lights', '极光'], months: [9, 10, 11, 12, 1, 2, 3] },
+  { terms: ['aurora', 'northern lights'], months: [9, 10, 11, 12, 1, 2, 3] },
   { terms: ['lavender'], months: [6, 7] },
   { terms: ['sunflower'], months: [7, 8] },
-  { terms: ['lotus', '荷花'], months: [6, 7, 8] },
-  { terms: ['ginkgo', '银杏'], months: [10, 11] },
-  { terms: ['cherry blossom', 'sakura', '樱花'], months: [3, 4] },
-  { terms: ['ice festival', '冰雪'], months: [12, 1, 2] },
+  { terms: ['lotus'], months: [6, 7, 8] },
+  { terms: ['ginkgo'], months: [10, 11] },
+  { terms: ['cherry blossom', 'sakura'], months: [3, 4] },
+  { terms: ['ice festival'], months: [12, 1, 2] },
 ];
 
 function parseArgs(argv) {
@@ -200,8 +197,11 @@ function parseDestinationBlocks(text) {
     const lng = Number(block.match(/\n\s{4}lng: ([\d.-]+)/u)?.[1]);
     const aliasMatch = block.match(/\n\s{4}aliases: \[([^\]]*)\]/u)?.[1] ?? '';
     const aliases = [...aliasMatch.matchAll(/'([^']+)'/g)].map((item) => item[1]);
-    const imageKind = block.match(/\n\s{4}images: wmCard\('[^']+', '([^']+)'\)/u)?.[1];
-    if (!id || !name || !englishName || !country || !city || !category || !imageKind) continue;
+    const imageKind =
+      block.match(/\n\s{4}images: wmCard\('[^']+', '([^']+)'\)/u)?.[1] ??
+      block.match(/\n\s{4}images: wmCard\('[^']+'\)/u)?.[0] ??
+      'poi';
+    if (!id || !name || !englishName || !country || !city || !category) continue;
 
     rows.push({
       id,
@@ -557,7 +557,7 @@ function resolveBaiduImageUrl(src, url) {
 
 function extractBaiduBaikeCandidates(html) {
   const pageTitle =
-    html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.replace(/\s+/g, ' ').trim() || '百度百科';
+    html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1]?.replace(/\s+/g, ' ').trim() || '鐧惧害鐧剧';
   const candidates = [];
   const seen = new Set();
 
@@ -654,6 +654,12 @@ async function resolveDomesticImages(point, seenUrl) {
       source: 'you.ctrip.com',
       buildUrl(query) {
         return `https://you.ctrip.com/searchsite/Sight?query=${encodeURIComponent(query)}`;
+      },
+    },
+    {
+      source: 'tripadvisor.com',
+      buildUrl(query) {
+        return `https://www.tripadvisor.com/Search?q=${encodeURIComponent(query)}`;
       },
     },
   ];
@@ -823,7 +829,7 @@ async function resolvePointImages(point) {
   const seenUrl = new Set();
 
   for (const page of uniquePages.slice(0, 8)) {
-    console.log(`  尝试页面 ${page.lang}:${page.title}`);
+    console.log(`  灏濊瘯椤甸潰 ${page.lang}:${page.title}`);
     let pageData;
     try {
       pageData = await wikipediaPageData(page.lang, page.title);
@@ -913,7 +919,7 @@ function formatLegacyTs(pointToPaths) {
     return `  '${key}': [${list}],`;
   });
 
-  return `/**\n * 由 scripts/cache-worldscene-poi-catalog.mjs 生成 — 勿手改。\n */\nexport const PROJECT2_POI_LOCAL: Record<string, readonly string[]> = {\n${rows.join('\n')}\n};\n`;
+  return `/**\n * 鐢?scripts/cache-worldscene-poi-catalog.mjs 鐢熸垚 鈥?鍕挎墜鏀广€俓n */\nexport const WORLDSCENE_POI_LOCAL: Record<string, readonly string[]> = {\n${rows.join('\n')}\n};\n`;
 }
 
 function formatCatalogTs(pointCatalog) {
@@ -943,7 +949,7 @@ function formatCatalogTs(pointCatalog) {
     return `  '${key}': {\n    images: [\n${images}\n    ],\n  },`;
   });
 
-  return `import type { WorldScenePoiCatalogEntry } from './worldscenePoiCatalog';\n\n/**\n * 由 scripts/cache-worldscene-poi-catalog.mjs 生成 — 勿手改。\n */\nexport const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> = {\n${rows.join('\n')}\n};\n`;
+  return `import type { WorldScenePoiCatalogEntry } from './worldscenePoiCatalog';\n\n/**\n * 鐢?scripts/cache-worldscene-poi-catalog.mjs 鐢熸垚 鈥?鍕挎墜鏀广€俓n */\nexport const WORLDSCENE_POI_CATALOG: Record<string, WorldScenePoiCatalogEntry> = {\n${rows.join('\n')}\n};\n`;
 }
 
 async function main() {
@@ -959,7 +965,7 @@ async function main() {
     points = points.slice(0, args.limit);
   }
   if (!points.length) {
-    console.log('没有匹配到需要抓图的景点。');
+    console.log('No matching POIs to process.');
     return;
   }
 
@@ -983,13 +989,13 @@ async function main() {
     try {
       resolved = await resolvePointImages(point);
     } catch (error) {
-      console.warn(`  解析失败: ${error instanceof Error ? error.message : String(error)}`);
+      console.warn(`  瑙ｆ瀽澶辫触: ${error instanceof Error ? error.message : String(error)}`);
       misses.push(point.id);
       continue;
     }
 
     if (!resolved.length) {
-      console.warn('  未找到可信图片，保留库存图回退。');
+      console.warn('  No credible candidates found; keeping existing images.');
       misses.push(point.id);
       continue;
     }
@@ -1076,11 +1082,11 @@ async function main() {
   fs.writeFileSync(GEN_CATALOG_TS, formatCatalogTs(catalogMap), 'utf8');
   fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2), 'utf8');
 
-  console.log(`\n已写入 ${GEN_LEGACY_TS}`);
-  console.log(`已写入 ${GEN_CATALOG_TS}`);
-  console.log(`已写入 ${MANIFEST}`);
+  console.log(`\nWrote ${GEN_LEGACY_TS}`);
+  console.log(`Wrote ${GEN_CATALOG_TS}`);
+  console.log(`Wrote ${MANIFEST}`);
   if (misses.length) {
-    console.log(`未命中 ${misses.length} 个景点：${misses.join(', ')}`);
+    console.log(`Misses (${misses.length}): ${misses.join(', ')}`);
   }
 }
 

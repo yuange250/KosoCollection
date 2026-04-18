@@ -1,6 +1,5 @@
 ﻿import { motion } from 'framer-motion';
 import type { DestinationPoint } from '@/lib/worldsceneData';
-import { galleryPlaceholder } from '@/lib/worldscenePageUtils';
 
 interface Props {
   imageIndex: number;
@@ -25,6 +24,9 @@ export function WorldSceneDetailOverlay({
   onToggleFavorite,
   point,
 }: Props) {
+  const hasImages = point.images.length > 0;
+  const activeImage = hasImages ? point.images[imageIndex] : null;
+
   return (
     <motion.aside
       className="worldscene-detail-overlay"
@@ -44,37 +46,41 @@ export function WorldSceneDetailOverlay({
         </button>
       </div>
 
-      <div className="worldscene-detail-overlay__gallery">
-        <button type="button" className="worldscene-gallery-nav" onClick={onPrevImage}>
-          ‹
-        </button>
-        <button
-          type="button"
-          className="worldscene-detail-overlay__image-btn"
-          onClick={() => onOpenLightbox(point.images[imageIndex])}
-        >
-          <img
-            key={`${point.id}-${imageIndex}-${point.images[imageIndex]}`}
-            src={point.images[imageIndex]}
-            alt={point.name}
-            referrerPolicy="no-referrer"
-            loading="lazy"
-            decoding="async"
-            onError={(event) => {
-              const el = event.currentTarget;
-              if (el.getAttribute('data-gallery-fallback') === '1') return;
-              el.setAttribute('data-gallery-fallback', '1');
-              el.src = galleryPlaceholder(point.category);
-            }}
-          />
-        </button>
-        <button type="button" className="worldscene-gallery-nav" onClick={onNextImage}>
-          ›
-        </button>
-      </div>
-      <p className="worldscene-gallery-count" aria-live="polite">
-        配图 {imageIndex + 1} / {point.images.length}
-      </p>
+      {hasImages ? (
+        <>
+          <div className="worldscene-detail-overlay__gallery">
+            <button type="button" className="worldscene-gallery-nav" onClick={onPrevImage}>
+              ‹
+            </button>
+            <button
+              type="button"
+              className="worldscene-detail-overlay__image-btn"
+              onClick={() => activeImage && onOpenLightbox(activeImage)}
+            >
+              <img
+                key={`${point.id}-${imageIndex}-${activeImage}`}
+                src={activeImage ?? ''}
+                alt={point.name}
+                referrerPolicy="no-referrer"
+                loading="lazy"
+                decoding="async"
+              />
+            </button>
+            <button type="button" className="worldscene-gallery-nav" onClick={onNextImage}>
+              ›
+            </button>
+          </div>
+          <p className="worldscene-gallery-count" aria-live="polite">
+            配图 {imageIndex + 1} / {point.images.length}
+          </p>
+        </>
+      ) : (
+        <div className="worldscene-detail-overlay__gallery">
+          <div className="worldscene-detail-overlay__image-btn" aria-live="polite">
+            暂无合格配图
+          </div>
+        </div>
+      )}
 
       <p className="worldscene-detail-overlay__tagline">{point.tagline}</p>
       <p className="worldscene-detail-overlay__desc">{point.description}</p>
