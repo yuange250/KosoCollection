@@ -1,6 +1,7 @@
 import { WORLDSCENE_POI_CATALOG } from './worldscenePoiCatalog.gen';
 import { rankWorldScenePoiImages } from './worldscenePoiCatalog';
 import { WORLDSCENE_POI_LOCAL } from './worldscenePoiCached.gen';
+import { WORLDSCENE_CANDIDATE_GALLERY } from './worldsceneCandidateGallery';
 import type { StockKind } from './worldsceneStockPhotos';
 
 // Only return curated POI photos. No stock or placeholder filling.
@@ -8,11 +9,20 @@ export function buildWorldSceneGallery(pointId: string, kind?: StockKind): strin
   void kind;
 
   const catalogImages = WORLDSCENE_POI_CATALOG[pointId]?.images ?? [];
+  const candidateImages = WORLDSCENE_CANDIDATE_GALLERY[pointId]?.images ?? [];
   const prioritizedCatalogUrls = rankWorldScenePoiImages(catalogImages)
     .map((image) => image.url)
     .filter(Boolean);
+  const prioritizedCandidateUrls = rankWorldScenePoiImages(candidateImages)
+    .map((image) => image.url)
+    .filter(Boolean);
   const legacyPoiImages = WORLDSCENE_POI_LOCAL[pointId] ? [...WORLDSCENE_POI_LOCAL[pointId]] : [];
-  const poiImages = prioritizedCatalogUrls.length > 0 ? prioritizedCatalogUrls : legacyPoiImages;
+  const poiImages =
+    prioritizedCatalogUrls.length > 0
+      ? prioritizedCatalogUrls
+      : prioritizedCandidateUrls.length > 0
+        ? prioritizedCandidateUrls
+        : legacyPoiImages;
 
   const seen = new Set<string>();
   const out: string[] = [];
