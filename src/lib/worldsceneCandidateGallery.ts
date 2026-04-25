@@ -4,7 +4,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'aachen-cathedral-aachen-mitte': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/be/Aachen_Germany_Imperial-Cathedral-01.jpg',
+        url: '/images/worldscene-candidates/wcand-aachen-cathedral-aachen-mitte-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Aachen Germany Imperial-Cathedral-01.jpg',
         pageTitle: 'Q5908',
@@ -17,7 +17,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'acropolis-of-athens-athens-municipality': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/c6/Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg',
+        url: '/images/worldscene-candidates/wcand-acropolis-of-athens-athens-municipality-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Attica 06-13 Athens 50 View from Philopappos - Acropolis Hill.jpg',
         pageTitle: 'Q131013',
@@ -30,7 +30,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'acre-acre-subdistrict': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/73/Acre_-_Akko_Tower.jpg',
+        url: '/images/worldscene-candidates/wcand-acre-acre-subdistrict-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Acre - Akko Tower.jpg',
         pageTitle: 'Q126084',
@@ -43,7 +43,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'abbey-of-saint-gall-st-gallen': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/21/StGallen_asv2022-10_F%C3%BCrstabtei_img1.jpg',
+        url: '/images/worldscene-candidates/wcand-abbey-of-saint-gall-st-gallen-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:StGallen asv2022-10 Fürstabtei img1.jpg',
         pageTitle: 'Q155699',
@@ -56,7 +56,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'aapravasi-ghat-port-louis-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/1/1b/Aapravasi_Ghat_Museum%2C_Mauritius_%2841%29.jpg',
+        url: '/images/worldscene-candidates/wcand-aapravasi-ghat-port-louis-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Aapravasi Ghat Museum, Mauritius (41).jpg',
         pageTitle: 'Q9276',
@@ -69,7 +69,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'abel-tasman-national-park-tasman-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/9/97/View_south_over_Anatakapau_Bay_and_Mutton_Cove.jpg',
+        url: '/images/worldscene-candidates/wcand-abel-tasman-national-park-tasman-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:View south over Anatakapau Bay and Mutton Cove.jpg',
         pageTitle: 'Q318357',
@@ -82,7 +82,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'abisko-national-park-kiruna-municipality': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Abiskoj%C3%A5kka.jpg',
+        url: '/images/worldscene-candidates/wcand-abisko-national-park-kiruna-municipality-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Abiskojåkka.jpg',
         pageTitle: 'Q953092',
@@ -95,7 +95,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cape-breton-highlands-national-park-inverness-county': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/3/32/NS_CapeBretonHighlands2_tango7174.jpg',
+        url: '/images/worldscene-candidates/wcand-cape-breton-highlands-national-park-inverness-county-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:NS CapeBretonHighlands2 tango7174.jpg',
         pageTitle: 'Q253517',
@@ -108,7 +108,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'a-ma-temple-macau': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/67/Templo_de_A-M%C3%A1.JPG',
+        url: '/images/worldscene-candidates/wcand-a-ma-temple-macau-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Templo de A-Má.JPG',
         pageTitle: 'Q2149114',
@@ -121,7 +121,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ancient-city-of-ping-yao-pingyao-county': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/Ping_Yao_-_panoramio.jpg',
+        url: '/images/worldscene-candidates/wcand-ancient-city-of-ping-yao-pingyao-county-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Ping Yao - panoramio.jpg',
         pageTitle: 'Q65965285',
@@ -134,7 +134,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'antigua-guatemala-antigua-guatemala': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/La_Merced_Church_Antigua_Guatemala_2.jpg',
+        url: '/images/worldscene-candidates/wcand-antigua-guatemala-antigua-guatemala-1.jpg',
         source: 'commons-search-remote',
         title: 'File:La Merced Church Antigua Guatemala 2.jpg',
         pageTitle: 'Antigua Guatemala Guatemala',
@@ -147,7 +147,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ani-kars-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/e3/Ani_seen_from_Armenia.jpg',
+        url: '/images/worldscene-candidates/wcand-ani-kars-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Ani seen from Armenia.jpg',
         pageTitle: 'Q546010',
@@ -160,7 +160,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'anjar-zahle-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/1/13/Anjar%2C_Lebanon%2C_Ancient_ruins_of_the_city_of_Anjar.jpg',
+        url: '/images/worldscene-candidates/wcand-anjar-zahle-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Anjar, Lebanon, Ancient ruins of the city of Anjar.jpg',
         pageTitle: 'Q60977',
@@ -173,7 +173,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'antequera-dolmens-site-antequera': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Viera_and_Menga_Dolmens%2C_Antequera%2C_Spain%3B_July_2008.JPG',
+        url: '/images/worldscene-candidates/wcand-antequera-dolmens-site-antequera-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Viera and Menga Dolmens, Antequera, Spain; July 2008.JPG',
         pageTitle: 'Q97633694',
@@ -186,7 +186,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'antisana-national-park-napo-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Volc%C3%A1n_Antisana.JPG',
+        url: '/images/worldscene-candidates/wcand-antisana-national-park-napo-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Volcán Antisana.JPG',
         pageTitle: 'Q4742194',
@@ -199,7 +199,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'anderdalen-national-park-senja-municipality': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/%C3%85nderdalen_nasjonalpark_3.jpg',
+        url: '/images/worldscene-candidates/wcand-anderdalen-national-park-senja-municipality-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Ånderdalen nasjonalpark 3.jpg',
         pageTitle: 'Q271087',
@@ -212,7 +212,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'agra-fort-agra': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Agra_03-2016_16_Agra_Fort.jpg',
+        url: '/images/worldscene-candidates/wcand-agra-fort-agra-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Agra 03-2016 16 Agra Fort.jpg',
         pageTitle: 'Q171857',
@@ -225,7 +225,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'al-aqsa-mosque-jerusalem': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Jerusalem-2013-Temple_Mount-Al-Aqsa_Mosque_%28NE_exposure%29.jpg',
+        url: '/images/worldscene-candidates/wcand-al-aqsa-mosque-jerusalem-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Jerusalem-2013-Temple Mount-Al-Aqsa Mosque (NE exposure).jpg',
         pageTitle: 'Q12192963',
@@ -238,7 +238,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'antigua-naval-dockyard-and-related-archaeological-sites-saint-paul': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/78/Shirley_Heights_-_Antigua.jpg',
+        url: '/images/worldscene-candidates/wcand-antigua-naval-dockyard-and-related-archaeological-sites-saint-paul-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Shirley Heights - Antigua.jpg',
         pageTitle: 'Q124402010',
@@ -251,7 +251,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ayutthaya-historical-park-phra-nakhon-si-ayutthaya': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/d/da/Wat_Chaiwatthanaram_2%2C_Ayutthaya%2C_Thailand.jpg',
+        url: '/images/worldscene-candidates/wcand-ayutthaya-historical-park-phra-nakhon-si-ayutthaya-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Wat Chaiwatthanaram 2, Ayutthaya, Thailand.jpg',
         pageTitle: 'Q1025100',
@@ -264,7 +264,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'baalbek-baalbek-hermel-governorate': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Temple_of_Bacchus.jpg',
+        url: '/images/worldscene-candidates/wcand-baalbek-baalbek-hermel-governorate-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Temple of Bacchus.jpg',
         pageTitle: 'Q178835',
@@ -277,7 +277,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bahla-fort-bahla': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Bahla_Fort.jpg',
+        url: '/images/worldscene-candidates/wcand-bahla-fort-bahla-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Bahla Fort.jpg',
         pageTitle: 'Q1408909',
@@ -290,7 +290,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'batalha-monastery-batalha': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/54/Batalha_September_2021-53.jpg',
+        url: '/images/worldscene-candidates/wcand-batalha-monastery-batalha-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Batalha September 2021-53.jpg',
         pageTitle: 'Q174779',
@@ -303,7 +303,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bath-bath-and-north-east-somerset': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/23/Bath_Somerset_2023_-City-_by-RaBoe_055.jpg',
+        url: '/images/worldscene-candidates/wcand-bath-bath-and-north-east-somerset-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Bath Somerset 2023 -City- by-RaBoe 055.jpg',
         pageTitle: 'Q22889',
@@ -368,7 +368,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'amboseli-national-park-kajiado-county': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Elephants_Kili_2.jpg',
+        url: '/images/worldscene-candidates/wcand-amboseli-national-park-kajiado-county-1.jpg',
         width: 1600,
         height: 1200,
         title: 'File:Elephants Kili 2.jpg',
@@ -381,7 +381,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'arthur-s-pass-national-park-westland-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/3/30/Waimakariri_River_close_to_Arthur%27s_Pass%2C_New_Zealand.jpg',
+        url: '/images/worldscene-candidates/wcand-arthur-s-pass-national-park-westland-district-1.jpg',
         width: 8953,
         height: 3059,
         title: "File:Waimakariri River close to Arthur's Pass, New Zealand.jpg",
@@ -394,7 +394,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bagan-mandalay-region': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/Old_Bagan%2C_Myanmar%2C_Bagan_plains_at_sunset.jpg',
+        url: '/images/worldscene-candidates/wcand-bagan-mandalay-region-1.jpg',
         width: 4000,
         height: 2248,
         title: 'File:Old Bagan, Myanmar, Bagan plains at sunset.jpg',
@@ -407,7 +407,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'babylon-hillah': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Babylon%2C_1932.jpg',
+        url: '/images/worldscene-candidates/wcand-babylon-hillah-1.jpg',
         width: 3922,
         height: 2847,
         title: 'File:Babylon, 1932.jpg',
@@ -459,7 +459,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-centre-of-mexico-city-and-xochimilco-mexico-city': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/01/Sonnenaufgang_bei_Xochimilco_%28UNESCO-Welterbest%C3%A4tte%29_in_Mexiko.jpg',
+        url: '/images/worldscene-candidates/wcand-historic-centre-of-mexico-city-and-xochimilco-mexico-city-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Sonnenaufgang bei Xochimilco (UNESCO-Welterbestätte) in Mexiko.jpg',
         pageTitle: 'Q15924695',
@@ -472,7 +472,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'zollverein-coal-mine-industrial-complex-germany': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/4/43/Zeche_Zollverein_abends.jpg',
+        url: '/images/worldscene-candidates/wcand-zollverein-coal-mine-industrial-complex-germany-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Zeche Zollverein abends.jpg',
         pageTitle: 'Q122026',
@@ -485,7 +485,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grand-place-brussels': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/26/Grand-Place%2C_Brussels_-_panorama%2C_June_2018.jpg',
+        url: '/images/worldscene-candidates/wcand-grand-place-brussels-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Grand-Place, Brussels - panorama, June 2018.jpg',
         pageTitle: 'Q215429',
@@ -498,7 +498,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cologne-cathedral-altstadt-nord': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/K%C3%B6lner_Dom_von_Osten.jpg',
+        url: '/images/worldscene-candidates/wcand-cologne-cathedral-altstadt-nord-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Kölner Dom von Osten.jpg',
         pageTitle: 'Q4176',
@@ -511,7 +511,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'episcopal-city-of-albi-albi': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/e4/%28Albi%29_Cit%C3%A9_%C3%A9piscopale_d%27Albi_-_Le_palais_de_la_Berbie_et_la_cath%C3%A9drale_Ste_C%C3%A9cile.jpg',
+        url: '/images/worldscene-candidates/wcand-episcopal-city-of-albi-albi-1.jpg',
         source: 'wikidata-p18-remote',
         title: "File:(Albi) Cité épiscopale d'Albi - Le palais de la Berbie et la cathédrale Ste Cécile.jpg",
         pageTitle: 'Q1778266',
@@ -537,7 +537,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'pont-du-gard-vers-pont-du-gard': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Pont_du_Gard_BLS.jpg',
+        url: '/images/worldscene-candidates/wcand-pont-du-gard-vers-pont-du-gard-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Pont du Gard BLS.jpg',
         pageTitle: 'Q38707',
@@ -550,7 +550,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chichen-itza-yucatan': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Chichen_Itza_3.jpg',
+        url: '/images/worldscene-candidates/wcand-chichen-itza-yucatan-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Chichen Itza 3.jpg',
         pageTitle: 'Q36313',
@@ -563,7 +563,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'san-marino-historic-centre-and-mount-titano-borgo-maggiore': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Fortress_of_Guaita_-_First_Tower_%28San_Marino%29.jpg',
+        url: '/images/worldscene-candidates/wcand-san-marino-historic-centre-and-mount-titano-borgo-maggiore-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Fortress of Guaita - First Tower (San Marino).jpg',
         pageTitle: 'Q862895',
@@ -576,7 +576,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'wartburg-eisenach': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/c2/Thuringia_Eisenach_asv2020-07_img23_Wartburg_Castle.jpg',
+        url: '/images/worldscene-candidates/wcand-wartburg-eisenach-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Thuringia Eisenach asv2020-07 img23 Wartburg Castle.jpg',
         pageTitle: 'Q695181',
@@ -589,7 +589,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chan-chan-huanchaco-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/d/d3/Chan_Chan%2C_2023_%2832%29.jpg',
+        url: '/images/worldscene-candidates/wcand-chan-chan-huanchaco-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Chan Chan, 2023 (32).jpg',
         pageTitle: 'Q41152',
@@ -602,7 +602,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mont-saint-michel-and-its-bay-pontorson': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/2017-04_Mont_Saint-Michel_06.jpg',
+        url: '/images/worldscene-candidates/wcand-mont-saint-michel-and-its-bay-pontorson-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:2017-04 Mont Saint-Michel 06.jpg',
         pageTitle: 'Q227145',
@@ -615,7 +615,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-centre-of-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Centro_Hist%C3%B3rico_de_Porto_por_Rodrigo_Tetsuo_Argenton_%2804%29.jpg',
+        url: '/images/worldscene-candidates/wcand-historic-centre-of-porto-cedofeita-santo-ildefonso-se-miragaia-sao-nicolau-e-vitoria-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Centro Histórico de Porto por Rodrigo Tetsuo Argenton (04).jpg',
         pageTitle: 'Q1868438',
@@ -641,7 +641,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'old-town-of-lviv-lviv': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Cables_Lviv.jpg',
+        url: '/images/worldscene-candidates/wcand-old-town-of-lviv-lviv-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Cables Lviv.jpg',
         pageTitle: 'Q2412976',
@@ -654,7 +654,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'san-cristobal-de-la-laguna-santa-cruz-de-tenerife-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/4/49/San_Crist%C3%B3bal_de_La_Laguna%2C_en_Santa_Cruz_de_Tenerife_%28Espa%C3%B1a%29.jpg',
+        url: '/images/worldscene-candidates/wcand-san-cristobal-de-la-laguna-santa-cruz-de-tenerife-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:San Cristóbal de La Laguna, en Santa Cruz de Tenerife (España).jpg',
         pageTitle: 'Q1521002',
@@ -667,7 +667,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'valle-dei-templi-agrigento': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Agrigento_TemplesValley_0066.jpg',
+        url: '/images/worldscene-candidates/wcand-valle-dei-templi-agrigento-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Agrigento TemplesValley 0066.jpg',
         pageTitle: 'Q510440',
@@ -680,7 +680,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'skocjan-caves-municipality-of-divaca': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/70/SkocjanskeJame_2013jpg.jpg',
+        url: '/images/worldscene-candidates/wcand-skocjan-caves-municipality-of-divaca-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:SkocjanskeJame 2013jpg.jpg',
         pageTitle: 'Q204918',
@@ -693,7 +693,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'monolithic-churches-in-lalibela-lasta': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/a/a3/Lalibela%2C_san_giorgio%2C_esterno_07.jpg',
+        url: '/images/worldscene-candidates/wcand-monolithic-churches-in-lalibela-lasta-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Lalibela, san giorgio, esterno 07.jpg',
         pageTitle: 'Q734312',
@@ -706,7 +706,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'preah-vihear-temple-preah-vihear-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/ff/03_Prasat_Preah_Vihear-nX-06478.jpg',
+        url: '/images/worldscene-candidates/wcand-preah-vihear-temple-preah-vihear-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:03 Prasat Preah Vihear-nX-06478.jpg',
         pageTitle: 'Q470452',
@@ -719,7 +719,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'wadi-rum-aqaba-governorate': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/03/Wadi_Rum_in_December.jpg',
+        url: '/images/worldscene-candidates/wcand-wadi-rum-aqaba-governorate-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Wadi Rum in December.jpg',
         pageTitle: 'Q215640',
@@ -732,7 +732,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'yosemite-national-park-mariposa-county': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Half_Dome_with_Eastern_Yosemite_Valley_%2850MP%29.jpg',
+        url: '/images/worldscene-candidates/wcand-yosemite-national-park-mariposa-county-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Half Dome with Eastern Yosemite Valley (50MP).jpg',
         pageTitle: 'Q180402',
@@ -745,7 +745,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lake-district-north-yorkshire': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/a/ab/Keswick_Panorama_-_Oct_2009.jpg',
+        url: '/images/worldscene-candidates/wcand-lake-district-north-yorkshire-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Keswick Panorama - Oct 2009.jpg',
         pageTitle: 'Q180228',
@@ -758,7 +758,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kandy-central-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/55/SL_Kandy_asv2020-01_img10_Arthurs_Seat_view.jpg',
+        url: '/images/worldscene-candidates/wcand-kandy-central-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:SL Kandy asv2020-01 img10 Arthurs Seat view.jpg',
         pageTitle: 'Q203197',
@@ -771,7 +771,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'konark-sun-temple-puri-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Konark_Sun_Temple_Architecture9.jpg',
+        url: '/images/worldscene-candidates/wcand-konark-sun-temple-puri-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Konark Sun Temple Architecture9.jpg',
         pageTitle: 'Q1085682',
@@ -784,7 +784,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'hattusha-the-hittite-capital-bogazkale': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/5c/Lion_Gate%2C_Hattusa_01.jpg',
+        url: '/images/worldscene-candidates/wcand-hattusha-the-hittite-capital-bogazkale-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Lion Gate, Hattusa 01.jpg',
         pageTitle: 'Q60564',
@@ -797,7 +797,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'tipasa-mauretania-caesariensis': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/b6/View_of_Tipasa_01.jpg',
+        url: '/images/worldscene-candidates/wcand-tipasa-mauretania-caesariensis-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:View of Tipasa 01.jpg',
         pageTitle: 'Q622861',
@@ -810,7 +810,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'place-stanislas-place-de-la-carriere-and-place-d-alliance-in-nancy-nancy': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Place_Stanislas_%C3%A0_Nancy.jpg',
+        url: '/images/worldscene-candidates/wcand-place-stanislas-place-de-la-carriere-and-place-d-alliance-in-nancy-nancy-1.jpg',
         source: 'wikidata-p18-remote',
         title: "File:Place Stanislas à Nancy.jpg",
         pageTitle: 'Q3346684',
@@ -823,7 +823,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'falun-mine-falun-municipality': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/d/db/Falu_koppargruva_July_2017_01.jpg',
+        url: '/images/worldscene-candidates/wcand-falun-mine-falun-municipality-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Falu koppargruva July 2017 01.jpg',
         pageTitle: 'Q892568',
@@ -836,7 +836,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bir-hima-rock-petroglyphs-and-inscriptions-najran-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Inscriptions_of_Hima_mountain1.jpg',
+        url: '/images/worldscene-candidates/wcand-bir-hima-rock-petroglyphs-and-inscriptions-najran-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Inscriptions of Hima mountain1.jpg',
         pageTitle: 'Q97221506',
@@ -849,7 +849,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-centres-of-stralsund-and-wismar-wismar': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/20-07-06-Stralsund-Innenstadt-RalfR-100-0613.jpg',
+        url: '/images/worldscene-candidates/wcand-historic-centres-of-stralsund-and-wismar-wismar-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:20-07-06-Stralsund-Innenstadt-RalfR-100-0613.jpg',
         pageTitle: 'Q1633148',
@@ -862,7 +862,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'nazca-lines-nasca-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/20/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_58.JPG',
+        url: '/images/worldscene-candidates/wcand-nazca-lines-nasca-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 58.JPG',
         pageTitle: 'Q194998',
@@ -875,7 +875,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'axum-axum-town': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/ET_Axum_asv2018-01_img34_view_from_hill.jpg',
+        url: '/images/worldscene-candidates/wcand-axum-axum-town-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:ET Axum asv2018-01 img34 view from hill.jpg',
         pageTitle: 'Q211734',
@@ -888,7 +888,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'himeji-castle-himeji': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/0d/Himeji_Castle%2C_Hy%C5%8Dgo_Prefecture%3B_August_2018_%2804%29.jpg',
+        url: '/images/worldscene-candidates/wcand-himeji-castle-himeji-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Himeji Castle, Hyōgo Prefecture; August 2018 (04).jpg',
         pageTitle: 'Q18842',
@@ -901,7 +901,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'teotihuacan-state-of-mexico': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/3/3b/2020-02-11_Teotihuacan_la_Avenida_de_los_Muertos_y_la_Pir%C3%A1mide_del_Sol.jpg',
+        url: '/images/worldscene-candidates/wcand-teotihuacan-state-of-mexico-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:2020-02-11 Teotihuacan la Avenida de los Muertos y la Pirámide del Sol.jpg',
         pageTitle: 'Q204371',
@@ -914,7 +914,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'arches-national-park': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f1/Delicate_Arch_-_Arches_National_Park_%2828744386992%29.jpg',
+        url: '/images/worldscene-candidates/wcand-arches-national-park-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Delicate Arch - Arches National Park (28744386992).jpg',
         pageTitle: 'Q217180',
@@ -927,7 +927,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'shibam-shibam-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/1/15/%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%B4%D8%A8%D8%A7%D9%85_%D8%AD%D8%B6%D8%B1%D9%85%D9%88%D8%AA.jpg',
+        url: '/images/worldscene-candidates/wcand-shibam-shibam-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:مدينة شبام حضرموت.jpg',
         pageTitle: 'Q274344',
@@ -940,7 +940,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'leptis-magna-al-khums': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/3/33/Leptis_Magna_%2829%29_%288288918733%29.jpg',
+        url: '/images/worldscene-candidates/wcand-leptis-magna-al-khums-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Leptis Magna (29) (8288918733).jpg',
         pageTitle: 'Q224710',
@@ -953,7 +953,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'rohtas-fort-dina-tehsil': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Rohtas_Fort_%28Jhelum%2C_Pakistan%29_-_World_Heritage_Site.jpeg',
+        url: '/images/worldscene-candidates/wcand-rohtas-fort-dina-tehsil-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Rohtas Fort (Jhelum, Pakistan) - World Heritage Site.jpeg',
         pageTitle: 'Q1080171',
@@ -966,7 +966,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sanchi-raisen-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Stupa_1%2C_Sanchi_02.jpg',
+        url: '/images/worldscene-candidates/wcand-sanchi-raisen-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Stupa 1, Sanchi 02.jpg',
         pageTitle: 'Q302282',
@@ -979,7 +979,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'shiretoko-shari': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/6c/140829_Ichiko_of_Shiretoko_Goko_Lakes_Hokkaido_Japan01s5.jpg',
+        url: '/images/worldscene-candidates/wcand-shiretoko-shari-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:140829 Ichiko of Shiretoko Goko Lakes Hokkaido Japan01s5.jpg',
         pageTitle: 'Q1032425',
@@ -992,7 +992,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'wood-buffalo-national-park-improvement-district-no-24-wood-buffalo': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/8f/Wood-Buffalo-NP_Waldbison_98-07-02.jpg',
+        url: '/images/worldscene-candidates/wcand-wood-buffalo-national-park-improvement-district-no-24-wood-buffalo-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Wood-Buffalo-NP Waldbison 98-07-02.jpg',
         pageTitle: 'Q1474114',
@@ -1005,7 +1005,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'maison-carree-nimes': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Maison_Carree_in_Nimes_%2816%29.jpg',
+        url: '/images/worldscene-candidates/wcand-maison-carree-nimes-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Maison Carree in Nimes (16).jpg',
         pageTitle: 'Q207694',
@@ -1018,7 +1018,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'hoi-an-quang-nam': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/b1/H%E1%BB%99i_An%2C_Ancient_Town%2C_2020-01_CN-06.jpg',
+        url: '/images/worldscene-candidates/wcand-hoi-an-quang-nam-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Hội An, Ancient Town, 2020-01 CN-06.jpg',
         pageTitle: 'Q1429590',
@@ -1031,7 +1031,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kaziranga-national-park-assam': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Indian_Rhinoceros_Rhinoceros_unicornis_by_Dr._Raju_Kasambe_%285%29.JPG',
+        url: '/images/worldscene-candidates/wcand-kaziranga-national-park-assam-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Indian Rhinoceros Rhinoceros unicornis by Dr. Raju Kasambe (5).JPG',
         pageTitle: 'Q528782',
@@ -1044,7 +1044,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'melka-kunture-oromia-region': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Pierre_taill%C3%A9e_Melka_Kunture_%C3%89thiopie.jpg',
+        url: '/images/worldscene-candidates/wcand-melka-kunture-oromia-region-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Pierre taillée Melka Kunture Éthiopie.jpg',
         pageTitle: 'Q1711455',
@@ -1057,7 +1057,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'olympia-ancient-olympia-municipality': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/86/Olympic_Flame%2C_the_Start_of_the_Olympic_Torch_Relay_%2851224124860%29.jpg',
+        url: '/images/worldscene-candidates/wcand-olympia-ancient-olympia-municipality-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Olympic Flame, the Start of the Olympic Torch Relay (51224124860).jpg',
         pageTitle: 'Q232128',
@@ -1070,7 +1070,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'appian-way-brindisi': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/cd/Appian_Way.jpg',
+        url: '/images/worldscene-candidates/wcand-appian-way-brindisi-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Appian Way.jpg',
         pageTitle: 'Q216317',
@@ -1083,7 +1083,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'tower-of-hercules-a-coruna': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/27/Torre_de_H%C3%A9rcules_2023.jpg',
+        url: '/images/worldscene-candidates/wcand-tower-of-hercules-a-coruna-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Torre de Hércules 2023.jpg',
         pageTitle: 'Q12531',
@@ -1096,7 +1096,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'castel-del-monte-andria': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/4/42/Castel_del_Monte_BW_2016-10-14_12-26-11_r.jpg',
+        url: '/images/worldscene-candidates/wcand-castel-del-monte-andria-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Castel del Monte BW 2016-10-14 12-26-11 r.jpg',
         pageTitle: 'Q177761',
@@ -1109,7 +1109,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'liangzhu-site-yuhang-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Liangzhu_Ancient_City_Site%2C_2016-06-18_12.jpg',
+        url: '/images/worldscene-candidates/wcand-liangzhu-site-yuhang-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Liangzhu Ancient City Site, 2016-06-18 12.jpg',
         pageTitle: 'Q6541266',
@@ -1122,7 +1122,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'donana-national-park-andalusia': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Vista_de_las_marismas_del_Parque_Do%C3%B1ana.jpg',
+        url: '/images/worldscene-candidates/wcand-donana-national-park-andalusia-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Vista de las marismas del Parque Doñana.jpg',
         pageTitle: 'Q848993',
@@ -1135,7 +1135,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'nyungwe-forest-southern-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Sunrisenyungwe.jpg',
+        url: '/images/worldscene-candidates/wcand-nyungwe-forest-southern-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Sunrisenyungwe.jpg',
         pageTitle: 'Q767607',
@@ -1148,7 +1148,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mulanje-massif-malawi': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Mulanje_ETM_26may02.jpg',
+        url: '/images/worldscene-candidates/wcand-mulanje-massif-malawi-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Mulanje ETM 26may02.jpg',
         pageTitle: 'Q184677',
@@ -1161,7 +1161,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'independence-hall-philadelphia': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/9/9f/Exterior_of_the_Independence_Hall%2C_Aug_2019.jpg',
+        url: '/images/worldscene-candidates/wcand-independence-hall-philadelphia-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Exterior of the Independence Hall, Aug 2019.jpg',
         pageTitle: 'Q145790',
@@ -1174,7 +1174,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'djemila-setif-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/3/34/Roman_Ruins_of_Djemila_in_S%C3%A9tif%2C_Algeria.jpg',
+        url: '/images/worldscene-candidates/wcand-djemila-setif-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Roman Ruins of Djemila in Sétif, Algeria.jpg',
         pageTitle: 'Q191173',
@@ -1187,7 +1187,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gobekli-tepe-haliliye-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/G%C3%B6bekli_Tepe%2C_Urfa.jpg',
+        url: '/images/worldscene-candidates/wcand-gobekli-tepe-haliliye-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Göbekli Tepe, Urfa.jpg',
         pageTitle: 'Q170026',
@@ -1200,7 +1200,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'yellowstone-national-park-wyoming': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/89/Grand_Prismatic_Spring_2013.jpg',
+        url: '/images/worldscene-candidates/wcand-yellowstone-national-park-wyoming-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Grand Prismatic Spring 2013.jpg',
         pageTitle: 'Q200199',
@@ -1213,7 +1213,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'valletta-port-region': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Malta%2C_2010_-_panoramio_-_Bengt_Nyman_%2823%29.jpg',
+        url: '/images/worldscene-candidates/wcand-valletta-port-region-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Malta, 2010 - panoramio - Bengt Nyman (23).jpg',
         pageTitle: 'Q23800',
@@ -1226,7 +1226,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'archaeological-site-of-delphi': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/7b/Delfi_Apollons_tempel.jpg',
+        url: '/images/worldscene-candidates/wcand-archaeological-site-of-delphi-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Delfi Apollons tempel.jpg',
         pageTitle: 'Q839954',
@@ -1239,7 +1239,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-town-of-grand-bassam-grand-bassam': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/64/2021-08-10_Historic_Town_of_Grand-Bassam_by_Benoit_Soubeyran_01.jpg',
+        url: '/images/worldscene-candidates/wcand-historic-town-of-grand-bassam-grand-bassam-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:2021-08-10 Historic Town of Grand-Bassam by Benoit Soubeyran 01.jpg',
         pageTitle: 'Q1328634',
@@ -1252,7 +1252,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'angkor-siem-reap-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Angkor_Wat_ausSO.jpg',
+        url: '/images/worldscene-candidates/wcand-angkor-siem-reap-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Angkor Wat ausSO.jpg',
         pageTitle: 'Q2397751',
@@ -1265,7 +1265,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'anuradhapura-anuradhapura-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/SL_Anuradhapura_asv2020-01_img11_Ruwanwelisaya_Stupa.jpg',
+        url: '/images/worldscene-candidates/wcand-anuradhapura-anuradhapura-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:SL Anuradhapura asv2020-01 img11 Ruwanwelisaya Stupa.jpg',
         pageTitle: 'Q5724',
@@ -1278,7 +1278,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'aoraki-mount-cook-national-park-mackenzie-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Mountcook.jpg',
+        url: '/images/worldscene-candidates/wcand-aoraki-mount-cook-national-park-mackenzie-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Mountcook.jpg',
         pageTitle: 'Q1950336',
@@ -1291,7 +1291,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'aphrodisias-karacasu': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Tetrapil%C3%B3n_-_Afrodisias_-_02.jpg',
+        url: '/images/worldscene-candidates/wcand-aphrodisias-karacasu-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Tetrapilón - Afrodisias - 02.jpg',
         pageTitle: 'Q64699201',
@@ -1304,7 +1304,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ancient-city-of-nessebar-nesebar': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/04/Nessebar_Pantocrator.jpg',
+        url: '/images/worldscene-candidates/wcand-ancient-city-of-nessebar-nesebar-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Nessebar Pantocrator.jpg',
         pageTitle: 'Q64617320',
@@ -1317,7 +1317,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'archaeological-ensemble-of-merida-merida': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/El_acueducto_de_Los_Milagros.jpg',
+        url: '/images/worldscene-candidates/wcand-archaeological-ensemble-of-merida-merida-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:El acueducto de Los Milagros.jpg',
         pageTitle: 'Q15233334',
@@ -1330,7 +1330,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'archaeological-site-of-sabratha-tripolitania': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/a/a6/Theatre_of_Sabratha%2C_Libya.jpg',
+        url: '/images/worldscene-candidates/wcand-archaeological-site-of-sabratha-tripolitania-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Theatre of Sabratha, Libya.jpg',
         pageTitle: 'Q15052130',
@@ -1343,7 +1343,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'archipielago-de-los-roques-national-park-los-roques-archipelago': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/LosRoquesLosFrancisqu%C3%AD.JPG',
+        url: '/images/worldscene-candidates/wcand-archipielago-de-los-roques-national-park-los-roques-archipelago-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:LosRoquesLosFrancisquí.JPG',
         pageTitle: 'Q3364402',
@@ -1356,7 +1356,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'danube-delta-izmail-raion': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f0/Danube_Delta_ESA23450088.jpeg',
+        url: '/images/worldscene-candidates/wcand-danube-delta-izmail-raion-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Danube Delta ESA23450088.jpeg',
         pageTitle: 'Q38812',
@@ -1369,7 +1369,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'channel-islands-national-park-santa-barbara-county': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/6d/Channel_Islands_National_Park_by_Sentinel-2.jpg',
+        url: '/images/worldscene-candidates/wcand-channel-islands-national-park-santa-barbara-county-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Channel Islands National Park by Sentinel-2.jpg',
         pageTitle: 'Q3121980',
@@ -1382,7 +1382,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kluane-national-park-and-reserve-yukon': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/DSC_3227-Pano-1.jpg',
+        url: '/images/worldscene-candidates/wcand-kluane-national-park-and-reserve-yukon-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:DSC 3227-Pano-1.jpg',
         pageTitle: 'Q3249352',
@@ -1395,7 +1395,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'calanques-national-park-bouches-du-rhone': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/En-Vau_calanque_1.jpg',
+        url: '/images/worldscene-candidates/wcand-calanques-national-park-bouches-du-rhone-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:En-Vau calanque 1.jpg',
         pageTitle: 'Q987073',
@@ -1408,7 +1408,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'prague-castle-hradcany': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/4/47/Castillo_de_Praga%2C_Praga%2C_Rep%C3%BAblica_Checa%2C_2022-07-02%2C_DD_209.jpg',
+        url: '/images/worldscene-candidates/wcand-prague-castle-hradcany-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Castillo de Praga, Praga, República Checa, 2022-07-02, DD 209.jpg',
         pageTitle: 'Q15165',
@@ -1421,7 +1421,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ponte-vecchio-florence': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Ponte_Vecchio_sobre_el_r%C3%ADo_Arno%2C_Florencia%2C_Italia%2C_2022-09-19%2C_DD_02.jpg',
+        url: '/images/worldscene-candidates/wcand-ponte-vecchio-florence-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Ponte Vecchio sobre el río Arno, Florencia, Italia, 2022-09-19, DD 02.jpg',
         pageTitle: 'Q49565',
@@ -1434,7 +1434,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palace-of-mafra-mafra': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/63/Mafra_May_2013-2.jpg',
+        url: '/images/worldscene-candidates/wcand-palace-of-mafra-mafra-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Mafra May 2013-2.jpg',
         pageTitle: 'Q165485',
@@ -1447,7 +1447,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'verona-historic-center-verona': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/f7/Piazza_dei_Signori_%28Verona%29.jpg',
+        url: '/images/worldscene-candidates/wcand-verona-historic-center-verona-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Piazza dei Signori (Verona).jpg',
         pageTitle: 'Q79207',
@@ -1460,7 +1460,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'alpine-national-park-victoria': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/e7/Mount-howitt-summit.jpg',
+        url: '/images/worldscene-candidates/wcand-alpine-national-park-victoria-1.jpg',
         source: 'wikidata-p18',
         title: 'File:Mount-howitt-summit.jpg',
         pageTitle: 'Q4735105',
@@ -1473,7 +1473,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'plaza-de-armas-cusco-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/8/83/Plaza_de_Armas%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_53-56_PAN.jpg',
+        url: '/images/worldscene-candidates/wcand-plaza-de-armas-cusco-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Plaza de Armas, Cusco, Perú, 2015-07-31, DD 53-56 PAN.jpg',
         pageTitle: 'Q3900547',
@@ -1486,7 +1486,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'isle-royale-national-park-michigan': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Lake_Superior_Shore_at_Isle_Royale_National_Park_%2849051653101%29.jpg',
+        url: '/images/worldscene-candidates/wcand-isle-royale-national-park-michigan-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Lake Superior Shore at Isle Royale National Park (49051653101).jpg',
         pageTitle: 'Q746265',
@@ -1499,7 +1499,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'semmering-railway-lower-austria': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/06/Breitenstein_-_Semmeringbahn_-_Krausel-Klause-Viadukt_-_2.jpg',
+        url: '/images/worldscene-candidates/wcand-semmering-railway-lower-austria-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Breitenstein - Semmeringbahn - Krausel-Klause-Viadukt - 2.jpg',
         pageTitle: 'Q749099',
@@ -1512,7 +1512,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'morne-seychellois-national-park-seychelles': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/7/79/Morne_Blanc_peak_view_asv2024-10_img4.jpg',
+        url: '/images/worldscene-candidates/wcand-morne-seychellois-national-park-seychelles-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Morne Blanc peak view asv2024-10 img4.jpg',
         pageTitle: 'Q3322334',
@@ -1525,7 +1525,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grand-pre-kings-county': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Landscape_of_Grand_Pr%C3%A9_2.jpg',
+        url: '/images/worldscene-candidates/wcand-grand-pre-kings-county-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Landscape of Grand Pré 2.jpg',
         pageTitle: 'Q1545603',
@@ -1538,7 +1538,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'shrines-and-temples-of-nikko-nikko-shi': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Nikko_toshogu_shrine.jpg',
+        url: '/images/worldscene-candidates/wcand-shrines-and-temples-of-nikko-nikko-shi-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Nikko toshogu shrine.jpg',
         pageTitle: 'Q740960',
@@ -1551,7 +1551,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'semuc-champey-alta-verapaz-department': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/0c/Semuc_Champey_natural_wonder.jpg',
+        url: '/images/worldscene-candidates/wcand-semuc-champey-alta-verapaz-department-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Semuc Champey natural wonder.jpg',
         pageTitle: 'Q7447739',
@@ -1564,7 +1564,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'tomorr-mountain-national-park-albania': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/65/Tomorr_Mountain_view_from_Berat_Castle.jpg',
+        url: '/images/worldscene-candidates/wcand-tomorr-mountain-national-park-albania-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Tomorr Mountain view from Berat Castle.jpg',
         pageTitle: 'Q7821564',
@@ -1577,7 +1577,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ugom-chatkal-state-national-natural-park-tashkent-region': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Ugom-Chotqol_davlat_tabiat_milliy_bog%CA%BBi._Toshkent_viloyati_35.jpg',
+        url: '/images/worldscene-candidates/wcand-ugom-chatkal-state-national-natural-park-tashkent-region-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Ugom-Chotqol davlat tabiat milliy bogʻi. Toshkent viloyati 35.jpg',
         pageTitle: 'Q7879947',
@@ -1590,7 +1590,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'tazekka-national-park-taza-province': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/f/fb/Landscape_Tazekka_Park_Morocco_Nov25_A7CR_09249.jpg',
+        url: '/images/worldscene-candidates/wcand-tazekka-national-park-taza-province-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Landscape Tazekka Park Morocco Nov25 A7CR 09249.jpg',
         pageTitle: 'Q7686315',
@@ -1603,7 +1603,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'buiratau-national-park-akmola-region': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Buiratau._Zhaushoky-2.jpg',
+        url: '/images/worldscene-candidates/wcand-buiratau-national-park-akmola-region-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Buiratau. Zhaushoky-2.jpg',
         pageTitle: 'Q4986895',
@@ -1616,7 +1616,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'marramarra-national-park-marramarra': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/e/ef/%281%29Berowra_Creek_Marramarra_NP.jpg',
+        url: '/images/worldscene-candidates/wcand-marramarra-national-park-marramarra-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:(1)Berowra Creek Marramarra NP.jpg',
         pageTitle: 'Q6780908',
@@ -1629,7 +1629,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sainte-anne-marine-national-park-seychelles': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/c/c1/Sainte_Anne_Marine_Park_asv2024-10_img27.jpg',
+        url: '/images/worldscene-candidates/wcand-sainte-anne-marine-national-park-seychelles-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Sainte Anne Marine Park asv2024-10 img27.jpg',
         pageTitle: 'Q3473492',
@@ -1642,7 +1642,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'laughing-bird-caye-national-park-stann-creek-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/0/07/Laughing_Bird_Caye_panorama.jpg',
+        url: '/images/worldscene-candidates/wcand-laughing-bird-caye-national-park-stann-creek-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Laughing Bird Caye panorama.jpg',
         pageTitle: 'Q6493444',
@@ -1655,7 +1655,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'rara-national-park-mugu-district': {
     images: [
       {
-        url: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/Rara_lake_from_afar.jpg',
+        url: '/images/worldscene-candidates/wcand-rara-national-park-mugu-district-1.jpg',
         source: 'wikidata-p18-remote',
         title: 'File:Rara lake from afar.jpg',
         pageTitle: 'Q7290958',
@@ -1681,7 +1681,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'wustegarten-hesse': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f1/W%C3%BCstegarten_von_Osten.jpg",
+        url: "/images/worldscene-candidates/wcand-wustegarten-hesse-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:W\u00fcstegarten von Osten.jpg",
         pageTitle: "Q127627",
@@ -1694,7 +1694,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lorentz-national-park-papua': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/23/Taman_Nasional_Lorentz.jpg",
+        url: "/images/worldscene-candidates/wcand-lorentz-national-park-papua-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Taman Nasional Lorentz.jpg",
         pageTitle: "Q4516",
@@ -1707,7 +1707,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sinharaja-forest-reserve-southern-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/61/SL_Sinharaja_Forest_asv2020-01_img08.jpg",
+        url: "/images/worldscene-candidates/wcand-sinharaja-forest-reserve-southern-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:SL Sinharaja Forest asv2020-01 img08.jpg",
         pageTitle: "Q375634",
@@ -1720,7 +1720,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ulytau-national-park-ulytau-district': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Aulietau-Akmeshit.jpg",
+        url: "/images/worldscene-candidates/wcand-ulytau-national-park-ulytau-district-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aulietau-Akmeshit.jpg",
         pageTitle: "Q112114452",
@@ -1733,7 +1733,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'galway-s-land-national-park-nuwara-eliya': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5f/SL_Nuwara_Eliya_asv2020-01_img02_Galways_NP.jpg",
+        url: "/images/worldscene-candidates/wcand-galway-s-land-national-park-nuwara-eliya-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:SL Nuwara Eliya asv2020-01 img02 Galways NP.jpg",
         pageTitle: "Q5519450",
@@ -1746,7 +1746,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'clump-mountain-national-park-queensland': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/BictonHillLookoutOct302024_04.jpg",
+        url: "/images/worldscene-candidates/wcand-clump-mountain-national-park-queensland-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:BictonHillLookoutOct302024 04.jpg",
         pageTitle: "Q1103359",
@@ -1759,7 +1759,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jomfruland-national-park-krager': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/35/Str%C3%A5holmen_ved_Krager%C3%B8_-_no-nb_digifoto_20160209_00433_NB_MIT_FNR_05687.jpg",
+        url: "/images/worldscene-candidates/wcand-jomfruland-national-park-krager-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Str\u00e5holmen ved Krager\u00f8 - no-nb digifoto 20160209 00433 NB MIT FNR 05687.jpg",
         pageTitle: "Q28033153",
@@ -1772,7 +1772,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'praslin-national-park-baie-sainte-anne': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Praslin_Vall%C3%A9e_de_Mai_asv2024-10_img23.jpg",
+        url: "/images/worldscene-candidates/wcand-praslin-national-park-baie-sainte-anne-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Praslin Vall\u00e9e de Mai asv2024-10 img23.jpg",
         pageTitle: "Q283855",
@@ -1785,7 +1785,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'upemba-national-park-haut-lomami-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d1/Lake_Upemba_STS057-104-62.jpg",
+        url: "/images/worldscene-candidates/wcand-upemba-national-park-haut-lomami-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lake Upemba STS057-104-62.jpg",
         pageTitle: "Q263406",
@@ -1798,7 +1798,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mount-etna-caves-national-park-queensland': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Mount_Etna%2C_Australia.jpg",
+        url: "/images/worldscene-candidates/wcand-mount-etna-caves-national-park-queensland-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mount Etna, Australia.jpg",
         pageTitle: "Q1285154",
@@ -1811,7 +1811,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kitulo-national-park-njombe-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Kitulo_National_Park.jpg",
+        url: "/images/worldscene-candidates/wcand-kitulo-national-park-njombe-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kitulo National Park.jpg",
         pageTitle: "Q1743959",
@@ -1824,7 +1824,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'edel-land-national-park-shire-of-shark-bay': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/00/Sunset_at_Steep_Point%2C_Edel_Land_National_Park.jpg",
+        url: "/images/worldscene-candidates/wcand-edel-land-national-park-shire-of-shark-bay-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Sunset at Steep Point, Edel Land National Park.jpg",
         pageTitle: "Q48740480",
@@ -1837,7 +1837,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'tallaganda-national-park-new-south-wales': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/81/Captains_Flat_dammed_lake.jpg",
+        url: "/images/worldscene-candidates/wcand-tallaganda-national-park-new-south-wales-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Captains Flat dammed lake.jpg",
         pageTitle: "Q1875999",
@@ -1850,7 +1850,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lower-goulburn-national-park-victoria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/eb/Goulburn_Weir_Goulburn_River_001.JPG",
+        url: "/images/worldscene-candidates/wcand-lower-goulburn-national-park-victoria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Goulburn Weir Goulburn River 001.JPG",
         pageTitle: "Q1872590",
@@ -1863,7 +1863,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'naryn-nature-reserve-naryn-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7e/R%C3%A9serve_d%27Etat_de_Naryn_Ao%C3%BBt_2018_16.jpg",
+        url: "/images/worldscene-candidates/wcand-naryn-nature-reserve-naryn-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:R\u00e9serve d'Etat de Naryn Ao\u00fbt 2018 16.jpg",
         pageTitle: "Q4313531",
@@ -1876,7 +1876,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bhawal-national-park-gazipur-district': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/25/A_Road_of_Bhawal_Nationa_Park%2C_Gazipur.jpg",
+        url: "/images/worldscene-candidates/wcand-bhawal-national-park-gazipur-district-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:A Road of Bhawal Nationa Park, Gazipur.jpg",
         pageTitle: "Q4901585",
@@ -1889,7 +1889,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'canunda-national-park-south-australia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Mounce_%26_Battye_Rocks._Canunda_National_Park._South_Australia.JPG",
+        url: "/images/worldscene-candidates/wcand-canunda-national-park-south-australia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mounce & Battye Rocks. Canunda National Park. South Australia.JPG",
         pageTitle: "Q1033936",
@@ -1902,7 +1902,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kotychi-and-strofylia-wetlands-national-park-andravida-kyllini-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/02/%CE%94%CE%AC%CF%83%CE%BF%CF%82_%CE%9A%CE%B1%CE%BB%CF%8C%CE%B3%CF%81%CE%B9%CE%B1%CF%82_06.jpg",
+        url: "/images/worldscene-candidates/wcand-kotychi-and-strofylia-wetlands-national-park-andravida-kyllini-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:\u0394\u03ac\u03c3\u03bf\u03c2 \u039a\u03b1\u03bb\u03cc\u03b3\u03c1\u03b9\u03b1\u03c2 06.jpg",
         pageTitle: "Q16331019",
@@ -1915,7 +1915,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lawachara-national-park-bangladesh': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Life_around_jungle.jpg",
+        url: "/images/worldscene-candidates/wcand-lawachara-national-park-bangladesh-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Life around jungle.jpg",
         pageTitle: "Q3350641",
@@ -1928,7 +1928,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'national-park-drina-srebrenica-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ed/Kanjon_Drine11.jpg",
+        url: "/images/worldscene-candidates/wcand-national-park-drina-srebrenica-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kanjon Drine11.jpg",
         pageTitle: "Q65203551",
@@ -1941,7 +1941,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ruaha-national-park-mbeya-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/73/Ruaha_River%2C_Ruaha_National_Park_%289%29_%2829028717505%29.jpg",
+        url: "/images/worldscene-candidates/wcand-ruaha-national-park-mbeya-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ruaha River, Ruaha National Park (9) (29028717505).jpg",
         pageTitle: "Q656363",
@@ -1954,7 +1954,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sayram-ugam-national-park-turkistan-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sairamdogs-267.jpg",
+        url: "/images/worldscene-candidates/wcand-sayram-ugam-national-park-turkistan-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Sairamdogs-267.jpg",
         pageTitle: "Q4405258",
@@ -1967,7 +1967,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'senkelle-swayne-s-hartebeest-sanctuary-ethiopia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Swayne%27s_hartebeest_%28Alcelaphus_buselaphus_swaynei%29_herd.jpg",
+        url: "/images/worldscene-candidates/wcand-senkelle-swayne-s-hartebeest-sanctuary-ethiopia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Swayne's hartebeest (Alcelaphus buselaphus swaynei) herd.jpg",
         pageTitle: "Q7450805",
@@ -1980,7 +1980,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'singalila-national-park-darjeeling-district': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/63/The_sleeping_Buddha.jpg",
+        url: "/images/worldscene-candidates/wcand-singalila-national-park-darjeeling-district-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:The sleeping Buddha.jpg",
         pageTitle: "Q2985193",
@@ -1993,7 +1993,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'yabelo-wildlife-sanctuary-yabelo': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/92/Yabello_Wildlife_Sanctuary_%283%29_%2828988356970%29.jpg",
+        url: "/images/worldscene-candidates/wcand-yabelo-wildlife-sanctuary-yabelo-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Yabello Wildlife Sanctuary (3) (28988356970).jpg",
         pageTitle: "Q16903813",
@@ -2006,7 +2006,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'deosai-national-park-skardu-district': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d0/The_Land_of_Giants%2C_Deosai.jpg",
+        url: "/images/worldscene-candidates/wcand-deosai-national-park-skardu-district-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:The Land of Giants, Deosai.jpg",
         pageTitle: "Q2641970",
@@ -2019,7 +2019,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sanjay-gandhi-national-park-mumbai': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Sanjay_Gandhi_National_Park.JPG",
+        url: "/images/worldscene-candidates/wcand-sanjay-gandhi-national-park-mumbai-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Sanjay Gandhi National Park.JPG",
         pageTitle: "Q648907",
@@ -2032,7 +2032,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'national-park-entre-sambre-et-meuse-hainaut': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Fondry_des_Chiens_during_civil_twilight_%28DSC07718%29.jpg",
+        url: "/images/worldscene-candidates/wcand-national-park-entre-sambre-et-meuse-hainaut-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Fondry des Chiens during civil twilight (DSC07718).jpg",
         pageTitle: "Q115659522",
@@ -2045,7 +2045,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kucaj-beljanica-national-park-serbia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7c/Lazar%27s_canyon.jpg",
+        url: "/images/worldscene-candidates/wcand-kucaj-beljanica-national-park-serbia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lazar's canyon.jpg",
         pageTitle: "Q121177143",
@@ -2058,7 +2058,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'orang-national-park-assam': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/17/Greater_one-horned_rhinoceros.jpg",
+        url: "/images/worldscene-candidates/wcand-orang-national-park-assam-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Greater one-horned rhinoceros.jpg",
         pageTitle: "Q2989176",
@@ -2071,7 +2071,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'samursky-national-park-dagestan': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Samur_forest.jpg",
+        url: "/images/worldscene-candidates/wcand-samursky-national-park-dagestan-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Samur forest.jpg",
         pageTitle: "Q108330292",
@@ -2084,7 +2084,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ivvavik-national-park-yukon': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Sheep_Slot_Rapids%2C_Firth_River%2C_Ivvavik_National_Park%2C_YT.jpg",
+        url: "/images/worldscene-candidates/wcand-ivvavik-national-park-yukon-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Sheep Slot Rapids, Firth River, Ivvavik National Park, YT.jpg",
         pageTitle: "Q200590",
@@ -2097,7 +2097,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'fruska-gora-national-park-vojvodina': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a3/Popovicko_jezero.jpg",
+        url: "/images/worldscene-candidates/wcand-fruska-gora-national-park-vojvodina-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Popovicko jezero.jpg",
         pageTitle: "Q1280258",
@@ -2110,7 +2110,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'trang-an-vietnam': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Trang_An_Scenic_Landscape_Complex%2C_northern_Vietnam_%28354%29_%2838540830421%29.jpg",
+        url: "/images/worldscene-candidates/wcand-trang-an-vietnam-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Trang An Scenic Landscape Complex, northern Vietnam (354) (38540830421).jpg",
         pageTitle: "Q10810559",
@@ -2123,7 +2123,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chyulu-hills-kenya': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/09/Tsavo_West_National_Park%2C_Kenya_%2853493414096%29.jpg",
+        url: "/images/worldscene-candidates/wcand-chyulu-hills-kenya-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Tsavo West National Park, Kenya (53493414096).jpg",
         pageTitle: "Q5118629",
@@ -2136,7 +2136,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sounio-national-park-sounion': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Attica_06-13_Sounion_18_Cape_Sounion_stitch.jpg",
+        url: "/images/worldscene-candidates/wcand-sounio-national-park-sounion-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Attica 06-13 Sounion 18 Cape Sounion stitch.jpg",
         pageTitle: "Q26046204",
@@ -2149,7 +2149,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sempre-vivas-national-park-minas-gerais': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Estrada_de_acesso_por_dentro_do_Parque_do_Itamb%C3%A9.JPG",
+        url: "/images/worldscene-candidates/wcand-sempre-vivas-national-park-minas-gerais-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Estrada de acesso por dentro do Parque do Itamb\u00e9.JPG",
         pageTitle: "Q2269548",
@@ -2175,7 +2175,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'south-penghu-marine-national-park-wangan-township': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/87/DongJi_Island_%2821359619055%29.jpg",
+        url: "/images/worldscene-candidates/wcand-south-penghu-marine-national-park-wangan-township-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:DongJi Island (21359619055).jpg",
         pageTitle: "Q15941118",
@@ -2188,7 +2188,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'aulavik-national-park-northwest-territories': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Thomsen_River_%28Banks_Island%2C_NWT%2C_Canada%29_08.jpg",
+        url: "/images/worldscene-candidates/wcand-aulavik-national-park-northwest-territories-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Thomsen River (Banks Island, NWT, Canada) 08.jpg",
         pageTitle: "Q771612",
@@ -2201,7 +2201,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sado-island-gold-mines-sado': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dohyu_no_Warito_ac_%283%29.jpg",
+        url: "/images/worldscene-candidates/wcand-sado-island-gold-mines-sado-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Dohyu no Warito ac (3).jpg",
         pageTitle: "Q127378385",
@@ -2214,7 +2214,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sado-mine-sado': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7d/Dohyu_no_Warito_ac_%283%29.jpg",
+        url: "/images/worldscene-candidates/wcand-sado-mine-sado-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Dohyu no Warito ac (3).jpg",
         pageTitle: "Q11248197",
@@ -2227,7 +2227,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'o-le-pupu-pu-e-national-park-samoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/11/Aerial_view_of_the_O_Le_Pupu_Pue_National_Park%2C_Samoa%2C_IUCN_BIOPAMA_Photos.jpg",
+        url: "/images/worldscene-candidates/wcand-o-le-pupu-pu-e-national-park-samoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aerial view of the O Le Pupu Pue National Park, Samoa, IUCN BIOPAMA Photos.jpg",
         pageTitle: "Q31979523",
@@ -2240,7 +2240,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'skellig-michael-county-kerry': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Skellig_Michael03%28js%29.jpg",
+        url: "/images/worldscene-candidates/wcand-skellig-michael-county-kerry-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Skellig Michael03(js).jpg",
         pageTitle: "Q207193",
@@ -2253,7 +2253,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'museum-island-bezirk-mitte': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Berlin_Museumsinsel_Fernsehturm.jpg",
+        url: "/images/worldscene-candidates/wcand-museum-island-bezirk-mitte-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Berlin Museumsinsel Fernsehturm.jpg",
         pageTitle: "Q151963",
@@ -2266,7 +2266,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'baie-ternay-marine-national-park-seychelles': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/17/Baie_Ternay%2C_Mahe%2C_Seychelles_-_17358250958.jpg",
+        url: "/images/worldscene-candidates/wcand-baie-ternay-marine-national-park-seychelles-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Baie Ternay, Mahe, Seychelles - 17358250958.jpg",
         pageTitle: "Q16579288",
@@ -2279,7 +2279,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'rock-islands-southern-lagoon-koror': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+        url: "/images/worldscene-candidates/wcand-rock-islands-southern-lagoon-koror-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
         pageTitle: "Q17215490",
@@ -2292,7 +2292,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'sable-island-national-park-reserve-halifax': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1b/Stallion_and_harem_on_Sable_Island.jpg",
+        url: "/images/worldscene-candidates/wcand-sable-island-national-park-reserve-halifax-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Stallion and harem on Sable Island.jpg",
         pageTitle: "Q4133141",
@@ -2305,7 +2305,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gros-morne-national-park-division-no-9': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Western_Brook_Pond_Newfoundland_Canada_DSC_6405.jpg",
+        url: "/images/worldscene-candidates/wcand-gros-morne-national-park-division-no-9-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Western Brook Pond Newfoundland Canada DSC 6405.jpg",
         pageTitle: "Q257598",
@@ -2331,7 +2331,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'qalhat-sur': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Qalhat%2C_mausoleo_di_Bibi_Maryam%2C_xiv_secolo%2C_07.jpg",
+        url: "/images/worldscene-candidates/wcand-qalhat-sur-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Qalhat, mausoleo di Bibi Maryam, xiv secolo, 07.jpg",
         pageTitle: "Q680322",
@@ -2344,7 +2344,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-centre-of-sheki-with-the-khan-s-palace-shaki': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/23/Shaki_KhanPalace_004_3718.jpg",
+        url: "/images/worldscene-candidates/wcand-historic-centre-of-sheki-with-the-khan-s-palace-shaki-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Shaki KhanPalace 004 3718.jpg",
         pageTitle: "Q106762537",
@@ -2357,7 +2357,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ciudad-universitaria-mexico-city': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/74/Biblioteca_and_Torre_des_Humanidades_I_from_Las_Islas%2C_Ciudad_Universitaria%2C_Mexico_City.jpg",
+        url: "/images/worldscene-candidates/wcand-ciudad-universitaria-mexico-city-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Biblioteca and Torre des Humanidades I from Las Islas, Ciudad Universitaria, Mexico City.jpg",
         pageTitle: "Q130025",
@@ -2370,7 +2370,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'town-hall-of-bremen-mitte': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bremen_%2827823097069%29.jpg",
+        url: "/images/worldscene-candidates/wcand-town-hall-of-bremen-mitte-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bremen (27823097069).jpg",
         pageTitle: "Q19479",
@@ -2383,7 +2383,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'islamic-cairo-cairo-governorate': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/86/%D9%85%D8%B5%D8%B1_%D8%A7%D9%84%D8%B9%D8%B8%D9%8A%D9%85%D8%A9.jpg",
+        url: "/images/worldscene-candidates/wcand-islamic-cairo-cairo-governorate-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:\u0645\u0635\u0631 \u0627\u0644\u0639\u0638\u064a\u0645\u0629.jpg",
         pageTitle: "Q1100964",
@@ -2396,7 +2396,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'old-town-of-corfu-municipality-of-central-corfu-and-diapontia-islands': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c2/The_Old_Fortress_and_the_Old_Town_of_Corfu_2_-_September_2017.jpg",
+        url: "/images/worldscene-candidates/wcand-old-town-of-corfu-municipality-of-central-corfu-and-diapontia-islands-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:The Old Fortress and the Old Town of Corfu 2 - September 2017.jpg",
         pageTitle: "Q38283757",
@@ -2409,7 +2409,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'hanseatic-city-of-lubeck-lubeck': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/59/Aerial_image_of_L%C3%BCbeck_%28view_from_the_southwest%29.jpg",
+        url: "/images/worldscene-candidates/wcand-hanseatic-city-of-lubeck-lubeck-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aerial image of L\u00fcbeck (view from the southwest).jpg",
         pageTitle: "Q15813909",
@@ -2422,7 +2422,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'punic-town-of-kerkuane-and-its-necropolis-nabeul-governorate': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e4/Punic_Town_of_Kerkuane_and_its_Necropolis-130314.jpg",
+        url: "/images/worldscene-candidates/wcand-punic-town-of-kerkuane-and-its-necropolis-nabeul-governorate-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Punic Town of Kerkuane and its Necropolis-130314.jpg",
         pageTitle: "Q65944741",
@@ -2435,7 +2435,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-monuments-zone-of-queretaro-queretaro-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b7/Ex_convento_de_San_Francisco.JPG",
+        url: "/images/worldscene-candidates/wcand-historic-monuments-zone-of-queretaro-queretaro-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ex convento de San Francisco.JPG",
         pageTitle: "Q3848141",
@@ -2448,7 +2448,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'rietveld-schroder-house-utrecht': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Rietveld_Schr%C3%B6derhuis_HayKranen-20.JPG",
+        url: "/images/worldscene-candidates/wcand-rietveld-schroder-house-utrecht-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Rietveld Schr\u00f6derhuis HayKranen-20.JPG",
         pageTitle: "Q914231",
@@ -2461,7 +2461,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-city-of-toledo-toledo': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/22/Toledo_-_02.jpg",
+        url: "/images/worldscene-candidates/wcand-historic-city-of-toledo-toledo-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Toledo - 02.jpg",
         pageTitle: "Q17255635",
@@ -2474,7 +2474,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'strasbourg-from-grande-ile-to-neustadt-a-european-urban-scene-strasbourg': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kl%C3%A9ber_Square%2C_Strasbourg_%2816080539557%29.jpg",
+        url: "/images/worldscene-candidates/wcand-strasbourg-from-grande-ile-to-neustadt-a-european-urban-scene-strasbourg-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kl\u00e9ber Square, Strasbourg (16080539557).jpg",
         pageTitle: "Q55523908",
@@ -2487,7 +2487,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-centre-of-san-gimignano-san-gimignano': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/64/San_Gimignano_-_Piazza_della_Cisterna_da_torre_grossa.JPG",
+        url: "/images/worldscene-candidates/wcand-historic-centre-of-san-gimignano-san-gimignano-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:San Gimignano - Piazza della Cisterna da torre grossa.JPG",
         pageTitle: "Q9724840",
@@ -2500,7 +2500,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-centre-of-zacatecas-zacatecas': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/09/ZacatecasView.JPG",
+        url: "/images/worldscene-candidates/wcand-historic-centre-of-zacatecas-zacatecas-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:ZacatecasView.JPG",
         pageTitle: "Q3848116",
@@ -2513,7 +2513,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'naqsh-e-jahan-square-district-3': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/06/Naghsh-e_Jahan_Square.jpg",
+        url: "/images/worldscene-candidates/wcand-naqsh-e-jahan-square-district-3-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Naghsh-e Jahan Square.jpg",
         pageTitle: "Q4519",
@@ -2526,7 +2526,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'samarkand-crossroad-of-cultures-samarkand': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/00/Registan_square_Samarkand.jpg",
+        url: "/images/worldscene-candidates/wcand-samarkand-crossroad-of-cultures-samarkand-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Registan square Samarkand.jpg",
         pageTitle: "Q17255582",
@@ -2539,7 +2539,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'old-town-of-segovia-and-its-aqueduct-segovia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f4/Aqueduct_of_Segovia_08.jpg",
+        url: "/images/worldscene-candidates/wcand-old-town-of-segovia-and-its-aqueduct-segovia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aqueduct of Segovia 08.jpg",
         pageTitle: "Q15728389",
@@ -2591,7 +2591,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chateau-de-charles-le-temeraire-charolles': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/01/Tour_Charles_T%C3%A9m%C3%A9raire_Charolles_5.jpg",
+        url: "/images/worldscene-candidates/wcand-chateau-de-charles-le-temeraire-charolles-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Tour Charles T\u00e9m\u00e9raire Charolles 5.jpg",
         pageTitle: "Q2405730",
@@ -2604,7 +2604,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'temple-of-kukulcan-chichen-itza': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/51/Chichen_Itza_3.jpg",
+        url: "/images/worldscene-candidates/wcand-temple-of-kukulcan-chichen-itza-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Chichen Itza 3.jpg",
         pageTitle: "Q1128327",
@@ -2617,7 +2617,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palais-de-la-berbie-albi': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/08/%28Albi%29_-_Palais_de_la_Berbie_vu_de_la_rive_droite_du_Tarn.jpg",
+        url: "/images/worldscene-candidates/wcand-palais-de-la-berbie-albi-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:(Albi) - Palais de la Berbie vu de la rive droite du Tarn.jpg",
         pageTitle: "Q3361047",
@@ -2630,7 +2630,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'schwedenschanze-frickingen': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/93/Heiligenberg-062_pano.jpg",
+        url: "/images/worldscene-candidates/wcand-schwedenschanze-frickingen-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Heiligenberg-062 pano.jpg",
         pageTitle: "Q2254697",
@@ -2643,7 +2643,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'northern-french-coal-mining-region-pas-de-calais': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/dd/Bassin_minier_du_Nord-Pas-de-Calais_-_Vues_g%C3%A9n%C3%A9rales_du_patrimoine.jpg",
+        url: "/images/worldscene-candidates/wcand-northern-french-coal-mining-region-pas-de-calais-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bassin minier du Nord-Pas-de-Calais - Vues g\u00e9n\u00e9rales du patrimoine.jpg",
         pageTitle: "Q392215",
@@ -2656,7 +2656,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ussangoda-sri-lanka': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/9d/SL_Ussangoda_NP_asv2020-01_img06.jpg",
+        url: "/images/worldscene-candidates/wcand-ussangoda-sri-lanka-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:SL Ussangoda NP asv2020-01 img06.jpg",
         pageTitle: "Q7902105",
@@ -2669,7 +2669,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'castillo-de-san-juan-bautista-santa-cruz-de-tenerife': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7a/Castillo_de_San_Juan_Bautista.jpg",
+        url: "/images/worldscene-candidates/wcand-castillo-de-san-juan-bautista-santa-cruz-de-tenerife-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Castillo de San Juan Bautista.jpg",
         pageTitle: "Q2073408",
@@ -2682,7 +2682,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'universidade-de-coimbra-alta-e-sofia-coimbra-se-nova-santa-cruz-almedina-e-sao-bartolomeu': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Coimbra_December_2011-19a.jpg",
+        url: "/images/worldscene-candidates/wcand-universidade-de-coimbra-alta-e-sofia-coimbra-se-nova-santa-cruz-almedina-e-sao-bartolomeu-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Coimbra December 2011-19a.jpg",
         pageTitle: "Q15229957",
@@ -2695,7 +2695,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chateau-de-merville-merville': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/27/Chateau_de_Merville.jpg",
+        url: "/images/worldscene-candidates/wcand-chateau-de-merville-merville-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Chateau de Merville.jpg",
         pageTitle: "Q2969869",
@@ -2708,7 +2708,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'monastery-of-san-francisco-lima': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Iglesia_de_San_Francisco%2C_Lima%2C_Per%C3%BA%2C_2015-07-28%2C_DD_70.jpg",
+        url: "/images/worldscene-candidates/wcand-monastery-of-san-francisco-lima-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Iglesia de San Francisco, Lima, Per\u00fa, 2015-07-28, DD 70.jpg",
         pageTitle: "Q2404214",
@@ -2721,7 +2721,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'victoria-falls-southern-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg",
+        url: "/images/worldscene-candidates/wcand-victoria-falls-southern-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cataratas Victoria, Zambia-Zimbabue, 2018-07-27, DD 05.jpg",
         pageTitle: "Q43278",
@@ -2734,7 +2734,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chateau-de-corcheval-beaubery': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/18/Ch%C3%A2teau_de_Corcheval_%C3%A0_BEAUBERY.jpg",
+        url: "/images/worldscene-candidates/wcand-chateau-de-corcheval-beaubery-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ch\u00e2teau de Corcheval \u00e0 BEAUBERY.jpg",
         pageTitle: "Q2969036",
@@ -2747,7 +2747,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'phra-ratchawang-boran-tha-wasukri': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Phra_Thinang_Sanphet_Maha_Prasat_Royal_Palace_20231230.jpg",
+        url: "/images/worldscene-candidates/wcand-phra-ratchawang-boran-tha-wasukri-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Phra Thinang Sanphet Maha Prasat Royal Palace 20231230.jpg",
         pageTitle: "Q542923",
@@ -2760,7 +2760,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gate-of-chellah-morocco': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Main_Gate_Chellah_Rabat_Nov25_A7CR_08921.jpg",
+        url: "/images/worldscene-candidates/wcand-gate-of-chellah-morocco-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Main Gate Chellah Rabat Nov25 A7CR 08921.jpg",
         pageTitle: "Q137884195",
@@ -2773,7 +2773,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chateau-de-charencey-chenecey-buillon': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Ch%C3%A2teau_de_Charencey_-_donjon.jpg",
+        url: "/images/worldscene-candidates/wcand-chateau-de-charencey-chenecey-buillon-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ch\u00e2teau de Charencey - donjon.jpg",
         pageTitle: "Q2968873",
@@ -2786,7 +2786,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chateau-de-gatine-bauge-en-anjou': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/48/Ch%C3%A2teau_de_Gatine.jpg",
+        url: "/images/worldscene-candidates/wcand-chateau-de-gatine-bauge-en-anjou-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ch\u00e2teau de Gatine.jpg",
         pageTitle: "Q2969301",
@@ -2799,7 +2799,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lena-pillars-khangalassky-district': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/48/%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D0%BD%D0%BE%D1%87%D0%B8_%D0%BD%D0%B0_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%9B%D0%A1.jpg",
+        url: "/images/worldscene-candidates/wcand-lena-pillars-khangalassky-district-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:\u0411\u0435\u043b\u044b\u0435 \u043d\u043e\u0447\u0438 \u043d\u0430 \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438 \u041b\u0421.jpg",
         pageTitle: "Q277683",
@@ -2812,7 +2812,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'stoclet-palace-woluwe-saint-pierre': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c0/Palais_Stoclet%2C_vue_ensemble.JPG",
+        url: "/images/worldscene-candidates/wcand-stoclet-palace-woluwe-saint-pierre-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palais Stoclet, vue ensemble.JPG",
         pageTitle: "Q239028",
@@ -2825,7 +2825,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bauhaus-and-its-sites-in-weimar-dessau-and-bernau-germany': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1c/Dessau_Bauhaus-Geb%C3%A4ude_asv2024-06_img1.jpg",
+        url: "/images/worldscene-candidates/wcand-bauhaus-and-its-sites-in-weimar-dessau-and-bernau-germany-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Dessau Bauhaus-Geb\u00e4ude asv2024-06 img1.jpg",
         pageTitle: "Q14863645",
@@ -2838,7 +2838,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ferto-neusiedlersee-cultural-landscape-gyor-moson-sopron-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a0/Podersdorf_am_See_-_Kulturlandschaft_Fert%C5%91-Neusiedler_See_-_Rastplatz_mit_Ziehbrunnen.jpg",
+        url: "/images/worldscene-candidates/wcand-ferto-neusiedlersee-cultural-landscape-gyor-moson-sopron-county-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Podersdorf am See - Kulturlandschaft Fert\u0151-Neusiedler See - Rastplatz mit Ziehbrunnen.jpg",
         pageTitle: "Q2925869",
@@ -2851,7 +2851,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jomon-prehistoric-sites-in-northern-japan-hokkaido': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1d/140913_Sannai-Maruyama_site_Aomori_Japan01bs6bs6.jpg",
+        url: "/images/worldscene-candidates/wcand-jomon-prehistoric-sites-in-northern-japan-hokkaido-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:140913 Sannai-Maruyama site Aomori Japan01bs6bs6.jpg",
         pageTitle: "Q11402500",
@@ -2864,7 +2864,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'khotyn-fortress-chernivtsi-oblast': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/df/73-250-0001_Khotyn_Fortress_RB_18.jpg",
+        url: "/images/worldscene-candidates/wcand-khotyn-fortress-chernivtsi-oblast-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:73-250-0001 Khotyn Fortress RB 18.jpg",
         pageTitle: "Q141012",
@@ -2877,7 +2877,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mystras-sparta-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/9e/Palace_at_Mystras_by_Joy_of_Museums.jpg",
+        url: "/images/worldscene-candidates/wcand-mystras-sparta-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palace at Mystras by Joy of Museums.jpg",
         pageTitle: "Q19053",
@@ -2890,7 +2890,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jantar-mantar-new-delhi-district': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8d/India_Delhi_Jantar_Mantar_observatory_1.jpg",
+        url: "/images/worldscene-candidates/wcand-jantar-mantar-new-delhi-district-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:India Delhi Jantar Mantar observatory 1.jpg",
         pageTitle: "Q2045115",
@@ -2903,7 +2903,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'residences-of-the-royal-house-of-savoy-piedmont': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Torino_-_Palazzo_Reale_-_1.jpg",
+        url: "/images/worldscene-candidates/wcand-residences-of-the-royal-house-of-savoy-piedmont-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Torino - Palazzo Reale - 1.jpg",
         pageTitle: "Q461272",
@@ -2916,7 +2916,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'royal-botanic-gardens-kew-london': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/78/Flowers_in_front_of_the_Palm_House%2C_Kew_Gardens.jpg",
+        url: "/images/worldscene-candidates/wcand-royal-botanic-gardens-kew-london-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Flowers in front of the Palm House, Kew Gardens.jpg",
         pageTitle: "Q18748726",
@@ -2929,7 +2929,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'hiraizumi-temples-gardens-and-archaeological-sites-representing-the-buddhist-pur-hiraizumi': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Hiraizumi%27s_surroundings%2C_Iwate_Prefecture%3B_August_2018_%2803%29.jpg",
+        url: "/images/worldscene-candidates/wcand-hiraizumi-temples-gardens-and-archaeological-sites-representing-the-buddhist-pur-hiraizumi-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Hiraizumi's surroundings, Iwate Prefecture; August 2018 (03).jpg",
         pageTitle: "Q2896261",
@@ -2942,7 +2942,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'el-camino-real-de-tierra-adentro-mexico': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a8/El_Camino_Real_de_Tierra_Adentro_NHT_%289445536658%29.jpg",
+        url: "/images/worldscene-candidates/wcand-el-camino-real-de-tierra-adentro-mexico-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:El Camino Real de Tierra Adentro NHT (9445536658).jpg",
         pageTitle: "Q911953",
@@ -2955,7 +2955,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jesuit-missions-of-la-santisima-trinidad-de-parana-and-jesus-de-tavarangue-trinidad': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/44/J37_730_Jes%C3%BAs_de_Tavarang%C3%BCe%2C_colegio.jpg",
+        url: "/images/worldscene-candidates/wcand-jesuit-missions-of-la-santisima-trinidad-de-parana-and-jesus-de-tavarangue-trinidad-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:J37 730 Jes\u00fas de Tavarang\u00fce, colegio.jpg",
         pageTitle: "Q15727363",
@@ -3070,7 +3070,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'amber-mountain-national-park-joffreville': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/89/Waterfall_Montagne_d_Ambre_MS5563.jpg",
+        url: "/images/worldscene-candidates/wcand-amber-mountain-national-park-joffreville-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Waterfall Montagne d Ambre MS5563.jpg",
         pageTitle: "Q1968934",
@@ -3083,7 +3083,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ambohimanga-antananarivo-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Ambohimanga_14.jpg",
+        url: "/images/worldscene-candidates/wcand-ambohimanga-antananarivo-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ambohimanga 14.jpg",
         pageTitle: "Q458167",
@@ -3187,7 +3187,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'anavilhanas-national-park-novo-airao': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Anavilhanas2.jpg",
+        url: "/images/worldscene-candidates/wcand-anavilhanas-national-park-novo-airao-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Anavilhanas2.jpg",
         pageTitle: "Q392877",
@@ -3239,7 +3239,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'amami-oshima-island-tokunoshima-island-northern-part-of-okinawa-island-and-iriom-okinawa-prefecture': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/88/Tokunoshima_zenkei.jpg",
+        url: "/images/worldscene-candidates/wcand-amami-oshima-island-tokunoshima-island-northern-part-of-okinawa-island-and-iriom-okinawa-prefecture-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Tokunoshima zenkei.jpg",
         pageTitle: "Q11444847",
@@ -3249,23 +3249,23 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
       },
     ],
   },
-  'ancient-city-of-bosra-bosra': {
+    'ancient-city-of-bosra-bosra': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bosra%2C_Daraa%2C_Syria%2C_Citadel_of_Bosra%2C_Walls.jpg",
-        source: "commons-search-remote",
-        title: "File:Bosra, Daraa, Syria, Citadel of Bosra, Walls.jpg",
-        pageTitle: "Ancient City of Bosra Syria",
-        score: 180,
-        width: 4000,
-        height: 3000,
+        url: "/images/worldscene-candidates/wcand-ancient-city-of-bosra-bosra-1.jpg",
+        source: "commons-search",
+        title: "File:Roman Theatre in Bosra.jpg",
+        pageTitle: "Ancient City of Bosra",
+        score: 260,
+        width: 3456,
+        height: 2304,
       },
     ],
   },
   'ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata-tichit': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/11/%D9%85%D8%B3%D8%AC%D8%AF_%D8%B4%D9%86%D9%82%D9%8A%D8%B7_%D8%A7%D9%84%D8%AA%D8%A7%D8%B1%D9%8A%D8%AE%D9%8A.jpg",
+        url: "/images/worldscene-candidates/wcand-ancient-ksour-of-ouadane-chinguetti-tichitt-and-oualata-tichit-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:مسجد شنقيط التاريخي.jpg",
         pageTitle: "Q2845953",
@@ -3278,7 +3278,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'anarjohka-national-park-kautokeino-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/10/Arctic_sunset.jpg",
+        url: "/images/worldscene-candidates/wcand-anarjohka-national-park-kautokeino-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Arctic sunset.jpg",
         pageTitle: "Q317226",
@@ -3291,7 +3291,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ancient-village-of-northern-syria-syria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Overview_of_St._Simeons_from_the_North_Syria.jpg",
+        url: "/images/worldscene-candidates/wcand-ancient-village-of-northern-syria-syria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Overview of St. Simeons from the North Syria.jpg",
         pageTitle: "Q55140228",
@@ -3304,7 +3304,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ancient-villages-in-southern-anhui-xidi-and-hongcun-people-s-republic-of-china': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Ancient_Villages_in_Southern_Anhui_%E2%80%93_Xidi_and_Hongcun-127239.jpg",
+        url: "/images/worldscene-candidates/wcand-ancient-villages-in-southern-anhui-xidi-and-hongcun-people-s-republic-of-china-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ancient Villages in Southern Anhui – Xidi and Hongcun-127239.jpg",
         pageTitle: "Q15224718",
@@ -3343,7 +3343,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'badalgachhi-upazila': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a3/%E0%A6%AA%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%A1%E0%A6%BC%E0%A6%AA%E0%A7%81%E0%A6%B0_%E0%A6%AC%E0%A7%8C%E0%A6%A6%E0%A7%8D%E0%A6%A7_%E0%A6%AC%E0%A6%BF%E0%A6%B9%E0%A6%BE%E0%A6%B0_22.jpg",
+        url: "/images/worldscene-candidates/wcand-badalgachhi-upazila-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:পাহাড়পুর বৌদ্ধ বিহার 22.jpg",
         pageTitle: "Q305044",
@@ -3356,7 +3356,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ancient-city-of-tauric-chersonese-and-its-chora-sevastopol': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/96/Chersonesos_columns.jpg",
+        url: "/images/worldscene-candidates/wcand-ancient-city-of-tauric-chersonese-and-its-chora-sevastopol-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Chersonesos columns.jpg",
         pageTitle: "Q64532917",
@@ -3369,7 +3369,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'aqueduct-of-padre-tembleque-zempoala-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/04/Zempoala_Aqueduct%2C_Acueducto_del_Padre_Tembleque%2C_Tepeyahualco_Aqueduct_2.jpg",
+        url: "/images/worldscene-candidates/wcand-aqueduct-of-padre-tembleque-zempoala-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Zempoala Aqueduct, Acueducto del Padre Tembleque, Tepeyahualco Aqueduct 2.jpg",
         pageTitle: "Q2840764",
@@ -3382,7 +3382,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'arab-norman-palermo-and-the-cathedral-churches-of-cefalu-and-monreale-province-of-palermo': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/02/Cappella_Palatina_in_Palermo_Sicily.JPG",
+        url: "/images/worldscene-candidates/wcand-arab-norman-palermo-and-the-cathedral-churches-of-cefalu-and-monreale-province-of-palermo-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cappella Palatina in Palermo Sicily.JPG",
         pageTitle: "Q20963672",
@@ -3395,7 +3395,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'asante-traditional-buildings-ashanti-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Kentikrono_Shrine_%282%29.jpg",
+        url: "/images/worldscene-candidates/wcand-asante-traditional-buildings-ashanti-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kentikrono Shrine (2).jpg",
         pageTitle: "Q1141003",
@@ -3408,7 +3408,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'augustusburg-and-falkenlust-palaces-bruhl': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b1/Schloss_Augustusburg%2C_Southern_Facade%2C_November_2017_-01.jpg",
+        url: "/images/worldscene-candidates/wcand-augustusburg-and-falkenlust-palaces-bruhl-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Schloss Augustusburg, Southern Facade, November 2017 -01.jpg",
         pageTitle: "Q156292",
@@ -3421,7 +3421,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'babelsberg-palace-babelsberg': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ee/Babelsberg%2C_Schloss.JPG",
+        url: "/images/worldscene-candidates/wcand-babelsberg-palace-babelsberg-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Babelsberg, Schloss.JPG",
         pageTitle: "Q702477",
@@ -3434,7 +3434,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'badain-jaran-desert-gansu': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c4/Small_Dunes_of_Badain_Jaran_Desert.JPG",
+        url: "/images/worldscene-candidates/wcand-badain-jaran-desert-gansu-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Small Dunes of Badain Jaran Desert.JPG",
         pageTitle: "Q939033",
@@ -3447,7 +3447,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bahrain-pearling-trail-bahrain': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/21/Muharraq_Bayt_Siyadi_1.jpg",
+        url: "/images/worldscene-candidates/wcand-bahrain-pearling-trail-bahrain-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Muharraq Bayt Siyadi 1.jpg",
         pageTitle: "Q1889313",
@@ -3460,7 +3460,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'banks-of-the-seine-paris': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a9/Seine_by_Eiffel.jpg",
+        url: "/images/worldscene-candidates/wcand-banks-of-the-seine-paris-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Seine by Eiffel.jpg",
         pageTitle: "Q2233532",
@@ -3473,7 +3473,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'basilica-and-expiatory-church-of-the-holy-family-sagrada-familia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/57/Sagrada_Familia_8-12-21_%281%29.jpg",
+        url: "/images/worldscene-candidates/wcand-basilica-and-expiatory-church-of-the-holy-family-sagrada-familia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Sagrada Familia 8-12-21 (1).jpg",
         pageTitle: "Q48435",
@@ -3486,7 +3486,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bassari-country-kedougou-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/64/IbelBandafassi2.jpg",
+        url: "/images/worldscene-candidates/wcand-bassari-country-kedougou-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:IbelBandafassi2.jpg",
         pageTitle: "Q2916296",
@@ -3499,7 +3499,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bat-al-khutm-and-al-ayn-archaeological-sites-oman': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/17/World_Heritage_Grave_Al_Ayn_Oman.JPG",
+        url: "/images/worldscene-candidates/wcand-bat-al-khutm-and-al-ayn-archaeological-sites-oman-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:World Heritage Grave Al Ayn Oman.JPG",
         pageTitle: "Q25496",
@@ -3512,7 +3512,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'beemster-purmerend': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c9/West-Beemster%2C_Jisperweg_29.jpg",
+        url: "/images/worldscene-candidates/wcand-beemster-purmerend-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:West-Beemster, Jisperweg 29.jpg",
         pageTitle: "Q9900",
@@ -3525,7 +3525,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bergpark-wilhelmshohe-kassel': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/36/00_3152_Landschaftsbild_im_Bergpark_Wilhelmsh%C3%B6he_-_Kassel.jpg",
+        url: "/images/worldscene-candidates/wcand-bergpark-wilhelmshohe-kassel-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:00 3152 Landschaftsbild im Bergpark Wilhelmshöhe - Kassel.jpg",
         pageTitle: "Q447441",
@@ -3538,7 +3538,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bolgar-historical-and-archaeological-complex-tatarstan': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/cc/%D0%91%D1%83%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B5_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B8%D1%89%D0%B5_4.JPG",
+        url: "/images/worldscene-candidates/wcand-bolgar-historical-and-archaeological-complex-tatarstan-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Булгарское городище 4.JPG",
         pageTitle: "Q47519282",
@@ -3551,7 +3551,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bourges-cathedral-bourges': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bourges-Kathedrale-110-2008-gje.jpg",
+        url: "/images/worldscene-candidates/wcand-bourges-cathedral-bourges-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bourges-Kathedrale-110-2008-gje.jpg",
         pageTitle: "Q207985",
@@ -3564,7 +3564,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bruges-city-hall-bruges': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/00/Bruges_Town_Hall_R01.jpg",
+        url: "/images/worldscene-candidates/wcand-bruges-city-hall-bruges-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bruges Town Hall R01.jpg",
         pageTitle: "Q905848",
@@ -3577,7 +3577,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'buddhist-monuments-in-the-horyu-ji-area-ikaruga': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e7/Horyu-ji10s3200.jpg",
+        url: "/images/worldscene-candidates/wcand-buddhist-monuments-in-the-horyu-ji-area-ikaruga-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Horyu-ji10s3200.jpg",
         pageTitle: "Q1333799",
@@ -3590,7 +3590,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'burgos-cathedral-burgos': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/67/Escaleras_a_la_Catedral_--_2023_--_Burgos%2C_Castilla_y_Le%C3%B3n%2C_Espa%C3%B1a.jpg",
+        url: "/images/worldscene-candidates/wcand-burgos-cathedral-burgos-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Escaleras a la Catedral -- 2023 -- Burgos, Castilla y León, España.jpg",
         pageTitle: "Q744420",
@@ -3603,7 +3603,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'canterbury-cathedral-st-augustine-s-abbey-and-st-martin-s-church-kent': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f5/Canterbury_Cathedral_August_2019_B.jpg",
+        url: "/images/worldscene-candidates/wcand-canterbury-cathedral-st-augustine-s-abbey-and-st-martin-s-church-kent-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Canterbury Cathedral August 2019 B.jpg",
         pageTitle: "Q15924897",
@@ -3616,7 +3616,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cape-floristic-kingdom-south-africa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/ab/Floraregio_van_de_Kaap.jpg",
+        url: "/images/worldscene-candidates/wcand-cape-floristic-kingdom-south-africa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Floraregio van de Kaap.jpg",
         pageTitle: "Q1974274",
@@ -3629,7 +3629,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'capital-cities-and-tombs-of-the-ancient-koguryo-kingdom-jilin': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Tomb_of_the_General_1.jpg",
+        url: "/images/worldscene-candidates/wcand-capital-cities-and-tombs-of-the-ancient-koguryo-kingdom-jilin-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Tomb of the General 1.jpg",
         pageTitle: "Q134873",
@@ -3642,7 +3642,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'casas-grandes-casas-grandes-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/be/Zona_arqueol%C3%B3gica_de_Paquim%C3%A9_2020.jpg",
+        url: "/images/worldscene-candidates/wcand-casas-grandes-casas-grandes-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Zona arqueológica de Paquimé 2020.jpg",
         pageTitle: "Q853265",
@@ -3655,7 +3655,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'casbah-of-algiers-casbah': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Fonds_Andr%C3%A9_Raymond_%281925-2011%29_-_Alg%C3%A9rie_-_Alger_-_Vue_surplombante_sur_les_toits_de_la_ville_%28M%C3%A9diHAL_4106832%29.jpg",
+        url: "/images/worldscene-candidates/wcand-casbah-of-algiers-casbah-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Fonds André Raymond (1925-2011) - Algérie - Alger - Vue surplombante sur les toits de la ville (MédiHAL 4106832).jpg",
         pageTitle: "Q662102",
@@ -3668,7 +3668,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'centennial-hall-wroc-aw': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wroclaw_-_Hala_Stulecia_03a.jpg",
+        url: "/images/worldscene-candidates/wcand-centennial-hall-wroc-aw-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Wroclaw - Hala Stulecia 03a.jpg",
         pageTitle: "Q155743",
@@ -3681,7 +3681,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chaine-des-puys-limagne-fault-tectonic-arena-puy-de-dome': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/33/Quelques_puys.jpg",
+        url: "/images/worldscene-candidates/wcand-chaine-des-puys-limagne-fault-tectonic-arena-puy-de-dome-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Quelques puys.jpg",
         pageTitle: "Q64832437",
@@ -3694,7 +3694,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'changdeokgung-seoul': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d4/%EC%B0%BD%EB%8D%95%EA%B6%81_%EC%A0%84%EA%B2%BD_%282012%29.jpg",
+        url: "/images/worldscene-candidates/wcand-changdeokgung-seoul-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:창덕궁 전경 (2012).jpg",
         pageTitle: "Q477157",
@@ -3707,7 +3707,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chavin-de-huantar-huari-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/52/Chavin_-_Ao%C3%BBt_2007.jpg",
+        url: "/images/worldscene-candidates/wcand-chavin-de-huantar-huari-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Chavin - Août 2007.jpg",
         pageTitle: "Q732554",
@@ -3720,7 +3720,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chinese-pavilion-at-drottningholm-ekero-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Stockholm_Sweden_Royal-Domain-of_Drottningholm_Drottningholms-Kina-Slott-01.jpg",
+        url: "/images/worldscene-candidates/wcand-chinese-pavilion-at-drottningholm-ekero-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Stockholm Sweden Royal-Domain-of Drottningholm Drottningholms-Kina-Slott-01.jpg",
         pageTitle: "Q2227225",
@@ -3733,7 +3733,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'church-of-the-nativity-bethlehem': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Church_of_the_Nativity_%287703592746%29.jpg",
+        url: "/images/worldscene-candidates/wcand-church-of-the-nativity-bethlehem-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Church of the Nativity (7703592746).jpg",
         pageTitle: "Q194504",
@@ -3746,7 +3746,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'churches-of-peace-lower-silesian-voivodeship': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Swidnica-_Kosciol_Pokoju_01.jpg",
+        url: "/images/worldscene-candidates/wcand-churches-of-peace-lower-silesian-voivodeship-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Swidnica- Kosciol Pokoju 01.jpg",
         pageTitle: "Q589634",
@@ -3759,7 +3759,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cidade-velha-ribeira-grande-de-santiago': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/18/Cidade_Velha-Bord_de_mer_%282%29.jpg",
+        url: "/images/worldscene-candidates/wcand-cidade-velha-ribeira-grande-de-santiago-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cidade Velha-Bord de mer (2).jpg",
         pageTitle: "Q464913",
@@ -3772,7 +3772,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'citadel-of-the-ho-dynasty-vietnam': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/06/Ho_dynasty%27s_citadel%2C_Vietnam.jpg",
+        url: "/images/worldscene-candidates/wcand-citadel-of-the-ho-dynasty-vietnam-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ho dynasty's citadel, Vietnam.jpg",
         pageTitle: "Q190060",
@@ -3785,7 +3785,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'classical-gardens-of-suzhou-suzhou': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b1/20090905_Suzhou_Lion_Grove_Garden_4520.jpg",
+        url: "/images/worldscene-candidates/wcand-classical-gardens-of-suzhou-suzhou-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:20090905 Suzhou Lion Grove Garden 4520.jpg",
         pageTitle: "Q1144337",
@@ -3798,7 +3798,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cultural-landscape-of-old-tea-forests-of-the-jingmai-mountain-in-pu-er-lancang-lahu-autonomous-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Old_Tea_Forest_of_the_Jingmai_Mountain.jpg",
+        url: "/images/worldscene-candidates/wcand-cultural-landscape-of-old-tea-forests-of-the-jingmai-mountain-in-pu-er-lancang-lahu-autonomous-count-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Old Tea Forest of the Jingmai Mountain.jpg",
         pageTitle: "Q48928978",
@@ -3811,7 +3811,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'curonian-spit-klaipeda-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Curonian_Spit_NP_05-2017_img15_Epha_Dune.jpg",
+        url: "/images/worldscene-candidates/wcand-curonian-spit-klaipeda-county-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Curonian Spit NP 05-2017 img15 Epha Dune.jpg",
         pageTitle: "Q5595",
@@ -3824,7 +3824,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'dead-cities-syria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Serjilla_01.jpg",
+        url: "/images/worldscene-candidates/wcand-dead-cities-syria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Serjilla 01.jpg",
         pageTitle: "Q393841",
@@ -3837,7 +3837,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'decorated-farmhouses-of-halsingland-halsingland': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/be/F%C3%A5gelsj%C3%B6_Gammelg%C3%A5rd_Interi%C3%B6r.JPG",
+        url: "/images/worldscene-candidates/wcand-decorated-farmhouses-of-halsingland-halsingland-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Fågelsjö Gammelgård Interiör.JPG",
         pageTitle: "Q1642003",
@@ -3850,7 +3850,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'dholavira-bhachau-taluka': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/80/Dholavira_gujarat.jpg",
+        url: "/images/worldscene-candidates/wcand-dholavira-bhachau-taluka-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Dholavira gujarat.jpg",
         pageTitle: "Q9468",
@@ -3863,7 +3863,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'dja-faunal-reserve-cameroon': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/37/Mantelmangabe_Dja.JPG",
+        url: "/images/worldscene-candidates/wcand-dja-faunal-reserve-cameroon-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mantelmangabe Dja.JPG",
         pageTitle: "Q843147",
@@ -3876,7 +3876,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'domus-de-janas-italy': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/99/Sassari_-_Domus_de_jamas_di_Molaf%C3%A0_%2803%29.JPG",
+        url: "/images/worldscene-candidates/wcand-domus-de-janas-italy-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Sassari - Domus de jamas di Molafà (03).JPG",
         pageTitle: "Q1238775",
@@ -3889,7 +3889,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'etruscan-necropolises-of-cerveteri-and-tarquinia-cerveteri': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/59/Cerveteri%2C_necropoli_della_banditaccia%2C_via_sepolcrale_principale%2C_02.jpg",
+        url: "/images/worldscene-candidates/wcand-etruscan-necropolises-of-cerveteri-and-tarquinia-cerveteri-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cerveteri, necropoli della banditaccia, via sepolcrale principale, 02.jpg",
         pageTitle: "Q15602246",
@@ -3902,7 +3902,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'fortaleza-do-monte-macau': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/39/I_bastioni_della_Fortaleza_do_Monte_a_Macao.jpg",
+        url: "/images/worldscene-candidates/wcand-fortaleza-do-monte-macau-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:I bastioni della Fortaleza do Monte a Macao.jpg",
         pageTitle: "Q838085",
@@ -3915,7 +3915,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'garajonay-national-park-santa-cruz-de-tenerife-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/72/Roque_Agando%2C_Parque_nacional_de_Garajonay%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_01.jpg",
+        url: "/images/worldscene-candidates/wcand-garajonay-national-park-santa-cruz-de-tenerife-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Roque Agando, Parque nacional de Garajonay, La Gomera, España, 2012-12-14, DD 01.jpg",
         pageTitle: "Q464942",
@@ -3928,7 +3928,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grachtengordel-amsterdam': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/af/Amsterdam_airphoto.jpg",
+        url: "/images/worldscene-candidates/wcand-grachtengordel-amsterdam-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Amsterdam airphoto.jpg",
         pageTitle: "Q478707",
@@ -3941,7 +3941,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grand-canyon-national-park-mohave-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/29/10_Grand_Canyon_Navajo_Point_viewpoint_terrace%2C_Grand_Canyon_National_Park%2C_USA_-_American_nature.jpg",
+        url: "/images/worldscene-candidates/wcand-grand-canyon-national-park-mohave-county-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:10 Grand Canyon Navajo Point viewpoint terrace, Grand Canyon National Park, USA - American nature.jpg",
         pageTitle: "Q220289",
@@ -3954,7 +3954,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'great-himalayan-national-park-himachal-pradesh': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/64/Great_Himalayan_National_Park%2C_Kullu%2C_Himachal.jpg",
+        url: "/images/worldscene-candidates/wcand-great-himalayan-national-park-himachal-pradesh-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Great Himalayan National Park, Kullu, Himachal.jpg",
         pageTitle: "Q1544213",
@@ -3967,7 +3967,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'great-living-chola-temples-tamil-nadu': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Darasuram%2C_Airavatesvara_Temple%2C_Dravidian_architecture%2C_India.jpg",
+        url: "/images/worldscene-candidates/wcand-great-living-chola-temples-tamil-nadu-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Darasuram, Airavatesvara Temple, Dravidian architecture, India.jpg",
         pageTitle: "Q695229",
@@ -3980,7 +3980,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'group-of-monuments-at-mahabalipuram-india': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/75/4_scenes_at_Mahabalipuram_monuments_2.jpg",
+        url: "/images/worldscene-candidates/wcand-group-of-monuments-at-mahabalipuram-india-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:4 scenes at Mahabalipuram monuments 2.jpg",
         pageTitle: "Q3522747",
@@ -3993,7 +3993,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'hallstatt-dachstein-salzkammergut-cultural-landscape-salzburg': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Hallstatt_-_Zentrum_.JPG",
+        url: "/images/worldscene-candidates/wcand-hallstatt-dachstein-salzkammergut-cultural-landscape-salzburg-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Hallstatt - Zentrum .JPG",
         pageTitle: "Q1033019",
@@ -4006,7 +4006,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'herrenchiemsee-chiemsee': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/76/Aerial_image_of_the_New_Palace_Herrenchiemsee.jpg",
+        url: "/images/worldscene-candidates/wcand-herrenchiemsee-chiemsee-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aerial image of the New Palace Herrenchiemsee.jpg",
         pageTitle: "Q118618",
@@ -4019,7 +4019,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-monuments-of-ancient-nara-nara': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Todaiji18s3200.jpg",
+        url: "/images/worldscene-candidates/wcand-historic-monuments-of-ancient-nara-nara-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Todaiji18s3200.jpg",
         pageTitle: "Q1055749",
@@ -4032,7 +4032,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historic-villages-of-shirakawa-go-and-gokayama-nanto': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Ogi_Shirakawa-g%C5%8D%2C_Gifu%2C_Japan.jpg",
+        url: "/images/worldscene-candidates/wcand-historic-villages-of-shirakawa-go-and-gokayama-nanto-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ogi Shirakawa-gō, Gifu, Japan.jpg",
         pageTitle: "Q877626",
@@ -4045,7 +4045,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historical-city-centre-of-odesa-prymorskyi-raion': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/25/%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D1%82%D0%B5%D0%B0%D1%82%D1%80%D1%83_%D0%BE%D0%BF%D0%B5%D1%80%D0%B8_%D1%82%D0%B0_%D0%B1%D0%B0%D0%BB%D0%B5%D1%82%D1%83%2C_%D0%9E%D0%B4%D0%B5%D1%81%D0%B0_DJI_0023.jpg",
+        url: "/images/worldscene-candidates/wcand-historical-city-centre-of-odesa-prymorskyi-raion-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Будинок театру опери та балету, Одеса DJI 0023.jpg",
         pageTitle: "Q15041608",
@@ -4058,7 +4058,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'historical-complex-of-split-with-the-palace-of-diocletian-split': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Peristyle_of_Diocletian%27s_Palace%2C_Split_%2811908116224%29.jpg",
+        url: "/images/worldscene-candidates/wcand-historical-complex-of-split-with-the-palace-of-diocletian-split-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Peristyle of Diocletian's Palace, Split (11908116224).jpg",
         pageTitle: "Q17132416",
@@ -4071,7 +4071,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'humble-administrator-s-garden-suzhou': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Suzhou_Zhuozheng_Yuan_2015.04.23_08-13-49.jpg",
+        url: "/images/worldscene-candidates/wcand-humble-administrator-s-garden-suzhou-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Suzhou Zhuozheng Yuan 2015.04.23 08-13-49.jpg",
         pageTitle: "Q1076650",
@@ -4084,7 +4084,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'igreja-da-se-macau': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e5/Catedral_de_la_Natividad_de_Nuestra_Se%C3%B1ora%2C_Macao%2C_2013-08-08%2C_DD_01.jpg",
+        url: "/images/worldscene-candidates/wcand-igreja-da-se-macau-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Catedral de la Natividad de Nuestra Señora, Macao, 2013-08-08, DD 01.jpg",
         pageTitle: "Q1106554",
@@ -4097,7 +4097,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'isimangaliso-wetland-park-kwazulu-natal': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/0a/Greater_St._Lucia.jpg",
+        url: "/images/worldscene-candidates/wcand-isimangaliso-wetland-park-kwazulu-natal-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Greater St. Lucia.jpg",
         pageTitle: "Q310719",
@@ -4110,7 +4110,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'itsukushima-shrine-hatsukaichi': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Itsukushima_Gate.jpg",
+        url: "/images/worldscene-candidates/wcand-itsukushima-shrine-hatsukaichi-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Itsukushima Gate.jpg",
         pageTitle: "Q191763",
@@ -4123,7 +4123,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ivrea-industrial-city-of-the-20th-century-ivrea': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Ivrea_Montenavale_EXMensa_05.JPG",
+        url: "/images/worldscene-candidates/wcand-ivrea-industrial-city-of-the-20th-century-ivrea-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ivrea Montenavale EXMensa 05.JPG",
         pageTitle: "Q109123298",
@@ -4136,7 +4136,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jodrell-bank-observatory-lower-withington': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/40/Lovell_Telescope.jpg",
+        url: "/images/worldscene-candidates/wcand-jodrell-bank-observatory-lower-withington-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lovell Telescope.jpg",
         pageTitle: "Q1569783",
@@ -4149,7 +4149,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jungfrau-aletsch-protected-area-canton-of-berne': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/4e/Aerial_image_of_Finsteraarhorn_%28view_from_the_east%29.jpg",
+        url: "/images/worldscene-candidates/wcand-jungfrau-aletsch-protected-area-canton-of-berne-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aerial image of Finsteraarhorn (view from the east).jpg",
         pageTitle: "Q616912",
@@ -4162,7 +4162,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kaiping-diaolou-and-villages-kaiping': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Zili_Village_Yunhuan_Lou_0005.jpg",
+        url: "/images/worldscene-candidates/wcand-kaiping-diaolou-and-villages-kaiping-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Zili Village Yunhuan Lou 0005.jpg",
         pageTitle: "Q16303641",
@@ -4175,7 +4175,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kakadu-national-park-northern-territory': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5b/MotorCarFallsKakadu.jpg",
+        url: "/images/worldscene-candidates/wcand-kakadu-national-park-northern-territory-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:MotorCarFallsKakadu.jpg",
         pageTitle: "Q189657",
@@ -4188,7 +4188,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kakadu-national-park-northern-territory-2': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/63/Kakadu_%28AU%29%2C_Kakadu_National_Park%2C_Nadap_Lookout_--_2019_--_4200.jpg",
+        url: "/images/worldscene-candidates/wcand-kakadu-national-park-northern-territory-2-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kakadu (AU), Kakadu National Park, Nadap Lookout -- 2019 -- 4200.jpg",
         pageTitle: "Q65096742",
@@ -4201,7 +4201,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kalwaria-zebrzydowska-park-gmina-kalwaria-zebrzydowska': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/15/Kalwaria_Zebrzydowska_-_Bazylika_i_mur-02GP.jpg",
+        url: "/images/worldscene-candidates/wcand-kalwaria-zebrzydowska-park-gmina-kalwaria-zebrzydowska-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kalwaria Zebrzydowska - Bazylika i mur-02GP.jpg",
         pageTitle: "Q1280433",
@@ -4214,7 +4214,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'khomani-cultural-landscape-northern-cape': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Arri_Raats%2C_Kalahari_Khomani_San_Bushman%2C_Boesmansrus_camp%2C_Northern_Cape%2C_South_Africa_%2819919544304%29.jpg",
+        url: "/images/worldscene-candidates/wcand-khomani-cultural-landscape-northern-cape-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Arri Raats, Kalahari Khomani San Bushman, Boesmansrus camp, Northern Cape, South Africa (19919544304).jpg",
         pageTitle: "Q33800328",
@@ -4227,7 +4227,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kinabalu-park-sabah': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Kinabalu_Sabah_Borneo_Kampong_Kundasang_2.jpg",
+        url: "/images/worldscene-candidates/wcand-kinabalu-park-sabah-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kinabalu Sabah Borneo Kampong Kundasang 2.jpg",
         pageTitle: "Q834893",
@@ -4240,7 +4240,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kyoto-prefecture-japan': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/6c/RX100VII_-_Amanohashidate_view_from_Kasamatsu_Park_-_Flickr_-_wkc.1.jpg",
+        url: "/images/worldscene-candidates/wcand-kyoto-prefecture-japan-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:RX100VII - Amanohashidate view from Kasamatsu Park - Flickr - wkc.1.jpg",
         pageTitle: "Q120730",
@@ -4253,7 +4253,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lake-malawi-national-park-malawi': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/36/Lake_Malawi_%282489696873%29.jpg",
+        url: "/images/worldscene-candidates/wcand-lake-malawi-national-park-malawi-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lake Malawi (2489696873).jpg",
         pageTitle: "Q1077596",
@@ -4266,7 +4266,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'landmarks-of-the-ancient-kingdom-of-saba-yemen': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Barran_Temple.jpg",
+        url: "/images/worldscene-candidates/wcand-landmarks-of-the-ancient-kingdom-of-saba-yemen-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Barran Temple.jpg",
         pageTitle: "Q116943542",
@@ -4279,7 +4279,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'las-medulas-carucedo': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c8/Las_Medulas_%2817504738221%29.jpg",
+        url: "/images/worldscene-candidates/wcand-las-medulas-carucedo-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Las Medulas (17504738221).jpg",
         pageTitle: "Q696803",
@@ -4292,7 +4292,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lavaux-canton-of-vaud': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/da/Lavaux_Switzerland.jpg",
+        url: "/images/worldscene-candidates/wcand-lavaux-canton-of-vaud-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lavaux Switzerland.jpg",
         pageTitle: "Q688060",
@@ -4305,7 +4305,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lower-german-limes-germania-inferior': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/57/Limes1.png",
+        url: "/images/worldscene-candidates/wcand-lower-german-limes-germania-inferior-1.png",
         source: "wikidata-p18-remote",
         title: "File:Limes1.png",
         pageTitle: "Q1265889",
@@ -4318,7 +4318,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lugo-cathedral-lugo-city': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8c/Lugo_Cathedral_2023_-_West_Fa%C3%A7ade.jpg",
+        url: "/images/worldscene-candidates/wcand-lugo-cathedral-lugo-city-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lugo Cathedral 2023 - West Façade.jpg",
         pageTitle: "Q2942708",
@@ -4331,7 +4331,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'm-zab-ghardaia-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/9f/Ksar_de_Bounoura.jpg",
+        url: "/images/worldscene-candidates/wcand-m-zab-ghardaia-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ksar de Bounoura.jpg",
         pageTitle: "Q724484",
@@ -4344,7 +4344,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'macquarie-island-australia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/MacquarieIsland7.JPG",
+        url: "/images/worldscene-candidates/wcand-macquarie-island-australia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:MacquarieIsland7.JPG",
         pageTitle: "Q46650",
@@ -4357,7 +4357,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'madinat-al-zahra-cordoba': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Madinat_al-Zahra_%2852019329474%29.jpg",
+        url: "/images/worldscene-candidates/wcand-madinat-al-zahra-cordoba-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Madinat al-Zahra (52019329474).jpg",
         pageTitle: "Q211252",
@@ -4370,7 +4370,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'major-mining-sites-of-wallonia-belgium': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bois_du_Cazier_2.jpg",
+        url: "/images/worldscene-candidates/wcand-major-mining-sites-of-wallonia-belgium-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bois du Cazier 2.jpg",
         pageTitle: "Q1921177",
@@ -4383,7 +4383,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'malbork-castle-malbork': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/82/Panorama_of_Malbork_Castle%2C_part_4.jpg",
+        url: "/images/worldscene-candidates/wcand-malbork-castle-malbork-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Panorama of Malbork Castle, part 4.jpg",
         pageTitle: "Q71279",
@@ -4396,7 +4396,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'marquesas-islands-french-polynesia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/95/HivaOa_BaieDesTraitres_20061110.jpg",
+        url: "/images/worldscene-candidates/wcand-marquesas-islands-french-polynesia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:HivaOa BaieDesTraitres 20061110.jpg",
         pageTitle: "Q172697",
@@ -4409,7 +4409,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mausoleum-of-khoja-ahmed-yasawi-turkistan-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7a/%D0%A5%D0%B0%D0%BD%D0%B0%D0%BA%D0%B0_%D0%90%D1%85%D0%BC%D0%B5%D0%B4%D0%B0_%D0%AF%D1%81%D0%B0%D0%B2%D0%B8_2010_003.jpg",
+        url: "/images/worldscene-candidates/wcand-mausoleum-of-khoja-ahmed-yasawi-turkistan-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ханака Ахмеда Ясави 2010 003.jpg",
         pageTitle: "Q46069",
@@ -4422,7 +4422,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mazagan-el-jadida': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Forteresse_Jadida_03.JPG",
+        url: "/images/worldscene-candidates/wcand-mazagan-el-jadida-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Forteresse Jadida 03.JPG",
         pageTitle: "Q555360",
@@ -4435,7 +4435,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'medieval-city-of-rhodes-rodos-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Grossmeisterpalast_Rhodos_2010.jpg",
+        url: "/images/worldscene-candidates/wcand-medieval-city-of-rhodes-rodos-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Grossmeisterpalast Rhodos 2010.jpg",
         pageTitle: "Q876685",
@@ -4448,7 +4448,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'megalithic-temples-of-malta-mgarr': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c2/Central_Temple%2C_Tarxien_ta17.png",
+        url: "/images/worldscene-candidates/wcand-megalithic-temples-of-malta-mgarr-1.png",
         source: "wikidata-p18-remote",
         title: "File:Central Temple, Tarxien ta17.png",
         pageTitle: "Q753383",
@@ -4461,7 +4461,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'messel-pit-darmstadt-dieburg': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/07/MesselFossilPit081310.JPG",
+        url: "/images/worldscene-candidates/wcand-messel-pit-darmstadt-dieburg-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:MesselFossilPit081310.JPG",
         pageTitle: "Q639217",
@@ -4474,7 +4474,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'miguasha-national-park-nouvelle': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Miguasha_panorama_1.jpg",
+        url: "/images/worldscene-candidates/wcand-miguasha-national-park-nouvelle-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Miguasha panorama 1.jpg",
         pageTitle: "Q631128",
@@ -4487,7 +4487,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'minoan-palatial-centres-crete-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ea/Knossos_-_North_Portico_02.jpg",
+        url: "/images/worldscene-candidates/wcand-minoan-palatial-centres-crete-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Knossos - North Portico 02.jpg",
         pageTitle: "Q64737740",
@@ -4500,7 +4500,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mir-castle-complex-mir': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/65/Mir_Castle_2018.jpg",
+        url: "/images/worldscene-candidates/wcand-mir-castle-complex-mir-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mir Castle 2018.jpg",
         pageTitle: "Q209643",
@@ -4513,7 +4513,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'modena-cathedral-modena': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/0c/Duomo_di_Modena_20.JPG",
+        url: "/images/worldscene-candidates/wcand-modena-cathedral-modena-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Duomo di Modena 20.JPG",
         pageTitle: "Q753721",
@@ -4526,7 +4526,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mogao-caves-dunhuang-2': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3f/Dunhuang_Mogao_Ku_2013.12.31_12-30-18.jpg",
+        url: "/images/worldscene-candidates/wcand-mogao-caves-dunhuang-2-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Dunhuang Mogao Ku 2013.12.31 12-30-18.jpg",
         pageTitle: "Q43286",
@@ -4539,7 +4539,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'monasteries-of-daphni-hosios-loukas-and-nea-moni-of-chios-chios-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/de/Hosios_Loukas_%282013%29.jpg",
+        url: "/images/worldscene-candidates/wcand-monasteries-of-daphni-hosios-loukas-and-nea-moni-of-chios-chios-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Hosios Loukas (2013).jpg",
         pageTitle: "Q11317256",
@@ -4552,7 +4552,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'monasteries-of-san-millan-de-la-cogolla-san-millan-de-la-cogolla': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Monasterio_de_Suso_%282%29.jpg",
+        url: "/images/worldscene-candidates/wcand-monasteries-of-san-millan-de-la-cogolla-san-millan-de-la-cogolla-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Monasterio de Suso (2).jpg",
         pageTitle: "Q2284354",
@@ -4565,7 +4565,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'morne-trois-pitons-national-park-dominica': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Valley_of_desolation.jpg",
+        url: "/images/worldscene-candidates/wcand-morne-trois-pitons-national-park-dominica-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Valley of desolation.jpg",
         pageTitle: "Q629436",
@@ -4578,7 +4578,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mosque-cathedral-of-cordoba-cordoba': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Mezquita_de_C%C3%B3rdoba_desde_el_aire_%28C%C3%B3rdoba%2C_Espa%C3%B1a%29.jpg",
+        url: "/images/worldscene-candidates/wcand-mosque-cathedral-of-cordoba-cordoba-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mezquita de Córdoba desde el aire (Córdoba, España).jpg",
         pageTitle: "Q33200",
@@ -4591,7 +4591,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mount-kumgang-north-korea': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a8/0438_-_Nordkorea_2015_-_Kumgang_Gebirge_-_Kuryong_Fasserfall_%2822543108597%29.jpg",
+        url: "/images/worldscene-candidates/wcand-mount-kumgang-north-korea-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:0438 - Nordkorea 2015 - Kumgang Gebirge - Kuryong Fasserfall (22543108597).jpg",
         pageTitle: "Q495501",
@@ -4604,7 +4604,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mount-nimba-strict-nature-reserve-ivory-coast': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/44/Mount_Nimba_Strict_Nature_Reserve-123989.jpg",
+        url: "/images/worldscene-candidates/wcand-mount-nimba-strict-nature-reserve-ivory-coast-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mount Nimba Strict Nature Reserve-123989.jpg",
         pageTitle: "Q924276",
@@ -4617,7 +4617,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'mount-sanqing-jiangxi': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/96/19190-SanQingShan_%2845434925915%29.jpg",
+        url: "/images/worldscene-candidates/wcand-mount-sanqing-jiangxi-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:19190-SanQingShan (45434925915).jpg",
         pageTitle: "Q873358",
@@ -4630,7 +4630,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'my-son-da-nang': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/2024_-_M%E1%BB%B9_S%C6%A1n_Sanctuary_Temple_E7_-_img_01.jpg",
+        url: "/images/worldscene-candidates/wcand-my-son-da-nang-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:2024 - Mỹ Sơn Sanctuary Temple E7 - img 01.jpg",
         pageTitle: "Q391406",
@@ -4643,7 +4643,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'nalanda-mahavihara-nalanda': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Nalanda_The_Great_Stupa.jpg",
+        url: "/images/worldscene-candidates/wcand-nalanda-mahavihara-nalanda-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Nalanda The Great Stupa.jpg",
         pageTitle: "Q216243",
@@ -4656,7 +4656,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'nanda-devi-and-valley-of-flowers-national-parks-uttarakhand': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3d/Glimpse_of_Nanda_Devi_amidst_the_clouds_from_Valley_of_Flowers.jpg",
+        url: "/images/worldscene-candidates/wcand-nanda-devi-and-valley-of-flowers-national-parks-uttarakhand-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Glimpse of Nanda Devi amidst the clouds from Valley of Flowers.jpg",
         pageTitle: "Q15839097",
@@ -4669,7 +4669,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'nanda-devi-national-park-india': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Nanda_Devi.jpg",
+        url: "/images/worldscene-candidates/wcand-nanda-devi-national-park-india-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Nanda Devi.jpg",
         pageTitle: "Q1648266",
@@ -4682,7 +4682,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'natural-and-culturo-historical-region-of-kotor-kotor': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/26/20090719_Crkva_Gospa_od_Zdravlja_Kotor_Bay_Montenegro.jpg",
+        url: "/images/worldscene-candidates/wcand-natural-and-culturo-historical-region-of-kotor-kotor-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:20090719 Crkva Gospa od Zdravlja Kotor Bay Montenegro.jpg",
         pageTitle: "Q3511938",
@@ -4695,7 +4695,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'new-caledonia-barrier-reef-new-caledonia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/59/Lagoons_and_Reefs_of_New_Caledonia_May_10%2C_2001.jpg",
+        url: "/images/worldscene-candidates/wcand-new-caledonia-barrier-reef-new-caledonia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lagoons and Reefs of New Caledonia May 10, 2001.jpg",
         pageTitle: "Q1330981",
@@ -4708,7 +4708,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'nubian-monuments-from-abu-simbel-to-philae-egypt': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Abu_Simbel_02_977.PNG",
+        url: "/images/worldscene-candidates/wcand-nubian-monuments-from-abu-simbel-to-philae-egypt-1.png",
         source: "wikidata-p18-remote",
         title: "File:Abu Simbel 02 977.PNG",
         pageTitle: "Q4923872",
@@ -4721,7 +4721,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ogasawara-archipelago-ogasawara-village': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/33/Wai-Beach.jpg",
+        url: "/images/worldscene-candidates/wcand-ogasawara-archipelago-ogasawara-village-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Wai-Beach.jpg",
         pageTitle: "Q13383295",
@@ -4734,7 +4734,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'old-city-of-jerusalem-and-its-walls-jerusalem': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/dc/Old_City_of_Jerusalem_and_its_Walls-108369.jpg",
+        url: "/images/worldscene-candidates/wcand-old-city-of-jerusalem-and-its-walls-jerusalem-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Old City of Jerusalem and its Walls-108369.jpg",
         pageTitle: "Q15726304",
@@ -4747,7 +4747,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ore-mountain-mining-region-usti-nad-labem-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/89/Blick_vom_Jelen%C3%AD_hora_nach_S%C3%BCdwest.JPG",
+        url: "/images/worldscene-candidates/wcand-ore-mountain-mining-region-usti-nad-labem-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Blick vom Jelení hora nach Südwest.JPG",
         pageTitle: "Q1945612",
@@ -4760,7 +4760,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'padua-s-fourteenth-century-fresco-cycles-padua': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/bd/Padova_Cappella_degli_Scrovegni_Innen_Langhaus_Ost_1.jpg",
+        url: "/images/worldscene-candidates/wcand-padua-s-fourteenth-century-fresco-cycles-padua-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Padova Cappella degli Scrovegni Innen Langhaus Ost 1.jpg",
         pageTitle: "Q107674350",
@@ -4773,7 +4773,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-ambrogio-di-negro-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Genova_Piazza_Banchi_2.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-ambrogio-di-negro-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Genova Piazza Banchi 2.jpg",
         pageTitle: "Q3889530",
@@ -4786,7 +4786,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-angelo-giovanni-spinola-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Palazzo_Angelo_Giovanni_Spinola_01.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-angelo-giovanni-spinola-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Angelo Giovanni Spinola 01.jpg",
         pageTitle: "Q3361280",
@@ -4799,7 +4799,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-baldassarre-lomellini-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/07/Palazzo_Baldassarre_Lomellini_o_palazzo_di_Cristoforo_Spinola%2C_Genova.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-baldassarre-lomellini-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Baldassarre Lomellini o palazzo di Cristoforo Spinola, Genova.jpg",
         pageTitle: "Q3889577",
@@ -4812,7 +4812,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-bianco-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c9/Palazzo_Bianco_02.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-bianco-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Bianco 02.jpg",
         pageTitle: "Q1808872",
@@ -4825,7 +4825,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-cattaneo-adorno-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/99/Palazzo_Cattaneo-Adorno01.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-cattaneo-adorno-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Cattaneo-Adorno01.jpg",
         pageTitle: "Q3889823",
@@ -4838,7 +4838,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-lercari-parodi-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/44/Palazzo_Lercari-Parodi_001.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-lercari-parodi-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Lercari-Parodi 001.jpg",
         pageTitle: "Q3890337",
@@ -4851,7 +4851,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-pallavicini-cambiaso-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Palazzo_Pallavicini_Cambiaso_05.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-pallavicini-cambiaso-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Pallavicini Cambiaso 05.jpg",
         pageTitle: "Q3890590",
@@ -4864,7 +4864,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-pantaleo-spinola-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Palazzo_Pantaleo_Spinola03.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-pantaleo-spinola-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Pantaleo Spinola03.jpg",
         pageTitle: "Q3890608",
@@ -4877,7 +4877,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'palazzo-stefano-lomellini-genoa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/75/Palazzo_Lomellini-Doria_Lamba05.jpg",
+        url: "/images/worldscene-candidates/wcand-palazzo-stefano-lomellini-genoa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Palazzo Lomellini-Doria Lamba05.jpg",
         pageTitle: "Q3890351",
@@ -4890,7 +4890,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'paleochristian-and-byzantine-monuments-of-thessaloniki-thessaloniki-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a7/%CE%9D%CE%B1%CF%8C%CF%82_%CE%91%CE%B3%CE%AF%CE%BF%CF%85_%CE%94%CE%B7%CE%BC%CE%B7%CF%84%CF%81%CE%AF%CE%BF%CF%85%2C_%CE%98%CE%B5%CF%83%CF%83%CE%B1%CE%BB%CE%BF%CE%BD%CE%AF%CE%BA%CE%B7_3785.jpg",
+        url: "/images/worldscene-candidates/wcand-paleochristian-and-byzantine-monuments-of-thessaloniki-thessaloniki-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ναός Αγίου Δημητρίου, Θεσσαλονίκη 3785.jpg",
         pageTitle: "Q732708",
@@ -4903,7 +4903,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'montenegro': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Orjen.jpg",
+        url: "/images/worldscene-candidates/wcand-montenegro-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Orjen.jpg",
         pageTitle: "Q1968953",
@@ -4916,7 +4916,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'asinara-national-park-porto-torres': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/3b/Isola_dell%27Asinara_-_vista_da_Torre_del_Falcone.JPG",
+        url: "/images/worldscene-candidates/wcand-asinara-national-park-porto-torres-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Isola dell'Asinara - vista da Torre del Falcone.JPG",
         pageTitle: "Q1091068",
@@ -4929,7 +4929,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'auyuittuq-national-park-qikiqtaaluk-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/58/Pangnirtung_Fiord_S_2_2001-07-15.jpg",
+        url: "/images/worldscene-candidates/wcand-auyuittuq-national-park-qikiqtaaluk-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Pangnirtung Fiord S 2 2001-07-15.jpg",
         pageTitle: "Q789743",
@@ -4942,7 +4942,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'awash-national-park-awash': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/47/Parc_national_d%27Awash-Ethiopie-Chutes_d%27eau_%282%29.jpg",
+        url: "/images/worldscene-candidates/wcand-awash-national-park-awash-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parc national d'Awash-Ethiopie-Chutes d'eau (2).jpg",
         pageTitle: "Q791635",
@@ -4955,7 +4955,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'ba-vi-national-park-vietnam': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Ba_V%C3%AC_National_Park%2C_foggy_road.jpg",
+        url: "/images/worldscene-candidates/wcand-ba-vi-national-park-vietnam-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Ba Vì National Park, foggy road.jpg",
         pageTitle: "Q1134517",
@@ -4968,7 +4968,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bahia-portete-kaurrele-national-natural-park-la-guajira-department': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Bahia_hondita.JPG",
+        url: "/images/worldscene-candidates/wcand-bahia-portete-kaurrele-national-natural-park-la-guajira-department-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bahia hondita.JPG",
         pageTitle: "Q4843111",
@@ -4981,7 +4981,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bako-national-park-sarawak': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5b/797_-_Bako_NationalparkPANORAMA.JPG",
+        url: "/images/worldscene-candidates/wcand-bako-national-park-sarawak-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:797 - Bako NationalparkPANORAMA.JPG",
         pageTitle: "Q370159",
@@ -4994,7 +4994,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bardiya-national-park-nepal': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/52/Bardia_National_Park.JPG",
+        url: "/images/worldscene-candidates/wcand-bardiya-national-park-nepal-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Bardia National Park.JPG",
         pageTitle: "Q808021",
@@ -5007,7 +5007,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'belezma-national-park-algeria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/89/Pic_des_C%C3%A8dres_%E2%80%93_High_Point_of_the_B%C3%A9lezma_National_Park_9.jpg",
+        url: "/images/worldscene-candidates/wcand-belezma-national-park-algeria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Pic des Cèdres – High Point of the Bélezma National Park 9.jpg",
         pageTitle: "Q2664184",
@@ -5020,7 +5020,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bidoup-nui-ba-national-park-lac-duong': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/45/Pine_trees_in_Bidoup-Nui_Ba_National_Park.jpg",
+        url: "/images/worldscene-candidates/wcand-bidoup-nui-ba-national-park-lac-duong-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Pine trees in Bidoup-Nui Ba National Park.jpg",
         pageTitle: "Q3895701",
@@ -5033,7 +5033,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bla-jungfrun-national-park-oskarshamn-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/01/Skylt_toppen.jpg",
+        url: "/images/worldscene-candidates/wcand-bla-jungfrun-national-park-oskarshamn-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Skylt toppen.jpg",
         pageTitle: "Q32225934",
@@ -5046,7 +5046,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bou-hedma-national-park-gafsa-governorate': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Parc_national_de_Bouhedma_7.jpg",
+        url: "/images/worldscene-candidates/wcand-bou-hedma-national-park-gafsa-governorate-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parc national de Bouhedma 7.jpg",
         pageTitle: "Q894937",
@@ -5059,7 +5059,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'bruce-peninsula-national-park-bruce-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/52/Indian_Head_Cove_cliffs1.jpg",
+        url: "/images/worldscene-candidates/wcand-bruce-peninsula-national-park-bruce-county-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Indian Head Cove cliffs1.jpg",
         pageTitle: "Q991459",
@@ -5072,7 +5072,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'budderoo-national-park-municipality-of-kiama': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/7d/MinnamurraRainforest.jpg",
+        url: "/images/worldscene-candidates/wcand-budderoo-national-park-municipality-of-kiama-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:MinnamurraRainforest.jpg",
         pageTitle: "Q956929",
@@ -5085,7 +5085,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cabo-orange-national-park-amapa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/69/Igarap%C3%A9_do_Rego.jpg",
+        url: "/images/worldscene-candidates/wcand-cabo-orange-national-park-amapa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Igarapé do Rego.jpg",
         pageTitle: "Q1764854",
@@ -5098,7 +5098,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'calilegua-national-park-jujuy-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Calilegua_National_Park_-_View_of_San_Lorenzo_Rio.JPG",
+        url: "/images/worldscene-candidates/wcand-calilegua-national-park-jujuy-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Calilegua National Park - View of San Lorenzo Rio.JPG",
         pageTitle: "Q829260",
@@ -5111,7 +5111,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cape-arid-national-park-shire-of-esperance': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/35/Cape_Arid_National_Park_393.jpg",
+        url: "/images/worldscene-candidates/wcand-cape-arid-national-park-shire-of-esperance-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cape Arid National Park 393.jpg",
         pageTitle: "Q442279",
@@ -5124,7 +5124,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cape-le-grand-national-park-shire-of-esperance': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/04/Mount_Le_Grande.jpg",
+        url: "/images/worldscene-candidates/wcand-cape-le-grand-national-park-shire-of-esperance-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mount Le Grande.jpg",
         pageTitle: "Q1034253",
@@ -5137,7 +5137,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cerro-azul-meambar-national-park-dei-g-comayagua-department': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2f/PANACAM_%2832983129515%29.jpg",
+        url: "/images/worldscene-candidates/wcand-cerro-azul-meambar-national-park-dei-g-comayagua-department-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:PANACAM (32983129515).jpg",
         pageTitle: "Q5064855",
@@ -5150,7 +5150,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cevennes-national-park-florac-trois-rivieres': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/bf/Cevennes_Florac_Mimente_depuis_Causse_Mejean.jpg",
+        url: "/images/worldscene-candidates/wcand-cevennes-national-park-florac-trois-rivieres-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cevennes Florac Mimente depuis Causse Mejean.jpg",
         pageTitle: "Q1368807",
@@ -5163,7 +5163,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chapada-das-mesas-national-park-maranhao': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/be/Cachoeira_Sao_Romao.jpg",
+        url: "/images/worldscene-candidates/wcand-chapada-das-mesas-national-park-maranhao-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cachoeira Sao Romao.jpg",
         pageTitle: "Q5072887",
@@ -5176,7 +5176,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chapada-dos-guimaraes-national-park-chapada-dos-guimaraes': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/V%C3%A9u_de_Noiva_waterfall.jpg",
+        url: "/images/worldscene-candidates/wcand-chapada-dos-guimaraes-national-park-chapada-dos-guimaraes-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Véu de Noiva waterfall.jpg",
         pageTitle: "Q5072892",
@@ -5189,7 +5189,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chebera-churchura-national-park-ethiopia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/87/A_picture_of_Chebera_Churchura_National_Park_landscape.jpg",
+        url: "/images/worldscene-candidates/wcand-chebera-churchura-national-park-ethiopia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:A picture of Chebera Churchura National Park landscape.jpg",
         pageTitle: "Q28223075",
@@ -5202,7 +5202,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cheile-nerei-beusnita-national-park-caras-severin-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/17/Cascadele_Beu%C8%99ni%C8%9Bei.JPG",
+        url: "/images/worldscene-candidates/wcand-cheile-nerei-beusnita-national-park-caras-severin-county-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cascadele Beușniței.JPG",
         pageTitle: "Q168372",
@@ -5215,7 +5215,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'chrea-national-park-algeria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f8/Pinars.JPG",
+        url: "/images/worldscene-candidates/wcand-chrea-national-park-algeria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Pinars.JPG",
         pageTitle: "Q2671600",
@@ -5228,7 +5228,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'conkouati-douli-national-park-kouilou-department': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Couch%C3%A9_du_soleil1.jpg",
+        url: "/images/worldscene-candidates/wcand-conkouati-douli-national-park-kouilou-department-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Couché du soleil1.jpg",
         pageTitle: "Q3015338",
@@ -5241,7 +5241,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'cozia-national-park-romania': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/89/RO_VL_Defileul_Oltului_la_Cozia.JPG",
+        url: "/images/worldscene-candidates/wcand-cozia-national-park-romania-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:RO VL Defileul Oltului la Cozia.JPG",
         pageTitle: "Q3077873",
@@ -5254,7 +5254,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'dadohaehaesang-national-park-south-jeolla': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/31/Korea-Hongdo_Island-04.jpg",
+        url: "/images/worldscene-candidates/wcand-dadohaehaesang-national-park-south-jeolla-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Korea-Hongdo Island-04.jpg",
         pageTitle: "Q484112",
@@ -5267,7 +5267,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'day-forest-national-park-djibouti': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/98/Goda_Mountains_-_National_Park_of_For%C3%AAt_du_Day.jpg",
+        url: "/images/worldscene-candidates/wcand-day-forest-national-park-djibouti-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Goda Mountains - National Park of Forêt du Day.jpg",
         pageTitle: "Q141549",
@@ -5280,7 +5280,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'defileul-jiului-national-park-romania': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Parcul_Na%C8%9Bional_Defileul_Jiului.JPG",
+        url: "/images/worldscene-candidates/wcand-defileul-jiului-national-park-romania-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parcul Național Defileul Jiului.JPG",
         pageTitle: "Q3078828",
@@ -5293,7 +5293,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'deux-mamelles-national-park-haiti': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/36/Cloud_forest_on_Deux_Mamelles_SBH_3327_copy.jpg",
+        url: "/images/worldscene-candidates/wcand-deux-mamelles-national-park-haiti-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cloud forest on Deux Mamelles SBH 3327 copy.jpg",
         pageTitle: "Q24204928",
@@ -5306,7 +5306,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'dinira-national-park-venezuela': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/80/Parque_Nacional_Dinira.JPG",
+        url: "/images/worldscene-candidates/wcand-dinira-national-park-venezuela-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parque Nacional Dinira.JPG",
         pageTitle: "Q4845725",
@@ -5319,7 +5319,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'djurdjura-national-park-algeria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Parc_national_djurdjura%2C_Bouira%2C_Algerie.jpg",
+        url: "/images/worldscene-candidates/wcand-djurdjura-national-park-algeria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parc national djurdjura, Bouira, Algerie.jpg",
         pageTitle: "Q2580089",
@@ -5332,7 +5332,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'el-imposible-national-park-ahuachapan-department': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Mirador_Reserva_Natural_El_Imposible.JPG",
+        url: "/images/worldscene-candidates/wcand-el-imposible-national-park-ahuachapan-department-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mirador Reserva Natural El Imposible.JPG",
         pageTitle: "Q5351426",
@@ -5345,7 +5345,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'el-rey-national-park-salta-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/ad/Cariama_cristata_El_Rey_NP.jpg",
+        url: "/images/worldscene-candidates/wcand-el-rey-national-park-salta-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cariama cristata El Rey NP.jpg",
         pageTitle: "Q828601",
@@ -5358,7 +5358,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'emas-national-park-chapadao-do-ceu': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/40/Cerrado_-_Campo_Sujo.JPG",
+        url: "/images/worldscene-candidates/wcand-emas-national-park-chapadao-do-ceu-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cerrado - Campo Sujo.JPG",
         pageTitle: "Q752218",
@@ -5371,7 +5371,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'endau-rompin-national-park-malaysia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f6/Kincin.jpg",
+        url: "/images/worldscene-candidates/wcand-endau-rompin-national-park-malaysia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kincin.jpg",
         pageTitle: "Q3663554",
@@ -5384,7 +5384,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'flinders-chase-national-park-south-australia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Remarkable_Rocks_02.jpg",
+        url: "/images/worldscene-candidates/wcand-flinders-chase-national-park-south-australia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Remarkable Rocks 02.jpg",
         pageTitle: "Q1428780",
@@ -5397,7 +5397,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gal-oya-national-park-sri-lanka': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Gal_Oya_National_Park_%28Senanayake_Samudhraya%29.JPG",
+        url: "/images/worldscene-candidates/wcand-gal-oya-national-park-sri-lanka-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Gal Oya National Park (Senanayake Samudhraya).JPG",
         pageTitle: "Q5517737",
@@ -5410,7 +5410,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'galapagos-national-park-galapagos-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Cerro_Dragon_1.jpg",
+        url: "/images/worldscene-candidates/wcand-galapagos-national-park-galapagos-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cerro Dragon 1.jpg",
         pageTitle: "Q112375",
@@ -5423,7 +5423,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'general-juan-pablo-penaloza-national-park-venezuela': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ef/Lagunas_y_monta%C3%B1as_del_parque_nacional_general_juan_pablo_pe%C3%B1aloza_paramo_batallon_14.jpg",
+        url: "/images/worldscene-candidates/wcand-general-juan-pablo-penaloza-national-park-venezuela-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lagunas y montañas del parque nacional general juan pablo peñaloza paramo batallon 14.jpg",
         pageTitle: "Q4845614",
@@ -5436,7 +5436,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gesause-national-park-styria': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/98/Aerial_image_of_the_Ges%C3%A4use_National_Park_%28view_from_the_west%29.jpg",
+        url: "/images/worldscene-candidates/wcand-gesause-national-park-styria-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Aerial image of the Gesäuse National Park (view from the west).jpg",
         pageTitle: "Q369655",
@@ -5449,7 +5449,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gorkhi-terelj-national-park-ulaanbaatar': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Gorkhi-Terelj_National_Park.jpg",
+        url: "/images/worldscene-candidates/wcand-gorkhi-terelj-national-park-ulaanbaatar-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Gorkhi-Terelj National Park.jpg",
         pageTitle: "Q1266074",
@@ -5462,7 +5462,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grand-bois-national-park-sud': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/4/46/Grand_Bois_valley.jpg",
+        url: "/images/worldscene-candidates/wcand-grand-bois-national-park-sud-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Grand Bois valley.jpg",
         pageTitle: "Q24204916",
@@ -5475,7 +5475,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grande-colline-national-park-haiti': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/72/Grand_Colline.jpg",
+        url: "/images/worldscene-candidates/wcand-grande-colline-national-park-haiti-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Grand Colline.jpg",
         pageTitle: "Q24204927",
@@ -5488,7 +5488,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'grande-sertao-veredas-national-park-bahia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/5d/Grande_Sertao_Veredas_1.jpg",
+        url: "/images/worldscene-candidates/wcand-grande-sertao-veredas-national-park-bahia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Grande Sertao Veredas 1.jpg",
         pageTitle: "Q5595368",
@@ -5501,7 +5501,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'guadalupe-mountains-national-park-texas': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/0/06/Guadalupe_Mtns_El_Capitan_2006.JPG",
+        url: "/images/worldscene-candidates/wcand-guadalupe-mountains-national-park-texas-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Guadalupe Mtns El Capitan 2006.JPG",
         pageTitle: "Q370501",
@@ -5514,7 +5514,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'guaramacal-national-park-portuguesa': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/3/35/Laguna_Los_Cedros_%2811846232765%29.jpg",
+        url: "/images/worldscene-candidates/wcand-guaramacal-national-park-portuguesa-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Laguna Los Cedros (11846232765).jpg",
         pageTitle: "Q83939482",
@@ -5527,7 +5527,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'guaricana-national-park-parana': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/9c/Lar_doce_mar.jpg",
+        url: "/images/worldscene-candidates/wcand-guaricana-national-park-parana-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Lar doce mar.jpg",
         pageTitle: "Q24647783",
@@ -5540,7 +5540,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'guiana-amazonian-park-saul': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Parc_naturel_regional_de_guyane_vue_du_dessus.JPG",
+        url: "/images/worldscene-candidates/wcand-guiana-amazonian-park-saul-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parc naturel regional de guyane vue du dessus.JPG",
         pageTitle: "Q665459",
@@ -5553,7 +5553,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gunung-gading-national-park-kuching': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/14/Waterfall_in_Mt_Gading_NP_-_panoramio.jpg",
+        url: "/images/worldscene-candidates/wcand-gunung-gading-national-park-kuching-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Waterfall in Mt Gading NP - panoramio.jpg",
         pageTitle: "Q65071172",
@@ -5566,7 +5566,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'gyeryongsan-national-park-south-korea': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/56/Kyeryongsan4062.JPG",
+        url: "/images/worldscene-candidates/wcand-gyeryongsan-national-park-south-korea-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kyeryongsan4062.JPG",
         pageTitle: "Q5624093",
@@ -5579,7 +5579,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'hlane-royal-national-park-manzini': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Hlane-Basic-Hide-At-Hippo-Pool.JPG",
+        url: "/images/worldscene-candidates/wcand-hlane-royal-national-park-manzini-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Hlane-Basic-Hide-At-Hippo-Pool.JPG",
         pageTitle: "Q9067090",
@@ -5592,7 +5592,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'irazu-volcano-national-park-cartago-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/7/72/Irazu_Volcano.JPG",
+        url: "/images/worldscene-candidates/wcand-irazu-volcano-national-park-cartago-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Irazu Volcano.JPG",
         pageTitle: "Q969125",
@@ -5605,7 +5605,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'iriqui-national-park-tata-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/c5/L%E2%80%99Oasis_sacr%C3%A9e_d%E2%80%99oum_L%C3%A2alag_%28signpost%29.JPG",
+        url: "/images/worldscene-candidates/wcand-iriqui-national-park-tata-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:L’Oasis sacrée d’oum Lâalag (signpost).JPG",
         pageTitle: "Q3364435",
@@ -5618,7 +5618,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'isalo-national-park-toliara-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b6/IsaloRock.jpg",
+        url: "/images/worldscene-candidates/wcand-isalo-national-park-toliara-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:IsaloRock.jpg",
         pageTitle: "Q120414",
@@ -5631,7 +5631,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'javakheti-national-park-samtskhe-javakheti': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Javakheti_National_Park.jpg",
+        url: "/images/worldscene-candidates/wcand-javakheti-national-park-samtskhe-javakheti-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Javakheti National Park.jpg",
         pageTitle: "Q12871562",
@@ -5644,7 +5644,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jebel-chitana-cape-negro-national-park-beja-governorate': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Cap_Negro.jpg",
+        url: "/images/worldscene-candidates/wcand-jebel-chitana-cape-negro-national-park-beja-governorate-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cap Negro.jpg",
         pageTitle: "Q20081150",
@@ -5657,7 +5657,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'jericoacoara-national-park-jijoca-de-jericoacoara': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1e/Pedra_furada.jpg",
+        url: "/images/worldscene-candidates/wcand-jericoacoara-national-park-jijoca-de-jericoacoara-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Pedra furada.jpg",
         pageTitle: "Q10345241",
@@ -5670,7 +5670,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'juan-crisostomo-falcon-national-park-venezuela': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8b/Cataratas_del_Hueque_%282%29.JPG",
+        url: "/images/worldscene-candidates/wcand-juan-crisostomo-falcon-national-park-venezuela-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Cataratas del Hueque (2).JPG",
         pageTitle: "Q4845612",
@@ -5683,7 +5683,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kabore-tambi-national-park-zoundweogo-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Kabore_Tambi_NP_MS_10798.jpg",
+        url: "/images/worldscene-candidates/wcand-kabore-tambi-national-park-zoundweogo-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kabore Tambi NP MS 10798.jpg",
         pageTitle: "Q389707",
@@ -5696,7 +5696,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kaieteur-national-park-potaro-siparuni': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/e/e6/Kaieteur_Falls_Guyana_%282%29_2007.jpg",
+        url: "/images/worldscene-candidates/wcand-kaieteur-national-park-potaro-siparuni-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kaieteur Falls Guyana (2) 2007.jpg",
         pageTitle: "Q3364456",
@@ -5709,7 +5709,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'katavi-national-park-katavi-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/6/61/Katavi_sunset.jpg",
+        url: "/images/worldscene-candidates/wcand-katavi-national-park-katavi-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Katavi sunset.jpg",
         pageTitle: "Q1422525",
@@ -5722,7 +5722,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kazbegi-national-park-mtskheta-mtianeti': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/8/8d/%22Kazbegi%22%2C_Panoramic_view_of_Mount_Kazbek_%28Mqinvartsveri%29_range%2C_Caucasus%2C_Georgia.jpg",
+        url: "/images/worldscene-candidates/wcand-kazbegi-national-park-mtskheta-mtianeti-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:\"Kazbegi\", Panoramic view of Mount Kazbek (Mqinvartsveri) range, Caucasus, Georgia.jpg",
         pageTitle: "Q16508549",
@@ -5735,7 +5735,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kenting-national-park-pingtung-county': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/57/Maobitou_Cape_01.jpg",
+        url: "/images/worldscene-candidates/wcand-kenting-national-park-pingtung-county-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Maobitou Cape 01.jpg",
         pageTitle: "Q707982",
@@ -5745,23 +5745,23 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
       },
     ],
   },
-  'kep-national-park-kep-province': {
+    'kep-national-park-kep-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Kep_National_Park_6.jpg",
-        source: "wikidata-p18-remote",
-        title: "File:Kep National Park 6.jpg",
-        pageTitle: "Q4930309",
-        score: 320,
-        width: 4096,
-        height: 3072,
+        url: "/images/worldscene-candidates/wcand-kep-national-park-kep-province-1.jpg",
+        source: "commons-search",
+        title: "File:View of the South China Sea from Kepp National Park in Cambodia.jpg",
+        pageTitle: "Kep National Park Cambodia",
+        score: 230,
+        width: 4000,
+        height: 3000,
       },
     ],
   },
   'khan-khokhi-khyargas-mountain-national-park-mongolia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/c/ce/Zuunkhangai.jpg",
+        url: "/images/worldscene-candidates/wcand-khan-khokhi-khyargas-mountain-national-park-mongolia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Zuunkhangai.jpg",
         pageTitle: "Q91289948",
@@ -5774,7 +5774,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'khangai-nuruu-national-park-mongolia': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Kharkhorin3.JPG",
+        url: "/images/worldscene-candidates/wcand-khangai-nuruu-national-park-mongolia-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kharkhorin3.JPG",
         pageTitle: "Q91282280",
@@ -5787,7 +5787,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kokshetau-national-park-kazakhstan': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/17/%D0%98%D0%BC%D0%B0%D0%BD%D0%B1%D1%83%D1%80%D0%BB%D1%8B%D0%BA.jpg",
+        url: "/images/worldscene-candidates/wcand-kokshetau-national-park-kazakhstan-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Иманбурлык.jpg",
         pageTitle: "Q4227524",
@@ -5800,7 +5800,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kolsay-lakes-national-park-almaty-region': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Kolsay_Lake.jpeg",
+        url: "/images/worldscene-candidates/wcand-kolsay-lakes-national-park-almaty-region-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kolsay Lake.jpeg",
         pageTitle: "Q4228940",
@@ -5813,7 +5813,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kosciuszko-national-park-snowy-monaro-regional-council': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/97/Mount_Kosciuszko_with_snow.jpg",
+        url: "/images/worldscene-candidates/wcand-kosciuszko-national-park-snowy-monaro-regional-council-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Mount Kosciuszko with snow.jpg",
         pageTitle: "Q1755161",
@@ -5826,7 +5826,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kosterhavet-national-park-tanum-municipality': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gangar.jpg",
+        url: "/images/worldscene-candidates/wcand-kosterhavet-national-park-tanum-municipality-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Gangar.jpg",
         pageTitle: "Q1438951",
@@ -5839,7 +5839,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kouchibouguac-national-park-saint-louis-parish': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/5/51/Kouchibouguac_National_Park_%2837124711561%29.jpg",
+        url: "/images/worldscene-candidates/wcand-kouchibouguac-national-park-saint-louis-parish-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Kouchibouguac National Park (37124711561).jpg",
         pageTitle: "Q862260",
@@ -5852,7 +5852,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'kwiambal-national-park-new-south-wales': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/2/25/MacIntyre_Falls.JPG",
+        url: "/images/worldscene-candidates/wcand-kwiambal-national-park-new-south-wales-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:MacIntyre Falls.JPG",
         pageTitle: "Q1165318",
@@ -5865,7 +5865,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'la-campana-national-park-quillota-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Jubaea_chilensis_%28scott.zona%29_001.jpg",
+        url: "/images/worldscene-candidates/wcand-la-campana-national-park-quillota-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Jubaea chilensis (scott.zona) 001.jpg",
         pageTitle: "Q1306110",
@@ -5878,7 +5878,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'la-visite-national-park-haiti': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Forest_on_plateau_of_Morne_d%27Enfer_in_La_Visite_National_Park.jpg",
+        url: "/images/worldscene-candidates/wcand-la-visite-national-park-haiti-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Forest on plateau of Morne d'Enfer in La Visite National Park.jpg",
         pageTitle: "Q1814848",
@@ -5891,7 +5891,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'lake-arpi-national-park-shirak-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/1/1f/%D4%B1%D6%80%D6%83%D5%AB_%D5%AC%D5%AB%D5%B3.jpg",
+        url: "/images/worldscene-candidates/wcand-lake-arpi-national-park-shirak-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Արփի լիճ.jpg",
         pageTitle: "Q16070157",
@@ -5904,7 +5904,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'llanganates-national-park-tungurahua-province': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Parque_Nacional_Llanganates-_Laguna_de_Anteojos_%285%29_%2822274188624%29.jpg",
+        url: "/images/worldscene-candidates/wcand-llanganates-national-park-tungurahua-province-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Parque Nacional Llanganates- Laguna de Anteojos (5) (22274188624).jpg",
         pageTitle: "Q1120709",
@@ -5917,7 +5917,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'loango-national-park-gabon': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Gabon_Loango_National_Park_Elephant_with_offspring.jpeg",
+        url: "/images/worldscene-candidates/wcand-loango-national-park-gabon-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Gabon Loango National Park Elephant with offspring.jpeg",
         pageTitle: "Q1756690",
@@ -5930,7 +5930,7 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
   'longshan-national-forest-park-yangshi': {
     images: [
       {
-        url: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Longshan_National_Forest_Park2.jpg",
+        url: "/images/worldscene-candidates/wcand-longshan-national-forest-park-yangshi-1.jpg",
         source: "wikidata-p18-remote",
         title: "File:Longshan National Forest Park2.jpg",
         pageTitle: "Q62597847",

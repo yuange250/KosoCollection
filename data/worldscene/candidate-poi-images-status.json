@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-04-18T16:35:01.985Z",
+  "updatedAt": "2026-04-25T10:02:04.376Z",
   "note": "candidate image cache status; does not modify published poi-manifest",
   "shard": 0,
   "shards": 1,
-  "minImagesTarget": 1,
-  "processedThisRun": 3,
+  "minImagesTarget": 3,
+  "processedThisRun": 1,
   "skippedAlreadyComplete": 0,
   "misses": 0,
-  "manifestEntryCount": 130
+  "manifestEntryCount": 6844
 }

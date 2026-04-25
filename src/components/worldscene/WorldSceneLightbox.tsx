@@ -6,9 +6,11 @@ interface Props {
 }
 
 export function WorldSceneLightbox({ image, onClose }: Props) {
+  const safeImage = typeof image === 'string' && image.trim().length > 0 ? image : null;
+
   return (
     <AnimatePresence>
-      {image && (
+      {safeImage && (
         <motion.div
           className="worldscene-lightbox"
           initial={{ opacity: 0 }}
@@ -17,8 +19,8 @@ export function WorldSceneLightbox({ image, onClose }: Props) {
           onClick={onClose}
         >
           <motion.img
-            src={image}
-            alt="鏅偣澶у浘"
+            src={safeImage}
+            alt="景点大图"
             referrerPolicy="no-referrer"
             decoding="async"
             initial={{ opacity: 0, scale: 0.95 }}

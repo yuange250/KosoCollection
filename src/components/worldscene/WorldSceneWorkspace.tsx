@@ -8,6 +8,7 @@ import {
 import { formatLatLng } from '@/lib/worldscenePageUtils';
 import type { RouteState } from '@/types/worldscene';
 import { WorldSceneDetailOverlay } from '@/components/worldscene/WorldSceneDetailOverlay';
+import { WorldSceneErrorBoundary } from '@/components/worldscene/WorldSceneErrorBoundary';
 import { WorldSceneGlobeScene } from '@/components/worldscene/WorldSceneGlobeScene';
 
 interface Props {
@@ -73,6 +74,16 @@ export function WorldSceneWorkspace({
   visiblePoints,
   zoomDistance,
 }: Props) {
+  const safeZoomDistance = Number.isFinite(zoomDistance) ? zoomDistance.toFixed(2) : '--';
+  const safeHoverLat =
+    hoverLatLng && Number.isFinite(hoverLatLng.lat) ? hoverLatLng.lat.toFixed(2) : '--';
+  const safeHoverLng =
+    hoverLatLng && Number.isFinite(hoverLatLng.lng) ? hoverLatLng.lng.toFixed(2) : '--';
+  const selectionName = selectedPoint?.name || selectedPoint?.englishName || '未命名景点';
+  const selectionArea = [selectedPoint?.country, selectedPoint?.city]
+    .filter((value): value is string => typeof value === 'string' && value.trim().length > 0)
+    .join(' / ');
+
   return (
     <>
       <div className="worldscene-scene-shell">
@@ -134,39 +145,41 @@ export function WorldSceneWorkspace({
                 ? '当前为聚合层，继续拉近可展开'
                 : '继续拉近以显示景点热点'}
           </span>
-          <span className="worldscene-meta-pill">缩放 {zoomDistance.toFixed(2)}</span>
+          <span className="worldscene-meta-pill">缩放 {safeZoomDistance}</span>
           <span className="worldscene-meta-pill">
             标记 {zoomDistance <= 3.12 ? '单点' : zoomDistance <= 4.25 ? '聚合' : '隐藏'}
           </span>
           {isTouchDevice && <span className="worldscene-meta-pill">单指旋转，双指缩放</span>}
           {hoverLatLng && (
             <span className="worldscene-meta-pill">
-              经纬度 {hoverLatLng.lat.toFixed(2)}, {hoverLatLng.lng.toFixed(2)}
+              经纬度 {safeHoverLat}, {safeHoverLng}
             </span>
           )}
           {hoverMarkerName && <span className="worldscene-meta-pill">悬浮 {hoverMarkerName}</span>}
         </div>
         <div className="worldscene-canvas-wrap">
-          <Canvas
-            style={{ width: '100%', height: '100%' }}
-            camera={{ position: [0, 0, 3.56], fov: 34, near: 0.1, far: 120 }}
-            dpr={[1, 1.6]}
-            gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
-          >
-            <WorldSceneGlobeScene
-              points={visiblePoints}
-              selectedPoint={selectedPoint}
-              route={route}
-              rotationLocked={rotationLocked}
-              zoomDistance={zoomDistance}
-              textureMode={textureMode}
-              resetSignal={resetSignal}
-              onSelect={(point) => onSelectPoint(point.id)}
-              onSurfaceHover={onSurfaceHover}
-              onMarkerHover={onToggleMarkerHover}
-              onZoomChange={onZoomChange}
-            />
-          </Canvas>
+          <WorldSceneErrorBoundary>
+            <Canvas
+              style={{ width: '100%', height: '100%' }}
+              camera={{ position: [0, 0, 3.56], fov: 34, near: 0.1, far: 120 }}
+              dpr={[1, 1.6]}
+              gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
+            >
+              <WorldSceneGlobeScene
+                points={visiblePoints}
+                selectedPoint={selectedPoint}
+                route={route}
+                rotationLocked={rotationLocked}
+                zoomDistance={zoomDistance}
+                textureMode={textureMode}
+                resetSignal={resetSignal}
+                onSelect={(point) => onSelectPoint(point.id)}
+                onSurfaceHover={onSurfaceHover}
+                onMarkerHover={onToggleMarkerHover}
+                onZoomChange={onZoomChange}
+              />
+            </Canvas>
+          </WorldSceneErrorBoundary>
           <div className="worldscene-canvas-legend">
             <span><i className="worldscene-legend-dot worldscene-legend-dot--gold" /> 5A 景点</span>
             <span><i className="worldscene-legend-dot worldscene-legend-dot--cyan" /> 精选景点</span>
@@ -176,25 +189,29 @@ export function WorldSceneWorkspace({
           {selectedPoint && (
             <div className="worldscene-selection-hud">
               <span className="worldscene-selection-hud__label">当前景点</span>
-              <strong>{selectedPoint.name}</strong>
+              <strong>{selectionName}</strong>
               <p>
-                {selectedPoint.country} / {selectedPoint.city} / {formatLatLng(selectedPoint.lat, selectedPoint.lng)}
+                {[selectionArea, formatLatLng(selectedPoint.lat, selectedPoint.lng)]
+                  .filter((value) => value && value !== '-- / --')
+                  .join(' / ') || '信息整理中'}
               </p>
             </div>
           )}
 
           {selectedPoint && (
-            <WorldSceneDetailOverlay
-              point={selectedPoint}
-              imageIndex={imageIndex}
-              isFavorite={isFavorite}
-              onEstimatePrice={onEstimatePrice}
-              onNextImage={onNextImage}
-              onOpenLightbox={onOpenLightbox}
-              onPlanRoute={onPlanRoute}
-              onPrevImage={onPrevImage}
-              onToggleFavorite={onToggleFavorite}
-            />
+            <WorldSceneErrorBoundary>
+              <WorldSceneDetailOverlay
+                point={selectedPoint}
+                imageIndex={imageIndex}
+                isFavorite={isFavorite}
+                onEstimatePrice={onEstimatePrice}
+                onNextImage={onNextImage}
+                onOpenLightbox={onOpenLightbox}
+                onPlanRoute={onPlanRoute}
+                onPrevImage={onPrevImage}
+                onToggleFavorite={onToggleFavorite}
+              />
+            </WorldSceneErrorBoundary>
           )}
         </div>
       </div>

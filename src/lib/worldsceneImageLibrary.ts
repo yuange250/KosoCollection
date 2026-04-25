@@ -4,6 +4,10 @@ import { WORLDSCENE_POI_LOCAL } from './worldscenePoiCached.gen';
 import { WORLDSCENE_CANDIDATE_GALLERY } from './worldsceneCandidateGallery';
 import type { StockKind } from './worldsceneStockPhotos';
 
+function isLocalWorldSceneImage(url: string): boolean {
+  return /^\/images\/worldscene(?:-candidates)?\//.test(url);
+}
+
 // Only return curated POI photos. No stock or placeholder filling.
 export function buildWorldSceneGallery(pointId: string, kind?: StockKind): string[] {
   void kind;
@@ -15,7 +19,7 @@ export function buildWorldSceneGallery(pointId: string, kind?: StockKind): strin
     .filter(Boolean);
   const prioritizedCandidateUrls = rankWorldScenePoiImages(candidateImages)
     .map((image) => image.url)
-    .filter(Boolean);
+    .filter((url) => Boolean(url) && isLocalWorldSceneImage(url));
   const legacyPoiImages = WORLDSCENE_POI_LOCAL[pointId] ? [...WORLDSCENE_POI_LOCAL[pointId]] : [];
   const poiImages =
     prioritizedCatalogUrls.length > 0

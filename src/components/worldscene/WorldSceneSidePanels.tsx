@@ -1,10 +1,10 @@
-﻿import {
-  DESTINATION_POINTS,
+import {
   ORIGIN_PRESETS,
   TRAVEL_MODE_OPTIONS,
   type TravelMode,
 } from '@/lib/worldsceneData';
 import { formatHours } from '@/lib/worldscenePageUtils';
+import { SAFE_DESTINATION_POINTS } from '@/lib/worldsceneSafeData';
 import type { PriceBreakdown, RouteState } from '@/types/worldscene';
 
 interface Props {
@@ -40,6 +40,10 @@ export function WorldSceneSidePanels({
   selectedPointName,
   travelMode,
 }: Props) {
+  const formatNumber = (value: number) =>
+    Number.isFinite(value) ? value.toLocaleString() : '--';
+  const routeNodes = Array.isArray(route?.routeNodes) ? route.routeNodes : [];
+
   return (
     <div className="worldscene-side-stack">
       <section className="worldscene-panel">
@@ -81,7 +85,7 @@ export function WorldSceneSidePanels({
             <div className="worldscene-stat-grid">
               <div>
                 <span>预计距离</span>
-                <strong>{Math.round(route.distanceKm).toLocaleString()} km</strong>
+                <strong>{Number.isFinite(route.distanceKm) ? Math.round(route.distanceKm).toLocaleString() : '--'} km</strong>
               </div>
               <div>
                 <span>预计耗时</span>
@@ -89,7 +93,7 @@ export function WorldSceneSidePanels({
               </div>
             </div>
             <ul className="worldscene-inline-list">
-              {route.routeNodes.map((node) => (
+              {routeNodes.map((node) => (
                 <li key={node}>{node}</li>
               ))}
             </ul>
@@ -112,26 +116,26 @@ export function WorldSceneSidePanels({
           <div className="worldscene-panel__body">
             <div className="worldscene-price-hero">
               <strong>
-                人均 {priceBreakdown.minTotal.toLocaleString()} - {priceBreakdown.maxTotal.toLocaleString()} 元
+                人均 {formatNumber(priceBreakdown.minTotal)} - {formatNumber(priceBreakdown.maxTotal)} 元
               </strong>
               <span>该价格仅作规划参考，不代表实时成交价。</span>
             </div>
             <div className="worldscene-stat-grid">
               <div>
                 <span>交通</span>
-                <strong>{priceBreakdown.transport.toLocaleString()} 元</strong>
+                <strong>{formatNumber(priceBreakdown.transport)} 元</strong>
               </div>
               <div>
                 <span>门票</span>
-                <strong>{priceBreakdown.ticket.toLocaleString()} 元</strong>
+                <strong>{formatNumber(priceBreakdown.ticket)} 元</strong>
               </div>
               <div>
                 <span>住宿</span>
-                <strong>{priceBreakdown.lodging.toLocaleString()} 元</strong>
+                <strong>{formatNumber(priceBreakdown.lodging)} 元</strong>
               </div>
               <div>
                 <span>餐饮</span>
-                <strong>{priceBreakdown.dining.toLocaleString()} 元</strong>
+                <strong>{formatNumber(priceBreakdown.dining)} 元</strong>
               </div>
             </div>
           </div>
@@ -148,7 +152,7 @@ export function WorldSceneSidePanels({
             <span className="worldscene-meta-pill">还没有收藏景点</span>
           ) : (
             favorites.map((id) => {
-              const point = DESTINATION_POINTS.find((item) => item.id === id);
+              const point = SAFE_DESTINATION_POINTS.find((item) => item.id === id);
               if (!point) return null;
               return (
                 <button

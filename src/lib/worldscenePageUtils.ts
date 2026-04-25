@@ -17,12 +17,14 @@ export function galleryPlaceholder(category: DestinationPoint['category']): stri
 }
 
 export function formatHours(hours: number) {
+  if (!Number.isFinite(hours)) return '--';
   if (hours < 1) return `${Math.round(hours * 60)} 分钟`;
   if (hours < 24) return `${hours.toFixed(1)} 小时`;
   return `${(hours / 24).toFixed(1)} 天`;
 }
 
 export function formatLatLng(lat: number, lng: number) {
+  if (!Number.isFinite(lat) || !Number.isFinite(lng)) return '-- / --';
   const latLabel = `${Math.abs(lat).toFixed(2)}°${lat >= 0 ? 'N' : 'S'}`;
   const lngLabel = `${Math.abs(lng).toFixed(2)}°${lng >= 0 ? 'E' : 'W'}`;
   return `${latLabel} / ${lngLabel}`;

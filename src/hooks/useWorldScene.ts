@@ -1,13 +1,13 @@
 ﻿import { useEffect, useMemo, useState } from 'react';
 import {
   CATEGORY_OPTIONS,
-  DESTINATION_POINTS,
   ORIGIN_PRESETS,
   REGION_OPTIONS,
   SEARCH_EXAMPLES,
   type DestinationPoint,
   type TravelMode,
 } from '@/lib/worldsceneData';
+import { SAFE_DESTINATION_POINTS } from '@/lib/worldsceneSafeData';
 import {
   getWorldSceneDisplayTier,
   visibleTiersByZoom,
@@ -69,7 +69,7 @@ export function useWorldScene() {
   }, []);
 
   const visiblePoints = useMemo(() => {
-    const filtered = DESTINATION_POINTS.filter((point) => {
+    const filtered = SAFE_DESTINATION_POINTS.filter((point) => {
       const regionMatch = activeRegion === '全部' || point.region === activeRegion;
       const categoryMatch = activeCategory === '全部' || point.category === activeCategory;
       return regionMatch && categoryMatch;
@@ -119,21 +119,29 @@ export function useWorldScene() {
       }
     }
 
-    return picked.slice(0, limit);
-  }, [activeCategory, activeRegion, zoomDistance]);
+    const limited = picked.slice(0, limit);
+    if (!selectedId) return limited;
+
+    const selectedPoint = SAFE_DESTINATION_POINTS.find((point) => point.id === selectedId);
+    if (!selectedPoint) return limited;
+    if (!filtered.some((point) => point.id === selectedId)) return limited;
+    if (limited.some((point) => point.id === selectedId)) return limited;
+
+    return [selectedPoint, ...limited.slice(0, Math.max(0, limit - 1))];
+  }, [activeCategory, activeRegion, selectedId, zoomDistance]);
 
   useEffect(() => {
     if (visiblePoints.length === 0) {
       setSelectedId('');
       return;
     }
-    if (selectedId && !visiblePoints.some((point) => point.id === selectedId)) {
+    if (selectedId && !SAFE_DESTINATION_POINTS.some((point) => point.id === selectedId)) {
       setSelectedId('');
     }
   }, [selectedId, visiblePoints]);
 
   const selectedPoint = useMemo(
-    () => DESTINATION_POINTS.find((point) => point.id === selectedId) ?? null,
+    () => SAFE_DESTINATION_POINTS.find((point) => point.id === selectedId) ?? null,
     [selectedId],
   );
 
@@ -143,8 +151,15 @@ export function useWorldScene() {
   );
 
   useEffect(() => {
-    setImageIndex(0);
-  }, [selectedId]);
+    const imageCount = Array.isArray(selectedPoint?.images) ? selectedPoint.images.length : 0;
+    if (imageCount <= 0) {
+      if (imageIndex !== 0) setImageIndex(0);
+      return;
+    }
+    if (imageIndex >= imageCount) {
+      setImageIndex(0);
+    }
+  }, [imageIndex, selectedPoint]);
 
   const isFavorite = selectedPoint ? favorites.includes(selectedPoint.id) : false;
 
@@ -156,7 +171,7 @@ export function useWorldScene() {
       return;
     }
 
-    const matches = searchDestinations(trimmed, DESTINATION_POINTS, 3);
+    const matches = searchDestinations(trimmed, SAFE_DESTINATION_POINTS, 3);
     if (matches.length === 0) {
       setSearchResults([]);
       setSearchMessage(`没有匹配到景点，请尝试更具体的描述，例如：${SEARCH_EXAMPLES.join(' / ')}`);

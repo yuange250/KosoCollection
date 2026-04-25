@@ -185,6 +185,10 @@ function terrainMarkerRadius(
   return terrainSurfaceRadius(terrainHeight, nearDetailMode) + markerRadius + clearance;
 }
 
+function hasFiniteLatLng(value: { lat: number; lng: number } | null | undefined) {
+  return !!value && Number.isFinite(value.lat) && Number.isFinite(value.lng);
+}
+
 function HorizonVisibilityGroup({
   position,
   minFrontness = 0.035,
@@ -270,29 +274,36 @@ export function WorldSceneGlobeScene({
     return THREE.MathUtils.lerp(0.34, 1, normalized);
   }, [zoomDistance]);
   const nearDetailMode = zoomDistance <= 2.55;
+  const safePoints = useMemo(
+    () => points.filter((point) => hasFiniteLatLng(point)),
+    [points],
+  );
+  const safeSelectedPoint = hasFiniteLatLng(selectedPoint) ? selectedPoint : null;
+  const safeRoute =
+    route && hasFiniteLatLng(route.origin) && safeSelectedPoint ? route : null;
 
   const pointColumns = useMemo(
     () =>
-      points.map((point) => ({
+      safePoints.map((point) => ({
         ...point,
-        color: point.id === selectedPoint?.id ? '#fde68a' : gradeColor(point.grade),
-        altitude: point.id === selectedPoint?.id ? 0.15 : 0.075,
-        radius: point.id === selectedPoint?.id ? 0.28 : 0.16,
+        color: point.id === safeSelectedPoint?.id ? '#fde68a' : gradeColor(point.grade),
+        altitude: point.id === safeSelectedPoint?.id ? 0.15 : 0.075,
+        radius: point.id === safeSelectedPoint?.id ? 0.28 : 0.16,
       })),
-    [points, selectedPoint],
+    [safePoints, safeSelectedPoint],
   );
 
   const routeArcs = useMemo(() => {
-    if (!route || !selectedPoint) return [];
+    if (!safeRoute || !safeSelectedPoint) return [];
     return [
       {
-        startLat: route.origin.lat,
-        startLng: route.origin.lng,
-        endLat: selectedPoint.lat,
-        endLng: selectedPoint.lng,
+        startLat: safeRoute.origin.lat,
+        startLng: safeRoute.origin.lng,
+        endLat: safeSelectedPoint.lat,
+        endLng: safeSelectedPoint.lng,
       },
     ];
-  }, [route, selectedPoint]);
+  }, [safeRoute, safeSelectedPoint]);
 
   const countryPaths = useMemo(() => buildBoundaryPaths(countryFeatures), [countryFeatures]);
   const countryPathVectors = useMemo(() => buildBoundaryVectors(countryPaths), [countryPaths]);
@@ -330,22 +341,22 @@ export function WorldSceneGlobeScene({
   }, [markerScale, nearDetailMode, terrainSampler, zoomDistance]);
 
   const ringData = useMemo(() => {
-    if (!selectedPoint) return [];
+    if (!safeSelectedPoint) return [];
     return [
       {
-        lat: selectedPoint.lat,
-        lng: selectedPoint.lng,
+        lat: safeSelectedPoint.lat,
+        lng: safeSelectedPoint.lng,
         color: () => 'rgba(125, 211, 252, 0.9)',
       },
     ];
-  }, [selectedPoint]);
+  }, [safeSelectedPoint]);
 
   const selectedMarker = useMemo(() => {
-    if (!selectedPoint) return null;
+    if (!safeSelectedPoint) return null;
     const terrainHeight = sampleTerrainMarkerHeight(
       terrainSampler,
-      selectedPoint.lat,
-      selectedPoint.lng,
+      safeSelectedPoint.lat,
+      safeSelectedPoint.lng,
       nearDetailMode,
     );
     const pointRadius = 0.018 * markerScale;
@@ -356,18 +367,18 @@ export function WorldSceneGlobeScene({
       0.0035,
     );
     return {
-      surface: latLngToVector3(selectedPoint.lat, selectedPoint.lng, surfaceRadius),
+      surface: latLngToVector3(safeSelectedPoint.lat, safeSelectedPoint.lng, surfaceRadius),
       beacon: latLngToVector3(
-        selectedPoint.lat,
-        selectedPoint.lng,
+        safeSelectedPoint.lat,
+        safeSelectedPoint.lng,
         surfaceRadius + 0.055 + 0.018 * markerScale,
       ),
     };
-  }, [markerScale, nearDetailMode, selectedPoint, terrainSampler]);
+  }, [markerScale, nearDetailMode, safeSelectedPoint, terrainSampler]);
 
   const idlePreviewPoints = useMemo(
-    () => points.filter((point) => idlePreviewIds.includes(point.id)),
-    [idlePreviewIds, points],
+    () => safePoints.filter((point) => idlePreviewIds.includes(point.id)),
+    [idlePreviewIds, safePoints],
   );
 
   useEffect(() => {
@@ -551,23 +562,23 @@ export function WorldSceneGlobeScene({
   }, [camera]);
 
   useEffect(() => {
-    if (selectedPoint) {
+    if (safeSelectedPoint) {
       setIdlePreviewIds([]);
     }
-  }, [selectedPoint]);
+  }, [safeSelectedPoint]);
 
   useEffect(() => {
-    desiredDistance.current = selectedPoint ? 2.2 : 3.9;
-    if (!selectedPoint || focusedIdRef.current === selectedPoint.id) return;
-    focusedIdRef.current = selectedPoint.id;
+    desiredDistance.current = safeSelectedPoint ? 2.2 : 3.9;
+    if (!safeSelectedPoint || focusedIdRef.current === safeSelectedPoint.id) return;
+    focusedIdRef.current = safeSelectedPoint.id;
     const controls = controlsRef.current;
     if (!controls) return;
-    const nextDirection = latLngToVector3(selectedPoint.lat, selectedPoint.lng, 1).normalize();
+    const nextDirection = latLngToVector3(safeSelectedPoint.lat, safeSelectedPoint.lng, 1).normalize();
     desiredCameraPosition.current.copy(nextDirection.multiplyScalar(desiredDistance.current));
     autoCenteringRef.current = true;
     controls.target.set(0, 0, 0);
     controls.update();
-  }, [selectedPoint]);
+  }, [safeSelectedPoint]);
 
   useEffect(() => {
     const controls = controlsRef.current;
@@ -598,7 +609,7 @@ export function WorldSceneGlobeScene({
       }
     }
 
-    if (!selectedPoint && !rotationLocked && !autoCenteringRef.current) {
+    if (!safeSelectedPoint && !rotationLocked && !autoCenteringRef.current) {
       camera.position.applyAxisAngle(new THREE.Vector3(0, 1, 0), 0.0012);
       camera.lookAt(0, 0, 0);
 
@@ -606,7 +617,7 @@ export function WorldSceneGlobeScene({
       if (idlePreviewTimerRef.current >= 210) {
         idlePreviewTimerRef.current = 0;
         const cameraDirection = camera.position.clone().normalize();
-        const nextPreviewIds = points
+        const nextPreviewIds = safePoints
           .map((point) => {
             const terrainHeight = sampleTerrainHeight(terrainSampler, point.lat, point.lng);
             const position = latLngToVector3(
@@ -829,8 +840,8 @@ export function WorldSceneGlobeScene({
         </HorizonVisibilityGroup>
       )}
 
-      {points.map((point) => {
-        const isSelected = selectedPoint?.id === point.id;
+      {safePoints.map((point) => {
+        const isSelected = safeSelectedPoint?.id === point.id;
         const terrainHeight = sampleTerrainMarkerHeight(
           terrainSampler,
           point.lat,
@@ -870,7 +881,7 @@ export function WorldSceneGlobeScene({
         );
       })}
 
-      {!selectedPoint &&
+      {!safeSelectedPoint &&
         idlePreviewPoints.map((point) => {
           const terrainHeight = sampleTerrainMarkerHeight(
             terrainSampler,

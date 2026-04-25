@@ -175,6 +175,8 @@ const strictScore = (candidate, image) => {
   return score;
 };
 
+const isLocalImageUrl = (value = '') => /^\/images\/worldscene(?:-candidates)?\//.test(value);
+
 const quote = (value) => JSON.stringify(value ?? '', null, 0);
 
 const pickGrade = (candidate) => {
@@ -302,6 +304,7 @@ for (const candidate of candidates) {
   const manifestEntry = manifest[candidate.id];
   if (!manifestEntry?.images?.length) continue;
   const image = manifestEntry.images[0];
+  if (!isLocalImageUrl(image.url || '')) continue;
   const blob = [
     candidate.name,
     candidate.englishName,
