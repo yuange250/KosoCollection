@@ -151,6 +151,11 @@ export function useWorldScene() {
   );
 
   useEffect(() => {
+    setRoute(null);
+    setPriceBreakdown(null);
+  }, [originId, selectedId, travelMode]);
+
+  useEffect(() => {
     const imageCount = Array.isArray(selectedPoint?.images) ? selectedPoint.images.length : 0;
     if (imageCount <= 0) {
       if (imageIndex !== 0) setImageIndex(0);

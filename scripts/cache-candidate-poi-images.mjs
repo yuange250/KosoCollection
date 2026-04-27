@@ -41,6 +41,7 @@ const USER_AGENT = 'KosoCollection/1.0 (candidate POI image cache; educational)'
 const REQUEST_TIMEOUT_MS = 22000;
 const PAGE_IMAGE_LIMIT = Math.min(48, Number(process.env.PAGE_IMAGE_LIMIT || 20));
 const MIN_VALID_BYTES = 35 * 1024;
+const IMAGE_MAX_WIDTH = Math.max(640, Number(process.env.IMAGE_MAX_WIDTH || 1600));
 
 const MIN_IMAGES = Math.max(1, Number(process.env.MIN_IMAGES || 5));
 const MAX_IMAGES = Math.min(12, Math.max(MIN_IMAGES, Number(process.env.MAX_IMAGES || 6)));
@@ -82,6 +83,31 @@ function canonicalImageKey(url) {
     return `${u.hostname}${u.pathname}`.toLowerCase();
   } catch {
     return raw.toLowerCase();
+  }
+}
+
+function isImageUrl(url) {
+  const value = String(url || '').toLowerCase().split('?')[0];
+  return /\.(jpe?g|png|webp)$/.test(value);
+}
+
+function wikimediaThumbUrl(url, width = IMAGE_MAX_WIDTH) {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname !== 'upload.wikimedia.org') return url;
+    if (parsed.pathname.includes('/thumb/')) return url;
+    if (!isImageUrl(parsed.pathname)) return url;
+
+    const parts = parsed.pathname.split('/');
+    const fileName = parts.at(-1);
+    if (!fileName) return url;
+    const dir = parts.slice(0, -1).join('/');
+    parsed.pathname = `${dir.replace('/commons/', '/commons/thumb/')}/${fileName}/${width}px-${fileName}`;
+    parsed.search = '';
+    parsed.hash = '';
+    return parsed.toString();
+  } catch {
+    return url;
   }
 }
 
@@ -249,6 +275,7 @@ async function commonsImageInfo(fileTitles) {
     url.searchParams.set('format', 'json');
     url.searchParams.set('prop', 'imageinfo|categories');
     url.searchParams.set('iiprop', 'url|mime|timestamp|size');
+    url.searchParams.set('iiurlwidth', String(IMAGE_MAX_WIDTH));
     url.searchParams.set('cllimit', '12');
     url.searchParams.set('titles', chunks[c].join('|'));
     url.searchParams.set('origin', '*');
@@ -263,11 +290,14 @@ async function commonsImageInfo(fileTitles) {
         );
         return {
           title,
-          url: info.url,
+          url: info.thumburl || info.url,
+          originalUrl: info.url,
           mime: info.mime || '',
           timestamp: info.timestamp || null,
           width: Number(info.width) || undefined,
           height: Number(info.height) || undefined,
+          downloadWidth: Number(info.thumbwidth) || Number(info.width) || undefined,
+          downloadHeight: Number(info.thumbheight) || Number(info.height) || undefined,
           description: '',
           categories,
         };
@@ -402,6 +432,7 @@ function scoreImageRow(point, entry, item) {
 function dedupe(images) {
   const best = new Map();
   for (const image of images) {
+    if (!isImageUrl(image.remoteUrl || image.url)) continue;
     const key = canonicalImageKey(image.remoteUrl || image.url);
     if (!key) continue;
     const prev = best.get(key);
@@ -445,7 +476,7 @@ async function resolveImagesForCandidate(entry) {
         if (item?.url && isAllowedMime(item.mime) && filePenalty(item.title) < 80) {
           pushCollected({
             url: item.url,
-            remoteUrl: item.url,
+            remoteUrl: item.originalUrl || item.url,
             title: item.title,
             mime: item.mime,
             score: 220 + scoreImageRow(point, entry, item),
@@ -466,7 +497,7 @@ async function resolveImagesForCandidate(entry) {
           if (score <= 10) continue;
           pushCollected({
             url: item.url,
-            remoteUrl: item.url,
+            remoteUrl: item.originalUrl || item.url,
             title: item.title,
             mime: item.mime,
             score,
@@ -495,7 +526,7 @@ async function resolveImagesForCandidate(entry) {
         if (score <= 20) continue;
         pushCollected({
           url: item.url,
-          remoteUrl: item.url,
+          remoteUrl: item.originalUrl || item.url,
           title: item.title,
           mime: item.mime,
           score,
@@ -544,7 +575,7 @@ async function resolveImagesForCandidate(entry) {
     const orig = pageData.original?.source;
     if (orig && /\.(jpe?g|png|webp)/i.test(orig) && !/\.svg/i.test(orig)) {
       pushCollected({
-        url: orig,
+        url: wikimediaThumbUrl(orig),
         remoteUrl: orig,
         title: `${page.title} (pageimage)`,
         mime: orig.includes('.png') ? 'image/png' : 'image/jpeg',
@@ -567,7 +598,7 @@ async function resolveImagesForCandidate(entry) {
       if (score <= 0) continue;
       pushCollected({
         url: item.url,
-        remoteUrl: item.url,
+        remoteUrl: item.originalUrl || item.url,
         title: item.title,
         mime: item.mime,
         score,
@@ -627,6 +658,20 @@ function loadJsonSafe(filePath) {
   }
 }
 
+function keepLocalImageMeta(image) {
+  if (!image?.url || !/^\/images\/worldscene-candidates\//.test(image.url)) return false;
+  if (!isImageUrl(image.url)) return false;
+  return fs.existsSync(path.join(ROOT, 'public', image.url.replace(/^\//, '')));
+}
+
+function pruneManifestEntry(entry) {
+  if (!entry?.images?.length) return entry;
+  return {
+    ...entry,
+    images: entry.images.filter(keepLocalImageMeta),
+  };
+}
+
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const listedIds = parseExistingDestinationIds(fs.readFileSync(DATA_TS, 'utf8'));
@@ -651,7 +696,12 @@ async function main() {
   let misses = 0;
 
   for (const entry of entries) {
-    const existing = manifest[entry.id] || mainForSkip[entry.id];
+    if (manifest[entry.id]) {
+      const pruned = pruneManifestEntry(manifest[entry.id]);
+      if (pruned?.images?.length) manifest[entry.id] = pruned;
+      else delete manifest[entry.id];
+    }
+    const existing = manifest[entry.id] || pruneManifestEntry(mainForSkip[entry.id]);
     const existingCount = existing?.images?.length ?? 0;
     if (!args.replace && existingCount >= MIN_IMAGES) {
       skipped += 1;

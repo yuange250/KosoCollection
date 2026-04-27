@@ -5940,4 +5940,1928 @@ export const WORLDSCENE_CANDIDATE_GALLERY: Record<string, WorldScenePoiCatalogEn
       },
     ],
   },
+  'arabian-oryx-sanctuary-oman': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-arabian-oryx-sanctuary-oman-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Arabian Oryx Sanctuary.jpg",
+        pageTitle: "Q2015257",
+        score: 320,
+        width: 4000,
+        height: 3000,
+      },
+    ],
+  },
+  'belize-barrier-reef-belize': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-belize-barrier-reef-belize-1.png",
+        source: "wikidata-p18-remote",
+        title: "File:Belize Barrier Reef from space.png",
+        pageTitle: "Q28361",
+        score: 320,
+        width: 3090,
+        height: 810,
+      },
+    ],
+  },
+  'ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europ-podkarpackie-voivodeship': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-ancient-and-primeval-beech-forests-of-the-carpathians-and-other-regions-of-europ-podkarpackie-voivodeship-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Tysa Rakhiv.jpg",
+        pageTitle: "Q156011",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'australian-convict-sites-tasmania': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-australian-convict-sites-tasmania-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:PortArthurPenitentiary.jpg",
+        pageTitle: "Q391496",
+        score: 320,
+        width: 1000,
+        height: 667,
+      },
+    ],
+  },
+  'babelsberg-park-potsdam': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-babelsberg-park-potsdam-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Schlosspark Babelsberg Blick Glienicker Bruecke.jpg",
+        pageTitle: "Q315105",
+        score: 320,
+        width: 2272,
+        height: 1704,
+      },
+    ],
+  },
+  'bale-mountains-national-park-oromia-region': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bale-mountains-national-park-oromia-region-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Bale mountains.jpg",
+        pageTitle: "Q804881",
+        score: 320,
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
+  'bam-citadel-kerman-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bam-citadel-kerman-province-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Arge Bam Arad edit.jpg",
+        pageTitle: "Q43277",
+        score: 320,
+        width: 2000,
+        height: 1763,
+      },
+    ],
+  },
+  'banc-d-arguin-national-park-dakhlet-nouadhibou': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-banc-d-arguin-national-park-dakhlet-nouadhibou-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:PNBA 43.JPG",
+        pageTitle: "Q539518",
+        score: 320,
+        width: 2048,
+        height: 1536,
+      },
+    ],
+  },
+  'baroque-churches-of-the-philippines-philippines': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-baroque-churches-of-the-philippines-philippines-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Miagao Church.jpg",
+        pageTitle: "Q808563",
+        score: 320,
+        width: 1920,
+        height: 1080,
+      },
+    ],
+  },
+  'belfries-of-belgium-and-france-france': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-belfries-of-belgium-and-france-france-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Belfort Brugge.jpg",
+        pageTitle: "Q750675",
+        score: 320,
+        width: 1024,
+        height: 1536,
+      },
+    ],
+  },
+  'belvedere-on-the-pfingstberg-nordliche-vorstadte': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-belvedere-on-the-pfingstberg-nordliche-vorstadte-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Belvedere auf dem Pfingstberg in Potsdam Juli 2014.jpg",
+        pageTitle: "Q454078",
+        score: 320,
+        width: 2560,
+        height: 1703,
+      },
+    ],
+  },
+  'borobudur-temple-compounds-central-java': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-borobudur-temple-compounds-central-java-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Borobudur-Nothwest-view.jpg",
+        pageTitle: "Q29070",
+        score: 320,
+        width: 2816,
+        height: 1108,
+      },
+    ],
+  },
+  'bru-na-boinne-county-meath': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bru-na-boinne-county-meath-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Bru na Boinne - Newgrange.jpg",
+        pageTitle: "Q339489",
+        score: 320,
+        width: 2592,
+        height: 1944,
+      },
+    ],
+  },
+  'bryggen-bergen-municipality': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bryggen-bergen-municipality-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Bryggen, Bergen3.JPG",
+        pageTitle: "Q153430",
+        score: 320,
+        width: 2544,
+        height: 1696,
+      },
+    ],
+  },
+  'bulguksa': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bulguksa-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:WellingtonUtahCabin.jpeg",
+        pageTitle: "Q482904",
+        score: 320,
+        width: 2560,
+        height: 1920,
+      },
+    ],
+  },
+  'budj-bim-victoria': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-budj-bim-victoria-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Budj Bim ‐ Mt Eccles National Park, Victoria, Australia 02.jpg",
+        pageTitle: "Budj Bim Australia",
+        score: 180,
+        width: 2472,
+        height: 3296,
+      },
+    ],
+  },
+  'agave-landscape-and-ancient-industrial-facilities-of-tequila-mexico': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-agave-landscape-and-ancient-industrial-facilities-of-tequila-mexico-1.jpg",
+        source: "wikidata-p18",
+        title: "File:Agave fields hill.jpg",
+        pageTitle: "Q2104675",
+        score: 285,
+        width: 2048,
+        height: 1536,
+      },
+    ],
+  },
+  'burkhan-khaldun-mongolia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-burkhan-khaldun-mongolia-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Sun God Mountain.jpg",
+        pageTitle: "Burkhan Khaldun Mongolia",
+        score: 180,
+        width: 2279,
+        height: 1812,
+      },
+    ],
+  },
+  'boodjamulla-lawn-hill-national-park-queensland': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-boodjamulla-lawn-hill-national-park-queensland-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Lawn Hill Gorge.JPG",
+        pageTitle: "Q203368",
+        score: 320,
+        width: 3648,
+        height: 2736,
+      },
+    ],
+  },
+  'abijatta-shalla-national-park-ethiopia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-abijatta-shalla-national-park-ethiopia-2.jpg",
+        source: "commons-category",
+        title: "File:Abijatta-Shalla National Park in Ethiopia 01.jpg",
+        pageTitle: "Abijatta-Shalla National Park",
+        score: 325,
+        width: 3903,
+        height: 1537,
+      },
+    ],
+  },
+  'bosques-petrificados-de-jaramillo-national-park-santa-cruz-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bosques-petrificados-de-jaramillo-national-park-santa-cruz-province-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Cerros Madre e Hija.jpg",
+        pageTitle: "Q830083",
+        score: 320,
+        width: 3176,
+        height: 1366,
+      },
+    ],
+  },
+  'botum-sakor-national-park-koh-kong-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-botum-sakor-national-park-koh-kong-province-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:In the branches.jpg",
+        pageTitle: "Q4350416",
+        score: 320,
+        width: 3024,
+        height: 1998,
+      },
+    ],
+  },
+  'aghgol-national-park-azerbaijan': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-aghgol-national-park-azerbaijan-2.jpg",
+        source: "commons-category",
+        title: "File:Vanellus leucurus, Ag-Gel National Park.jpg",
+        pageTitle: "Ağgöl National Park",
+        score: 200,
+        width: 5000,
+        height: 3822,
+      },
+    ],
+  },
+  'angammedilla-national-park-north-central-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-angammedilla-national-park-north-central-province-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Polonnaruwa-panta.jpg",
+        pageTitle: "Q4761937",
+        score: 320,
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  },
+  'appennino-lucano-val-d-agri-lagonegrese-national-park-province-of-potenza': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-appennino-lucano-val-d-agri-lagonegrese-national-park-province-of-potenza-1.png",
+        source: "wikidata-p18-remote",
+        title: "File:Contrafforte nord del Monte Volturino (1.836 m) - Monti della Maddalena (Potenza).PNG",
+        pageTitle: "Q1325310",
+        score: 320,
+        width: 1539,
+        height: 1154,
+      },
+    ],
+  },
+  'appennino-tosco-emiliano-national-park-tuscany': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-appennino-tosco-emiliano-national-park-tuscany-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Monte Prado.jpg",
+        pageTitle: "Q1761032",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'araguaia-national-park-brazil': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-araguaia-national-park-brazil-1.png",
+        source: "wikidata-p18-remote",
+        title: "File:Garça no Rio Araguaia.png",
+        pageTitle: "Q4068420",
+        score: 320,
+        width: 2067,
+        height: 1378,
+      },
+    ],
+  },
+  'ba-be-national-park-bac-kan': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-ba-be-national-park-bac-kan-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Ba Be Lake 6464.jpg",
+        pageTitle: "Q1968747",
+        score: 320,
+        width: 1024,
+        height: 682,
+      },
+    ],
+  },
+  'bach-ma-national-park-vietnam': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bach-ma-national-park-vietnam-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Bach Ma NP2.jpg",
+        pageTitle: "Q649680",
+        score: 320,
+        width: 991,
+        height: 1377,
+      },
+    ],
+  },
+  'badlands-national-park-oglala-lakota-county': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-badlands-national-park-oglala-lakota-county-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:MK00609 Badlands.jpg",
+        pageTitle: "Q306216",
+        score: 320,
+        width: 2539,
+        height: 1693,
+      },
+    ],
+  },
+  'bataan-national-park-central-luzon': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bataan-national-park-central-luzon-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Bataan National Park.jpg",
+        pageTitle: "Bataan National Park Philippines",
+        score: 180,
+        width: 5152,
+        height: 3864,
+      },
+    ],
+  },
+  'batang-ai-national-park-malaysia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-batang-ai-national-park-malaysia-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Batang Ai Lookout.jpg",
+        pageTitle: "Batang Ai National Park Malaysia",
+        score: 180,
+        width: 4896,
+        height: 3264,
+      },
+    ],
+  },
+  'belair-national-park-south-australia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-belair-national-park-south-australia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Belair Old Government House.jpg",
+        pageTitle: "Q643818",
+        score: 320,
+        width: 2304,
+        height: 1728,
+      },
+    ],
+  },
+  'belum-temenggor-forest-reserve-malaysia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-belum-temenggor-forest-reserve-malaysia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Temenggor Lake.jpg",
+        pageTitle: "Q14206230",
+        score: 320,
+        width: 1024,
+        height: 683,
+      },
+    ],
+  },
+  'bikin-national-park-primorsky-krai': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bikin-national-park-primorsky-krai-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Протоки на р. Бикин.jpg",
+        pageTitle: "Q22669854",
+        score: 320,
+        width: 2461,
+        height: 1641,
+      },
+    ],
+  },
+  'biscayne-national-park-florida': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-biscayne-national-park-florida-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Biscayne NP snorkeling.jpg",
+        pageTitle: "Q866080",
+        score: 320,
+        width: 2100,
+        height: 1500,
+      },
+    ],
+  },
+  'bjornlandet-national-park-asele-municipality': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bjornlandet-national-park-asele-municipality-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Björnlandet kronjuvel.jpg",
+        pageTitle: "Björnlandet National Park Sweden",
+        score: 180,
+        width: 5472,
+        height: 3648,
+      },
+    ],
+  },
+  'blafjella-skj-kerfjella-national-park-lierne-municipality': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-blafjella-skj-kerfjella-national-park-lierne-municipality-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Skjækerhatten.jpg",
+        pageTitle: "Q887049",
+        score: 320,
+        width: 1069,
+        height: 1222,
+      },
+    ],
+  },
+  'blue-mountains-national-park-jamison': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-blue-mountains-national-park-jamison-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Rainforest,bluemountainsNSW.jpg",
+        pageTitle: "Q885558",
+        score: 320,
+        width: 2090,
+        height: 1724,
+      },
+    ],
+  },
+  'boa-nova-national-park-bahia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-boa-nova-national-park-bahia-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Parna Boa Nova - Mata de Cipo.jpg",
+        pageTitle: "Boa Nova national park Brazil",
+        score: 180,
+        width: 6016,
+        height: 4000,
+      },
+    ],
+  },
+  'bogani-nani-wartabone-national-park-gorontalo': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bogani-nani-wartabone-national-park-gorontalo-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Tarsius tarsier Tandurusa zoo.JPG",
+        pageTitle: "Q1426210",
+        score: 320,
+        width: 1424,
+        height: 1068,
+      },
+    ],
+  },
+  'boukornine-national-park-nabeul-governorate': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-boukornine-national-park-nabeul-governorate-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Parc national de Boukornine 14.JPG",
+        pageTitle: "Q2741018",
+        score: 320,
+        width: 1024,
+        height: 683,
+      },
+    ],
+  },
+  'bryce-canyon-national-park-kane-county': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bryce-canyon-national-park-kane-county-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:USA 10654 Bryce Canyon Luca Galuzzi 2007.jpg",
+        pageTitle: "Q219562",
+        score: 320,
+        width: 2000,
+        height: 1333,
+      },
+    ],
+  },
+  'bunya-mountains-national-park-queensland': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bunya-mountains-national-park-queensland-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Araucaria bidwillii trees.jpg",
+        pageTitle: "Q1010032",
+        score: 320,
+        width: 1195,
+        height: 846,
+      },
+    ],
+  },
+  'burren-national-park-county-clare': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-burren-national-park-county-clare-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:The Burren National Park Mullaghmore.JPG",
+        pageTitle: "Q3895694",
+        score: 320,
+        width: 2592,
+        height: 1944,
+      },
+    ],
+  },
+  'cabrera-national-park-palma': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cabrera-national-park-palma-1.jpg",
+        source: "commons-search-remote",
+        title: "File:View of Isla de Cabrera National Park, Mallorca (Spain) (23351162771).jpg",
+        pageTitle: "Cabrera National Park Spain",
+        score: 180,
+        width: 4912,
+        height: 3264,
+      },
+    ],
+  },
+  'cabrits-national-park-dominica': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cabrits-national-park-dominica-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Tanetane-Dominica.jpg",
+        pageTitle: "Q5015852",
+        score: 320,
+        width: 1280,
+        height: 960,
+      },
+    ],
+  },
+  'baritu-national-park-salta-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-baritu-national-park-salta-province-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Andean Cedrela (Cedrela angustifolia), Parque Nacional Baritú, Salta Province, Argentina 1.jpg",
+        pageTitle: "Baritú National Park Argentina",
+        score: 180,
+        width: 1365,
+        height: 2048,
+      },
+    ],
+  },
+  'aberdare-national-park-kenya': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-aberdare-national-park-kenya-3.jpg",
+        source: "commons-search",
+        title: "File:Aberdare National Park, Kenya (30714805264).jpg",
+        pageTitle: "Aberdare National Park Kenya",
+        score: 280,
+        width: 2749,
+        height: 1455,
+      },
+    ],
+  },
+  'alberto-de-agostini-national-park-magallanes-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-alberto-de-agostini-national-park-magallanes-province-1.jpg",
+        source: "wikidata-p18",
+        title: "File:BeagleChannelGlacier.jpg",
+        pageTitle: "Q1759349",
+        score: 260,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'barbilla-national-park-turrialba-canton': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-barbilla-national-park-turrialba-canton-1.jpg",
+        source: "commons-search-remote",
+        title: "File:RioDantas.JPG",
+        pageTitle: "Barbilla National Park Costa Rica",
+        score: 180,
+        width: 2304,
+        height: 1728,
+      },
+    ],
+  },
+  'bicuari-national-park-huila-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-bicuari-national-park-huila-province-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Verdant Bicuari National Park (MODIS).jpg",
+        pageTitle: "Bicuari National Park Angola",
+        score: 180,
+        width: 1419,
+        height: 1082,
+      },
+    ],
+  },
+  'blue-lagoon-national-park-central-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-blue-lagoon-national-park-central-province-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Kafue Flats and Lake Manyeke, Zambia (MODIS).jpg",
+        pageTitle: "Blue Lagoon National Park Zambia",
+        score: 180,
+        width: 1432,
+        height: 1037,
+      },
+    ],
+  },
+  'cabo-de-hornos-national-park-antartica-chilena-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cabo-de-hornos-national-park-antartica-chilena-province-1.png",
+        source: "commons-search-remote",
+        title: "File:Wollaston-Hermite.png",
+        pageTitle: "Cabo de Hornos National Park Chile",
+        score: 180,
+        width: 1080,
+        height: 949,
+      },
+    ],
+  },
+  'cahuita-national-park-cahuita': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cahuita-national-park-cahuita-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Cahuita national park, Costa Rica.jpg",
+        pageTitle: "Q2546988",
+        score: 320,
+        width: 1600,
+        height: 1082,
+      },
+    ],
+  },
+  'campos-gerais-national-park-parana': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-campos-gerais-national-park-parana-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Buraco do Padre - Ponta Grossa - PR.jpg",
+        pageTitle: "Q5028518",
+        score: 320,
+        width: 1800,
+        height: 1033,
+      },
+    ],
+  },
+  'calakmul-calakmul-municipality': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-calakmul-calakmul-municipality-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:In Calakmul, Mexico (8726963632).jpg",
+        pageTitle: "Q272771",
+        score: 320,
+        width: 2736,
+        height: 3648,
+      },
+    ],
+  },
+  'canaima-national-park-bolivar': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-canaima-national-park-bolivar-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Canaima 34.JPG",
+        pageTitle: "Q1244337",
+        score: 320,
+        width: 2896,
+        height: 1936,
+      },
+    ],
+  },
+  'castillo-de-san-pedro-de-la-roca-santiago-de-cuba': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-castillo-de-san-pedro-de-la-roca-santiago-de-cuba-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Castillo del Morro by Glogg 4.jpg",
+        pageTitle: "Q910189",
+        score: 320,
+        width: 2702,
+        height: 1759,
+      },
+    ],
+  },
+  'central-highlands-of-sri-lanka-sri-lanka': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-central-highlands-of-sri-lanka-sri-lanka-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Sri Pada 02.jpg",
+        pageTitle: "Q422941",
+        score: 320,
+        width: 2288,
+        height: 1712,
+      },
+    ],
+  },
+  'chamonix-mont-blanc': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-chamonix-mont-blanc-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Annecy-palais2.jpg",
+        pageTitle: "Q50189",
+        score: 320,
+        width: 2000,
+        height: 1333,
+      },
+    ],
+  },
+  'central-park': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-central-park-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Central Park New York City New York 23 cropped.jpg",
+        pageTitle: "Central Park 美国",
+        score: 180,
+        width: 4648,
+        height: 3248,
+      },
+    ],
+  },
+  'cave-of-altamira-and-paleolithic-cave-art-of-northern-spain-basque-country': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cave-of-altamira-and-paleolithic-cave-art-of-northern-spain-basque-country-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Cave of Altamira and Paleolithic Cave Art of Northern Spain-110113.jpg",
+        pageTitle: "Cave of Altamira and Paleolithic Cave Art of Northern Spain Spain",
+        score: 180,
+        width: 1417,
+        height: 1417,
+      },
+    ],
+  },
+  'caldera-de-taburiente-national-park-santa-cruz-de-tenerife-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-caldera-de-taburiente-national-park-santa-cruz-de-tenerife-province-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Caldera de Taburiente MichaD.jpg",
+        pageTitle: "Q23988114",
+        score: 320,
+        width: 3504,
+        height: 1468,
+      },
+    ],
+  },
+  'calimani-national-park-mures-county': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-calimani-national-park-mures-county-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Kelemen-havasok.jpg",
+        pageTitle: "Q3078198",
+        score: 320,
+        width: 1200,
+        height: 894,
+      },
+    ],
+  },
+  'campos-amazonicos-national-park-amazonas': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-campos-amazonicos-national-park-amazonas-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Rio Amazonas durante o dia.jpg",
+        pageTitle: "Q17265421",
+        score: 320,
+        width: 2560,
+        height: 1920,
+      },
+    ],
+  },
+  'capitol-reef-national-park-utah': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-capitol-reef-national-park-utah-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Capitol Reef - Cathedral Valley.jpg",
+        pageTitle: "Q129902",
+        score: 320,
+        width: 1830,
+        height: 978,
+      },
+    ],
+  },
+  'carara-national-park-garabito-canton': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-carara-national-park-garabito-canton-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Brown-throated three-toed sloth female.JPG",
+        pageTitle: "Carara National Park Costa Rica",
+        score: 180,
+        width: 4272,
+        height: 2848,
+      },
+    ],
+  },
+  'celaque-national-park-lempira-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-celaque-national-park-lempira-department-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Vista de Celaque desde Talgua (Noroeste).JPG",
+        pageTitle: "Q5057521",
+        score: 320,
+        width: 1408,
+        height: 1056,
+      },
+    ],
+  },
+  'chambi-national-park-kasserine-governorate': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-chambi-national-park-kasserine-governorate-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Chambi1.JPG",
+        pageTitle: "Q3364442",
+        score: 320,
+        width: 2560,
+        height: 1920,
+      },
+    ],
+  },
+  'charyn-national-park-almaty-region': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-charyn-national-park-almaty-region-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Весенний Чарынский каньон.jpg",
+        pageTitle: "Q4507523",
+        score: 320,
+        width: 2000,
+        height: 1333,
+      },
+    ],
+  },
+  'cangandala-national-park-malanje-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cangandala-national-park-malanje-province-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Cangandala.jpg",
+        pageTitle: "Cangandala National Park Angola",
+        score: 180,
+        width: 2416,
+        height: 1536,
+      },
+    ],
+  },
+  'canadian-rocky-mountain-parks-world-heritage-site-british-columbia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-canadian-rocky-mountain-parks-world-heritage-site-british-columbia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Longs Peak.jpg",
+        pageTitle: "Q72895",
+        score: 320,
+        width: 1916,
+        height: 2790,
+      },
+    ],
+  },
+  'churches-of-moldavia-suceava-county': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-churches-of-moldavia-suceava-county-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Voronet church.jpg",
+        pageTitle: "Q387687",
+        score: 320,
+        width: 1536,
+        height: 2048,
+      },
+    ],
+  },
+  'champagne-hillsides-houses-and-cellars-ay-champagne': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-champagne-hillsides-houses-and-cellars-ay-champagne-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Caves Ruinart.jpg",
+        pageTitle: "Champagne hillsides, houses and cellars France",
+        score: 180,
+        width: 3387,
+        height: 4804,
+      },
+    ],
+  },
+  'cerro-cora-national-park-amambay-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cerro-cora-national-park-amambay-department-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Cerro Muralla, Cerro Cora National Park.jpg",
+        pageTitle: "Cerro Cora National Park Paraguay",
+        score: 180,
+        width: 3456,
+        height: 5184,
+      },
+    ],
+  },
+  'chapada-dos-veadeiros-national-park-goias': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-chapada-dos-veadeiros-national-park-goias-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Chapada dos Veadeiros 18.jpg",
+        pageTitle: "Chapada dos Veadeiros National Park Brazil",
+        score: 180,
+        width: 3464,
+        height: 2309,
+      },
+    ],
+  },
+  'cheile-bicazului-hasmas-national-park-romania': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cheile-bicazului-hasmas-national-park-romania-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Hășmaș Mountains.jpg",
+        pageTitle: "Q241960",
+        score: 320,
+        width: 1998,
+        height: 1189,
+      },
+    ],
+  },
+  'cilento-vallo-di-diano-and-alburni-national-park-province-of-salerno': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cilento-vallo-di-diano-and-alburni-national-park-province-of-salerno-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Parco del Cilento a Cannalonga.jpg",
+        pageTitle: "Q867361",
+        score: 320,
+        width: 2288,
+        height: 1712,
+      },
+    ],
+  },
+  'citadel-of-erbil-erbil': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-citadel-of-erbil-erbil-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Hawler Castle.jpg",
+        pageTitle: "Q206236",
+        score: 320,
+        width: 2500,
+        height: 1750,
+      },
+    ],
+  },
+  'complex-of-hue-monuments-hue': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-complex-of-hue-monuments-hue-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Vietnam, Hue, Imperial City of Hue, Enclosure.jpg",
+        pageTitle: "Complex of Huế Monuments Vietnam",
+        score: 180,
+        width: 3984,
+        height: 2656,
+      },
+    ],
+  },
+  'cahokia-collinsville': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cahokia-collinsville-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Old Cahokia Courthouse.JPG",
+        pageTitle: "Cahokia United States",
+        score: 180,
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
+  'cat-tien-national-park-ong-nai': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cat-tien-national-park-ong-nai-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Cat Tien National Park, Vietnam.jpg",
+        pageTitle: "Q1421202",
+        score: 320,
+        width: 2047,
+        height: 1365,
+      },
+    ],
+  },
+  'chu-yang-sin-national-park-vietnam': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-chu-yang-sin-national-park-vietnam-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Krongkma4.jpg",
+        pageTitle: "Q1320437",
+        score: 320,
+        width: 1632,
+        height: 1224,
+      },
+    ],
+  },
+  'corcovado-national-park-puntarenas-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-corcovado-national-park-puntarenas-province-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Corcovado National Park, Costa RIca 02.jpg",
+        pageTitle: "Corcovado National Park Costa Rica",
+        score: 180,
+        width: 3558,
+        height: 2177,
+      },
+    ],
+  },
+  'cradle-mountain-lake-st-clair-national-park-tasmania': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cradle-mountain-lake-st-clair-national-park-tasmania-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Parque Nacional Cradle Mountain-Tasmania-Australia01.JPG",
+        pageTitle: "Cradle Mountain-Lake St Clair National Park Australia",
+        score: 180,
+        width: 3631,
+        height: 2167,
+      },
+    ],
+  },
+  'copo-national-park-copo-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-copo-national-park-copo-department-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Parque Nacional Copo.jpg",
+        pageTitle: "Copo National Park Argentina",
+        score: 180,
+        width: 2000,
+        height: 2000,
+      },
+    ],
+  },
+  'cotopaxi-national-park-ecuador': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cotopaxi-national-park-ecuador-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Hummingbird in Cotopaxi National Park.jpg",
+        pageTitle: "Cotopaxi National Park Ecuador",
+        score: 180,
+        width: 2335,
+        height: 1609,
+      },
+    ],
+  },
+  'desembarco-del-granma-national-park-cuba': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-desembarco-del-granma-national-park-cuba-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Cascada en El Nicho.jpg",
+        pageTitle: "Q909755",
+        score: 320,
+        width: 2816,
+        height: 2112,
+      },
+    ],
+  },
+  'denali': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-denali-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Wonder Lake and Denali.jpg",
+        pageTitle: "Q130018",
+        score: 320,
+        width: 2824,
+        height: 2176,
+      },
+    ],
+  },
+  'crespi-d-adda-capriate-san-gervasio': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-crespi-d-adda-capriate-san-gervasio-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Red houses in Crespi d'Adda, Italy.jpg",
+        pageTitle: "Crespi d'Adda Italy",
+        score: 180,
+        width: 3600,
+        height: 5024,
+      },
+    ],
+  },
+  'cyrene-jabal-al-akhdar': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cyrene-jabal-al-akhdar-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Archaeological Site of Cyrene-109025.jpg",
+        pageTitle: "Q44112",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'delos-commune-of-mykonos': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-delos-commune-of-mykonos-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Ruines de Délos.jpg",
+        pageTitle: "Q173148",
+        score: 320,
+        width: 2560,
+        height: 1920,
+      },
+    ],
+  },
+  'derbent-dagestan-oblast': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-derbent-dagestan-oblast-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Derbent. Dagestan.jpg",
+        pageTitle: "Q131416",
+        score: 320,
+        width: 2500,
+        height: 1667,
+      },
+    ],
+  },
+  'dessau-worlitz-garden-realm-saxony-anhalt': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-dessau-worlitz-garden-realm-saxony-anhalt-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Woerlitzpark81.jpg",
+        pageTitle: "Q157543",
+        score: 320,
+        width: 2048,
+        height: 1536,
+      },
+    ],
+  },
+  'discovery-coast-atlantic-forest-reserves-bahia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-discovery-coast-atlantic-forest-reserves-bahia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Parque Botânico em Sooretama, Linhares-ES, Brasil.jpg",
+        pageTitle: "Q2487302",
+        score: 320,
+        width: 1500,
+        height: 1004,
+      },
+    ],
+  },
+  'cueva-de-las-manos-lago-buenos-aires': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-cueva-de-las-manos-lago-buenos-aires-1.jpg",
+        source: "commons-search-remote",
+        title: "File:SantaCruz-CuevaManos-P2210651b.jpg",
+        pageTitle: "Cueva de las Manos Argentina",
+        score: 180,
+        width: 1600,
+        height: 1200,
+      },
+    ],
+  },
+  'circeo-national-park-province-of-latina': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-circeo-national-park-province-of-latina-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Terracina-vista01.jpg",
+        pageTitle: "Q2738134",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'd-entrecasteaux-national-park-western-australia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-d-entrecasteaux-national-park-western-australia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:D'Entrecasteaux1.jpg",
+        pageTitle: "Q980061",
+        score: 320,
+        width: 2048,
+        height: 1536,
+      },
+    ],
+  },
+  'dovrefjell-sunndalsfjella-national-park-sunndal-municipality': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-dovrefjell-sunndalsfjella-national-park-sunndal-municipality-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Snohetta.jpg",
+        pageTitle: "Q1109724",
+        score: 320,
+        width: 2592,
+        height: 1944,
+      },
+    ],
+  },
+  'egmont-national-park-taranaki-region': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-egmont-national-park-taranaki-region-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Taranaki Slopes n.jpg",
+        pageTitle: "Q1298247",
+        score: 320,
+        width: 993,
+        height: 660,
+      },
+    ],
+  },
+  'el-cocuy-national-park-arauca-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-el-cocuy-national-park-arauca-department-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Pico Pan de Azucar.JPG",
+        pageTitle: "Q1068068",
+        score: 320,
+        width: 1753,
+        height: 1360,
+      },
+    ],
+  },
+  'el-kouf-national-park-libya': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-el-kouf-national-park-libya-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Ciconia ciconia2.jpg",
+        pageTitle: "Q15216253",
+        score: 320,
+        width: 1064,
+        height: 1464,
+      },
+    ],
+  },
+  'engelhardt-observatory-tatarstan': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-engelhardt-observatory-tatarstan-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Engelgardt observatory.JPG",
+        pageTitle: "Q4071797",
+        score: 320,
+        width: 2816,
+        height: 2112,
+      },
+    ],
+  },
+  'general-archive-of-the-indies-seville': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-general-archive-of-the-indies-seville-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Sevilla - Archivo General de Indias K01.jpg",
+        pageTitle: "Q477051",
+        score: 320,
+        width: 2800,
+        height: 2100,
+      },
+    ],
+  },
+  'ferapontov-monastery-ferapontovo': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-ferapontov-monastery-ferapontovo-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Ferapontov Monastery Russia view.jpg",
+        pageTitle: "Ferapontov Monastery Russia",
+        score: 180,
+        width: 4033,
+        height: 2529,
+      },
+    ],
+  },
+  'fountains-abbey-lindrick-with-studley-royal-and-fountains': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-fountains-abbey-lindrick-with-studley-royal-and-fountains-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Fountains Abbey 2016 010.jpg",
+        pageTitle: "Fountains Abbey United Kingdom",
+        score: 180,
+        width: 3456,
+        height: 5184,
+      },
+    ],
+  },
+  'glienicke-palace-steglitz-zehlendorf': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-glienicke-palace-steglitz-zehlendorf-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Schloss Glienicke Süden.jpg",
+        pageTitle: "Q301684",
+        score: 320,
+        width: 2203,
+        height: 1238,
+      },
+    ],
+  },
+  'golden-mountains-of-altai-altai-republic': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-golden-mountains-of-altai-altai-republic-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Jazator Jul 006.jpg",
+        pageTitle: "Q155495",
+        score: 320,
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
+  'gombe-national-park-kigoma-region': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-gombe-national-park-kigoma-region-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Gombe Stream NP Mutter und Kind.jpg",
+        pageTitle: "Q856665",
+        score: 320,
+        width: 2357,
+        height: 3299,
+      },
+    ],
+  },
+  'farallones-de-cali-national-natural-park-valle-del-cauca-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-farallones-de-cali-national-natural-park-valle-del-cauca-department-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Punta Pance desde el noreste.JPG",
+        pageTitle: "Q3049635",
+        score: 320,
+        width: 2288,
+        height: 1712,
+      },
+    ],
+  },
+  'foreste-casentinesi-monte-falterona-campigna-national-park-premilcuore': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-foreste-casentinesi-monte-falterona-campigna-national-park-premilcuore-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Nebbia su colli e monti - Foreste Casentinesi - Appennino Tosco Emiliano - GT 01 - 2024 01 28.jpg",
+        pageTitle: "Foreste Casentinesi, Monte Falterona, Campigna National Park Italy",
+        score: 180,
+        width: 13632,
+        height: 5159,
+      },
+    ],
+  },
+  'gennargentu-national-park-province-of-nuoro': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-gennargentu-national-park-province-of-nuoro-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Gusana.jpg",
+        pageTitle: "Q1425154",
+        score: 320,
+        width: 1000,
+        height: 750,
+      },
+    ],
+  },
+  'gotska-sandon-national-park-region-gotland': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-gotska-sandon-national-park-region-gotland-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Arnagrop – Eagle Pit.jpg",
+        pageTitle: "Q17745939",
+        score: 320,
+        width: 2754,
+        height: 1846,
+      },
+    ],
+  },
+  'gouraya-national-park-bejaia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-gouraya-national-park-bejaia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Les Aiguades.jpg",
+        pageTitle: "Q2664193",
+        score: 320,
+        width: 2272,
+        height: 1704,
+      },
+    ],
+  },
+  'great-basin-national-park-white-pine-county': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-great-basin-national-park-white-pine-county-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:ParkFromLexRoad GreatBasin.jpg",
+        pageTitle: "Q1137657",
+        score: 320,
+        width: 1280,
+        height: 1024,
+      },
+    ],
+  },
+  'forlandet-national-park-svalbard': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-forlandet-national-park-svalbard-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Verneomraader Svalbard.jpg",
+        pageTitle: "Forlandet National Park Norway",
+        score: 180,
+        width: 1000,
+        height: 1069,
+      },
+    ],
+  },
+  'hidden-christian-sites-in-the-nagasaki-region-nagasaki-prefecture': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-hidden-christian-sites-in-the-nagasaki-region-nagasaki-prefecture-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Nagasaki Oura C1378.jpg",
+        pageTitle: "Q93643",
+        score: 320,
+        width: 1125,
+        height: 1500,
+      },
+    ],
+  },
+  'ichkeul-national-park-bizerte-governorate': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-ichkeul-national-park-bizerte-governorate-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:(لحظة غروب الشمس ـ محمية إشكل (تونس.jpg",
+        pageTitle: "Q13220079",
+        score: 320,
+        width: 2527,
+        height: 1860,
+      },
+    ],
+  },
+  'iguacu-national-park-foz-do-iguacu': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-iguacu-national-park-foz-do-iguacu-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Garganta del Diablo or Devil Throat Iguazu Falls Argentina Luca Galuzzi 2005.JPG",
+        pageTitle: "Q742315",
+        score: 320,
+        width: 2000,
+        height: 1333,
+      },
+    ],
+  },
+  'hassan-ii-mosque': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-hassan-ii-mosque-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Sunshine on mosque Hassan II in Casablanca, Morocco - Flickr - Milamber's portfolio.jpg",
+        pageTitle: "Hassan II Mosque 摩洛哥",
+        score: 180,
+        width: 3008,
+        height: 2000,
+      },
+    ],
+  },
+  'horseshoe-bend': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-horseshoe-bend-1.jpg",
+        source: "commons-search-remote",
+        title: "File:USA 10187 Horseshoe Bend Luca Galuzzi 2007.jpg",
+        pageTitle: "Horseshoe Bend 美国",
+        score: 180,
+        width: 2000,
+        height: 1333,
+      },
+    ],
+  },
+  'guatopo-national-park-guarico': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-guatopo-national-park-guarico-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Parque Nacional Guatopo Guárico.jpg",
+        pageTitle: "Q4845617",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'gulf-of-mannar-marine-national-park-tamil-nadu': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-gulf-of-mannar-marine-national-park-tamil-nadu-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Dugong.jpg",
+        pageTitle: "Q5617576",
+        score: 320,
+        width: 1600,
+        height: 1067,
+      },
+    ],
+  },
+  'hoang-lien-national-park-vietnam': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-hoang-lien-national-park-vietnam-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Hoang Lien.jpg",
+        pageTitle: "Q1137913",
+        score: 320,
+        width: 2592,
+        height: 1728,
+      },
+    ],
+  },
+  'hohe-tauern-national-park-carinthia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-hohe-tauern-national-park-carinthia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Jungfernsprung im Nationalpark Hohe Tauern.JPG",
+        pageTitle: "Q696014",
+        score: 320,
+        width: 2048,
+        height: 1536,
+      },
+    ],
+  },
+  'ikh-bogd-uul-national-park-mongolia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-ikh-bogd-uul-national-park-mongolia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Ikh Bogd Uul mount, Gobian Altay range, Bayankhongor aimag, Mongolia, 2006 (Highest point).jpg",
+        pageTitle: "Q95000721",
+        score: 320,
+        width: 1107,
+        height: 686,
+      },
+    ],
+  },
+  'indravati-national-park-india': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-indravati-national-park-india-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Bubalus arnee Kaziranga.jpg",
+        pageTitle: "Q1427976",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'islas-de-santa-fe-national-park-san-jeronimo-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-islas-de-santa-fe-national-park-san-jeronimo-department-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Victoria cruziana.jpeg",
+        pageTitle: "Q830022",
+        score: 320,
+        width: 1024,
+        height: 683,
+      },
+    ],
+  },
+  'jau-national-park-novo-airao': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-jau-national-park-novo-airao-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Jau National Park.jpg",
+        pageTitle: "Q332381",
+        score: 320,
+        width: 2800,
+        height: 1864,
+      },
+    ],
+  },
+  'jebel-serj-national-park-siliana-governorate': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-jebel-serj-national-park-siliana-governorate-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Barrage Lakhmess Djebel Serj.JPG",
+        pageTitle: "Q3364453",
+        score: 320,
+        width: 2592,
+        height: 1944,
+      },
+    ],
+  },
+  'jurassic-coast-devon': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-jurassic-coast-devon-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Gad cliff dorset.jpg",
+        pageTitle: "Q575976",
+        score: 320,
+        width: 2733,
+        height: 2050,
+      },
+    ],
+  },
+  'kujataa-greenland': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-kujataa-greenland-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Tunulliarfik-qassiarsuk.jpg",
+        pageTitle: "Q32904732",
+        score: 320,
+        width: 3500,
+        height: 1800,
+      },
+    ],
+  },
+  'los-alerces-national-park-futaleufu-department': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-los-alerces-national-park-futaleufu-department-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Cerro y glaciar Torrecillas - Lago Menéndez - Parque Nacional Los Alerces - Chubut - Argentina - panoramio.jpg",
+        pageTitle: "Q828291",
+        score: 320,
+        width: 2816,
+        height: 2112,
+      },
+    ],
+  },
+  'imperial-tombs-of-the-ming-and-qing-dynasties-people-s-republic-of-china': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-imperial-tombs-of-the-ming-and-qing-dynasties-people-s-republic-of-china-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Noel 2005 Pékin tombeaux Ming voie des âmes.jpg",
+        pageTitle: "Q817164",
+        score: 320,
+        width: 2272,
+        height: 1704,
+      },
+    ],
+  },
+  'kahuzi-biega-national-park-south-kivu': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-kahuzi-biega-national-park-south-kivu-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Kahuzi-Biega National Park (39423247252).jpg",
+        pageTitle: "Q457324",
+        score: 320,
+        width: 1920,
+        height: 1080,
+      },
+    ],
+  },
+  'landscapes-of-dauria-mongolia': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-landscapes-of-dauria-mongolia-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Daurian reservate.jpg",
+        pageTitle: "Q64787456",
+        score: 320,
+        width: 1024,
+        height: 683,
+      },
+    ],
+  },
+  'guanajuato-city': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-guanajuato-city-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Woman beggar in Guanajuato, Mexico.jpg",
+        pageTitle: "Guanajuato City 墨西哥",
+        score: 180,
+        width: 4752,
+        height: 3168,
+      },
+    ],
+  },
+  'kinkaku-ji': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-kinkaku-ji-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Water reflection of Kinkaku-ji Temple a sunny day, Kyoto, Japan.jpg",
+        pageTitle: "Kinkaku-ji 日本",
+        score: 180,
+        width: 5928,
+        height: 3335,
+      },
+    ],
+  },
+  'komodo-national-park': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-komodo-national-park-1.jpg",
+        source: "commons-search-remote",
+        title: "File:Tunicate komodo.jpg",
+        pageTitle: "Komodo National Park 印度尼西亚",
+        score: 180,
+        width: 1680,
+        height: 1260,
+      },
+    ],
+  },
+  'kamakura-daibutsu': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-kamakura-daibutsu-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:RO CS Valea Bistrei.JPG",
+        pageTitle: "Q1054082",
+        score: 320,
+        width: 4608,
+        height: 2592,
+      },
+    ],
+  },
+  'joshua-tree-national-park': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-joshua-tree-national-park-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Sacrifice Nestor Pylos Meleager Painter MAN.jpg",
+        pageTitle: "Q193267",
+        score: 320,
+        width: 2592,
+        height: 3240,
+      },
+    ],
+  },
+  'llogara-national-park-albania': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-llogara-national-park-albania-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Llogara pass.jpg",
+        pageTitle: "Q686088",
+        score: 320,
+        width: 2816,
+        height: 2112,
+      },
+    ],
+  },
+  'kanha-national-park-madhya-pradesh': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-kanha-national-park-madhya-pradesh-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Axis axis Kanha 1.jpg",
+        pageTitle: "Q1480481",
+        score: 320,
+        width: 1818,
+        height: 1228,
+      },
+    ],
+  },
+  'ku-ring-gai-chase-national-park-broken-bay': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-ku-ring-gai-chase-national-park-broken-bay-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Cowan Creek Ku-ring-gai Chase National Park.jpg",
+        pageTitle: "Q1322496",
+        score: 320,
+        width: 1024,
+        height: 768,
+      },
+    ],
+  },
+  'lengwe-national-park-malawi': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-lengwe-national-park-malawi-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Lengwe2.jpg",
+        pageTitle: "Q1104628",
+        score: 320,
+        width: 1024,
+        height: 682,
+      },
+    ],
+  },
+  'liuwa-plain-national-park-western-province': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-liuwa-plain-national-park-western-province-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:Lady Liuwa, Liuwa Plain National Park, November 2012.jpg",
+        pageTitle: "Q1471784",
+        score: 320,
+        width: 1024,
+        height: 680,
+      },
+    ],
+  },
+  'lomami-national-park-tshopo': {
+    images: [
+      {
+        url: "/images/worldscene-candidates/wcand-lomami-national-park-tshopo-1.jpg",
+        source: "wikidata-p18-remote",
+        title: "File:TL2-Area.jpg",
+        pageTitle: "Q28223432",
+        score: 320,
+        width: 1613,
+        height: 1169,
+      },
+    ],
+  },
 };

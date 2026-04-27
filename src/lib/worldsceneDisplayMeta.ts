@@ -25,14 +25,115 @@ export const CHINA_CITY_HOTSPOTS: readonly WorldSceneCityHotspot[] = [
   { id: 'cn-harbin', name: '哈尔滨', lat: 45.8038, lng: 126.5349, priority: 7 },
 ];
 
+const ICONIC_POINT_IDS = new Set([
+  'forbidden-city',
+  'great-wall',
+  'terracotta-army',
+  'mount-fuji',
+  'kyoto',
+  'angkor-wat',
+  'taj-mahal',
+  'petra',
+  'cappadocia',
+  'ha-long-bay',
+  'marina-bay',
+  'bali-ubud',
+  'dubai-burj-khalifa',
+  'jeju-island',
+  'bagan',
+  'eiffel-tower',
+  'santorini',
+  'colosseum',
+  'sagrada-familia',
+  'zermatt',
+  'reykjavik',
+  'venice',
+  'neuschwanstein',
+]);
+
+const ICONIC_NAME_KEYWORDS = [
+  'forbidden city',
+  'great wall',
+  'terracotta',
+  'mount fuji',
+  'kyoto',
+  'angkor',
+  'taj mahal',
+  'petra',
+  'cappadocia',
+  'ha long',
+  'marina bay',
+  'bali',
+  'burj khalifa',
+  'jeju',
+  'bagan',
+  'eiffel',
+  'santorini',
+  'colosseum',
+  'sagrada familia',
+  'zermatt',
+  'reykjavik',
+  'venice',
+  'neuschwanstein',
+  'machu picchu',
+  'pyramids',
+  'statue of liberty',
+  'grand canyon',
+  'niagara',
+  'yellowstone',
+  'uluru',
+  'sydney opera',
+  'christ the redeemer',
+  'victoria falls',
+  'serengeti',
+];
+
+function textForTier(point: DestinationPoint) {
+  return [
+    point.id,
+    point.name,
+    point.englishName,
+    point.country,
+    point.city,
+    point.category,
+    point.grade,
+    point.tagline,
+    ...point.tags,
+    ...point.aliases,
+    ...point.highlights,
+  ]
+    .join(' ')
+    .toLowerCase();
+}
+
 export function getWorldSceneDisplayTier(point: DestinationPoint): WorldSceneDisplayTier {
-  void point;
-  return 'iconic';
+  if (ICONIC_POINT_IDS.has(point.id)) return 'iconic';
+
+  const text = textForTier(point);
+  if (ICONIC_NAME_KEYWORDS.some((keyword) => text.includes(keyword))) {
+    return 'iconic';
+  }
+
+  let score = 0;
+  if (point.grade === '5A') score += 4;
+  if (point.images.length >= 3) score += 2;
+  else if (point.images.length >= 1) score += 1;
+  if (point.highlights.length >= 3) score += 1;
+  if (point.tags.length >= 3) score += 1;
+  if (point.ticketCny >= 160) score += 1;
+  if (point.aliases.length >= 2) score += 1;
+
+  return score >= 4 ? 'major' : 'standard';
 }
 
 export function visibleTiersByZoom(zoomDistance: number) {
-  void zoomDistance;
-  return new Set<WorldSceneDisplayTier>(['iconic']);
+  if (zoomDistance >= 4.35) {
+    return new Set<WorldSceneDisplayTier>(['iconic']);
+  }
+  if (zoomDistance >= 2.65) {
+    return new Set<WorldSceneDisplayTier>(['iconic', 'major']);
+  }
+  return new Set<WorldSceneDisplayTier>(['iconic', 'major', 'standard']);
 }
 
 export function chinaCityHotspotLimitByZoom(zoomDistance: number) {

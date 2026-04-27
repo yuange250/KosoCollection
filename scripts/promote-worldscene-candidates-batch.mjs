@@ -1,166 +1,41 @@
 import fs from 'node:fs';
+import path from 'node:path';
+import {
+  DATA_TS,
+  ROOT,
+} from './lib/worldscene-candidates-core.mjs';
+import {
+  displayNameForCandidate,
+  localizeCountry,
+  validatePromotionInput,
+  validatePublishedDraft,
+} from './lib/worldscene-promotion-qa.mjs';
 
-const COUNT = Number(process.argv[2] || 200);
+const args = process.argv.slice(2);
+const COUNT = Number(args.find((arg) => /^\d+$/.test(arg)) || 200);
+const APPLY = args.includes('--apply');
 
-const DATA_PATH = 'C:/codes/KosoCollection/src/lib/worldsceneData.ts';
-const GALLERY_PATH = 'C:/codes/KosoCollection/src/lib/worldsceneCandidateGallery.ts';
-const CANDIDATES_PATH = 'C:/codes/KosoCollection/data/worldscene/candidate-pois.json';
-const MANIFEST_PATH = 'C:/codes/KosoCollection/data/worldscene/candidate-poi-manifest.json';
-
-const hasCJK = (value = '') => /[\u3400-\u9fff]/.test(value);
-
-const badText = [
-  /castle ruin/i,
-  /burgruine/i,
-  /burgstall/i,
-  /cemetery/i,
-  /memorial/i,
-  /chapel/i,
-  /casa /i,
-  /house /i,
-  /bridge/i,
-  /river/i,
-  /hill/i,
-  /mine/i,
-  /museum/i,
-  /local/i,
-  /district/i,
-  /garden cemetery/i,
-  /banner/i,
-  /logo/i,
-  /fortress/i,
-  /gate /i,
-  /palace treasury/i,
-  /chapel of/i,
-  /theatre/i,
-  /old town/i,
-  /historic city/i,
-  /historic centre/i,
-  /avenue/i,
-  /cathedral treasury/i,
-  /park entrance/i,
-  /building in /i,
-  /township in /i,
-  /film by /i,
-  /species/i,
-  /bird sanctuary/i,
-  /church in /i,
-  /street in /i,
-  /monument in /i,
-  /cultural heritage monument/i,
-  /ruined castle/i,
-];
-
-const badImg = [
-  /logo/i,
-  /map/i,
-  /badge/i,
-  /flag/i,
-  /poster/i,
-  /coat of arms/i,
-  /emblem/i,
-  /interior/i,
-  /entrance/i,
-  /banner/i,
-  /iss/i,
-  /drone shots of .*park/i,
-  /kakum/i,
-  /park entrance/i,
-  /front 01/i,
-  /loqosu/i,
-  /milli park/i,
-  /strengthening partnerships/i,
-];
-
-const dup = [
-  /victoria falls/i,
-  /prague/i,
-  /toledo/i,
-  /segovia/i,
-  /zacatecas/i,
-  /san gimignano/i,
-  /sado/i,
-  /alhambra/i,
-  /pamukkale/i,
-  /jiuzhaigou/i,
-  /louvre/i,
-  /dubrovnik/i,
-  /giza/i,
-  /marina bay/i,
-  /uluru/i,
-  /shibuya/i,
-  /berlin/i,
-  /cusco/i,
-  /aachen/i,
-  /a-ma temple/i,
-  /agra fort/i,
-  /bath$/i,
-  /bagan/i,
-  /babylon/i,
-  /ayutthaya/i,
-  /baalbek/i,
-  /bahla/i,
-  /batalha/i,
-  /ping yao/i,
-  /antigua/i,
-  /anjar/i,
-  /ani$/i,
-  /acre$/i,
-  /abel tasman/i,
-  /abisko/i,
-  /amboseli/i,
-  /angkor/i,
-  /anuradhapura/i,
-  /morne seychellois/i,
-  /nikko/i,
-  /verona/i,
-  /palace of mafra/i,
-  /danube delta/i,
-  /calanques/i,
-  /channel islands/i,
-  /kluane/i,
-  /isle royale/i,
-  /grand pre/i,
-  /semuc champey/i,
-  /semmering/i,
-  /hiraizumi/i,
-  /jantar mantar/i,
-  /jesuit missions of la santisima trinidad/i,
-  /caserta/i,
-  /saint-savin/i,
-  /abruzzo/i,
-  /aflaj/i,
-  /ahwar/i,
-  /aigai/i,
-  /aiguestortes/i,
-  /ait ben/i,
-  /amber mountain/i,
-  /ambohimanga/i,
-  /aasivissuit/i,
-  /air and t[eé]n[eé]r[eé]/i,
-  /al-ahsa/i,
-  /al hoceima/i,
-  /al maghtas/i,
-  /alta murgia/i,
-  /alto douro/i,
-  /anavilhanas/i,
-  /ainos/i,
-  /mealy mountains/i,
-  /altyn-emel/i,
-  /amami/i,
-  /bosra/i,
-  /ksour/i,
-  /anarjohka/i,
-  /xidi/i,
-  /hongcun/i,
-  /northern syria/i,
-  /alto cariri/i,
-  /altadighi/i,
-  /wudang/i,
-  /amalfi coast/i,
-];
+const GALLERY_PATH = path.join(ROOT, 'src', 'lib', 'worldsceneCandidateGallery.ts');
+const CANDIDATES_PATH = path.join(ROOT, 'data', 'worldscene', 'candidate-pois.json');
+const MANIFEST_PATH = path.join(ROOT, 'data', 'worldscene', 'candidate-poi-manifest.json');
 
 const goodProminence = new Set(['world-famous', 'international', 'national']);
+const DUPLICATE_SELECTION_KEYS = [
+  { pattern: /borobudur/i, key: 'borobudur' },
+];
+
+const quote = (value) => JSON.stringify(value ?? '', null, 0);
+
+const selectionKey = (item) => {
+  const text = [
+    item.draft.englishName,
+    item.candidate.englishName,
+    item.candidate.name,
+    item.id,
+  ].filter(Boolean).join(' ');
+  const duplicate = DUPLICATE_SELECTION_KEYS.find(({ pattern }) => pattern.test(text));
+  return duplicate?.key || item.id;
+};
 
 const strictScore = (candidate, image) => {
   let score = 0;
@@ -175,25 +50,25 @@ const strictScore = (candidate, image) => {
   return score;
 };
 
-const isLocalImageUrl = (value = '') => /^\/images\/worldscene(?:-candidates)?\//.test(value);
-
-const quote = (value) => JSON.stringify(value ?? '', null, 0);
-
 const pickGrade = (candidate) => {
   if (candidate.prominence === 'world-famous') return '5A';
   return '精品';
 };
 
 const pickSeason = (candidate) => {
-  const blob = [candidate.summary, candidate.descriptionEn, candidate.englishName].filter(Boolean).join(' ');
-  if (/desert|oasis|sahara|arab/i.test(blob)) return '10-4 months';
-  if (/arctic|northern|labrador|greenland/i.test(blob)) return '6-9 months';
-  if (/rainforest|tropical|island|amazon/i.test(blob)) return '5-11 months';
-  return '4-10 months';
+  const blob = [candidate.summary, candidate.descriptionEn, candidate.englishName]
+    .filter(Boolean)
+    .join(' ');
+  if (/desert|oasis|sahara|arab/i.test(blob)) return '10-4 月';
+  if (/arctic|northern|labrador|greenland/i.test(blob)) return '6-9 月';
+  if (/rainforest|tropical|island|amazon/i.test(blob)) return '5-11 月';
+  return '4-10 月';
 };
 
 const pickBudgets = (candidate) => {
-  const blob = [candidate.country, candidate.englishName, candidate.summary].filter(Boolean).join(' ');
+  const blob = [candidate.country, candidate.englishName, candidate.summary]
+    .filter(Boolean)
+    .join(' ');
   if (/Greenland|Norway|Sweden|Switzerland|United Kingdom|France|Germany|Japan|Canada/i.test(blob)) {
     return { ticketCny: 100, stayCny: 520, mealCny: 180 };
   }
@@ -203,39 +78,95 @@ const pickBudgets = (candidate) => {
   return { ticketCny: 80, stayCny: 420, mealCny: 150 };
 };
 
-const pickTags = (candidate) => {
+const pickTags = (candidate, zhCountry) => {
   const tags = [];
-  if ((candidate.category || '').includes('自然')) {
-    tags.push('自然景观');
-  } else {
-    tags.push('人文古迹');
-  }
-  if ((candidate.tags || []).includes('UNESCO')) tags.push('UNESCO');
-  if ((candidate.englishName || '').match(/National Park/i)) tags.push('国家公园');
-  if ((candidate.summary || '').match(/archaeological|archaeology/i)) tags.push('考古遗址');
-  if ((candidate.summary || '').match(/cathedral|church|abbey|monastery/i)) tags.push('宗教建筑');
-  if (tags.length < 3 && candidate.country) tags.push(candidate.country);
+  if ((candidate.category || '').includes('自然')) tags.push('自然景观');
+  else if ((candidate.category || '').includes('城市')) tags.push('城市地标');
+  else if ((candidate.category || '').includes('海岛')) tags.push('海岛度假');
+  else tags.push('人文古迹');
+
+  if ((candidate.tags || []).includes('UNESCO')) tags.push('世界遗产');
+  if (/National Park/i.test(candidate.englishName || '')) tags.push('国家公园');
+  if (/archaeological|archaeology/i.test(candidate.summary || '')) tags.push('考古遗址');
+  if (/cathedral|church|abbey|monastery/i.test(candidate.summary || '')) tags.push('宗教建筑');
+  if (tags.length < 3 && zhCountry) tags.push(zhCountry);
   return Array.from(new Set(tags)).slice(0, 3);
 };
 
 const pickHighlights = (candidate) => {
-  const natural = ['景观辨识度高', '首图主体明确', '适合独立成点'];
-  const human = ['历史辨识度强', '主体建筑明确', '适合独立成点'];
-  return (candidate.category || '').includes('自然') ? natural : human;
+  if ((candidate.category || '').includes('自然')) {
+    return ['景观主体清晰', '空间层次鲜明', '适合地球视角浏览'];
+  }
+  if ((candidate.category || '').includes('城市')) {
+    return ['地标形态明确', '城市关系清晰', '适合路线串联'];
+  }
+  if ((candidate.category || '').includes('海岛')) {
+    return ['海岸线辨识度高', '度假氛围突出', '适合图像化呈现'];
+  }
+  return ['历史主题明确', '遗存轮廓清晰', '适合文化线路串联'];
 };
 
-const buildTagline = (candidate) => {
+const buildTagline = (candidate, zhName) => {
   if ((candidate.category || '').includes('自然')) {
-    return `${candidate.englishName} offers a distinct landscape profile with clear visual identity and destination value.`;
+    return `${zhName}以清晰的自然轮廓和稳定的视觉主体见长，适合在地球视角中作为独立目的地浏览。`;
   }
-  return `${candidate.englishName} stands out as a clearly legible heritage destination with strong site identity.`;
+  if ((candidate.category || '').includes('城市')) {
+    return `${zhName}具备明确的城市地标形态，适合与周边街区、天际线或公共空间一起呈现。`;
+  }
+  if ((candidate.category || '').includes('海岛')) {
+    return `${zhName}的海岸线、水色和岛屿空间关系鲜明，适合补充海岛度假类目的地。`;
+  }
+  return `${zhName}拥有清楚可读的历史遗存和文化主题，适合作为人文古迹类目的地展示。`;
 };
 
-const buildDescription = (candidate) => {
+const buildDescription = (candidate, zhName) => {
   if ((candidate.category || '').includes('自然')) {
-    return `${candidate.englishName} deserves promotion because its scenery is specific, readable at a glance, and different enough from the current main-table landscape clusters.`;
+    return `${zhName}的地貌或生态特征相对集中，画面结构容易辨认。它可以补充现有景点库中的自然样本，让用户在缩放浏览时更容易比较不同地区的地景差异。`;
   }
-  return `${candidate.englishName} deserves promotion because it can stand on its own as a formal heritage destination instead of depending on a larger parent city or broader cluster.`;
+  if ((candidate.category || '').includes('城市')) {
+    return `${zhName}的城市尺度和视觉边界比较清楚，适合和路线规划、周边浏览结合起来看。它能为地球项目补充更具体的都会目的地。`;
+  }
+  if ((candidate.category || '').includes('海岛')) {
+    return `${zhName}的海水、岸线和度假场景辨识度较高，适合与其他海岛或滨海目的地并列呈现，形成更丰富的海岸样本。`;
+  }
+  return `${zhName}的遗存格局和文化背景比较完整，能够支撑独立浏览，也适合纳入更大尺度的历史文化线路中。`;
+};
+
+const buildDraft = (candidate, image, qa) => {
+  const zhName = qa.zhName || displayNameForCandidate(candidate);
+  const zhCountry = qa.zhCountry || localizeCountry(candidate.country);
+  const nameBlob = `${candidate.id} ${candidate.englishName || ''} ${candidate.name || ''}`;
+  const city = candidate.city && /[\u3400-\u9fff]/.test(candidate.city)
+    ? candidate.city
+    : '周边地区';
+  const category = candidate.category && /[\u3400-\u9fff]/.test(candidate.category)
+    ? candidate.category
+    : '人文古迹';
+  const normalizedCategory = /national park|national natural park|national forest park|rocky mountain parks|highlands|forest reserves|landscapes|coast|mountains|k'gari|fraser|canaima|chamonix/i.test(nameBlob)
+    ? '自然景观'
+    : category;
+  const budgets = pickBudgets(candidate);
+
+  return {
+    id: candidate.id,
+    name: zhName,
+    englishName: candidate.englishName || candidate.name,
+    aliases: [],
+    country: zhCountry,
+    city,
+    region: candidate.region,
+    category: normalizedCategory,
+    grade: pickGrade(candidate),
+    lat: candidate.lat,
+    lng: candidate.lng,
+    tagline: buildTagline({ ...candidate, category: normalizedCategory }, zhName),
+    description: buildDescription({ ...candidate, category: normalizedCategory }, zhName),
+    bestSeason: pickSeason(candidate),
+    tags: pickTags({ ...candidate, category: normalizedCategory }, zhCountry),
+    highlights: pickHighlights({ ...candidate, category: normalizedCategory }),
+    images: [image],
+    ...budgets,
+  };
 };
 
 const renderGalleryBlock = (item) => {
@@ -257,33 +188,30 @@ const renderGalleryBlock = (item) => {
 };
 
 const renderDataBlock = (item) => {
-  const budgets = pickBudgets(item.candidate);
-  const tags = pickTags(item.candidate).map((tag) => quote(tag)).join(', ');
-  const highlights = pickHighlights(item.candidate).map((text) => quote(text)).join(', ');
-  const aliases = [];
+  const draft = item.draft;
   return [
     `  {`,
-    `    id: ${quote(item.id)},`,
-    `    name: ${quote(item.candidate.name || item.candidate.englishName)},`,
-    `    englishName: ${quote(item.candidate.englishName || item.candidate.name)},`,
-    `    aliases: [${aliases.join(', ')}],`,
-    `    country: ${quote(item.candidate.country || '—')},`,
-    `    city: ${quote(item.candidate.city || '—')},`,
-    `    region: ${quote(item.candidate.region || '—')},`,
-    `    category: ${quote(item.candidate.category || '人文古迹')},`,
-    `    grade: ${quote(pickGrade(item.candidate))},`,
-    `    lat: ${item.candidate.lat},`,
-    `    lng: ${item.candidate.lng},`,
-    `    tagline: ${quote(buildTagline(item.candidate))},`,
+    `    id: ${quote(draft.id)},`,
+    `    name: ${quote(draft.name)},`,
+    `    englishName: ${quote(draft.englishName)},`,
+    `    aliases: [],`,
+    `    country: ${quote(draft.country)},`,
+    `    city: ${quote(draft.city)},`,
+    `    region: ${quote(draft.region)},`,
+    `    category: ${quote(draft.category)},`,
+    `    grade: ${quote(draft.grade)},`,
+    `    lat: ${draft.lat},`,
+    `    lng: ${draft.lng},`,
+    `    tagline: ${quote(draft.tagline)},`,
     `    description:`,
-    `      ${quote(buildDescription(item.candidate))},`,
-    `    bestSeason: ${quote(pickSeason(item.candidate))},`,
-    `    tags: [${tags}],`,
-    `    highlights: [${highlights}],`,
-    `    images: wmCard(${quote(item.id)}),`,
-    `    ticketCny: ${budgets.ticketCny},`,
-    `    stayCny: ${budgets.stayCny},`,
-    `    mealCny: ${budgets.mealCny},`,
+    `      ${quote(draft.description)},`,
+    `    bestSeason: ${quote(draft.bestSeason)},`,
+    `    tags: [${draft.tags.map((tag) => quote(tag)).join(', ')}],`,
+    `    highlights: [${draft.highlights.map((text) => quote(text)).join(', ')}],`,
+    `    images: wmCard(${quote(draft.id)}),`,
+    `    ticketCny: ${draft.ticketCny},`,
+    `    stayCny: ${draft.stayCny},`,
+    `    mealCny: ${draft.mealCny},`,
     `  },`,
   ].join('\n');
 };
@@ -291,79 +219,83 @@ const renderDataBlock = (item) => {
 const rawCandidates = JSON.parse(fs.readFileSync(CANDIDATES_PATH, 'utf8'));
 const candidates = rawCandidates.entries;
 const manifest = JSON.parse(fs.readFileSync(MANIFEST_PATH, 'utf8'));
-const dataText = fs.readFileSync(DATA_PATH, 'utf8');
+const dataText = fs.readFileSync(DATA_TS, 'utf8');
 const galleryText = fs.readFileSync(GALLERY_PATH, 'utf8');
 
 const existing = new Set([...dataText.matchAll(/id:\s*['"]([^'"]+)['"]/g)].map((match) => match[1]));
 const chosen = [];
+const rejected = new Map();
+
+const reject = (reason) => rejected.set(reason, (rejected.get(reason) || 0) + 1);
 
 for (const candidate of candidates) {
-  if (existing.has(candidate.id)) continue;
-  if (!hasCJK(candidate.name || '')) continue;
-  if (!goodProminence.has(candidate.prominence)) continue;
-  const manifestEntry = manifest[candidate.id];
-  if (!manifestEntry?.images?.length) continue;
-  const image = manifestEntry.images[0];
-  if (!isLocalImageUrl(image.url || '')) continue;
-  const blob = [
-    candidate.name,
-    candidate.englishName,
-    candidate.summary,
-    candidate.descriptionEn,
-    candidate.city,
-    candidate.country,
-    image.title,
-    image.pageTitle,
-  ]
-    .filter(Boolean)
-    .join(' | ');
+  if (!goodProminence.has(candidate.prominence)) {
+    reject('weak-prominence');
+    continue;
+  }
 
-  if (badText.some((regex) => regex.test(blob))) continue;
-  if (dup.some((regex) => regex.test(blob))) continue;
-  if (badImg.some((regex) => regex.test(image.title || ''))) continue;
-  if ((image.width && image.width < 1100) || (image.height && image.height < 700)) continue;
+  const qa = validatePromotionInput(candidate, manifest[candidate.id], existing);
+  if (!qa.ok) {
+    qa.reasons.forEach(reject);
+    continue;
+  }
+
+  const draft = buildDraft(candidate, qa.image, qa);
+  const draftQa = validatePublishedDraft(draft);
+  if (!draftQa.ok) {
+    draftQa.reasons.forEach(reject);
+    continue;
+  }
 
   chosen.push({
     id: candidate.id,
     candidate,
-    image,
-    score: strictScore(candidate, image),
+    image: qa.image,
+    draft,
+    score: strictScore(candidate, qa.image),
   });
 }
 
-const worldFamous = chosen
-  .filter((item) => item.candidate.prominence === 'world-famous')
-  .sort((a, b) => b.score - a.score || a.candidate.englishName.localeCompare(b.candidate.englishName));
-const national = chosen
-  .filter((item) => item.candidate.prominence === 'national')
-  .sort((a, b) => b.score - a.score || a.candidate.englishName.localeCompare(b.candidate.englishName));
-const international = chosen
-  .filter((item) => item.candidate.prominence === 'international')
-  .sort((a, b) => b.score - a.score || a.candidate.englishName.localeCompare(b.candidate.englishName));
-
-const targetWorld = Math.min(120, worldFamous.length);
-const targetNational = Math.min(80, national.length);
-
 const selected = [];
-selected.push(...worldFamous.slice(0, targetWorld));
-selected.push(...national.slice(0, targetNational));
+const selectedKeys = new Set();
+for (const item of chosen.sort((a, b) => b.score - a.score || a.draft.englishName.localeCompare(b.draft.englishName))) {
+  const key = selectionKey(item);
+  if (selectedKeys.has(key)) {
+    reject('duplicate-selection-key');
+    continue;
+  }
+  selectedKeys.add(key);
+  selected.push(item);
+  if (selected.length >= COUNT) break;
+}
+
+const summary = {
+  mode: APPLY ? 'apply' : 'dry-run',
+  requested: COUNT,
+  eligible: chosen.length,
+  selected: selected.length,
+  rejected: Object.fromEntries([...rejected.entries()].sort((a, b) => b[1] - a[1])),
+  examples: selected.slice(0, 20).map((item) => ({
+    id: item.id,
+    zh: item.draft.name,
+    en: item.draft.englishName,
+    country: item.draft.country,
+    image: item.image.url,
+  })),
+};
+
+if (!APPLY) {
+  console.log(JSON.stringify(summary, null, 2));
+  console.log('Dry run only. Re-run with --apply to write worldsceneData.ts and worldsceneCandidateGallery.ts.');
+  process.exit(0);
+}
 
 if (selected.length < COUNT) {
-  const already = new Set(selected.map((item) => item.id));
-  const fallback = [...international, ...worldFamous.slice(targetWorld), ...national.slice(targetNational)]
-    .filter((item) => !already.has(item.id))
-    .sort((a, b) => b.score - a.score || a.candidate.englishName.localeCompare(b.candidate.englishName));
-  selected.push(...fallback.slice(0, COUNT - selected.length));
+  throw new Error(`Only selected ${selected.length} candidates, expected ${COUNT}.`);
 }
 
-const finalSelection = selected.slice(0, COUNT);
-
-if (finalSelection.length < COUNT) {
-  throw new Error(`Only selected ${finalSelection.length} candidates, expected ${COUNT}.`);
-}
-
-const galleryInsertion = `${finalSelection.map(renderGalleryBlock).join('\n')}\n`;
-const dataInsertion = `${finalSelection.map(renderDataBlock).join('\n')}\n`;
+const galleryInsertion = `${selected.map(renderGalleryBlock).join('\n')}\n`;
+const dataInsertion = `${selected.map(renderDataBlock).join('\n')}\n`;
 
 const galleryMarker = '\n};\n';
 const dataMarker = '\n];\n\nexport const ORIGIN_PRESETS';
@@ -375,17 +307,5 @@ const nextGallery = galleryText.replace(galleryMarker, `\n${galleryInsertion}};\
 const nextData = dataText.replace(dataMarker, `\n${dataInsertion}];\n\nexport const ORIGIN_PRESETS`);
 
 fs.writeFileSync(GALLERY_PATH, nextGallery, 'utf8');
-fs.writeFileSync(DATA_PATH, nextData, 'utf8');
-
-const summary = {
-  promoted: finalSelection.length,
-  worldFamous: finalSelection.filter((item) => item.candidate.prominence === 'world-famous').length,
-  national: finalSelection.filter((item) => item.candidate.prominence === 'national').length,
-  examples: finalSelection.slice(0, 20).map((item) => ({
-    id: item.id,
-    zh: item.candidate.name,
-    en: item.candidate.englishName,
-  })),
-};
-
+fs.writeFileSync(DATA_TS, nextData, 'utf8');
 console.log(JSON.stringify(summary, null, 2));
